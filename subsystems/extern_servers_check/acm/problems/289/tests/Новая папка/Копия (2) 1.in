@@ -1,0 +1,24 @@
+$id=_temp
+$tables=bus
+$teacher=
+create or replace procedure Send_temp (cod_r rais.cod_rais%type,
+  err out number)
+as
+begin
+  err:=0;
+  update rais set tickets=0
+    where cod_rais=cod_r;
+exception
+  when TOO_MANY_ROWS then
+    err:=1;
+  when NO_DATA_FOUND then
+    err:=2;
+  when OTHERS then
+    err:=3;
+end;
+/
+$execsql=
+create table check1_temp as select * from kvn.rais;
+$query=
+select 1 from dual
+$

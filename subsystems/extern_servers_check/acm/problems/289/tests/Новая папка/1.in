@@ -1,0 +1,16 @@
+$id=_temp
+$tables=punct
+$teacher=
+create or replace procedure Send_temp (vhod number)
+as
+begin
+  update punct_temp set distance=vhod;
+end;
+/
+$execsql=
+begin Send_temp(10); end;
+/
+commit;
+$query=
+select * from punct_temp
+$

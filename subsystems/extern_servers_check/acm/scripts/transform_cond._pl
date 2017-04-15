@@ -1,0 +1,156 @@
+#!c:\perl\bin\perl.exe
+
+use DBI;
+use FCGI;
+use IO;
+use CGI qw(:standard);
+use CGI::Cookie;
+use File::Path;
+use File::Copy;
+use CGI::Carp  qw(fatalsToBrowser);
+
+require 'common_func.pl';
+
+use vars qw($request $db $DirTemplates $DirTemp $DirStdCheckers $DirPrbCond $DirProblems
+            %ProblemPaths $incgi %cookies %ENV);
+
+
+read_config();
+connect_db();
+
+fcgi_init();
+
+main_cik:
+while(next_request()) {
+
+#   to_log("request from user");
+
+   $db->commit();
+
+
+   $query=<<SQL;
+   select id_prb from tm_prb
+   where id_tm=54
+SQL
+   $sth=$db->prepare($query);
+   $sth->execute();
+   
+   while ( ($id_prb)=$sth->fetchrow_array) {
+      transform_cond_prb($id_prb);
+   }
+   
+   #transform_cond_prb(302);
+}
+
+print "\n";
+$db->disconnect() or print $db->errstr;
+
+
+#------------------------
+#      Functions
+#------------------------
+
+#------------------------------------------------------------------------
+sub insert_cond_p
+{
+   my ($text,$id_problem,$id_lng) = @_;
+
+   my $dir,$before,$after,$s;
+   my $sect_lng='',$query,$sth,$cond_lang='';
+
+  
+   $dir="$DirPrbCond\\$id_problem";
+   
+   $$text =~ m/<!--start_cond-->(.*?)<!--finish_cond-->/si;
+   $before=$`;
+   $sect_lng=$1;
+   $after=$';
+
+   $query=<<SQL;
+   select l.id_lng2, l.name, p.name
+      from langs_lng l left outer join problems_lng p on l.id_lng2=p.id_lng and p.id_prb=$id_problem 
+      where id_lng1='$id_lng'
+SQL
+   $sth=$db->prepare($query);
+   $sth->execute();
+   
+   while (my @row=$sth->fetchrow_array) {
+      $row[1] =~ s/ *$//m;
+      $row[2] =~ s/ *$//m;
+      $s=$sect_lng;
+      $s =~ s/\$i_id_lang/$row[0]/ig;
+      $s =~ s/\$i_lang_name/$row[1]/ig;
+      $s =~ s/\$i_problem_name/$row[2]/ig;
+      read_file("$dir\\$row[0]\\index.html",\$cond_lang);
+      html_text(\$cond_lang);
+      $s =~ s/\$cond_lang/$cond_lang/ig;
+      $before.=$s;
+   }
+   $sth->finish();
+
+   $$text=$before.$after;
+
+
+   $$text =~ s/\$id_problem/$id_problem/ig;
+}
+
+
+#------------------------------------------------------------------------
+sub transform_text
+{
+   my ($text) = @_;
+   $$text=~s/<\/p><br>([\s\n\r]*)<b>(Входные данные|Input)\.?<\/b><br>/<\/p>$1<h3 class=\"cond_sect\">\$input\$<\/h3>/ig;
+   $$text=~s/<\/p><br>([\s\n\r]*)<b>(Выходные данные|Output)\.?<\/b><br>/<\/p>$1<h3 class=\"cond_sect\">\$output\$<\/h3>/ig;
+   $$text=~s/<\/p><br>([\s\n\r]*)<b>(Пример|Sample)\.?<\/b>(<br>)?/<\/p>$1<h3 class=\"cond_sect\">\$sample\$<\/h3>/ig;
+   $$text=~s/<\/p><br>([\s\n\r]*)<b>(Примеры|Samples)\.?<\/b>(<br>)?/<\/p>$1<h3 class=\"cond_sect\">\$samples\$<\/h3>/ig;
+   $$text=~s/<\/p><br>([\s\n\r]*)<b>(Подсказка|Hint)\.?<\/b><br>/<\/p>$1<h3 class=\"cond_sect\">\$hint\$<\/h3>/ig;
+
+   $$text=~s/(<th[^>]*>)Input(<\/th>)/$1\$input\$$2/ig;
+   $$text=~s/(<th[^>]*>)Output(<\/th>)/$1\$output\$$2/ig;
+
+   $$text=~s/(<table class=\"tbdata\" width=\")(\d+)(\">)/($2+0<400)?$1."400".$3:$1.$2.$3/ige;
+}
+
+
+#------------------------------------------------------------------------
+sub transform_text1
+{
+   my ($text) = @_;
+   $$text=~s/[\s\n\r]*<\/?br\/?>[\s\n\r]*//ig;
+   $$text=~s/[\s\n\r]*<a[^>]*>[^>]*<\/a>[\s\n\r]*//ig;
+   $$text=~s/<p>([^>]*)<\/p>/$1/ig;
+   $$text='<p>'.$$text.'</p><br><a href="/cgi-bin/plain_text.pl?url=/sql/buses.html">Схема базы данных "Автовокзал"</a>';
+}
+
+
+#------------------------------------------------------------------------
+sub transform_cond_prb
+{
+   my ($id_problem) = @_;
+
+   my $dir,$fl,$s;
+   my @langs=(),$query,$ptr,$k;
+
+   $dir="$DirPrbCond\\$id_problem";
+   $fl=new IO::File;
+   
+   $query="select id_lng from langs";
+   $ptr=$db->selectcol_arrayref($query);
+   @langs=@$ptr;
+
+   foreach $k (@langs) {
+      read_file("$dir\\$k\\index.html",\$s);
+      transform_text1(\$s);
+      $fl->open("> $dir\\$k\\index.html");
+      binmode($fl);
+      print $fl $s;
+      $fl->close();
+
+      $s=$ProblemPaths{'ArchivCondName'};
+      $s =~ s/\$lang/$k/ig;
+      re_pack("$DirProblems\\$id_problem\\$s",
+              "$dir\\$k\\*");
+   }
+}
+
+

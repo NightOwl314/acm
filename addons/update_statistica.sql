@@ -1,0 +1,1 @@
+update statistica set cnt=(select count(*) from status where (id_rsl=statistica.id_rsl) and (id_prb=statistica.id_prb))

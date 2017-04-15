@@ -1,0 +1,32 @@
+    @echo off
+
+call "C:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\vsvars32.bat"
+
+rem компилируем и линкуем исходник
+   cl.exe /O2 /G6 /Zp1 /Ze %1".cpp"
+
+rem если слинковалось, проводим обработку дл€ анализа плагиата
+   if not ERRORLEVEL 1 (
+
+      rem компилируем другим компил€тором
+      "C:\CodeBlocks\MinGW\bin\g++" -Xlinker --stack=0x4000000 %1".cpp" -c -o %1"_.o"
+      
+      rem удал€ем символы из объектного файла
+      "C:\FPC\2.6.2\bin\i386-win32\strip.exe" %1"_.o"
+      
+      rem переименовываем объектный файл
+      ren %1"_.o" %1".nul"
+  
+   )
+
+   del %1".obj"
+
+rem если при компил€ции или линковке была ошибка, то удалим все результаты 
+   if ERRORLEVEL 1 (
+      del %1".exe"
+      del %1".nul"
+   )
+
+rem удаление временных файлов после линкера
+   del %1".i*"
+   del %1".tds"

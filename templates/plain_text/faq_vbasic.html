@@ -1,0 +1,34 @@
+<head>
+<title>АВТ ВоГУ - Решение задач на Visual Basic.NET</title>
+<style>
+body {background: #CFCFCF; font-size:12pt; color: black; }
+</style>
+</head>
+
+<body>
+<h2 align=center>Решение задач на Visual Basic.NET</h2>
+Пример решения задачи A+B:<br>
+<table><tr><td>
+<div class="code_box"><pre><code class="basic">   
+
+Module module1
+
+Sub Main()
+  Dim v() As String = Console.ReadLine().Split(" ")
+  dim a as integer = integer.Parse(v(0))
+  dim b as integer = integer.Parse(v(1))
+  dim c as integer = a + b
+  Console.WriteLine(c)
+End Sub
+
+End Module
+
+</code></pre></div>
+</td></tr></table>
+Данное решение не является самым эффективным. Например, при посимвольном вводе программа может работать быстрее и использовать меньше памяти
+<br><br>
+
+Параметры командной строки компилятора:<br>
+<b>vbc /optimize /reference:System.Numerics.dll name.vb</b>
+
+</body>

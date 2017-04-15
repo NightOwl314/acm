@@ -1,0 +1,20 @@
+@echo off
+    c:
+    cd c:\acm\dir_tmp
+    set TEMP=c:\acm\dir_TMP
+    set TMP=c:\acm\dir_TMP
+
+REM удаляем все старые классы, которые могли остаться от прошлых запусков
+    del *.class
+
+REM изменяем имя основного класса, чтобы он совпадал с %1
+    perl c:\acm\compilers\java\jmainrepl.pl %1.java %1> p_%1.java
+    ren %1.java tmp_%1.java
+    ren p_%1.java %1.java
+
+REM выполняем компиляцию
+    "c:\programs\java\bin\javac" %1".java" 2>&1
+
+REM восстанавливаем старый исходник
+    del %1.java
+    ren tmp_%1.java %1.java

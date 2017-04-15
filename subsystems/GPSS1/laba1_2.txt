@@ -1,0 +1,81 @@
+10   generate 20,8
+20   seize PC1
+30   advance 10,5
+40   release PC1
+50   seize K1
+60   advance 2,1
+70   release K1
+     
+80   seize FS1
+90   advance 10,5
+100  release FS1
+110  seize K1
+120   advance 2,1
+130   release K1
+140   seize PC1
+150   advance 10,5
+160   release PC1
+170  terminate
+
+180   generate 20,8
+190   seize PC2
+200   advance 10,5
+210   release PC2
+220   seize K2
+230   advance 2,1
+240   release K2
+     
+250   seize FS1
+260   advance 10,5
+270  release FS1
+280  seize K2
+290   advance 2,1
+300   release K2
+310   seize PC2
+320   advance 10,5
+330   release PC2
+340  terminate
+
+350   generate 20,8
+360   seize PC3
+370   advance 10,5
+380   release PC3
+390   seize K3
+400   advance 2,1
+410   release K3
+     
+420   seize FS1
+430   advance 10,5
+440  release FS1
+450  seize K3
+460   advance 2,1
+470   release K3
+480   seize PC3
+490   advance 10,5
+500   release PC3
+510  terminate
+
+520   generate 20,8
+530   seize PC4
+540   advance 10,5
+550   release PC4
+560   seize K4
+570   advance 2,1
+580   release K4
+     
+590   seize FS1
+600   advance 10,5
+610  release FS1
+620  seize K4
+630   advance 2,1
+640   release K4
+650   seize PC4
+660   advance 10,5
+670   release PC4
+680  terminate
+
+
+
+690  generate 1000
+700  terminate 1
+710  start 1

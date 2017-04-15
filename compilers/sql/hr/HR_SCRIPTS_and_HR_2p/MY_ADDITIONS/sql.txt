@@ -1,0 +1,31 @@
+create table regions_tmp as select * from regions;
+create table countries_tmp as select * from countries;
+create table locations_tmp as select * from locations;
+create table departments_tmp as select * from departments;
+create table jobs_tmp as select * from jobs;
+create table employees_tmp as select * from employees;
+create table job_history_tmp as select * from job_history;
+create table emp_details_view_tmp as select * from emp_details_view;
+
+grant execute on buses0_creator.CMP_DML to PUBLIC;
+
+create public synonym CMP_DML for buses0_creator.CMP_DML;
+
+
+grant select, insert, update, delete on hr0_creator.regions to hr0_dml;
+grant select, insert, update, delete on hr0_creator.countries to hr0_dml;
+grant select, insert, update, delete on hr0_creator.locations to hr0_dml;
+grant select, insert, update, delete on hr0_creator.jobs to hr0_dml;
+grant select, insert, update, delete on hr0_creator.departments to hr0_dml;
+grant select, insert, update, delete on hr0_creator.employees to hr0_dml;
+grant select, insert, update, delete on hr0_creator.job_history to hr0_dml;
+grant select, insert, update, delete on hr0_creator.EMP_DETAILS_VIEW to hr0_dml;
+
+grant select on hr0_creator.regions to hr0_select;
+grant select on hr0_creator.countries to hr0_select;
+grant select on hr0_creator.locations to hr0_select;
+grant select on hr0_creator.jobs to hr0_select;
+grant select on hr0_creator.departments to hr0_select;
+grant select on hr0_creator.employees to hr0_select;
+grant select on hr0_creator.job_history to hr0_select;
+grant select on hr0_creator.EMP_DETAILS_VIEW to hr0_select;

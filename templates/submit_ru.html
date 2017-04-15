@@ -1,0 +1,100 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>АВТ ВоГУ - Отправить решение на проверку </title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    $include_file("head_ru.html")
+
+  <h2 align="center">Отправить решение на проверку</h2>
+   <!--start_err-->
+   <table class="tbbd" border="1" align="center"><tr><td>
+   ***При отправке задачи произошла ошибка***<hr/><b><font color="#A00000">$err_text</font></b><hr>
+   </td></tr></table><br/>
+   <!--errors
+   1:{Пользователь не определен}
+   2:{Указанной задачи не существует}
+   3:{Указанного компилятора не существует}
+   4:{Не указан исходный текст и исходный файл}
+   5:{Указан исходный текст и исходный файл<br>Выберите что-нибудь одно}
+   -->
+   <!--finish_err-->
+
+  <table border="0" align="center">
+  <td>
+   <table class="tbbd" border="2" align="center" cellpadding="5">
+     <form name="form1" action="/cgi-bin/submit.pl" method="post" enctype="multipart/form-data"> 
+        <input type="hidden" name="mode" value="send">
+        <tr>
+           <td align="right" WIDTH="140"><h5>Задача:</h5></td>
+           <td align="left" WIDTH="590"><input type="text" name="id_prb" size="12" value="$problem_id"></td>
+        </tr>
+
+
+        <tr>
+           <td align="right" WIDTH="140"><h5>Компилятор:</h5></td>
+           <td align="left" WIDTH="590">
+              <select name="id_compiler" size="1" style="width:500;"> 
+<!--start_compiler--><OPTION VALUE="$compiler_id" $compiler_selected{selected}>$compiler_name</option><!--finish_compiler-->
+             </select>
+           </td>
+        </tr>
+
+        <tr>
+           <td align="right" width="140"><h5>Шифр</h5></td>
+           <td align="left" width="590">
+             <input type=text style="width: 500;" name="comment" value="$comment_text"><br>
+             <i>(шифр участника, если отправляет член жюри)</i>
+        </tr>
+
+
+        <tr>
+           <td align="left" colspan="2" class="separ"><hr>
+           </td>
+        </tr>
+        <tr>
+           <td align="left" WIDTH="140"><h5>Исходный текст:</h5></td>
+           <td align="right" WIDTH="590">
+<!--start_login-->
+           <a href="/cgi-bin/submit.pl?mode=load_src">Загрузить последний отправленный исходник</a>
+<!--finish_login-->
+           </td>
+        </tr>
+
+        <tr>
+           <td align="left" colspan="2">
+              <textarea name="source" cols="90" rows="25" wrap="off">$source_text</textarea>
+           </td>
+        </tr>
+
+        <TR>
+          <TD ALIGN="right" WIDTH="140"><h5>исходный файл:</h5></TD>
+          <TD  WIDTH="590"><INPUT TYPE="FILE" NAME="sourcefile" SIZE="80"></TD>
+        </TR>
+
+        <tr>
+          <td align="center" colspan="2"><hr>
+<!--start_not_login-->
+          <input type="submit" value="Отправить" disabled class="submit_btn"><br>
+          Вы не можете отправлять решения пока не выполнен <a href="$current_page?re_login=$random_re_login$add_param">Вход</a>
+<!--finish_not_login-->
+
+<!--start_login-->
+<input type="submit" value="Отправить" class="submit_btn">
+<!--finish_login-->
+
+          </td>
+        </tr>
+
+       </form>
+     </table>
+  </td>
+
+  </table>
+
+    $include_file("down_part_ru.html")
+ </body>
+</html>

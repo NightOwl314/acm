@@ -1,0 +1,176 @@
+Tue Jan 23 19:38:58 2007: <html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title> Problem statistics </title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0"><tr height="100%"><td valign="top">
+
+<table class="tbhead" width="100%" border="1" align="center" cellpadding="5">
+ <tr align="center">
+   <td width="90">
+     <center><b>Language:</b></center><br>
+     <a href="$current_page?id_lng=en&id_prb=215">English</a><br>
+     <a href="$current_page?id_lng=ru&id_prb=215">Russian</a>
+   </td>
+   <td width="*">
+    <!-- <img src="/title_en.gif" alt="Automated checking system" width="400" height="36">-->
+     <h2>Distance Programming Training</h2>
+     <table border="0" width="100%" align="center" cellspacing="5">
+       
+       <tr align="center">
+         <td><a class="menu_lnk" href="/cgi-bin/arh_problems.pl">Problems</a></td>
+         <td><a class="menu_lnk" href="/cgi-bin/submit.pl">Submit problem</a></td>
+         <td><a class="menu_lnk" href="/cgi-bin/status.pl">On-line status</a></td>
+         <td><a class="menu_lnk" href="/cnt-sys/cnt_common.pl?action=active_contests">Contests</a></td>
+       </tr>
+     </table>
+   </td>
+  <FORM ACTION="/cgi-bin/statistica.pl" METHOD="GET">
+   <td align="left" width="185" nowrap>
+     <center><b>For authors:</b></center>
+     <a href="/cgi-bin/aregister.pl">Register</a>&nbsp;&nbsp;||&nbsp;&nbsp;<a href="$current_page?re_login=$random_re_login&id_prb=215">Login</a><br>
+     <a href="/cgi-bin/statistica.pl?rank=-1">Authors ranklist</a>  <a href=http://atpp.vstu.edu.ru/cms/modules.php?name=Forums>Forum</a><br>
+     <!--start_manage_system--><a href="/cgi-bin/admin.pl"><b>System manage</b></a><br/><!--finish_manage_system-->
+     <a href="/">Main page</a> <a href=/faq.html>FAQ</a>
+     <br>
+         <INPUT NAME="find_author" SIZE="15" VALUE="$find_value">&nbsp;<INPUT TYPE="submit" VALUE="Search">
+         
+   </td>
+  </FORM>
+ </tr>
+
+</table>
+
+<table class="other" border="0" width="100%">
+<tr><td>
+<!--start_not_login-->
+Hello! Why you have not introduced, <strong>Guest</strong>!  
+<a href="$current_page?re_login=$random_re_login&id_prb=215">Login</a> or <a href="/cgi-bin/aregister.pl">register</a>.
+<!--finish_not_login-->
+
+<!--start_login-->
+You logged on system as <a href="/cgi-bin/statistica.pl?id_publ=$l_id_author">$l_author_name</a>
+<!--finish_login-->
+
+</td></tr>
+</table>
+
+
+    <h2 align=center><a href=/cgi-bin/arh_problems.pl?id_prb=215>215. Binary Search Tree</a></h2>
+  <table class="other" width="100%" border=0>
+  <tr>
+  <td width=50></td>
+  <td>
+  
+    <hr><center>Statistics</center>
+
+    <table class="tbbd1" WIDTH="350" border=0 align=center>
+    <tr><th align=left>Authors, Who Solved</th><td align=right>22</td></tr>
+    <tr><th align=left>Authors, Who Submitted</th><td align=right>23</td></tr>
+    <tr><th align=left>Submissions</th><td align=right>61</td></tr>
+    <tr><th align=left><a href=statistica.pl?id_stat=$stat_id><b>Accepted</b></a></th><td align=right>26</td></tr>
+<tr><th align=left>Wrong answer</th><td align=right>15</td></tr>
+<tr><th align=left>Presentation Error</th><td align=right>0</td></tr>
+<tr><th align=left>Run time error</th><td align=right>5</td></tr>
+<tr><th align=left>Time limit</th><td align=right>3</td></tr>
+<tr><th align=left>Memory limit</th><td align=right>0</td></tr>
+<tr><th align=left>Secutity Violation</th><td align=right>6</td></tr>
+<tr><th align=left>Compilation error</th><td align=right>6</td></tr>
+<tr><th align=left>Sleep detect</th><td align=right>0</td></tr>
+<tr><th align=left>NOT Unique</th><td align=right>0</td></tr>
+
+    </table>
+
+    <br><hr><br>
+
+    <center>Best solve this problem:</center>
+    <table class="tbbd2" WIDTH="100%" border=1 align=center cellspacing=1>
+    <tr>
+    <TH ALIGN=CENTER WIDTH=65>ID</TH>
+    <TH ALIGN=CENTER WIDTH=90>Date</TH>
+    <TH ALIGN=CENTER WIDTH="*">Author</TH>
+    <TH ALIGN=CENTER WIDTH=120>Compiler</TH>
+    <TH ALIGN=CENTER WIDTH=70>Time Worked (sec)</TH>
+    <TH ALIGN=CENTER WIDTH=70>Memory Usage (KB)</TH>
+    <TH ALIGN=CENTER WIDTH=100><br></TH>
+    </tr>
+     <tr><td align=center>289416</td><td align=center>03.12.2006<br>19:30:12</td><td><a href=/cgi-bin/statistica.pl?id_publ=22089>Chii</a></td><td align=center>Borland C++ Builder 6</td><td align=center>0</td><td align=center>30</td><td align=center><a href=/cgi-bin/statistica.pl?id_slv=289416>view source</a></td></tr>
+
+    </table>
+    <br><hr><br>
+
+    <center>Last solve this problem:</center>
+  </td>
+  <td width=50></td>
+  </tr>
+  </table>
+
+    <table class="tbbd2" WIDTH=100% border=1 align=center cellspacing=1>
+    <tr>
+    <TH ALIGN=CENTER WIDTH=65>ID</TH>
+    <TH ALIGN=CENTER WIDTH=90>Date</TH>
+    <TH ALIGN=CENTER WIDTH="*">Author</TH>
+    <TH ALIGN=CENTER WIDTH=120>Compiler</TH>
+    <TH ALIGN=CENTER WIDTH=150>Result</TH>
+    <TH ALIGN=CENTER WIDTH=70>Test</TH>
+    <TH ALIGN=CENTER WIDTH=70>Time Worked (sec)</TH>
+    <TH ALIGN=CENTER WIDTH=70>Memory Usage (KB)</TH>
+    </tr>
+    <!--start_status_row(10)-->
+     <tr><td align="center" nowrap>$stat_id</td>
+     <td align="center">$stat_date<br/>$stat_time</td>
+     <td><a href="/cgi-bin/statistica.pl?id_publ=$author_id">$author_name</a></td>
+     <td align="center">$compiler_name</td>
+     <td align="center" style="$warn_plagiat${background-color:#f05050;|}">$result_name</td>
+     <td align="center">$best_solve${<A class="bl_lnk" HREF="/cgi-bin/statistica.pl?id_slv=$stat_id">best</A>|$test_n}</td>
+     <td align="center">$time_work</td><td align="center">$mem_use</td></tr>
+    <!--finish_status_row-->
+    </table>
+    <BR>
+ <TABLE class="other" WIDTH=100% BORDER=0>
+    <TR>
+    <TD WIDTH=50% ALIGN=RIGHT>
+    <a href=/cgi-bin/statistica.pl?id_prb=215>TOP</a>&nbsp
+    <a href=/cgi-bin/statistica.pl?id_prb=215&id_stat=$next_rec>Next 10</a>&nbsp
+    </TD>
+    </TR>
+</TABLE>
+    </td></tr><tr><td valign="bottom">
+    
+<table class="other" width="100%" border="0" align="center" cellpadding="1">
+<tr>
+<td align="right" valign="bottom" height="40"><em>time generating </em><strong>$time_gen</strong><em> sec.</em></td>
+</tr>
+<tr>
+<td align="center">© Copyright 2004-2006 <a href="http://www.vstu.edu.ru/">VSTU</a>, <a href="http://atpp.vstu.edu.ru/">AVT</a>, <a href="mailto:dens-spam@yandex.ru">Nosov D.A.</a></td>
+</tr>
+</table>
+
+</td></tr></table>
+
+
+ </body>
+</html>
+
+<!--
+     НЕ УДАЛЯТЬ - ЭТО ИСПОЛЬЗУЕТСЯ СКРИПТОМ
+     $best_solve = {<A class="bl_lnk" HREF=/cgi-bin/statistica.pl?id_slv=$id_solve>best</A>}
+-->
+
+Tue Jan 23 19:38:58 2007: select first 10 s.id_stat, cast(s.dt_tm as date),cast(s.dt_tm as time),
+   s.id_publ, (select a.name from authors a where a.id_publ=s.id_publ),
+   s.id_prb, (select c.name from compil c where c.id_cmp=s.id_cmp),
+   (select r.name from results_lng r where r.id_rsl=s.id_rsl and r.id_lng='en'),
+   s.test_no,s.time_work,s.mem_use,
+   (select b.id_slv from best_solve b where b.id_slv=s.id_stat),
+   (select first 1 sr.id_stat from status_reports sr where sr.id_stat=s.id_stat),
+   s.id_rsl,s.warn_rsl,
+   (select p.name from problems_lng p where p.id_prb=s.id_prb and p.id_lng='en')
+   from status s
+   where s.id_stat < 2000000000 and s.id_prb=215 and s.id_rsl=0 
+   order by s.id_stat desc
+

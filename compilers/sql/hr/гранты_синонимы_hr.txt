@@ -1,0 +1,15 @@
+grant select, insert, update, delete on hr.regions to public;
+grant select, insert, update, delete on hr.countries to public;
+grant select, insert, update, delete on hr.locations to public;
+grant select, insert, update, delete on hr.jobs to public;
+grant select, insert, update, delete on hr.departments to public;
+grant select, insert, update, delete on hr.employees to public;
+grant select, insert, update, delete on hr.job_history to public;
+create public synonym regions for hr.regions;
+create public synonym countries for hr.countries;
+create public synonym locations for hr.locations;
+create public synonym jobs for hr.jobs;
+create public synonym departments for hr.departments;
+create public synonym employees for hr.employees;
+create public synonym job_history for hr.job_history;
+

@@ -1,0 +1,25 @@
+dll=KERNEL32.DLL
+   LocalAlloc -1
+   LocalFree -1
+   InitializeCriticalSection -1
+   DeleteCriticalSection -1
+   ReadFile -1
+   WriteFile -1
+   VirtualAlloc -1
+   VirtualFree -1
+   UnhandledExceptionFilter -1
+   InterlockedExchange -1
+   GetACP -1
+   GetCPInfo -1
+   GetCommandLineA -1
+   GetEnvironmentStrings -1
+   GetFileType -1
+   GetModuleFileNameA -1
+   GetModuleHandleA -1
+   GetProcAddress -1
+   GetStartupInfoA -1
+   GetStdHandle -1
+   GetTimeZoneInformation -1
+   GetVersionExA -1
+   GlobalMemoryStatus -1
+   SetHandleCount 1

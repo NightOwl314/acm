@@ -1,0 +1,7 @@
+create or replace
+package cmp_pkg as 
+procedure copy_table(table_name in varchar2); 
+function eq_table(l_table_name varchar2, compare_fields varchar2) return boolean; 
+end cmp_pkg;
+/
+

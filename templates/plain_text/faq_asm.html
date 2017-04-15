@@ -1,0 +1,39 @@
+<head>
+<title>АВТ ВоГУ - Решение задач на Ассемблере</title>
+<style>
+body {background: #CFCFCF; font-size:12pt; color: black; }
+</style>
+</head>
+
+<body>
+<h2 align=center>Решение задач на Ассемблере</h2>
+Пример решения задачи A+B:<br>
+<table><tr><td>
+<div class="code_box"><pre><code class="asm">   
+include masm32rt.inc
+
+.data
+
+   in_format BYTE "%d %d", 0
+   out_format BYTE "%d", 0
+   var_a DWORD 1
+   var_b DWORD 1
+
+.code
+
+main PROC
+   invoke crt_scanf, ADDR in_format, ADDR var_a, ADDR var_b
+   mov eax, var_a        
+   add eax, var_b
+   invoke crt_printf, ADDR out_format, eax
+   exit
+main ENDP   
+
+end main
+</code></pre></div>
+</td></tr></table>
+Как видно из примера, для ввода-вывода можно использовать функции из библиотеки msvcrt.dll, которая по умолчанию уже загружена в память.<br>
+При этом нужно подключить файл masm32rt.inc.<br><br>
+Для отладки программ на своем компьютере рекомендуем скачать готовый пакет разработчика masm32 с сайта wasm.ru (в разделе "Инструменты"), так
+как он уже содержит необходимые библиотеки и подключаемые файлы. Затем при желании его можно обновить новой версией компилятора с сайта Microsoft.
+</body>

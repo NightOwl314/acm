@@ -1,0 +1,4 @@
+D:\networks\task1>check 1.in 1.out u >1.txt
+D:\networks\task1>check 2.in 2.out e >2.txt
+D:\networks\task1>check 3.in 3.out e >3.txt
+

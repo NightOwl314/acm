@@ -1,0 +1,188 @@
+Date: Wed, 23 Oct 2013 08:59:50 GMT
+cache-control: no-cached
+pragma: no-cache
+Content-Type: text/html; charset=Windows-1251
+
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>АВТ ВоГТУ - Дистанционный практикум по программированию</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+   <script type="text/javascript" src="/helper.js"></script>
+   <script type="text/javascript">
+    function StartHelper(){
+		document.getElementById('helper_panel').style.display = "block";
+		document.getElementById('buttonStart').style.display = "none";
+		document.getElementById('buttonClose').style.display = "block";
+		if(document.getElementById('login_name').innerHTML == "debug"){
+			var element=document.getElementById('Run_algoritm');
+			document.getElementById('HelperText').innerHTML="<font color=\"#5050a0\" size=\"3\">Электронный помощник<br>студентов.<br>Последний раз дерево было построено<br><br></font>26.01.2013 10:00:22<br><br><br>";
+			document.getElementById('Run_algoritm').innerHTML="<input type=\"button\" value=\"Построить дерево\" onclick=\"ConstructTree()\"></input>";
+		}else{
+			document.getElementById('Run_algoritm').innerHTML="<input type=\"button\" value=\"Получить прогноз\" onclick=\"RunAlgoritm()\"></input>";
+		}
+	}
+	function ConstructTree(){
+		location="/cgi-bin/arh_problems.pl?tree=1"; 
+	}
+	
+	function CloseHelper(){
+		document.getElementById('helper_panel').style.display = "none";
+		document.getElementById('buttonStart').style.display = "block";
+		document.getElementById('buttonClose').style.display = "none";
+		var start = document.getElementById('startAlg');
+		start.innerHTML = "";
+		for (var i =0; i < tasks.length; ++i ){
+			document.getElementById(tasks[i]).style.display = "block";
+			document.getElementById(tasks[i]).innerHTML = " - ";
+		}
+	}
+	function RunAlgoritm(){
+		location="/cgi-bin/arh_problems.pl?classify=1"; 
+	}
+	function CloseHelp(){
+		location="/cgi-bin/arh_problems.pl"; 
+	}
+   </script>
+ </head>
+
+ <body>
+    
+    <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0"><tr height="100%"><td valign="top">
+
+
+<table class="tbhead" width="100%" border="1" align="center" cellpadding="5">
+ <tr align="center">
+   <td width="90">
+     <a href="http://atpp.vstu.edu.ru/" style="border:0px;"><img align=center border=0 width=73 height=69 alt="АВТ" src="/atpphead2.gif"></a><br>
+     <table><tr><td><b>Язык:</b></td><td>
+     <a href="?id_lng=ru" title="Русский" style="border:0px;"><img border=0 width=21 height=13 src="/ru.gif"></a>
+     </td></tr><tr><td></td><td>
+     <a href="?id_lng=en" title="Английский" style="border:0px;"><img border=0 width=21 height=13 src="/com.gif"></a>
+     </td></tr></table>
+   </td>
+   <td width="*">
+    <!-- <img src="/title_ru.gif" alt="Автоматизированная проверяющая система" width=400 height="36">-->
+    <h1>Дистанционный практикум по программированию</h1>
+     <table border="0" width="100%" align="center" cellspacing="5">
+       <tr align="center">
+         <td><a class="menu_lnk" href="/cgi-bin/arh_problems.pl">Задачи</a></td>
+         <td><a class="menu_lnk" href="/cgi-bin/submit.pl">Послать задачу</a></td>
+         <td><a class="menu_lnk" href="/cgi-bin/status.pl">On-line статус</a></td>
+         <td><a class="menu_lnk" href="/cnt-sys/cnt_common.pl?action=active_contests">Турниры</a></td>       
+       </tr>
+       <tr align="center">
+         <td><a class="menu_lnk" href="/scripts/common_page.pl?re_login=9483">Учебники</a></td>
+<!--         <td><a class="menu_lnk" href="/cms/modules.php?name=Content">Разборы</a></td> -->
+             <td><a class="menu_lnk" href="/">Кафедра АВТ</a></td>
+         <td><a class="menu_lnk" href="/cgi-bin/plain_text.pl?url=/faq.html">Справка</a></td>
+         <td><a class="menu_lnk" href="/integration/ps-moodle.php" target=_blank>Moodle</a></td>
+       </tr>
+
+       
+
+     </table>
+   </td>
+  <FORM ACTION="/cgi-bin/statistica.pl" METHOD="GET">
+   <td align="left" width="200"  nowrap>
+     <center><b>Для авторов:</b></center>
+     
+      <div class="lf_lnk"><a href="/cgi-bin/aregister.pl">Регистрация</a>&nbsp;&nbsp;||&nbsp;&nbsp;<a href="?re_login=9483">Вход</a></div>
+      <div class="lf_lnk"><a href="/cgi-bin/statistica.pl?rank=-1">Рейтинг авторов</a></div>
+      <div class="lf_lnk"><INPUT NAME="find_author" SIZE="15" VALUE="">&nbsp;<INPUT TYPE="submit" VALUE="Поиск"></div>
+      <div class="lf_lnk"><a href="/cgi-bin/plain_text.pl?url=/about.html">О системе</a>   <!--  &nbsp;&nbsp;||&nbsp;&nbsp; <a href=http://atpp.vstu.edu.ru/cms/modules.php?name=Forums>Форум</a>   -->  </div>
+     
+   </td>
+ </FORM>
+ </tr>
+  <tr>
+  <td colspan ="3">
+    <table>
+	<tr>
+          <td></td>
+	        <td></td>
+          <td></td>	
+          <td></td>	
+	 </tr>
+    </table>
+  </td>
+ </tr>
+</table>
+<table class="other" border="0" width="100%">
+<tr><td>
+
+Здравствуйте! Ну что же вы не представитесь, <strong>Гость</strong>!  
+<a href="?re_login=9483">Войдите с паролем</a> или <a href="/cgi-bin/aregister.pl">зарегистрируйтесь</a>.
+
+
+
+
+</td></tr>
+</table>
+
+    <h2 align="center">Задачи по темам</h2>
+    <table border="0" width="100%" cellpadding="5">
+     <tr>
+     <td width="30%" valign="top" nowrap><h3 align="center">Темы (кол-во задач):</h3><ul class="Subj"><li><a href=?id_tm=39><img src="/plus.gif" align="center" alt="+[]" width="32" height="16"> Учебные курсы</a>
+<li><a href=?id_tm=18><img src="/plus.gif" align="center" alt="+[]" width="32" height="16"> Задачи по темам</a>
+<li><a href=?id_tm=13><img src="/plus.gif" align="center" alt="+[]" width="32" height="16"> Задачи с соревнований</a>
+<li><a href=?id_tm=5><img src="/nclose.gif" align="center" alt=" []" width="32" height="16"> Разные задачи (6)</a>
+<li><a href=?id_tm=10000><img src="/plus.gif" align="center" alt="+[]" width="32" height="16"> Debug для турниров</a>
+</ul>
+      <table width="100%" border="0" class="other"> <tr height="50"><td>
+         
+       </td>
+       <td>
+               <a href="/cgi-bin/student_asg_problems.pl" class="Subj">Назначенные задачи</a>
+       </td>
+       </tr></table>
+     </td>
+     <td valign="top">
+     
+      
+      <form action="/cgi-bin/arh_problems.pl" method="GET">
+      <table width="100%" border="0" class="other"> <tr><td align="right">
+       Быстрый переход к <strong>задаче №</strong> <input type="text" size="6" name="id_prb"> <input type="submit" value="перейти">
+       </td></tr>
+       </table>
+       </form>
+     </td>
+     </tr>
+    </table>
+	
+    </td></tr><tr><td valign="bottom">
+<script type="text/javascript" src="helper.js"></script>      
+<table class="other" width="100%" border="0" align="center" cellpadding="1">
+
+<!--debug-->
+<tr>
+<td align=center style="color:blue" colspan="2">&nbsp;
+</td>
+</tr>
+
+<tr>
+<td align="right" valign="bottom" height="40" colspan="2"><em>время генерации </em><strong>0.063</strong><em> сек.</em></td>
+</tr>
+<tr>
+<td align="center" colspan="2">© Copyright <a href="http://www.vstu.edu.ru/">ВоГТУ</a>, <a href="http://atpp.vstu.edu.ru/">АВТ</a>, <a href="mailto:dens-spam@yandex.ru">Носов Д.А.</a></td>
+</tr>
+</table>
+
+</td></tr></table>
+
+
+
+ </body>
+</html>
+
+<!--
+   $main_root = {в корень}
+   $node_plus = {<img src="/plus.gif" align="center" alt="+[]" width="32" height="16"> }
+   $node_minus = {<img src="/minus.gif" align="center" alt="-[]" width="32" height="16"> }
+   $node_close = {<img src="/nclose.gif" align="center" alt=" []" width="32" height="16"> }
+   $node_open = {<img src="/nopen.gif" align="center" alt="[ ]" width="32" height="16"> }
+   
+   $solve = { <img src="/plus_solve.gif" align="center" alt=" + " width="18" height="18"> }
+   $notsolve = { <img src="/minus_solve.gif" align="center" alt=" - " width="18" height="18"> }
+   $notsubmit = {  }
+-->

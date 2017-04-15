@@ -1,0 +1,24 @@
+<pre><strong>Сообщения компилятора (и скрипта компиляции):</strong>
+
+SQL*Plus: Release 11.2.0.1.0 Production on Ср Май 11 18:39:37 2016
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Присоединен к:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+SQL> Отсоединено от Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+‘Є®ЇЁа®ў ­® д ©«®ў:         1.
+<strong>OK</strong>
+
+<h3>Отчет о выполнении:</h3></pre>Результаты проверки:<br><table cellpadding=5 border=1><tr><th>Тест №</th><th>Входной файл</th><th>Файл с верным ответом</th><th>Результат</th><th>Время работы</th><th>Память</th></tr>
+<tr align=center><td>1</td><td>1.in</td><td>1.out</td><td>+</td><td>0.000 sec</td><td>0 KB</td></tr>
+<tr align=center><td>2</td><td>2.in</td><td>2.out</td><td>+</td><td>0.000 sec</td><td>0 KB</td></tr>
+</table><pre>
+<strong>ANALISING PLAGIAT (not unique):</strong>
+id_stat=293824; unique=0% 
+<strong>OK</strong>
+</pre>

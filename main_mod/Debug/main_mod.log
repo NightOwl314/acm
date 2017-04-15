@@ -1,0 +1,122 @@
+﻿Build started 06.11.2015 21:42:56.
+     1>Project "C:\acm\main_mod\main_mod.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\main_mod.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt db_func.cpp ..\common_cpp\log_support.cpp main_mod.cpp max_substr.cpp readconfig.cpp ..\common_cpp\send_data.cpp ..\common_cpp\swap_message.cpp testing.cpp
+         testing.cpp
+     1>c:\acm\main_mod\testing.cpp(151): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\acm\main_mod\testing.cpp(108): warning C4101: 'StartupInfo' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(201): warning C4101: 'ur' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(204): warning C4101: 'WACmd' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(201): warning C4101: 'cr' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(201): warning C4101: 'ex' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(201): warning C4101: 'kr' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(204): warning C4101: 'fln' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(200): warning C4101: 'end_sleep' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(200): warning C4101: 'tm_stamp' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(488): warning C4101: 'ur' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(488): warning C4101: 'cr' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(488): warning C4101: 'ex' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(488): warning C4101: 'kr' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(487): warning C4101: 'end_sleep' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(487): warning C4101: 'tm_stamp' : unreferenced local variable
+     1>c:\acm\main_mod\testing.cpp(881): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\acm\main_mod\testing.cpp(887): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\acm\main_mod\testing.cpp(1114): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\acm\main_mod\testing.cpp(1214): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+         swap_message.cpp
+     1>c:\acm\common_cpp\swap_message.cpp(15): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\acm\common_cpp\swap_message.cpp(16): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\acm\common_cpp\swap_message.cpp(17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\acm\common_cpp\swap_message.cpp(63): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\acm\common_cpp\swap_message.cpp(64): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\acm\common_cpp\swap_message.cpp(65): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         send_data.cpp
+     1>c:\acm\common_cpp\send_data.cpp(18): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\acm\common_cpp\send_data.cpp(33): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\acm\common_cpp\send_data.cpp(34): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\acm\common_cpp\send_data.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\acm\common_cpp\send_data.cpp(100): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\acm\common_cpp\send_data.cpp(101): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\acm\common_cpp\send_data.cpp(102): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         readconfig.cpp
+     1>c:\acm\main_mod\readconfig.cpp(244): warning C4018: '<=' : signed/unsigned mismatch
+         max_substr.cpp
+     1>c:\acm\main_mod\max_substr.cpp(10): warning C4068: unknown pragma
+     1>c:\acm\main_mod\max_substr.cpp(49): warning C4608: 'TNode::link' has already been initialized by another union member in the initializer list, 'TNode::<unnamed-tag>::TNode::parent'
+     1>c:\acm\main_mod\max_substr.cpp(399): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\acm\main_mod\max_substr.cpp(406): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         main_mod.cpp
+     1>c:\acm\main_mod\main_mod.cpp(72): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+     1>c:\acm\main_mod\main_mod.cpp(200): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\acm\main_mod\main_mod.cpp(213): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\acm\main_mod\main_mod.cpp(226): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\acm\main_mod\main_mod.cpp(295): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\acm\main_mod\main_mod.cpp(27): warning C4101: 'mm1' : unreferenced local variable
+     1>c:\acm\main_mod\main_mod.cpp(30): warning C4101: 'warn_rsl_s' : unreferenced local variable
+     1>c:\acm\main_mod\main_mod.cpp(29): warning C4101: 'ts' : unreferenced local variable
+     1>c:\acm\main_mod\main_mod.cpp(27): warning C4101: 'tm1' : unreferenced local variable
+     1>c:\acm\main_mod\main_mod.cpp(36): warning C4101: 'sys_tm' : unreferenced local variable
+     1>c:\acm\main_mod\main_mod.cpp(443): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putenv. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(869) : see declaration of 'putenv'
+     1>c:\acm\main_mod\main_mod.cpp(446): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putenv. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(869) : see declaration of 'putenv'
+     1>c:\acm\main_mod\main_mod.cpp(449): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putenv. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(869) : see declaration of 'putenv'
+         log_support.cpp
+     1>c:\acm\common_cpp\log_support.cpp(28): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         db_func.cpp
+     1>c:\acm\main_mod\db_func.cpp(740): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\main_mod.exe.embed.manifest.res" Debug\main_mod_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\acm\main_mod\main_mod.exe" /INCREMENTAL /NOLOGO fbclient_ms.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\main_mod.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\acm\main_mod\main_mod.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\acm\main_mod\main_mod.lib" /MACHINE:X86 Debug\main_mod.exe.embed.manifest.res
+         Debug\db_func.obj
+         Debug\log_support.obj
+         Debug\main_mod.obj
+         Debug\max_substr.obj
+         Debug\readconfig.obj
+         Debug\send_data.obj
+         Debug\swap_message.obj
+         Debug\testing.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\main_mod.exe.embed.manifest" /manifest Debug\main_mod.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\main_mod.exe.embed.manifest.res" Debug\main_mod_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\acm\main_mod\main_mod.exe" /INCREMENTAL /NOLOGO fbclient_ms.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\main_mod.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\acm\main_mod\main_mod.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\acm\main_mod\main_mod.lib" /MACHINE:X86 Debug\main_mod.exe.embed.manifest.res
+         Debug\db_func.obj
+         Debug\log_support.obj
+         Debug\main_mod.obj
+         Debug\max_substr.obj
+         Debug\readconfig.obj
+         Debug\send_data.obj
+         Debug\swap_message.obj
+         Debug\testing.obj
+         main_mod.vcxproj -> C:\acm\main_mod\main_mod.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\main_mod.unsuccessfulbuild".
+         Touching "Debug\main_mod.lastbuildstate".
+     1>Done Building Project "C:\acm\main_mod\main_mod.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.98

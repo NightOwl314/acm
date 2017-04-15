@@ -1,0 +1,30 @@
+<td align="left" valign="top" height="150">
+   <div id="buttonStart" style="margin: 50px; display:block" >
+      <input type="image" src="/lamp1.jpg" width="100" height="100" border="0"><br>
+      <button type="submit" onclick="StartHelper()" width="91">Запустить  <br> помощника</button> 
+   </div>
+   <div id="helper_panel" style="display:none">
+   <table border="1" class="tbhelp" cellspacing="1" style="background-image: url(/helper.png)" width="220px" height="220px" cellpadding="20">
+   <tr><td>
+      <div id="buttonClose" style="display:none" align="center">
+         <div id="HelperText">
+            <font color="#5050a0" size="3">
+             Электронный помощник <br>
+             покажет вам сложность <br>
+             каждой задачи и поможет <br>
+             определиться с её выбором.
+            </font>
+            <br>
+            <br>
+            <br>
+         </div>
+         <div id = "Run_algoritm">
+            <input type="button" value="Получить прогноз" onclick="RunAlgoritm()"></input> 
+         </div>
+         <br>
+         <button type="button" onclick="CloseHelper()">Закрыть помощника</button> 
+     </div>
+   </td></tr>
+   </table>
+   </div>
+</td>

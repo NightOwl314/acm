@@ -1,0 +1,84 @@
+#!c:\perl\bin\perl.exe
+
+use DBI;
+use FCGI;
+use IO;
+use CGI qw(:standard);
+use CGI::Carp  qw(fatalsToBrowser);
+
+require 'common_func.pl';
+
+use vars qw($request $db $DirTemplates $DirTemp $DirStdCheckers $DirPrbCond $DirProblems
+            %ProblemPaths $incgi %cookies %ENV);
+
+
+read_config();
+connect_db();
+
+#to_log("request from user");
+
+CGI::_reset_globals;
+$incgi = new CGI;
+   
+$p_mode=$incgi->param("mode");
+$p_id_prb=$incgi->param("id_prb")+0;
+
+$id_user=authenticate_process("",'access_user_prb($id_publ,'.$p_id_prb.','.($p_mode eq 'get_img_test'?1:0).')')+0;
+if ($id_user) { 
+   
+   $p_cond_lng=$incgi->param("cond_lng");
+   $p_test=$incgi->param("test");
+   $p_test='zx' if !($p_test =~ m/[0-9a-zA-Z_]+/) || $& ne $p_test;
+   
+   $dostup=1;
+   if (exists_rec($p_id_prb,'problems') ) {
+
+      if ($p_mode eq 'get_chk_src') {
+         $small_fl=$ProblemPaths{'WrongAnswerSrc'};
+         $fln="$DirProblems\\$p_id_prb\\$small_fl";
+      } elsif ($p_mode eq 'get_chk_exe') {
+         $small_fl=$ProblemPaths{'WrongAnswerPrg'};
+         $fln="$DirProblems\\$p_id_prb\\$small_fl";
+      } elsif ($p_mode eq 'get_arh_tests') {
+         $small_fl=$ProblemPaths{'ArchivTestsName'};
+         $fln="$DirProblems\\$p_id_prb\\$small_fl";
+      } elsif ($p_mode eq 'get_cond' && exists_rec($p_cond_lng,'langs')) {
+         $small_fl=$ProblemPaths{'ArchivCondName'};
+         $small_fl =~ s/\$lang/$p_cond_lng/ig;
+         $fln="$DirProblems\\$p_id_prb\\$small_fl";
+      } elsif ($p_mode eq 'get_img_test' && $p_test) {
+         $small_fl=$ProblemPaths{'Tests'};
+         $fln="$DirProblems\\$p_id_prb\\$small_fl\\$p_test.img";
+         if (!(-e $fln)) {
+            $fln="$DirTemplates\\empty.gif";
+         }
+      } else {
+         $dostup=0;
+      }
+   } else {
+      $dostup=0;
+   }
+
+   if ($dostup) {
+      $sz=((stat($fln))[7]+0).'';
+      print header(-status=>'200 OK',
+                   -type=>'application/octet-stream',
+                   -attachment => $small_fl, 
+                   -Content_Length => $sz);
+      
+      $fin=new IO::File;
+      $fin->open("< $fln");
+      binmode($fin);
+      binmode(STDOUT);
+      while ($byteread=read($fin,$buffer,4096)) {
+         print $buffer;
+      }
+      $fin->close;
+   } else {
+      print header(-status=>'403 Forbidden');
+   }
+
+}
+
+$db->disconnect();
+

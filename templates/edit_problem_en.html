@@ -1,0 +1,298 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>AVT VSU - Edit problem $id_problem.</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ 
+<script type="text/javascript" language="JavaScript">
+<!--
+
+function chk_compil_src_onclick()
+{
+   form2.chk_compiler_id.disabled=!form2.chk_compil_src.checked;
+}
+
+function tm_onclick(id_tm)
+{
+   var tm=document.getElementById('id_tema_list_'+id_tm);
+   var op=document.getElementsByName('tm_order_pos_'+id_tm);
+   op[0].disabled=!tm.checked;
+}
+
+function form2_onsubmit()
+{
+   var rez=true,tema=false;
+
+   var i,n3,err_elm="",err_msg;
+   n3="title_prb";
+   for (i in form2.elements) {
+      if (i.indexOf(n3)>=0 && eval("form2."+i+".value.length")==0) {
+         err_elm=i;
+         err_msg="Укажите название задачи!";
+         break;
+      }
+   }
+   
+   for (var i=0;i<form2.tema_list.length;i++) 
+      if (form2.tema_list[i].checked) {
+         tema=true;
+      }   
+
+   if (err_elm.length>0) {
+      rez=false;
+      alert(err_msg);
+      document.getElementById(err_elm).focus();
+   } else if (!tema) {
+      rez=false;
+      alert("Укажите темы!");
+   } else if(isNaN(parseFloat(form2.time_limit.value)) || parseFloat(form2.time_limit.value)<0.001) {
+      rez=false;
+      alert("Укажите ограничение по времени!");
+      form2.time_limit.focus();
+   } else if(isNaN(parseFloat(form2.mem_limit.value)) || parseFloat(form2.mem_limit.value)<1) {
+      rez=false;
+      alert("Укажите ограничение по памяти!");
+      form2.mem_limit.focus();
+   } else if(isNaN(parseFloat(form2.min_uniq_proc.value)) || parseFloat(form2.min_uniq_proc.value)<1) {
+      rez=false;
+      alert("Укажите минимальную уникальность верного решения!");
+      form2.min_uniq_proc.focus();
+   }
+   
+   return rez;
+}
+
+-->
+</script>
+
+</head>
+
+ <body>
+
+    $include_file("head_en.html")
+
+  <h2 align="center">Edit problem <a href="/cgi-bin/arh_problems.pl?id_prb=$id_problem">$id_problem</a></h2>
+   <!--start_post_edit-->
+   <table class="tbbd" border="1" align="center">
+   <tr><td>Задача успешно сохранена
+   </td></tr></table><br/>
+   <!--finish_post_edit-->
+
+   
+   <!--start_err-->
+   <table class="tbbd" border="1" align="center"><tr><td>
+   ***При попытке изменить задачу произошла ошибка***<hr/><b><font color="#A00000">$err_text</font></b><hr>
+   </td></tr></table><br/>
+   <!--errors
+   1 : {Не указаны названия для всех языков}
+   2:{Название '$not_unique_title' уже существует}
+   3:{Не указаны условия для всех языков}
+   4:{Файл условия '$file' имеет недопустимый формат}
+   5:{Темы не указаны}
+   6:{Не указан архив тестов}
+   7:{Архив тестов имеет недопустимый формат}
+   8:{Не указано ограничение по времени}
+   9:{Не указано ограничение по памяти}
+   10:{Не указана проверяющая программа}
+   11:{Ошибка компиляции проверяющей программы<hr/>
+       <table class="srctxt" align="center" border="0">
+       <tr>
+         <td><pre>$compil_output</pre></td>
+       </tr>
+    </table>}
+   12:{Все тесты отключены}
+   13:{Неверно указана минимальная уникальность верного решения}
+   -->
+   <!--finish_err-->
+   
+  <table border="0" align="center">
+  <td>
+   <table class="tbbd" border="2" align="center" cellpadding="5">
+     <form name="form2" action="/cgi-bin/edit_problem.pl" method="post" enctype="multipart/form-data" onSubmit="return form2_onsubmit()"> 
+      <input type="hidden" name="mode" value="edit_post">
+      <input type="hidden" name="id_prb" value="$id_problem">
+        <!--start_lang-->
+      <tr>
+           <td align="right" width="150"><h5>Язык:</h5></td>
+           <td align="left" width="150"><strong>$i_lang_name</strong></td>
+        </tr>
+
+        <tr>
+           <td align="left" width="150"><h5>Название задачи:</h5></td>
+           <td align="left" width="480"><input type="text" name="title_prb_$i_id_lang" size="60" value="$title_prb_lang"></td>
+        </tr>
+
+        <tr>
+           <td align="left" width="150" valign="top"><h5>Условие задачи:</h5></td>
+           <td align="left" width="480">
+              <a href="/cgi-bin/download.a?mode=get_cond&id_prb=$id_problem&cond_lng=$i_id_lang">Скачать</a>&nbsp;&nbsp;&nbsp;размер <strong>$cond_size</strong><br/>
+              <br/>Закачать новое условие<br/>
+              <input type="file" name="cond_file_$i_id_lang" size="60" /><br/>
+            <!--start_one_help_lng-->
+            <font  style="font-size: 10pt;">необходимо указать файл HTML<br/>Если условие содержит картинки поместите все файлы в архив RAR или ZIP. Архив должен содержать файл INDEX.HTML ссылки на картинки в этом файле ОТНОСИТЕЛЬНЫЕ. НЕ используйте CSS.</font>
+            <!--finish_one_help_lng-->
+         </td>
+        </tr>
+
+        <tr>
+          <td class="separ" colspan="2"><hr/></td>
+        </tr>
+        <!--finish_lang-->
+
+        <tr>
+          <td  class="separ" colspan="2"><hr/></td>
+        </tr>
+
+        <tr>
+           <td align="left"  width="150" valign="top"><h5>Укажите темы к которым относится задача:</h5><br/><br/><br/>        
+           <!-- <center><a href="/cgi-bin/edit_subjects.pl">Редактировать темы</a></center>  -->
+           </td>
+           <td align="left"  width="480">
+              <!--start_offset_tema-->&nbsp;&nbsp;<!--finish_offset_tema-->
+              <table border="0" class="check_tbl">
+                 <!--start_tema-->
+<tr><td nowrap>
+<font  face="Courier New">$offset_tema</font><input type="Checkbox" name="tema_list" value="$id_tema" id="id_tema_list_$id_tema" $is_enbl${|disabled} $tema_selected${checked|} onClick="tm_onclick('$id_tema')"><label for="id_tema_list_$id_tema" $is_enbl${|style="color:#808080"} ><strong>$title_tema</strong></label>&nbsp;<input title="Order" type="text" name="tm_order_pos_$id_tema" size="2" value="$order_pos_tm" $is_enbl${|disabled} $tema_selected${|disabled} >
+</td></tr>
+                 <!--finish_tema-->
+              </table>   
+              
+           </td>
+        </tr>
+      
+        <tr>
+          <td  class="separ" colspan="2"><hr/></td>
+        </tr>
+
+        <tr>
+           <td align="left" width="150" valign="top"><h5>Тесты:</h5></td>
+           <td align="left" width="480">
+              <table border="0"  class="check_tbl">
+              <!--start_single_test-->
+              <tr>
+                <td><input type="Checkbox" value="1" $test_checked name="single_test_$test_name" id="id_single_test_$test_name"><label for="id_single_test_$test_name"><strong>$test_name</strong></label></td>
+                <td><font style="font-size: 10pt;">размер $test_size</font></td>
+                <td><a href="/cgi-bin/edit_problem.pl?mode=edit_test&id_prb=$id_problem&test_name=$test_name">редактировать</a></td>
+              </tr>
+              <!--finish_single_test-->
+              
+              <tr><td colspan="3">
+               <a href="/cgi-bin/edit_problem.pl?mode=new_test&id_prb=$id_problem">новый тест</a>
+               </td></tr>
+              </table>
+         </td>
+        </tr>
+
+        <tr>
+          <td  class="separ" colspan="2"><hr/></td>
+        </tr>
+
+        <tr>
+           <td align="left" width="150" valign="top"><h5>Архив тестов:</h5></td>
+           <td align="left" width="480">
+              <a href="/cgi-bin/download.a?mode=get_arh_tests&id_prb=$id_problem">Скачать</a>&nbsp;&nbsp;&nbsp;размер <strong>$arh_tests_size</strong><br/>
+              <br/>Закачать новый архив тестов<br/>
+              <input type="file" name="tests_file" size="60" /><br/>
+            <font style="font-size: 10pt;">необходимо указать архив RAR или ZIP. Архив должен содержать файл INDEX.LST каждая строка которого содержит название теста (без расширения). В названии теста допустимы латинские буквы, цифры и символ подчеркивания. Также в архиве должны быть входные(*.in) и выходные(*.out) файлы самих тестов. Для каждого теста возможно наличие необязательных файлов, таких как картинка(*.img), описание теста на разных языках(*.en, *.ru).</font>
+         </td>
+        </tr>
+
+        <tr>
+          <td  class="separ" colspan="2"><hr></td>
+        </tr>
+
+        <tr>
+           <td align="left" width="150" valign="top"><h5>Ограничения:</h5></td>
+           <td align="left" width="480">
+              <table border="0" class="tbbd" cellpadding="5" style="border-width:0px;">
+               <tr  valign="center">
+           <td>по времени&nbsp;<input type="Text" name="time_limit" size="8" value="$time_limit">&nbsp;с</td>
+           <td align="right">по памяти&nbsp;<input type="Text" name="mem_limit" size="8"  value="$mem_limit">&nbsp;KB</td>
+           </tr><tr  valign="center">
+           <td colspan="2" nowrap >Минимальная уникальность верного решения&nbsp;<input type="Text" name="min_uniq_proc" size="8" value="$min_uniq_proc">&nbsp;%&nbsp;&nbsp;</td>
+           </tr>
+           </table>
+         </td>
+        </tr>
+
+        <tr>
+          <td  class="separ" colspan="2"><hr></td>
+        </tr>
+
+        <tr>
+           <td align="left" width="150" valign="top"><h5>Проверяющая программа:</h5></td>
+           <td align="left" width="480">
+              запускается с параметрами: 1.in 1.tst 1.out<br/>
+              <font  style="font-size: 10pt;">
+              1.in - входной файл теста<br/>
+              1.tst - выходной файл программы пользователя<br/>
+              1.out - выходной файл теста (верный ответ)<br/><br/> </font>
+              возвращаемый результат: 
+              0 - Верно;  1 - Неправильный ответ; иначе - Ошибка представления<br/>
+              
+              <table border="0" class="tbbd" style="border-width:0px;">
+              <!--start_checker_src-->
+              <tr><td height="40" valign="middle">
+              <a href="/cgi-bin/download.a?mode=get_chk_src&id_prb=$id_problem">Скачать исходый файл</a>&nbsp;&nbsp;&nbsp;размер <strong>$chk_src_size</strong><br/>
+              </td></tr>
+              <!--finish_checker_src-->
+              <tr><td height="40" valign="middle">
+              <a href="/cgi-bin/download.a?mode=get_chk_exe&id_prb=$id_problem">Скачать выполняемый файл</a>&nbsp;&nbsp;&nbsp;размер <strong>$chk_exe_size</strong><br/>
+              </td></tr>
+
+              <tr><td>
+              Закачать новую проверяющую программу<br/>
+              <input type="file" name="checker_file" size="55"/><br/>
+              <font  style="font-size: 10pt;">укажите ВЫПОЛНЯЕМЫЙ или ИСХОДНЫЙ файл проверяющей программы</dont>
+              </td></tr>
+              <tr><td>
+              <input type="Checkbox" name="chk_compil_src" value="1" onClick="chk_compil_src_onclick()" id="chk_compil_src_id">
+              <label for="chk_compil_src_id">Компилировать</label>
+              <select name="chk_compiler_id" size="1"> 
+<!--start_compiler--><OPTION VALUE="$compiler_id">$compiler_name</option><!--finish_compiler-->
+              </select>
+              </td></tr>
+              </table>
+         </td>
+        </tr>
+
+        <tr>
+          <td><h5>Уровень сложности:</h5></td>
+          <td><input type="Text" name="hardlevel" size="8" value="$hardlevel">&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+
+
+        <tr>
+          <td  class="separ" colspan="2"><hr/></td>
+        </tr>
+
+
+       <TR>
+          <TD ALIGN="left" WIDTH="150"><h5>Разное:</h5></TD>
+          <TD align="left" width="480"><INPUT TYPE="Checkbox"  value="1" NAME="rejudge" id="rejudge_id">
+          <label for="rejudge_id">Перепроверить все имеющиеся решения</label>
+          </TD>
+        </TR>
+
+
+        <tr>
+          <td align="center" colspan="2">
+           <hr/>
+           <input type="submit" value="Применить изменения" class="submit_btn">
+          </td>
+        </tr>
+
+     </form>
+   </table>
+  </td>
+
+  </table>
+    $include_file("down_part_en.html")
+
+ </body>
+<script type="text/javascript" language="JavaScript">
+   chk_compil_src_onclick();
+</script>
+
+</html>
+

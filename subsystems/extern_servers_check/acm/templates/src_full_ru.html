@@ -1,0 +1,88 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>Просмотр исходника</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+   <link rel="STYLESHEET" type="text/css" href="/color_lang.css">
+<script type="text/javascript" src="/highlight.js"></script>
+<script type="text/javascript">
+  initHighlightingOnLoad('$color_lang');
+</script>
+ </head>
+
+ <body>
+    $include_file("head_ru.html")
+    <h2 align="center">Просмотр исходника</h2>
+    <table border="0" align="center">
+    <tr valign="top"><td width="50%">
+    <table class="other" align="center" border="0">
+       <tr>
+         <td align="right">Автор:</td><td><a href="/cgi-bin/statistica.pl?id_publ=$id_author">$author_name</a></td>
+         </tr><tr>
+         <td align="right">Задача:</td><td><a href="/cgi-bin/arh_problems.pl?id_prb=$id_problem">$problem_name</a>&nbsp;&nbsp;
+         <a href="/cgi-bin/statistica.pl?id_prb=$id_problem" title="статистика">%</a></td>
+         </tr><tr>
+         <td align="right">Компилятор:</td><td><i>$compiler_name<i></td>
+       </tr>
+    </table>
+    </td></tr><tr>
+  <FORM ACTION="/cgi-bin/statistica.pl" METHOD="GET">
+    <td width="50%">
+ <!--
+     <table class="other" align=center border=0>
+     <tr ><td colspan=2 align=center>
+
+     <b><font color=red>Access management:</font></b><br>
+     </td></tr>
+
+     <tr><td valign=top>
+     Viewing is authorized
+     </td><td>
+     <INPUT type=hidden NAME=id_slv VALUE="$id_solve">
+     <INPUT type=radio NAME=access VALUE="n">only my<br>
+     <INPUT type=radio NAME=access VALUE="s">all solved this problem <a href=/cgi-bin/arh_problems.pl?id_prb=$id_problem>$id_problem</a><br>
+     <center><INPUT TYPE=submit VALUE="Update"></center>
+     </td></tr>
+     </table>
+ -->
+     <table class="other" align="center" border="0">
+     <tr><td align="center">
+
+     <b><font color="red"><hr>Управление доступом:</font></b><br>
+     </td></tr>
+
+     <tr><td valign="top">
+<!--     Viewing is authorized<br> -->
+     
+     <INPUT type="hidden" NAME="id_slv" VALUE="$id_solve">
+     <INPUT type="hidden" NAME="id_stat" VALUE="$id_stat">
+     <INPUT type="radio" NAME="access" VALUE="n" $checked_n>просмотр только для меня<br>
+     <INPUT type="radio" NAME="access" VALUE="s" $checked_s>просмотр для всех решивших задачу <a href="/cgi-bin/arh_problems.pl?id_prb=$id_problem">$id_problem</a><br>
+     <INPUT type="radio" NAME="access" VALUE="xxx" disabled $checked_a>просмотр для всех (устанавливает admin)<br>
+     <center><INPUT TYPE="submit" VALUE="Применить"></center>
+
+     </td></tr>
+     </table>
+
+    </td>
+  </FORM>
+    </tr>
+    </table>
+
+    <br> 
+<!-- <font color="white"><center>$who_append считает этот код лучшим</center></font> -->
+    <table align="center" border="0"><tr><td>
+    <div style="width:100%; overflow:hidden;">
+    <div style="width:100%; overflow:hidden; float:left;">
+         <div class="code_box"><div style="width:100%; overflow:hidden;"><div style="width:100%; OVERFLOW: auto;"><pre><code class="$color_lang">$source_text</code></pre></div></div></div>
+    </div></div>
+    </td></tr></table>
+    $include_file("down_part_ru.html")
+    
+ </body>
+</html>
+
+<!--
+   $append_sys = {Проверяющая система}
+   $append_admin = {Администратор}
+-->

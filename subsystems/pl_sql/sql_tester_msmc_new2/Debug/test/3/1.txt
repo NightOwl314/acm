@@ -1,0 +1,8 @@
+#Тест. - Разные колонки...
+$action=select
+$scheme=buses0
+$prompt=1
+@sql
+select (select max(distance) from points)*(select price from km_prices where class=1) as price 
+from dual
+$order=1

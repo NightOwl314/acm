@@ -1,0 +1,20 @@
+[acm.sgu.ru - Delphi 6.0]
+
+id = 12
+
+FileIn = v$(id).pas
+FileOut = v$(id).exe
+FileObj = v$(id).nul
+
+CompilScript = c:\acm\compilers\sgu\delphi\compil.bat
+CompilParam = v$(id) $(id_prb) "c:\acm\config\master.cfg" "c:\acm\compilers\sgu\delphi\config.ini"
+
+RunCmd = $(path)v$(id).exe
+
+AdjMemory = 0
+
+AdjTime = 0
+
+ProtectMode = 0
+
+MinLenComStr = 100

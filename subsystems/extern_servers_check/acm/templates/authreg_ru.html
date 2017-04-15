@@ -1,0 +1,100 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title> Регистрация учасника </title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    $include_file("head_ru.html")
+
+  <h2 align="center">Регистрация</h2>
+  <br>
+  <center>Внимание! Для студентов кафедры АВТ ВоГТУ, имеющих учетную запись в домене AVT,<br> выполнять регистрацию не нужно - 
+  следует просто войти под своим именем и паролем</center><br>
+
+   <!--start_err-->
+   <table class="tbbd" border="1" align="center"><tr><td>
+   ***При регистрации пользователя произошла ошибка***<hr/><b><font color="#A00000">$err_text</font></b><hr>
+   </td></tr></table><br/>
+   <!--errors
+   1:{Пароли не совпадают}
+   2:{Длина пароля менее 5 символов}
+   3:{Пользователь с указанным именем уже существует}
+   4:{Пользователь с указанным логином уже существует}
+   -->
+   <!--finish_err-->
+
+
+  <table border="1" align="center">
+  <td>
+   <table class="tbbd" border="0" align="center" cellpadding="5">
+     <form name="form2" action="/cgi-bin/aregister.pl" method="post"> 
+      <input type="hidden" name="mode" value="new_post">
+        <tr>
+           <td align="left" width="150"><h5>Ваше имя:</h5></td>
+           <td align="left" width="340"><input type="text" name="author_name" value="$$author_name" size="30"></td>
+        </tr>
+
+        <tr>
+           <td align="left"  width="150"><h5>Ваш логин:</h5></td>
+           <td align="left"  width="340"><input type="text" name="author_login" value="$$author_login" size="30"></td>
+        </tr>
+        <tr>
+          <td colspan="2">Используйте логин как 'имя пользователя' при входе в систему.</td>
+        </tr>
+
+        <tr>
+           <td align="left"><h5>Ваш e-mail:</h5></td>
+           <td align="left"><input type="text" name="author_email" value="$$author_email" size="30"></td>
+        </tr>
+
+        <tr>
+           <td align="left"><h5>Ваша страна:</h5></td>
+           <td align="left">
+              <select name="country" size="1"> 
+<!--start_country--><OPTION VALUE="$country_id" <!--?$$country==$country_id,selected--> >$country_name</option><!--finish_country-->
+         </select>
+           </td>
+        </tr>
+
+        <tr>
+          <td class="separ" colspan="2"><hr></td>
+        </tr>
+
+        <tr>   
+           <td align="left"><h5>Пароль:</h5></td>
+           <td align="left"><input type="password" name="author_pwd1" size="30"></td>
+        </tr>
+        <tr>
+           <td align="left"><h5>и еще раз пароль:</h5></td>
+           <td align="left"><input type="password" name="author_pwd2" size="30"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="2">Пароль будет необходим для входа с систему.</td>
+        </tr>
+
+        <tr>
+           <td align="left" colspan="2"><hr><h5>дополнительная информация:</h5>
+              <textarea name="add_info" cols="60" rows="3" wrap="virtual">$$add_info</textarea>
+           </td>
+        </tr>
+
+        <tr>
+          <td align="center" colspan="2">
+           <hr>
+           <input type="submit" value="Зарегистрировать" class="submit_btn">
+          </td>
+        </tr>
+
+     </form>
+   </table>
+  </td>
+
+  </table>
+    $include_file("down_part_ru.html")
+
+ </body>
+</html>

@@ -1,0 +1,2 @@
+password.txt
+update km_prices set price=price+0.13 where class=1

@@ -1,0 +1,64 @@
+
+
+                                        
+
+
+ GPSS/PC Report file REPORT.GPS.  (V 2, # 37349)  02-04-2008 19:33:34   page 1
+
+     START_TIME    END_TIME  BLOCKS    FACILITIES  STORAGES   FREE_MEMORY
+            0         1000     23           3          0        284512
+
+
+        NAME                         VALUE    TYPE
+    COLUMN                           10001      2
+    POSITION                         10002      2
+    SHAPE                            10003      2
+    ROW                              10004      2
+    TO_COLUMN                        10005      2
+    TO_ROW                           10006      2
+    COLOR                            10007      2
+    PC1                              10008      2
+    KAN1                             10009      2
+    PC2                              10010      2
+
+
+ LINE       LOC          BLOCK_TYPE       ENTRY_COUNT   CURRENT_COUNT   RETRY
+  10         1            GENERATE               53              3         0
+  20         2            SEIZE                  50              0         0
+  30         3            ADVANCE                50              0         0
+  40         4            RELEASE                50              0         0
+  50         5            SEIZE                  50              0         0
+  60         6            ADVANCE                50              0         0
+  70         7            RELEASE                50              0         0
+  80         8            SEIZE                  50              0         0
+  90         9            ADVANCE                50              1         0
+  100        10           RELEASE                49              0         0
+  110        11           TERMINATE              49              0         0
+  120        12           GENERATE               48              1         0
+  130        13           SEIZE                  47              0         0
+  140        14           ADVANCE                47              0         0
+  150        15           RELEASE                47              0         0
+  160        16           SEIZE                  47              0         0
+  170        17           ADVANCE                47              0         0
+  180        18           RELEASE                47              3         0
+  190        19           SEIZE                  44              0         0
+  200        20           ADVANCE                44              1         0
+  210        21           RELEASE                43              0         0
+  220        22           TERMINATE              43              0         0
+  230        23           GENERATE                1              0         0
+  240        24           TERMINATE               1              0         0
+
+
+FACILITY    ENTRIES  UTIL.   AVE._TIME AVAILABLE  OWNER PEND INTER RETRY DELAY
+ PC1            94  0.907        9.65      1        94   0     0     0     6
+ KAN1           97  0.184        1.90      1         0   0     0     0     0
+ PC2            97  0.950        9.79      1        95   0     0     0     1
+
+
+                                        
+
+
+ GPSS/PC Report file REPORT.GPS.  (V 2, # 37349)  02-04-2008 19:33:34   page 2
+
+XACT_GROUP         GROUP_SIZE       RETRY
+ POSITION                  0           0

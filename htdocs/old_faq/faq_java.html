@@ -1,0 +1,76 @@
+<head>
+<style>
+body {background: #CFCFCF; font-size:12pt; color: black; }
+</style>
+</head>
+
+<body>
+ѕрограмма на Java должна содержать только один public класс с произвольным именем, который должен содержать метод:
+<pre>public static void main(String[] args)</pre>
+“акже программа может содержать любое число вложенных и глобальных
+не public классов.<br><br>
+ѕример решени€ задачи A+B:<br>
+<pre>
+import java.io.*;
+import java.util.*;
+
+public class a_plus_b
+{
+   public static void main(String[] args)
+   {
+      Scanner in = new Scanner(System.in);
+      PrintWriter out = new PrintWriter(System.out);
+
+      int a = in.nextInt();
+      int b = in.nextInt();
+      out.println(a + b);
+      out.flush();
+   }
+}
+</pre>
+ѕрограммы на Java работают несколько медленнее, чем написанные на других €зыках, компилируемых в машинный код.
+ќднако, дл€ большинства задач в провер€ющей системе верные решени€ проход€т с большим запасом по времени и вполне успешно
+могут быть реализованы на Java. ѕри этом всЄ же желательно учитывать, что:<br>
+* класс Scanner достаточно удобен, но работает медленно. ѕоэтому его следует использовать дл€ чтени€ небольших входных данных.<br>
+* класс BufferedReader работает достаточно быстро. ≈го удобно использовать в св€зке с StringTokenizer или StreamTokenizer. 
+<br>¬от соответствующий пример решени€ задачи A+B:
+
+<pre>
+import java.io.*;
+import java.util.*;
+
+public class Main
+{
+   public static void main(String[] args)
+   {
+      StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
+      PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
+
+      try{
+        in.nextToken();
+        int a = (int) in.nval;
+        in.nextToken();
+        int b = (int) in.nval;
+        out.println(a + b);
+        out.flush();
+
+      }
+      catch (IOException e) {
+        throw new Error();
+      }
+ 
+   }
+}
+</pre>
+<br>
+ƒл€ корректного считывани€/записи вещественных чисел, содержащих дес€тичную точку, на сервере уже установлена соответствующа€
+локаль. ѕопыка €вной установки локали по умолчанию приведЄт к ошибке нарушени€ безопасности (возможно, это потом 
+будет устранено).
+<br><br>
+ƒл€ корректной работы с символами с кодами больше 127 нужно €вно указывать набор символов - например, так:
+<pre>
+Scanner scanner = new Scanner(System.in, "ISO-8859-1");
+BufferedReader reader = new BufferedReader(new InputStreamReader(System.in, "ISO-8859-1"));
+PrintWriter writer = new PrintWriter(new OutputStreamWriter(System.out, "ISO-8859-1"));
+</pre>
+</body>

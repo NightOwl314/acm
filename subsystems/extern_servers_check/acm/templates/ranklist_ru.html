@@ -1,0 +1,51 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>Рейтинг авторов</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    $include_file("head_ru.html")
+    <h2 align=center>Итоговые результаты<!--start_single_grp--> <br>группа &quot;$group_name&quot;<!--finish_single_grp--><!--start_single_topic-->, тема &quot;$topic_name&quot; <!--finish_single_topic--></h2>
+    <center class="other"><a href=/cgi-bin/statistica.pl?rank=$next_author$add_grp$add_topic>Следующие 25</a></center>
+    <br>
+    
+    <table class="tbbd2" WIDTH=100% border=1 align=center cellspacing=1>
+    <tr>
+    <TH ALIGN=CENTER WIDTH=80>Место</TH>
+    <TH ALIGN=CENTER WIDTH=170>Страна</TH>
+    <TH ALIGN=CENTER WIDTH="*">Автор</TH>
+    <TH ALIGN=CENTER WIDTH=80>Решено</TH>
+    <TH ALIGN=CENTER WIDTH=80>Послано<br>(всего)</TH>
+    <TH ALIGN=CENTER WIDTH=80>Баллы</TH>
+    </tr>
+     $insert_ranklist(25)
+    </table>
+<!--start_single_grp--><!--finish_single_grp-->
+    <BR/>
+
+    <center class="other"><a href=/cgi-bin/statistica.pl?rank=$next_author$add_grp$add_topic>Следующие 25</a></center>
+    
+    <!--start_sel_grp-->
+    <BR/>
+    <form class="other" name="view_ranklist_grp" action="/cgi-bin/statistica.pl" method="get" >
+      Сформировать рейтинг для группы 	
+      <select name="id_grp" size="1" style="width:200;"> 
+<!--start_offset_group-->&nbsp;&nbsp;<!--finish_offset_group-->
+<!--start_group--><OPTION VALUE="$group_id">$offset_group$group_name</option><!--finish_group-->
+             </select>
+    , темы
+      <select name="id_topic" size="1" style="width:200;"> 
+<!--start_offset_topic-->&nbsp;&nbsp;<!--finish_offset_topic-->
+<!--start_topic--><OPTION VALUE="$topic_id" $def>$offset_topic$topic_name</option><!--finish_topic-->
+             </select>
+
+
+    <input type="submit" value="OK"> </form>
+    <!--finish_sel_grp-->
+
+    $include_file("down_part_ru.html")
+ </body>
+</html>

@@ -1,0 +1,15 @@
+    @echo off
+    time /t    
+    rem c:
+    rem cd c:\acm\dir_tmp
+    set TEMP=c:\acm\dir_TMP
+    set TMP=c:\acm\dir_TMP
+rem    "c:\program files\borland\delphi6\bin\dcc32" -cc -N. -R. -U. -$D- -$G- -$L- -$O- %1.pas
+rem    "c:\program files\borland\delphi6\bin\dcc32" -J -cc -N. -R. -U. -$D- -$G- -$L- -$O- %1.pas
+rem    copy %1".exe" x.exe
+
+   "c:\program files\borland\delphi6\bin\dcc32" -cc -$D- -$L- %1".pas"
+   "c:\program files\borland\delphi6\bin\dcc32" -cc -J -$D- -$L- %1".pas" > nul
+   if ERRORLEVEL 1 del %1".exe"
+
+rem del *.obj

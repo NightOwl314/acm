@@ -1,0 +1,114 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>Подсказка к решению $stat_id</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+   <link rel="STYLESHEET" type="text/css" href="/color_lang.css">
+<script type="text/javascript" src="/highlight.js"></script>
+<script type="text/javascript">
+  initHighlightingOnLoad('$color_lang');
+</script>
+ </head>
+
+ <body>
+    $include_file("head_ru.html")
+    <h2 align="center">Подсказка к решению <a href="/cgi-bin/status.pl?id_stat=$p1_stat_id">$stat_id</a></h2>
+    <table class="tbbd2" WIDTH=100% border=1 align=center cellspacing=1>
+    <tr>
+    <TH ALIGN=CENTER WIDTH=90>Дата</TH>
+    <TH ALIGN=CENTER WIDTH="*">Автор</TH>
+    <!--start_author-->
+    <!--finish_author-->
+    <TH ALIGN=CENTER WIDTH=70>Задача</TH>
+    <TH ALIGN=CENTER WIDTH="*">Компилятор</TH>
+    <TH ALIGN=CENTER WIDTH=130 style="width:130px;">Результат</TH>
+    <TH ALIGN=CENTER WIDTH=70>Тест</TH>
+    <TH ALIGN=CENTER WIDTH=30>Баллы</TH>
+    <TH ALIGN=CENTER WIDTH=70>Время работы (сек)</TH>
+    <TH ALIGN=CENTER WIDTH=70>Исп-но памяти (KB)</TH>
+    </tr>
+    <!--start_status_row(1)-->
+     <tr>
+     <td align="center">$stat_date<br/>$stat_time</td>
+    $single_author${|}<td><a href="/cgi-bin/statistica.pl?id_publ=$author_id">$author_name</a></td>
+     <td align="center"><a href="/cgi-bin/arh_problems.pl?id_prb=$problem_id" title="$problem_name">$problem_id</a></td>
+     <td align="center">$compiler_name</td>
+     <td align="center" style="width:130px;">$result_name</td>
+     <td align="center">$test_n</td>
+     <td align="center">$points</td>
+     <td align="center">$time_work</td><td align="center">$mem_use</td></tr>
+    <!--finish_status_row-->
+    </table>
+    
+    <BR>
+    <table align="center" border="0" width="100%" cellpadding="0" cellspacing="0">
+
+    <!--begin_description-->
+    <tr><td colspan="2"><h5 style="margin-top:1;">Описание ошибки</h5></td></tr>
+    <tr><td colspan="2"><table><tr><td class="rpt_text">$description_error</td></tr></table></td></tr>
+    <!--end_description-->
+
+    <!--begin_compiler_output-->
+    <tr><td colspan="2"><h5 style="margin-top:15;">$name_compiler_output</h5></td></tr>
+    <tr><td colspan="2"><table><tr><td class="rpt_text">$text_compiler_output</td></tr></table></td></tr>
+    <!--end_compiler_output-->
+
+    <!--begin_desc_test-->
+    <tr><td colspan="2"><h5 style="margin-top:15;">Информация о тесте</h5></td></tr>
+    <tr><td colspan="2"><table ><tr><td class="rpt_text" >$desc_test</td></tr></table></td></tr>
+    <!--end_desc_test-->
+    
+    <!--begin_input-->
+    <tr><td colspan="2"><h5 style="margin-top:15;">$name_input</h5></td></tr>
+    <tr><td colspan="2"><table ><tr><td class="rpt_text" >$text_input</td></tr></table></td></tr>
+    <!--end_input-->
+    
+    <!--begin_test_output-->
+    <tr><td width="50%"><h5 style="margin-top:15;">$name_test_output</h5></td>
+        <td width="50%"><!--begin_correct_output--><h5 style="margin-top:15;">$name_correct_output</h5><!--end_correct_output--></td></tr>
+    <tr><td width="50%" valign="top"><table><tr><td class="rpt_text">$text_test_output</td></tr></table></td>
+        <td width="50%" valign="top"><!--begin_correct_output--><table><tr><td class="rpt_text">$text_correct_output</td></tr></table><!--end_correct_output--></td></tr>
+    <!--end_test_output-->
+    
+    <!--begin_test_errors-->
+    <tr><td colspan="2"><h5 style="margin-top:15;">$name_test_errors</h5></td></tr>
+    <tr><td colspan="2"><table><tr><td class="rpt_text">$text_test_errors</td></tr></table></td></tr>
+    <!--end_test_errors-->
+    
+    <!--begin_checker_output-->
+    <tr><td colspan="2"><h5 style="margin-top:15;">$name_checker_output</h5></td></tr>
+    <tr><td colspan="2"><table><tr><td class="rpt_text">$text_checker_output</td></tr></table></td></tr>
+    <!--end_checker_output-->
+
+    <!--begin_security_violation-->
+    <tr><td colspan="2"><h5 style="margin-top:15;">$name_security_violation</h5></td></tr>
+    <tr><td colspan="2"><table><tr><td class="rpt_text">$text_security_violation</td></tr></table></td></tr>
+    <!--end_security_violation-->
+    
+    <!--begin_plagiat_output-->
+    <tr><td colspan="2"><h5 style="margin-top:15;">$name_plagiat_output</h5></td></tr>
+    <tr><td colspan="2"><table width="100%"><tr><td class="rpt_text">Похожее решение прислал <a href="/cgi-bin/statistica.pl?id_publ=$p_author_id">$p_author_name</a>. Совпадение $not_uniq_proc%</td></tr></table></td></tr>
+    <!--end_plagiat_output-->
+
+    <!--begin_cmp_sources-->
+    <tr><td colspan="2">
+    <div style="WIDTH: 100%; OVERFLOW: hidden;">
+    <table width="100%"><tr><td class="rpt_text">После визуального анализа исходных текстов <b>преподаватель</b> должен окончательно определить уникальность решения</td></tr></table>
+    <table width="50%"><tr><td><h5>Результат:</h5></td><td align="center"><a class="src_lnk1" href="/cgi-bin/status.pl?mode=set_rsl&id_stat=$stat_id&id_rsl=0">Решение уникально</a></td><td align="center"><a class="src_lnk1" href="/cgi-bin/status.pl?mode=set_rsl&id_stat=$stat_id&id_rsl=9">Решение НЕуникально</a></td></tr></table>
+    </div>
+    <hr/>
+    <div style="WIDTH:50%;OVERFLOW:hidden;float:left;padding:0px;margin:0px;"><h5 style="margin-top:15;">$cur_author_name</h5><div class="code_box"><div style="WIDTH:100%;OVERFLOW:hidden;"><div style="WIDTH:100%;OVERFLOW:auto;"><pre><code class="$color_lang">$cur_source</code></pre></div></div></div></div>
+    <div style="WIDTH:50%;OVERFLOW:hidden;float:right;padding:0px;margin:0px;"><h5 style="margin-top:15;">$other_author_name</h5><div class="code_box"><div style="WIDTH:100%;OVERFLOW:hidden;"><div style="WIDTH:100%;OVERFLOW:auto;"><pre><code class="$color_lang">$other_source</code></pre></div></div></div></div>
+    </td></tr>
+    <!--end_cmp_sources-->
+
+    <!--begin_summary_report-->
+    <tr><td colspan="2"><h5 style="margin-top:15;">$name_summary_report</h5></td></tr>
+    <tr><td colspan="2"><h5 style="margin-top:15;">$text_summary_report</h5></td></tr>
+    <!--end_summary_report-->
+    
+    </table>
+    <table class="other"><tr><td><br><a href="/cgi-bin/submit.pl?mode=load_src&id_stat=$stat_id">Редактировать исходник</a></td></tr></table>
+    $include_file("down_part_ru.html")
+ </body>
+</html>

@@ -1,0 +1,63 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>AVT VSTU - Distance Programming Training</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+    $include_file("head_en.html")
+    <h2 align="center">Problems on subjects</h2>
+    <table border="0" width="100%"  cellpadding="5">
+     <tr>
+     <td width="30%" valign="top" nowrap><h3 align="center">Subjects (count problems):</h3><ul class="Subj">$insert_tema</ul>
+      <table width="100%" border="0" class="other"> <tr height="50"><td>
+      <!--start_new_problem-->   
+         <a href="/cgi-bin/edit_problem.pl?mode=new" class="Subj">New problem</a>
+      <!--finish_new_problem-->   
+       </td></tr></table>
+     </td>
+     <td valign="top">
+     <!--start_show_problems-->
+     <h3 align="center">Problems:</h3>
+     <table width="100%" border="1" class="tbbd2" cellspacing=1>
+     <tr>
+       <th width="60">ID</th>
+       <th width="*">Title</th>
+       <th width="60">% of Accepted</th>
+       <th width="60">Solved</th>
+       <th width="60">Points</th>
+     </tr>
+     $insert_problems
+     </table>
+     <!--finish_show_problems-->
+      <!--start_hidden_problem-->
+      <table width="100%" border="0" class="other"> <tr><td>
+       Hidden problems:  $hidden_prb
+       </td></tr>
+       </table>
+      <!--finish_hidden_problem-->
+      <form action="/cgi-bin/arh_problems.pl" method="GET">
+      <table width="100%" border="0" class="other"> <tr><td align="right">
+       <strong>problem ID</strong> <input type="text" size="6" name="id_prb"> <input type="submit" value="GO">
+       </td></tr>
+       </table>
+       </form>
+     </td>
+     </tr>
+    </table>
+    $include_file("down_part_en.html")
+ </body>
+</html>
+
+<!--
+   $main_root = {in root}
+   $node_plus = {<img src="/plus.gif" align="center"> }
+   $node_minus = {<img src="/minus.gif" align="center"> }
+   $node_close = {<img src="/nclose.gif" align="center"> }
+   $node_open = {<img src="/nopen.gif" align="center"> }
+
+   $solve = { <img src="/plus_solve.gif" align="center"> }
+   $notsolve = { <img src="/minus_solve.gif" align="center"> }
+   $notsubmit = {  }
+-->

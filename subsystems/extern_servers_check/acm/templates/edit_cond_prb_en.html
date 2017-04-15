@@ -1,0 +1,82 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>AVT VSTU - Edit condition problem $id_problem.</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+<link rel="STYLESHEET" type="text/css" href="/color_lang.css">
+<script type="text/javascript" src="/highlight.js"></script>
+<script type="text/javascript">
+  initHighlightingOnLoad('cpp');
+</script>
+ </head>
+
+ <body>
+    $include_file("head_en.html")
+  <h2 align="center">Edit condition problem <a href="/cgi-bin/arh_problems.pl?id_prb=$id_problem">$id_problem</a>.</h2>
+
+     <form name="form2" action="/cgi-bin/edit_problem.pl" method="post" enctype="multipart/form-data"> 
+      <input type="Hidden" name="mode" value="edit_cond_post">
+      <input type="Hidden" name="id_prb" value="$id_problem">
+
+      <table width="100%" border="0" class="other"> <tr align="left"><td>
+         <a href="/cgi-bin/edit_problem.pl?mode=edit&id_prb=$id_problem">Edit problem $id_problem</a>
+       </td></tr></table>
+
+    <table width="100%" border="2" class="tbbd" ><tr><td>
+    <table align="center" class="tbbd" width="100%" border="0" cellpadding="5">
+      
+       <!--<tr><th>Условие задачи $id_problem.</th></tr>-->
+       <!--start_cond--><tr><td><h5>$i_lang_name [$i_problem_name]</h5>
+       <textarea name="cond_$i_id_lang" rows="20" style="width:100%;overflow:auto;border:#000000 1px solid;">$cond_lang</textarea><hr/>       
+       </td></tr><!--finish_cond-->
+
+       <tr><td>
+       <table border=0 width="100%" cellpadding="0" cellspacing="0">
+       <tr><td colspan=2><h5>Design tables data input/output</h5></td></tr>
+       <tr><td width=1%>
+       <table class="tbdata" width="200">
+       <tr><th width="50%">Input</th><th width="50%">Output</th></tr>
+       <tr><td valign=top>1<br>2<br>3</td><td valign=top>1000</td></tr>
+       </table>
+       </td><td>
+          <textarea rows="4" readonly style="width:100%;overflow:hidden;border:#000000 1px solid;"><table class="tbdata" width="400">
+   <tr><th width="50%">$input$</th><th width="50%">$output$</th></tr>
+   <tr><td valign=top>1<br>2<br>3</td><td valign=top>1000</td></tr>
+</table></textarea>
+       </td><tr>
+       <tr><td colspan=2><hr><h5>Design sources. Support: cpp, delphi, sql, javascript, vbscript, asm, java.</h5></td></tr>
+       <tr><td>
+<table border=0><tr><td style="padding:0px;">
+<div class="code_box"><pre><code class="cpp">#include &lt;iostream.h&gt;
+int main(void) {
+  int a=2,b=2; //data
+  cout&lt;&lt;a+b;
+  return 0; 
+}</code></pre></div>
+</td></tr></table>
+       </td><td>
+          <textarea rows="7" readonly style="width:100%;overflow:hidden;border:#000000 1px solid;"><table><tr><td><div class="code_box"><pre><code class="cpp">
+#include &lt;iostream.h&gt;
+int main(void) {
+  int a=2,b=2; //data
+  cout&lt;&lt;a+b;
+  return 0; }
+</code></pre></div></td></tr></table></textarea>
+       </td><tr>
+       </table>
+          </td></tr>
+       <tr><td align="center">
+           <hr/><input type="submit" value="Save condition" class="submit_btn">
+       </td></tr>    
+    </table>
+    </td></tr></table>
+    
+      <table width="100%" border="0" class="other"> <tr align="left"><td>
+         <a href="/cgi-bin/edit_problem.pl?mode=edit&id_prb=$id_problem">Edit problem $id_problem</a>
+       </td></tr></table>
+
+    </form>
+    $include_file("down_part_en.html")
+    
+ </body>
+</html>

@@ -1,0 +1,59 @@
+
+SQL*Plus: Release 11.2.0.1.0 Production on Ср Май 11 18:43:58 2016
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Присоединен к:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+
+Пользователь создан.
+
+
+Привилегии предоставлены.
+
+Соединено.
+
+Привилегии предоставлены.
+
+Соединено.
+
+Таблица создана.
+
+
+Таблица создана.
+
+
+Таблица изменена.
+
+
+5 строк обновлено.
+
+
+14 строк обновлено.
+
+
+16 строк обновлено.
+
+add type integer
+    *
+ошибка в строке 2:
+ORA-01430: добавляемый столбец уже существует в таблице
+
+
+
+5 строк обновлено.
+
+
+14 строк обновлено.
+
+
+16 строк обновлено.
+
+
+16 строк обновлено.
+
+Отсоединено от Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options

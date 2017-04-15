@@ -1,0 +1,23 @@
+<pre><strong>Сообщения компилятора (и скрипта компиляции):</strong>
+‘Є®ЇЁа®ў ­® д ©«®ў:         1.
+added manifest
+adding: Main.class(in = 1008) (out= 621)(deflated 38%)
+adding: Main.java(in = 564) (out= 275)(deflated 51%)
+adding: manifest.mf(in = 18) (out= 18)(deflated 0%)
+‘Є®ЇЁа®ў ­® д ©«®ў:         1.
+<strong>OK</strong>
+
+<h3>Отчет о выполнении:</h3></pre>Результаты проверки:<br><table cellpadding=5 border=1><tr><th>Тест №</th><th>Входной файл</th><th>Файл с верным ответом</th><th>Результат</th><th>Время работы</th><th>Память</th></tr>
+<tr align=center><td>1</td><td>1.in</td><td>1.out</td><td>+</td><td>0.125 sec</td><td>19892 KB</td></tr>
+<tr align=center><td>2</td><td>2.in</td><td>2.out</td><td>+</td><td>0.109 sec</td><td>19876 KB</td></tr>
+<tr align=center><td>3</td><td>3.in</td><td>3.out</td><td>+</td><td>0.109 sec</td><td>19872 KB</td></tr>
+<tr align=center><td>4</td><td>4.in</td><td>4.out</td><td>+</td><td>0.125 sec</td><td>19896 KB</td></tr>
+<tr align=center><td>5</td><td>5.in</td><td>5.out</td><td>+</td><td>0.109 sec</td><td>19908 KB</td></tr>
+<tr align=center><td>6</td><td>6.in</td><td>6.out</td><td>+</td><td>0.109 sec</td><td>19872 KB</td></tr>
+<tr align=center><td>7</td><td>7.in</td><td>7.out</td><td>+</td><td>0.140 sec</td><td>19876 KB</td></tr>
+<tr align=center><td>8</td><td>8.in</td><td>8.out</td><td>+</td><td>0.109 sec</td><td>19888 KB</td></tr>
+</table><pre>
+<strong>ANALISING PLAGIAT (not unique):</strong>
+id_stat=328545; unique=0.35461% 
+<strong>OK</strong>
+</pre>

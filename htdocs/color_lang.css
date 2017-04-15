@@ -1,0 +1,136 @@
+
+.code_box {
+MARGIN: 2px 2px 2px 2px; 
+PADDING: 7px;
+BORDER-STYLE: solid;
+BORDER-WIDTH: 1px;
+BORDER-COLOR: #505050;
+background: #e0e0e0;
+font-size:11pt; 
+font-family:Courier new;
+}
+
+
+code {
+  display: block;
+  background: #e0e0e0;
+  color:#000000;
+  margin:0px;
+  padding:0px;
+}
+
+.code_box pre {
+  margin:0px;
+  padding:0px;
+}
+
+.preprocessor {
+  color:#008000;
+  background: inherit;
+}
+
+.keyword {
+  font-weight: bold;
+  background: inherit;
+}
+
+.comment {
+   font-style: italic;
+   color:#6060b0;
+   background: inherit;
+}
+
+.string, .number, .hex_number, .character {
+   color:#000080;
+   background: inherit;
+}
+
+.escape, .quote {
+   color:#808080;
+   background: inherit;
+}
+
+
+code.cpp {
+  display: block;
+  background: #e0e0e0;
+  color:#000000;
+}
+
+.cpp .preprocessor {
+  color:#008000;
+  background: inherit;
+}
+
+.cpp .keyword, .cpp .type {
+  font-weight: bold;
+  background: inherit;
+}
+
+.cpp .comment {
+   font-style: italic;
+   color:#6060b0;
+   background: inherit;
+}
+
+.cpp .string, .cpp .number, .cpp .hex_number, .cpp .character {
+   color:#000080;
+   background: inherit;
+}
+
+.cpp .escape {
+   color:#808080;
+   background: inherit;
+}
+
+
+code.delphi {
+  display: block;
+  background: #e0e0e0;
+  color:#000000;
+}
+
+.delphi .preprocessor {
+  color:#008000;
+  background: inherit;
+}
+
+.delphi .keyword {
+  font-weight: bold;
+  background: inherit;
+}
+
+.delphi .comment {
+   font-style: italic;
+   color:#6060b0;
+   background: inherit;
+}
+
+.delphi .string, .delphi .number, .delphi .hex_number, .delphi .character {
+   color:#000080;
+   background: inherit;
+}
+
+.delphi .quote {
+   color:#808080;
+   background: inherit;
+}
+
+.html .comment {
+   font-style: italic;
+   color:#6060b0;
+   background: inherit;
+}
+
+.html .attribute .value {
+  color: #208020;
+}
+
+.html .tag {
+  color: #802020;
+}
+
+.html .spec {
+  color: #2020a0;
+  font-weight: bold;
+}

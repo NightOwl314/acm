@@ -1,0 +1,29 @@
+function FindProxyForURL(url, host) {
+
+  if (isPlainHostName(host))
+    return "DIRECT";
+
+  if (shExpMatch(host, "192.168*")
+     ||shExpMatch(host, "10.0.*")
+     ||shExpMatch(host, "172.16.*")
+     ||shExpMatch(host, "194.190.248.*"))
+    return "DIRECT";
+
+  if (dnsDomainIs(host,"vstu.edu.ru")
+      ||dnsDomainIs(host,"stat.edu35.ru")
+      ||dnsDomainIs(host,"vologda.rcde.ru")
+      ||dnsDomainIs(host,"vologda.openet.ru"))
+    return "DIRECT";
+
+  if (url.substring(0, 5) == "http:")
+ return "PROXY avtsrv.avt.vstu.edu.ru:1081; DIRECT";
+
+  if (url.substring(0, 4) == "ftp:")
+ return "PROXY avtsrv.avt.vstu.edu.ru:1081; DIRECT";
+
+  if (url.substring(0, 6) == "https:")
+ return "PROXY avtsrv.avt.vstu.edu.ru:1081; DIRECT";
+
+  if (!isResolvable(host))
+    return "DIRECT";
+}

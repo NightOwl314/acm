@@ -1,0 +1,98 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>АВТ ВоГТУ - Статистика задачи $problem_id. $problem_name</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    $include_file("head_ru.html")
+
+    <h2 align=center><a href="/cgi-bin/arh_problems.pl?id_prb=$problem_id">$problem_id. $problem_name</a></h2>
+  <table class="other" width="100%" border=0>
+  <tr>
+  <td width=50></td>
+  <td>
+  
+    <hr><center>Статистика</center>
+
+    <table class="tbbd1" WIDTH="350" border=0 align=center> <tr><td>
+    <table class="link_prb1" WIDTH="100%" border=0 align=center>
+    <tr><th align=left>Авторов, которые решили</th><td align=right>$problem_solved</td></tr>
+    <tr><th align=left>Авторов, которые посылали</th><td align=right>$problem_submit</td></tr>
+    <tr><th align=left>Решений послано</th><td align=right>$problem_sbm_cnt</td></tr>
+    $problem_stat
+    </table> </td></tr>
+    </table>
+
+    <br><hr><br>
+
+    <center>Лучшие решения этой задачи:</center>
+    <table class="tbbd2" WIDTH="100%" border=1 align=center cellspacing=1>
+    <tr>
+    <TH ALIGN=CENTER WIDTH=65>Номер</TH>
+    <TH ALIGN=CENTER WIDTH=90>Дата</TH>
+    <TH ALIGN=CENTER WIDTH="*">Автор</TH>
+    <TH ALIGN=CENTER WIDTH=130>Компилятор</TH>
+    <TH ALIGN=CENTER WIDTH=70>Время работы (сек)</TH>
+    <TH ALIGN=CENTER WIDTH=70>Исп-но памяти (KB)</TH>
+    <TH ALIGN=CENTER WIDTH=100><br></TH>
+    </tr>
+     $insert_best_solve{просмотр<br>исходника}
+    </table>
+    <br><hr><br>
+
+    <center>Последние решения этой задачи:</center>
+  </td>
+  <td width=50></td>
+  </tr>
+  </table>
+
+    <table class="tbbd2" WIDTH=100% border=1 align=center cellspacing=1>
+    <tr>
+    <TH ALIGN=CENTER WIDTH=65>Номер</TH>
+    <TH ALIGN=CENTER WIDTH=90>Дата</TH>
+    <TH ALIGN=CENTER WIDTH="*">Автор</TH>
+    <TH ALIGN=CENTER WIDTH=120>Компилятор</TH>
+    <TH ALIGN=CENTER WIDTH=130>Результат</TH>
+    <TH ALIGN=CENTER WIDTH=70>Тест</TH>
+    <TH ALIGN=CENTER WIDTH=70>Время работы (сек)</TH>
+    <TH ALIGN=CENTER WIDTH=70>Исп-но памяти (KB)</TH>
+    </tr>
+    <!--start_status_row(10)-->
+     <tr><td align="center" nowrap>$stat_id</td>
+     <td align="center">$stat_date<br/>$stat_time</td>
+     <td><a href="/cgi-bin/statistica.pl?id_publ=$author_id">$author_name</a></td>
+     <td align="center">$compiler_name</td>
+     <td align="center">
+        <div style="position:relative;width:130px;height:40px;">
+<div STYLE="position:absolute; top:-4; right:-2; z-index:4;">$warn_plagiat${<span style="color:#f10000;vertical-align:top;font-size:8pt;">плагиат? <span style="color:#d16060">$not_uniq_proc_int%</span></span>|}$show_report${$hint_plagiat${<span style="color:#707070;vertical-align:top;font-size:8pt;">$not_uniq_proc_int%</span>|}<a href="/cgi-bin/status.pl?mode=report&id_stat=$stat_id"><img src="/lamp.gif" alt="подсказка" title="подсказка"></a>|}</div>
+             $best_solve${<div valign="bottom" style="z-index:2;height:40px;width:140px;position:absolute;left:-5;bottom:0;"><img title="Лучшее решение" align=left src="/best_star1.png"><img alt="Лучшее решение" title="Лучшее решение" align=right src="/best_star1.png"></div>|}
+             <div valign="bottom" style="z-index:3;width:130px;position:absolute;left:0;bottom:0;text-align:center;"><div style="float:left;height:30px;"></div>$result_name</div> 
+        </div> 
+        </td>
+     <td align="center">$show_src${<a class="src_lnk1" title="Просмотр исходного текста решения" href=/cgi-bin/statistica.pl?id_stat=$stat_id >исх. код</a>|$test_n}</td>
+     <td align="center">$best_solve${<b>$time_work</b>|$time_work}</td><td align="center">$best_solve${<b>$mem_use</b>|$mem_use}</td></tr>
+
+    <!--finish_status_row-->
+    </table>
+    <BR>
+   <TABLE  class="other" WIDTH=100% BORDER=0>
+    <TR>
+    <TD WIDTH=50% ALIGN=RIGHT>
+    <a href=/cgi-bin/statistica.pl?id_prb=$problem_id>НАЧАЛО</a>&nbsp
+    <a href=/cgi-bin/statistica.pl?id_prb=$problem_id&id_stat=$next_rec>Следующие 10</a>&nbsp
+    </TD>
+    </TR>
+   </TABLE>
+    $include_file("down_part_ru.html")
+
+ </body>
+</html>
+
+
+<!--
+     НЕ УДАЛЯТЬ - ЭТО ИСПОЛЬЗУЕТСЯ СКРИПТОМ
+     $best_solve = {<A class="bl_lnk" HREF=/cgi-bin/statistica.pl?id_slv=$id_solve>лучшее</A>}
+-->

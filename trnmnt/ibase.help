@@ -1,0 +1,246 @@
+
+int ibase_blob_add (int blob_id, string data)
+ibase_blob_add - добавляет данные в созданный blob
+(Эта функция в настоящее время ещё не задокументирована; имеется только список аргументов.)
+
+int ibase_blob_cancel (int blob_id)
+ibase_blob_cancel - отменяет создание blob
+
+int ibase_blob_close (int blob_id)
+ibase_blob_close - закрывает blob
+
+int ibase_blob_create ([int link_identifier])
+ibase_blob_create - создаёт blob для добавления данных
+
+int ibase_blob_echo (string blob_id_str)
+ibase_blob_echo - выводит содержимое blob в браузер
+
+string ibase_blob_get (int blob_id, int len)
+ibase_blob_get - получает len байт данных из открытого blob
+
+string ibase_blob_import ([int link_identifier, int file_id])
+ibase_blob_import - создаёт blob, копирует в него файл и закрывает его
+
+object ibase_blob_info (string blob_id_str)
+ibase_blob_info - возвращает размер blob и другую информацию
+
+int ibase_blob_open (string blob_id)
+ibase_blob_open - открывает blob для запрашивания частей данных
+
+int ibase_commit ([int link_identifier, int trans_number])
+Подтверждает транзакцию trans_number, которая была создана функцией ibase_trans()
+
+int ibase_trans ([int trans_args [, int link_identifier]])
+Начинает транзакцию.
+
+string ibase_errmsg (void)
+Возвращает строку с сообщением об ошибке
+
+int ibase_execute (int query [, int bind_args])
+Выполняет запрос, подготовленный функцией ibase_prepare().
+Это намного эффективнее, чем использование ibase_query(),
+если вы повторяете запрос того же вида несколько раз с изменением только некоторых параметров
+
+<?php
+    $updates = array(
+        1 => 'Eric',
+        5 => 'Filip',
+        7 => 'Larry'
+    );
+
+    $query = ibase_prepare("UPDATE FOO SET BAR = ? WHERE BAZ = ?");
+
+    while (list($baz, $bar) = each($updates)) {
+        ibase_execute($query, $bar, $baz);
+    }
+?>
+
+
+object ibase_fetch_object (int result_id)
+Извлекает ряд как псевдообъект из result_id, полученного функцией ibase_query() или ibase_execute().
+<php
+    $dbh = ibase_connect ($host, $username, $password);
+    $stmt = 'SELECT * FROM tblname';
+    $sth = ibase_query ($dbh, $stmt);
+    while ($row = ibase_fetch_object ($sth)) {
+        print $row->email . "\n";
+    }
+    ibase_close ($dbh);
+?>
+
+array ibase_fetch_row (int result_identifier)
+Возвращает массив, соответствующий извлечённому ряду, или FALSE, если рядов больше нет.
+ibase_fetch_row() извлекает один ряд данных из результата, ассоциированного со специфицированным result_identifier.
+Ряд возвращается как массив. Каждый результирующий столбец хранится в смещении массива, начиная со смещения 0.
+Последующий вызов ibase_fetch_row() возвратит следующий ряд результирующего набора или FALSE, если рядов больше нет.
+
+array ibase_field_info (int result, int field number)
+Возвращает массив с информацией о поле после запуска запроса выборки/select query.
+Массив имеет форму name/имя, alias/псевдоним, relation/реляция, length/размер, type/тип.
+$rs=ibase_query("SELECT * FROM tablename"); 
+$coln = ibase_num_fields($rs);
+for ($i=0; $i < $coln; $i++) {
+    $col_info = ibase_field_info($rs, $i); 
+    echo "name: ".$col_info['name']."\n"; 
+    echo "alias: ".$col_info['alias']."\n"; 
+    echo "relation: ".$col_info['relation']."\n"; 
+    echo "length: ".$col_info['length']."\n"; 
+    echo "type: ".$col_info['type']."\n"; 
+    }
+
+int ibase_free_query (int query)
+Освобождает запрос, подготовленный функцией ibase_prepare().
+
+int ibase_free_result (int result_identifier)
+Освобождает результирующий набор, созданный функцией ibase_query().
+
+int ibase_num_fields (int result_id)
+Возвращает целое число - количество полей в результирующем наборе.
+<?php
+       $dbh = ibase_connect ($host, $username, $password);
+       $stmt = 'SELECT * FROM tblname';
+       $sth = ibase_query ($dbh, $stmt);
+
+       if (ibase_num_fields($sth) > 0) {
+       while ($row = ibase_fetch_object ($sth)) {
+       print $row->email . "\n";
+       }
+       } else {
+       die ("No Results were found for your query");
+       }
+
+       ibase_close ($dbh);
+?>
+
+int ibase_pconnect (string database [, string username [, string password [, string charset [, int buffers [, int dialect [, string role]]]]]])
+ibase_pconnect() работает почти так же, как ibase_connect(), но с двумя отличиями.
+Во-первых, при соединении эта функция сначала пытается найти (постоянную) ссылку, уже открытую с теми же параметрами.
+Если она найдена, возвращается её идентификатор вместо открытия нового соединения. Во-вторых, соединение с InterBase-сервером не будет закрыто по окончании выполнения скрипта.
+Ссылка остаётся открытой для последующего использования (ibase_close() не будет закрывать ссылки, установленные функцией ibase_pconnect()).
+Ссылки этого типа называются поэтому 'persistent/постоянные'.
+    Примечание: buffers был введён в PHP4-RC2.
+    Примечание: dialect был введён в PHP4-RC2. Он работает только с версией InterBase 6 и новее.
+    Примечание: role был введён в PHP4-RC2. Он работает только с версией InterBase 5 и новее.
+См. также в описании ibase_connect() значения параметров, передаваемых этой функции. Они точно такие же.
+
+int ibase_connect (string database [, string username [, string password [, string charset [, int buffers [, int dialect [, string role]]]]]])
+Устанавливает соединение с InterBase-сервером. Аргумент database должен быть правильным путём к файлу БД на сервере, на котором он находится.
+Если сервер не является локальным, он обязан иметь префикс 'hostname:' (TCP/IP) '//hostname/' (NetBEUI), или 'hostname@' (IPX/SPX), в зависимости от используемого протокола соединения.
+username и password могут также быть специфицированными директивами конфигурации PHP ibase.default_user и ibase.default_password.
+charset это набор символов по умолчанию для БД.
+buffers это это количество буферов БД, выделяемых серверным кэшем. Если 0 или опущен, сервер выбирает собственное значение по умолчанию.
+dialect выбирает диалект SQL по умолчанию для любого оператора, выполняемого внутри соединения, и по умолчанию является наивысшим, поддерживаемым клиентскими библиотеками.
+
+Если делается второй вызов ibase_connect() с теми же аргументами, новая ссылка не устанавливается, но возвращается идентификатор уже открытой ссылки.
+Ссылка на сервер будет закрыта сразу же по окончании работы скрипта, если она не будет закрыта до этого явным образом путём вызова ibase_close().
+
+<?php
+    $dbh = ibase_connect($host, $username, $password);
+    $stmt = 'SELECT * FROM tblname';
+    $sth = ibase_query($dbh, $stmt);
+    while ($row = ibase_fetch_object($sth)) {
+        echo $row->email, "\n";
+    }
+    ibase_free_result($sth);
+    ibase_close($dbh);
+?>
+
+
+int ibase_prepare ([int link_identifier, string query])
+Готовит запрос для последующей привязки заглушек параметров и выполнения (через ibase_execute()).
+int ibase_query ([int link_identifier, string query [, int bind_args]])
+Выполняет запрос к БД InterBase. Если запрос терпи неудачу, возвращается FALSE.
+Если он выполнен успешно и имеются результирующие ряды (как в запросе SELECT), возвращается идентификатор результата.
+Если прошёл успешно и результатов нет, возвращает TRUE. Возвращает FALSE, если запрос терпит неудачу.
+См. также ibase_errmsg(), ibase_fetch_row(), ibase_fetch_object() и ibase_free_result().
+
+int ibase_rollback ([int link_identifier, int trans_number])
+Откатывает транзакцию trans_number, которая была создана функцией ibase_trans().
+
+int ibase_timefmt (string format [, int columntype])
+Устанавливает формат столбцов timestamp, date и time, возвращаемых запросами.
+Внутренне функции форматируются c-функцией strftime(), поэтому обратитесь к её документации по вопросу формата строки.
+columntype это одна из констант: IBASE_TIMESTAMP, IBASE_DATE или IBASE_TIME.
+Если опущен, по умолчанию IBASE_TIMESTAMP - для обеспечения обратной совместимости.
+
+<?php
+       // Столбцы InterBase 6 TIME-типа будут возвращены
+       // в форме '05 hours 37 minutes'.
+       ibase_timefmt("%H hours %M minutes", IBASE_TIME);
+?>
+
+Вы можете также установить значения по умолчанию для этих форматов директивами конфигурации PHP:
+ibase.timestampformat, ibase.dateformat и ibase.timeformat.
+    Примечание: columntype был введён в PHP 4.0. Имеет значение только в InterBase версии 6 и выше.
+    Примечание: обратно несовместимое изменение произошло в PHP 4.0 - директива конфигурации PHP ibase.timeformat была переименована в ibase.timestampformat,
+    а директивы ibase.dateformat и ibase.timeformat были добавлены, и теперь их имена больше соответствуют их функциональности.
+
+int ibase_trans ([int trans_args [, int link_identifier]])
+Начинает транзакцию.
+
+
+
+
+
+
+HTTP-аутентификация в PHP возможна только при запуске РНР как Apache-модуля и, следовательно, недоступна в CGI-версии. В РНР-скрипте для Apache-модуля можно использовать функцию header() для отправки сообщения "Authentication Required" в клиентский браузер, что вызывает появление в нём окна ввода Username/Password. После того как пользователь ввёл username и password, URL содержащий PHP-скрипт, будет вызван снова с переменными $PHP_AUTH_USER, $PHP_AUTH_PW и $PHP_AUTH_TYPE, в которых установлены имя пользователя, пароль и тип аутентификации, соответственно. В настоящее время поддерживается только аутентификация "Basic". См. также о функции header().
+
+Пример фрагмента скрипта, который форсирует аутентификацию клиента:
+Пример 17-1. HTTP Пример аутентификации
+
+<?php
+  if (!isset($_SERVER['PHP_AUTH_USER'])) {
+    header("WWW-Authenticate: Basic realm=\"My Realm\"");
+    header("HTTP/1.0 401 Unauthorized");
+    echo "Текст, отправляемый в том случае,
+    если пользователь нажал кнопку Cancel\n";
+    exit;
+  } else {
+    echo "<p>Hello {$_SERVER['PHP_AUTH_USER']}.</p>";
+    echo "<p>Вы ввели пароль {$_SERVER['$PHP_AUTH_PW']}.</p>";
+  }
+?>
+
+    Примечание: пожалуйста, будьте внимательны при кодировании строк HTTP header'а. Чтобы максимально гарантировать совместимость со всеми клиентами, ключевое слово "Basic" должно быть записано с первой "B" в верхнем регистре, управляющая/realm строка обязана заключаться в двойные кавычки (не одинарные), и точно один пробел должен предшествовать коду "401" в строке "HTTP/1.0 401" header'а.
+
+Вместо простого вывода $PHP_AUTH_USER и $PHP_AUTH_PW, вам, возможно, понадобится проверить правильность username и password путём запроса БД или нахождения пользователя в dbm-файле.
+
+Проследите за работой браузеров Internet Explorer. Они очень чувствительны к порядку header'ов. Отправка WWW-Authenticate header до HTTP/1.0 401 header в данный момент является неким трюком.
+
+Чтобы предотвратить написание кем-либо скрипта, который раскрывает пароль к странице, аутентифицированной с помощью традиционного внешнего механизма, переменные PHP_AUTH не будут установлены, если внешняя аутентификация включена для данной конкретной страницы. В этом случае переменная $REMOTE_USER может использоваться для идентификации внешне аутентифицируемого пользователя.
+
+    Замечание о конфигурации: PHP использует наличие директивы AuthType для определения того, действует ли внешняя аутентификация. Исключите эту директиву для контекста, где вам необходимо использовать аутентификацию PHP (иначе каждая попытка аутентификации потерпит неудачу).
+
+Заметьте, однако, что вышесказанное не предотвращает похищение тем, кто контролирует неаутентифицированный URL, пароля из аутентифицированных URL на этом же сервере.
+
+И Netscape Navigator, и Internet Explorer будут очищать локальный кэш аутентификации окон браузера для сферы/realm при получении ответа 401 сервера. Это может "log out" (выполнить выход) пользователей, форсируя повторное введение ими username и password. Некоторые используют это для "time out" логинов, или предоставляют кнопку "log-out".
+Пример 17-2. HTTP аутентификация, форсирующая новые name/password
+
+<?php
+  function authenticate() {
+    header( "WWW-Authenticate: Basic realm=\"Test Authentication System\"");
+    header( "HTTP/1.0 401 Unauthorized");
+    echo "Вы обязаны ввести правильные login ID и пароль для доступа к этому ресурсу\n";
+    exit;
+  }
+ 
+if (!isset($_SERVER['PHP_AUTH_USER'])||($SeenBefore == 1 && $OldAuth == $_SERVER['$PHP_AUTH_USER'])))
+  {
+   authenticate();
+  } 
+  else {
+   echo "<p>Welcome: {$_SERVER['$PHP_AUTH_USER']}<br>";
+   echo "Old: {$_REQUEST['$OldAuth']}";
+   echo "<form action='{$_SERVER['$PHP_SELF']}' METHOD='POST'>\n";
+   echo "<input type='hidden' name='SeenBefore' value='1'>\n";
+   echo "<input type='hidden' name='OldAuth' value='{$_SERVER['$PHP_AUTH_USER']}'>\n";
+   echo "<input type='submit' value='Re Authenticate'>\n";
+   echo "</form></p>\n";
+  }
+?>
+
+Это поведение не требуется стандартом HTTP Basic authentication, поэтому вы никогда не должны зависеть от этого. Тестирование для Lynx показало, что Lynx не зачищает показатели аутентификации при ответе 401 сервера, поэтому нажатие back, а затем снова forward, откроет ресурс, если показатель аутентификации не изменились. Пользователь, однако, может нажать клавишу '_' для очистки его информации аутентификации.
+
+Также заметьте, что это не работает на Microsoft IIS-сервере и с CGI-версией PHP из-за ограничений IIS.
+
+    Примечание: если safe mode включён, uid скрипта добавляется к части realm шапки WWW-Authenticate.

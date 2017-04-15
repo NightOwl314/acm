@@ -1,0 +1,9 @@
+$id=_temp
+$tables=punct
+$teacher=
+Insert into punct_temp(name_punct,distance,cod_punct) values('ddd',360,10);
+$execsql=
+
+$query=
+select * from punct_temp
+$

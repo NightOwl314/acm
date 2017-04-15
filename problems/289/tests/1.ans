@@ -1,0 +1,6 @@
+OK
+it's guid string -------------------->>>>>>>>>>>>>>>>>>>>>>>>>
+              
+
+it's guid string -------------------->>>>>>>>>>>>>>>>>>>>>>>>>
+Your SQL query was:  select name_point from points where distance<=20 order by name_point

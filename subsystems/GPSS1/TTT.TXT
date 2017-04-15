@@ -1,0 +1,135 @@
+
+
+                                        
+
+
+ GPSS/PC Report file REPORT.GPS.  (V 2, # 37349)  02-10-2010 13:38:07   page 1
+
+     START_TIME    END_TIME  BLOCKS    FACILITIES  STORAGES   FREE_MEMORY
+            0         1000     90           9          0        291296
+
+
+ LINE       LOC          BLOCK_TYPE       ENTRY_COUNT   CURRENT_COUNT   RETRY
+  10         1            GENERATE               39              0         0
+  20         2            ASSIGN                 39              0         0
+  30         3            ASSIGN                 39              0         0
+  40         4            SEIZE                  39              0         0
+  50         5            ADVANCE                39              0         0
+  60         6            RELEASE                39              0         0
+  70         7            SEIZE                  39              0         0
+  80         8            ADVANCE                39              0         0
+  90         9            RELEASE                39              0         0
+  100        10           TRANSFER               39              0         0
+  110        11           GENERATE               41              0         0
+  120        12           ASSIGN                 41              0         0
+  130        13           ASSIGN                 41              0         0
+  140        14           SEIZE                  41              0         0
+  150        15           ADVANCE                41              0         0
+  160        16           RELEASE                41              0         0
+  170        17           SEIZE                  41              0         0
+  180        18           ADVANCE                41              0         0
+  190        19           RELEASE                41              0         0
+  200        20           TRANSFER               41              0         0
+  210        21           GENERATE               39              0         0
+  220        22           ASSIGN                 39              0         0
+  230        23           ASSIGN                 39              0         0
+  240        24           SEIZE                  39              0         0
+  250        25           ADVANCE                39              0         0
+  260        26           RELEASE                39              0         0
+  270        27           SEIZE                  39              0         0
+  280        28           ADVANCE                39              0         0
+  290        29           RELEASE                39              0         0
+  300        30           TRANSFER               39              0         0
+  310        31           GENERATE               39              0         0
+  320        32           ASSIGN                 39              0         0
+  330        33           ASSIGN                 39              0         0
+  340        34           SEIZE                  39              0         0
+  350        35           ADVANCE                39              0         0
+  360        36           RELEASE                39              0         0
+  370        37           SEIZE                  39              0         0
+  380        38           ADVANCE                39              0         0
+  390        39           RELEASE                39              0         0
+  400        40           TRANSFER               39              0         0
+  410       TO_HUB        SEIZE                 158              0         0
+  420        42           ADVANCE               158              1         0
+  430        43           RELEASE               157              0         0
+  431        44           TEST                  157              0         0
+  432        45           SPLIT                  39              0         0
+  433        46           SPLIT                  39              0         0
+
+
+                                        
+
+
+ GPSS/PC Report file REPORT.GPS.  (V 2, # 37349)  02-10-2010 13:38:07   page 2
+
+ LINE       LOC          BLOCK_TYPE       ENTRY_COUNT   CURRENT_COUNT   RETRY
+  434        47           SPLIT                  39              0         0
+  435       TO_2          TEST                  157              0         0
+  436        49           SPLIT                  40              0         0
+  437        50           SPLIT                  40              0         0
+  438        51           SPLIT                  40              0         0
+  439       TO_3          TEST                  157              0         0
+  440        53           SPLIT                  39              0         0
+  441        54           SPLIT                  39              0         0
+  442        55           SPLIT                  39              0         0
+  443       TO_4          TEST                  157              0         0
+  444        57           SPLIT                  39              0         0
+  445        58           SPLIT                  39              0         0
+  446        59           SPLIT                  39              0         0
+  480       TO_5          TERMINATE             157              0         0
+  490       TO_PC1        SEIZE                 118              0         0
+  500        62           ADVANCE               118              0         0
+  510        63           RELEASE               118              0         0
+  570        64           SEIZE                 118              0         0
+  580        65           ADVANCE               118              1         0
+  590        66           RELEASE               117              0         0
+  600        67           TERMINATE             117              0         0
+  610       TO_PC2        SEIZE                 117              0         0
+  620        69           ADVANCE               117              1         0
+  630        70           RELEASE               116              0         0
+  690        71           SEIZE                 116              0         0
+  700        72           ADVANCE               116              0         0
+  710        73           RELEASE               116              0         0
+  720        74           TERMINATE             116              0         0
+  730       TO_PC3        SEIZE                 118              0         0
+  740        76           ADVANCE               118              0         0
+  750        77           RELEASE               118              1         0
+  810        78           SEIZE                 117              0         0
+  820        79           ADVANCE               117              1         0
+  830        80           RELEASE               116              0         0
+  840        81           TERMINATE             116              0         0
+  850       TO_PC4        SEIZE                 118              0         0
+  860        83           ADVANCE               118              0         0
+  870        84           RELEASE               118              0         0
+  930        85           SEIZE                 118              0         0
+  940        86           ADVANCE               118              1         0
+  950        87           RELEASE               117              0         0
+  960        88           TERMINATE             117              0         0
+  970       TO_EXIT       TERMINATE               0              0         0
+  980        90           GENERATE                1              0         0
+  990        91           TERMINATE               1              0         0
+
+
+FACILITY    ENTRIES  UTIL.   AVE._TIME AVAILABLE  OWNER PEND INTER RETRY DELAY
+ PC1           157  0.453        2.89      1       629   0     0     0     0
+ K1            157  0.314        2.00      1         0   0     0     0     0
+
+
+                                        
+
+
+ GPSS/PC Report file REPORT.GPS.  (V 2, # 37349)  02-10-2010 13:38:07   page 3
+
+FACILITY    ENTRIES  UTIL.   AVE._TIME AVAILABLE  OWNER PEND INTER RETRY DELAY
+ PC2           157  0.351        2.24      1         0   0     0     0     0
+ K2            158  0.323        2.04      1       632   0     0     0     0
+ PC3           156  0.579        3.71      1       627   0     0     0     1
+ K3            157  0.319        2.03      1         0   0     0     0     0
+ PC4           157  0.552        3.52      1       634   0     0     0     0
+ K4            157  0.314        2.00      1         0   0     0     0     0
+ HUB           158  0.615        3.89      1       612   0     0     0     0
+
+
+XACT_GROUP         GROUP_SIZE       RETRY
+ POSITION                  0           0

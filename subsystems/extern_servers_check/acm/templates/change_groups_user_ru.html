@@ -1,0 +1,56 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title> Управление доступом </title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    $include_file("head_ru.html")
+
+    <h2 align="center"><a href="/cgi-bin/statistica.pl?id_publ=$author_id">$author_name</a></h2>
+  <table border="1" align="center">
+  <td>
+   <table class="tbbd" border="0" align="center" cellpadding="5">
+     <form name="form2" action="/cgi-bin/manage_access.pl" method="post"> 
+      <input type="hidden" name="mode" value="change_grp_post">
+      <input type="hidden" name="id_publ" value="$author_id">
+        <tr>
+           <td align="left" width="150" valign="top"><h5>Группы:</h5></td>
+           <td align="left" width="340">
+              <!--start_offset_group-->&nbsp;&nbsp;<!--finish_offset_group-->
+              <table border="0" class="check_tbl">
+                 <!--start_group-->
+                   <tr><td nowrap>
+                   <font  face="Courier New">$offset_group</font><input type="Checkbox" name="groups_list" value="$id_grp" id="id_grp_$id_grp" $is_enbl${|disabled} $is_selected${checked|} ><label for="id_grp_$id_grp" $is_enbl${|style="color:#808080"} ><strong>$group_name</strong></label>
+                   </td></tr>
+                 <!--finish_group-->
+              </table>   
+           </td>
+        </tr>
+
+        <tr>
+          <td align="center" colspan="2">
+           <hr>
+           Вышестоящие в иерархии группы назначаются автоматически!!!
+           <hr>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" colspan="2">
+           <input type="submit" value="Сохранить" class="submit_btn">
+          </td>
+        </tr>
+
+     </form>
+   </table>
+  </td>
+
+  </table>
+
+    
+    $include_file("down_part_ru.html")
+
+ </body>
+</html>

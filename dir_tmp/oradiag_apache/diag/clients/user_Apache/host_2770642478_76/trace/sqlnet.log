@@ -1,0 +1,38 @@
+Wed May 11 17:51:37 2016
+Create Relation ADR_CONTROL
+Create Relation ADR_INVALIDATION
+Create Relation INC_METER_IMPT_DEF
+Create Relation INC_METER_PK_IMPTS
+Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+Wed May 11 18:13:45 2016
+Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+Wed May 11 18:18:09 2016
+Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+Wed May 11 18:39:37 2016
+Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+Wed May 11 18:41:22 2016
+Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=IPC)(KEY=EXTPROC1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=AVTEDUDB)(CID=(PROGRAM=C:\prog\database\oracle\11.2.0\dbhome_1\bin\sqlplus.exe)(HOST=HPG6-1054)(USER=Apache))))
+
+  VERSION INFORMATION:
+	TNS for 64-bit Windows: Version 11.2.0.1.0 - Production
+	Windows NT Named Pipes NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.0 - Production
+  Time: 11-МАЙ-2016 18:41:23
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: TNS:соединение отвергнуто
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Wed May 11 18:42:47 2016
+Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+Wed May 11 18:43:58 2016
+Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]

@@ -1,0 +1,14 @@
+--Создание пользователя
+Create user user123
+identified by user123
+default tablespace USERS
+temporary tablespace TEMP;
+Grant connect, resource to user123;
+connect system/Admin001@//localhost/avtdb
+Grant select any table to user123;
+connect user123/user123@//localhost/avtdb;
+it's guid string --------------------
+system/Admin001@//localhost/avtdb
+user123/user123@//localhost/avtdb
+buses0_creator
+drop user user123 cascade

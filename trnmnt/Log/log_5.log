@@ -1,0 +1,206 @@
+var K = 2;
+
+var N = 1;
+var a1 = new Array();
+   a1[0] = "11 11";
+
+var a2 = new Array();
+   a2[0] = "X";
+   a2[1] = "0";
+
+var a3 = new Array();
+   a3[0] = new Object();
+      a3[0].Player = 0;
+      a3[0].State  = "a";
+      a3[0].Move   = "6 6";
+
+   a3[1] = new Object();
+      a3[1].Player = 1;
+      a3[1].State  = "a";
+      a3[1].Move   = "8 9";
+
+   a3[2] = new Object();
+      a3[2].Player = 0;
+      a3[2].State  = "a";
+      a3[2].Move   = "2 1";
+
+   a3[3] = new Object();
+      a3[3].Player = 1;
+      a3[3].State  = "a";
+      a3[3].Move   = "10 2";
+
+   a3[4] = new Object();
+      a3[4].Player = 0;
+      a3[4].State  = "a";
+      a3[4].Move   = "3 1";
+
+   a3[5] = new Object();
+      a3[5].Player = 1;
+      a3[5].State  = "a";
+      a3[5].Move   = "11 9";
+
+   a3[6] = new Object();
+      a3[6].Player = 0;
+      a3[6].State  = "a";
+      a3[6].Move   = "6 9";
+
+   a3[7] = new Object();
+      a3[7].Player = 1;
+      a3[7].State  = "a";
+      a3[7].Move   = "6 5";
+
+   a3[8] = new Object();
+      a3[8].Player = 0;
+      a3[8].State  = "a";
+      a3[8].Move   = "10 11";
+
+   a3[9] = new Object();
+      a3[9].Player = 1;
+      a3[9].State  = "a";
+      a3[9].Move   = "1 4";
+
+   a3[10] = new Object();
+      a3[10].Player = 0;
+      a3[10].State  = "a";
+      a3[10].Move   = "3 6";
+
+   a3[11] = new Object();
+      a3[11].Player = 1;
+      a3[11].State  = "a";
+      a3[11].Move   = "11 3";
+
+   a3[12] = new Object();
+      a3[12].Player = 0;
+      a3[12].State  = "a";
+      a3[12].Move   = "4 1";
+
+   a3[13] = new Object();
+      a3[13].Player = 1;
+      a3[13].State  = "a";
+      a3[13].Move   = "11 8";
+
+   a3[14] = new Object();
+      a3[14].Player = 0;
+      a3[14].State  = "a";
+      a3[14].Move   = "7 9";
+
+   a3[15] = new Object();
+      a3[15].Player = 1;
+      a3[15].State  = "a";
+      a3[15].Move   = "8 11";
+
+   a3[16] = new Object();
+      a3[16].Player = 0;
+      a3[16].State  = "a";
+      a3[16].Move   = "10 4";
+
+   a3[17] = new Object();
+      a3[17].Player = 1;
+      a3[17].State  = "a";
+      a3[17].Move   = "1 10";
+
+   a3[18] = new Object();
+      a3[18].Player = 0;
+      a3[18].State  = "a";
+      a3[18].Move   = "6 10";
+
+   a3[19] = new Object();
+      a3[19].Player = 1;
+      a3[19].State  = "a";
+      a3[19].Move   = "2 10";
+
+   a3[20] = new Object();
+      a3[20].Player = 0;
+      a3[20].State  = "a";
+      a3[20].Move   = "9 10";
+
+   a3[21] = new Object();
+      a3[21].Player = 1;
+      a3[21].State  = "a";
+      a3[21].Move   = "5 9";
+
+   a3[22] = new Object();
+      a3[22].Player = 0;
+      a3[22].State  = "a";
+      a3[22].Move   = "8 7";
+
+   a3[23] = new Object();
+      a3[23].Player = 1;
+      a3[23].State  = "a";
+      a3[23].Move   = "5 5";
+
+   a3[24] = new Object();
+      a3[24].Player = 0;
+      a3[24].State  = "a";
+      a3[24].Move   = "11 10";
+
+   a3[25] = new Object();
+      a3[25].Player = 1;
+      a3[25].State  = "a";
+      a3[25].Move   = "8 5";
+
+   a3[26] = new Object();
+      a3[26].Player = 0;
+      a3[26].State  = "a";
+      a3[26].Move   = "9 2";
+
+   a3[27] = new Object();
+      a3[27].Player = 1;
+      a3[27].State  = "a";
+      a3[27].Move   = "5 7";
+
+   a3[28] = new Object();
+      a3[28].Player = 0;
+      a3[28].State  = "a";
+      a3[28].Move   = "5 10";
+
+   a3[29] = new Object();
+      a3[29].Player = 1;
+      a3[29].State  = "a";
+      a3[29].Move   = "7 1";
+
+   a3[30] = new Object();
+      a3[30].Player = 0;
+      a3[30].State  = "a";
+      a3[30].Move   = "9 1";
+
+   a3[31] = new Object();
+      a3[31].Player = 1;
+      a3[31].State  = "a";
+      a3[31].Move   = "10 1";
+
+   a3[32] = new Object();
+      a3[32].Player = 0;
+      a3[32].State  = "a";
+      a3[32].Move   = "2 11";
+
+   a3[33] = new Object();
+      a3[33].Player = 1;
+      a3[33].State  = "a";
+      a3[33].Move   = "4 10";
+
+   a3[34] = new Object();
+      a3[34].Player = 0;
+      a3[34].State  = "a";
+      a3[34].Move   = "4 11";
+
+   a3[35] = new Object();
+      a3[35].Player = 1;
+      a3[35].State  = "a";
+      a3[35].Move   = "1 11";
+
+   a3[36] = new Object();
+      a3[36].Player = 0;
+      a3[36].State  = "a";
+      a3[36].Move   = "8 3";
+
+   a3[37] = new Object();
+      a3[37].Player = 1;
+      a3[37].State  = "a";
+      a3[37].Move   = "5 1";
+
+   a3[38] = new Object();
+      a3[38].Player = 0;
+      a3[38].State  = "a";
+      a3[38].Move   = "7 8";
+

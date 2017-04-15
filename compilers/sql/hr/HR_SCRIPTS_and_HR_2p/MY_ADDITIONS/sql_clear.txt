@@ -1,0 +1,8 @@
+delete from job_history;
+delete from jobs;
+delete from employees;
+delete from departments;
+delete from locations;
+delete from countries;
+delete from regions;
+

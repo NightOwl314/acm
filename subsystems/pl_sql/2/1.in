@@ -1,0 +1,24 @@
+$id=_temp
+$tables=punct
+@teacher
+
+alter table punct_temp
+add type integer;
+
+update punct_temp
+set type=1
+where distance>250;
+
+update punct_temp
+set type=2
+where distance>100 and distance<=250;
+
+update punct_temp
+set type=3
+where distance<=100;
+
+@execsql
+
+@query
+select * from punct_temp
+$

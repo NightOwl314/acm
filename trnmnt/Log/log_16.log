@@ -1,0 +1,401 @@
+var K = 2;
+
+var N = 1;
+var a1 = new Array();
+   a1[0] = "11 11";
+
+var a2 = new Array();
+   a2[0] = "X";
+   a2[1] = "0";
+
+var a3 = new Array();
+   a3[0] = new Object();
+      a3[0].Player = 0;
+      a3[0].State  = "a";
+      a3[0].Move   = "6 6";
+
+   a3[1] = new Object();
+      a3[1].Player = 1;
+      a3[1].State  = "a";
+      a3[1].Move   = "6 7";
+
+   a3[2] = new Object();
+      a3[2].Player = 0;
+      a3[2].State  = "a";
+      a3[2].Move   = "3 1";
+
+   a3[3] = new Object();
+      a3[3].Player = 1;
+      a3[3].State  = "a";
+      a3[3].Move   = "11 11";
+
+   a3[4] = new Object();
+      a3[4].Player = 0;
+      a3[4].State  = "a";
+      a3[4].Move   = "1 10";
+
+   a3[5] = new Object();
+      a3[5].Player = 1;
+      a3[5].State  = "a";
+      a3[5].Move   = "9 11";
+
+   a3[6] = new Object();
+      a3[6].Player = 0;
+      a3[6].State  = "a";
+      a3[6].Move   = "2 11";
+
+   a3[7] = new Object();
+      a3[7].Player = 1;
+      a3[7].State  = "a";
+      a3[7].Move   = "2 9";
+
+   a3[8] = new Object();
+      a3[8].Player = 0;
+      a3[8].State  = "a";
+      a3[8].Move   = "10 9";
+
+   a3[9] = new Object();
+      a3[9].Player = 1;
+      a3[9].State  = "a";
+      a3[9].Move   = "9 10";
+
+   a3[10] = new Object();
+      a3[10].Player = 0;
+      a3[10].State  = "a";
+      a3[10].Move   = "10 11";
+
+   a3[11] = new Object();
+      a3[11].Player = 1;
+      a3[11].State  = "a";
+      a3[11].Move   = "4 9";
+
+   a3[12] = new Object();
+      a3[12].Player = 0;
+      a3[12].State  = "a";
+      a3[12].Move   = "1 5";
+
+   a3[13] = new Object();
+      a3[13].Player = 1;
+      a3[13].State  = "a";
+      a3[13].Move   = "2 8";
+
+   a3[14] = new Object();
+      a3[14].Player = 0;
+      a3[14].State  = "a";
+      a3[14].Move   = "4 4";
+
+   a3[15] = new Object();
+      a3[15].Player = 1;
+      a3[15].State  = "a";
+      a3[15].Move   = "5 1";
+
+   a3[16] = new Object();
+      a3[16].Player = 0;
+      a3[16].State  = "a";
+      a3[16].Move   = "6 1";
+
+   a3[17] = new Object();
+      a3[17].Player = 1;
+      a3[17].State  = "a";
+      a3[17].Move   = "8 11";
+
+   a3[18] = new Object();
+      a3[18].Player = 0;
+      a3[18].State  = "a";
+      a3[18].Move   = "8 6";
+
+   a3[19] = new Object();
+      a3[19].Player = 1;
+      a3[19].State  = "a";
+      a3[19].Move   = "7 8";
+
+   a3[20] = new Object();
+      a3[20].Player = 0;
+      a3[20].State  = "a";
+      a3[20].Move   = "2 2";
+
+   a3[21] = new Object();
+      a3[21].Player = 1;
+      a3[21].State  = "a";
+      a3[21].Move   = "10 4";
+
+   a3[22] = new Object();
+      a3[22].Player = 0;
+      a3[22].State  = "a";
+      a3[22].Move   = "5 2";
+
+   a3[23] = new Object();
+      a3[23].Player = 1;
+      a3[23].State  = "a";
+      a3[23].Move   = "8 5";
+
+   a3[24] = new Object();
+      a3[24].Player = 0;
+      a3[24].State  = "a";
+      a3[24].Move   = "8 3";
+
+   a3[25] = new Object();
+      a3[25].Player = 1;
+      a3[25].State  = "a";
+      a3[25].Move   = "8 10";
+
+   a3[26] = new Object();
+      a3[26].Player = 0;
+      a3[26].State  = "a";
+      a3[26].Move   = "7 4";
+
+   a3[27] = new Object();
+      a3[27].Player = 1;
+      a3[27].State  = "a";
+      a3[27].Move   = "3 6";
+
+   a3[28] = new Object();
+      a3[28].Player = 0;
+      a3[28].State  = "a";
+      a3[28].Move   = "3 4";
+
+   a3[29] = new Object();
+      a3[29].Player = 1;
+      a3[29].State  = "a";
+      a3[29].Move   = "7 6";
+
+   a3[30] = new Object();
+      a3[30].Player = 0;
+      a3[30].State  = "a";
+      a3[30].Move   = "7 1";
+
+   a3[31] = new Object();
+      a3[31].Player = 1;
+      a3[31].State  = "a";
+      a3[31].Move   = "8 4";
+
+   a3[32] = new Object();
+      a3[32].Player = 0;
+      a3[32].State  = "a";
+      a3[32].Move   = "4 8";
+
+   a3[33] = new Object();
+      a3[33].Player = 1;
+      a3[33].State  = "a";
+      a3[33].Move   = "2 6";
+
+   a3[34] = new Object();
+      a3[34].Player = 0;
+      a3[34].State  = "a";
+      a3[34].Move   = "6 4";
+
+   a3[35] = new Object();
+      a3[35].Player = 1;
+      a3[35].State  = "a";
+      a3[35].Move   = "4 10";
+
+   a3[36] = new Object();
+      a3[36].Player = 0;
+      a3[36].State  = "a";
+      a3[36].Move   = "4 6";
+
+   a3[37] = new Object();
+      a3[37].Player = 1;
+      a3[37].State  = "a";
+      a3[37].Move   = "10 10";
+
+   a3[38] = new Object();
+      a3[38].Player = 0;
+      a3[38].State  = "a";
+      a3[38].Move   = "3 10";
+
+   a3[39] = new Object();
+      a3[39].Player = 1;
+      a3[39].State  = "a";
+      a3[39].Move   = "1 2";
+
+   a3[40] = new Object();
+      a3[40].Player = 0;
+      a3[40].State  = "a";
+      a3[40].Move   = "8 7";
+
+   a3[41] = new Object();
+      a3[41].Player = 1;
+      a3[41].State  = "a";
+      a3[41].Move   = "9 5";
+
+   a3[42] = new Object();
+      a3[42].Player = 0;
+      a3[42].State  = "a";
+      a3[42].Move   = "10 8";
+
+   a3[43] = new Object();
+      a3[43].Player = 1;
+      a3[43].State  = "a";
+      a3[43].Move   = "5 11";
+
+   a3[44] = new Object();
+      a3[44].Player = 0;
+      a3[44].State  = "a";
+      a3[44].Move   = "9 9";
+
+   a3[45] = new Object();
+      a3[45].Player = 1;
+      a3[45].State  = "a";
+      a3[45].Move   = "7 9";
+
+   a3[46] = new Object();
+      a3[46].Player = 0;
+      a3[46].State  = "a";
+      a3[46].Move   = "1 4";
+
+   a3[47] = new Object();
+      a3[47].Player = 1;
+      a3[47].State  = "a";
+      a3[47].Move   = "10 5";
+
+   a3[48] = new Object();
+      a3[48].Player = 0;
+      a3[48].State  = "a";
+      a3[48].Move   = "8 1";
+
+   a3[49] = new Object();
+      a3[49].Player = 1;
+      a3[49].State  = "a";
+      a3[49].Move   = "5 3";
+
+   a3[50] = new Object();
+      a3[50].Player = 0;
+      a3[50].State  = "a";
+      a3[50].Move   = "2 4";
+
+   a3[51] = new Object();
+      a3[51].Player = 1;
+      a3[51].State  = "a";
+      a3[51].Move   = "3 3";
+
+   a3[52] = new Object();
+      a3[52].Player = 0;
+      a3[52].State  = "a";
+      a3[52].Move   = "7 2";
+
+   a3[53] = new Object();
+      a3[53].Player = 1;
+      a3[53].State  = "a";
+      a3[53].Move   = "9 3";
+
+   a3[54] = new Object();
+      a3[54].Player = 0;
+      a3[54].State  = "a";
+      a3[54].Move   = "2 1";
+
+   a3[55] = new Object();
+      a3[55].Player = 1;
+      a3[55].State  = "a";
+      a3[55].Move   = "11 4";
+
+   a3[56] = new Object();
+      a3[56].Player = 0;
+      a3[56].State  = "a";
+      a3[56].Move   = "1 3";
+
+   a3[57] = new Object();
+      a3[57].Player = 1;
+      a3[57].State  = "a";
+      a3[57].Move   = "11 9";
+
+   a3[58] = new Object();
+      a3[58].Player = 0;
+      a3[58].State  = "a";
+      a3[58].Move   = "10 2";
+
+   a3[59] = new Object();
+      a3[59].Player = 1;
+      a3[59].State  = "a";
+      a3[59].Move   = "1 7";
+
+   a3[60] = new Object();
+      a3[60].Player = 0;
+      a3[60].State  = "a";
+      a3[60].Move   = "10 7";
+
+   a3[61] = new Object();
+      a3[61].Player = 1;
+      a3[61].State  = "a";
+      a3[61].Move   = "3 7";
+
+   a3[62] = new Object();
+      a3[62].Player = 0;
+      a3[62].State  = "a";
+      a3[62].Move   = "9 6";
+
+   a3[63] = new Object();
+      a3[63].Player = 1;
+      a3[63].State  = "a";
+      a3[63].Move   = "9 8";
+
+   a3[64] = new Object();
+      a3[64].Player = 0;
+      a3[64].State  = "a";
+      a3[64].Move   = "11 8";
+
+   a3[65] = new Object();
+      a3[65].Player = 1;
+      a3[65].State  = "a";
+      a3[65].Move   = "3 11";
+
+   a3[66] = new Object();
+      a3[66].Player = 0;
+      a3[66].State  = "a";
+      a3[66].Move   = "1 8";
+
+   a3[67] = new Object();
+      a3[67].Player = 1;
+      a3[67].State  = "a";
+      a3[67].Move   = "11 7";
+
+   a3[68] = new Object();
+      a3[68].Player = 0;
+      a3[68].State  = "a";
+      a3[68].Move   = "8 8";
+
+   a3[69] = new Object();
+      a3[69].Player = 1;
+      a3[69].State  = "a";
+      a3[69].Move   = "1 1";
+
+   a3[70] = new Object();
+      a3[70].Player = 0;
+      a3[70].State  = "a";
+      a3[70].Move   = "5 7";
+
+   a3[71] = new Object();
+      a3[71].Player = 1;
+      a3[71].State  = "a";
+      a3[71].Move   = "5 9";
+
+   a3[72] = new Object();
+      a3[72].Player = 0;
+      a3[72].State  = "a";
+      a3[72].Move   = "7 5";
+
+   a3[73] = new Object();
+      a3[73].Player = 1;
+      a3[73].State  = "a";
+      a3[73].Move   = "2 7";
+
+   a3[74] = new Object();
+      a3[74].Player = 0;
+      a3[74].State  = "a";
+      a3[74].Move   = "3 2";
+
+   a3[75] = new Object();
+      a3[75].Player = 1;
+      a3[75].State  = "a";
+      a3[75].Move   = "4 2";
+
+   a3[76] = new Object();
+      a3[76].Player = 0;
+      a3[76].State  = "a";
+      a3[76].Move   = "4 3";
+
+   a3[77] = new Object();
+      a3[77].Player = 1;
+      a3[77].State  = "a";
+      a3[77].Move   = "2 5";
+

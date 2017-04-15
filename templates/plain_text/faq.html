@@ -1,0 +1,339 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<title>АВТ ВоГУ - Дистанционный практикум по программированию - FAQ</title>
+<style>
+body {background: #CFCFCF; font-size:12pt; color: black; }
+</style>
+</head>
+<body>
+
+<h2 align=center>Часто задаваемые вопросы (FAQ)</h2>
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Что представляет собой система, для чего она предназначена?</h3>
+<h5>Ответ:</h5>
+Смотрите <a href=/cgi-bin/plain_text.pl?url=/about.html>здесь</a>
+<hr/>
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как отправлять задачи в систему?</h3>
+<h5>Ответ:</h5>
+Ваша програма должна считывать входные данные со стандартного потока ввода и выводить результаты в стандартный поток вывода.
+<br><i>Не исключено, что в условиях некоторых задач, взятых с прошедших олимпиад, говорится о входных и выходных файлах. 
+Тем не менее, ваша программа должна работать только со стандартными потоками!</i><br><br>
+
+Пример программы на Pascal для решения задачи №1 "A+B":
+<table><tr><td>
+<div class="code_box"><pre><code class="delphi">var i,j:integer;
+begin
+   ReadLn(i,j);
+   WriteLn(i+j)
+end.</code></pre></div>
+</td></tr></table>
+
+Пример аналогичной программы на C++:
+<table><tr><td>
+<div class="code_box"><pre><code class="cpp">#include &lt;iostream&gt;
+using namespace std;
+int main(){
+  int a,b;
+  cin &gt;&gt; a &gt;&gt; b;
+  cout &lt;&lt; a+b;
+  return 0;
+}</code></pre></div>
+</td></tr></table>
+<br>
+Обратите внимание:
+<ul>
+<li>ваша программа не должна выводить ничего лишнего, типа подсказок "введите A и B:";</li>
+<li>не используйте модуль <b>crt</b> в Pascal и <b>conio.h</b> в C++;</li>
+<li>программа на C++ должна обязательно завершаться "return 0;"</li>
+</ul>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">В процессе отладки входные данные часто удобнее считывать из файла. Как это делать?</h3>
+<h5>Ответ:</h5>
+На Pascal в начале программы достаточно написать строчку:<br>
+<table><tr><td>
+<div class="code_box"><pre><code class="delphi">assign(input,'input.txt'); reset(input);</code></pre></div>
+</td></tr></table>
+В результате при вводе данные будут читаться не с клавиатуры, а с файла 'input.txt'. При отправке решения
+строчку нужно закомментировать.<br>
+Аналогично, на C++ в начале функции main достаточно написать:<br>
+<table><tr><td>
+<div class="code_box"><pre><code class="cpp">freopen("input.txt","r",stdin);</code></pre></div>
+</td></tr></table>
+и подключить заголовочный файл <b>stdio.h</b>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Что означает сообщение "Security Violation (Нарушение безопасности)"?</h3>
+<h5>Ответ:</h5>
+Проверяющая система отслеживает вызовы из вашей программы функций операционной системы, и в случае вызова запрещенной 
+функции (работа с файлами, сокетами и т.п.) прерывает выполнение программы и выдаёт соответствующее сообщение.<br>
+<i>В текущей версии системы иногда возможна выдача такого сообщения, когда программа аварийно завершается (и 
+на самом деле должно быть "Runtime error (Ошибка выполнения)".</i><br>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Что означает сообщение "Presentation Error (Ошибка представления)"?</h3>
+<h5>Ответ:</h5>
+Это означает, что формат вывода вашей программы не соответствует указанному в условию задачи - например,
+программы выдала строку вместо числа или два числа вместо одного и т.п. Вообще, что считать неправильным
+ответом, а что - ошибкой представления, вопрос неоднозначный и для каждой задачи определяется 
+автором её проверящей программы.
+<b>Обратите внимание!</b> Попадаются задачи, где проверяющая программа особо строго контролирует формат вывода 
+и выдаёт ошибку представления даже за лишний пробел в конце вывода или за лишнюю пустую строку, поэтому желательно
+привыкать сразу писать код, не выводящий ничего лишнего.
+<hr>
+
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Что делать, если в программе большая глубина рекурсивных вызовов, и программа аварийно завершается из-за переполнения стека?</h3>
+<h5>Ответ:</h5>
+По умолчанию размер стека программы равен 1 мегабайт. Для его увеличения в Pascal нужно поставить, например, такую строчку:<br>
+{$M 16777216}<br>
+Тем самым размер стека будет равен 16 мегабайт. <br>
+Для Borland C++ размер стека уже настроен в системе и составляет 64 мегабайта.<br>
+Для Visual C++ можно вставить в программу директиву #pragma comment(linker, "/STACK:16777216") - 
+в примере размер стека устанавливается равным 16 мегабайт.<br>
+Для Java размер стека уже установлен равным 64 мегабайта.
+<hr>
+
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как правильно считывать входные данные, если неизвестно заранее их количество?</h3>
+<h5>Ответ:</h5>
+<table cellspacing=0 cellpadding=4 border=0 valign=top>
+<tr>
+<td>&nbsp;</td><th width="300">Pascal</th><th width="300">C++</th>
+</tr>
+<tr>
+<td>
+Считывание целых чисел:
+</td>
+<td>
+<div class="code_box"><pre><code class="delphi">var
+  x: integer;
+...
+while not seekeof do
+begin
+  read(x);
+  ...
+end;</code></pre></div>
+</td>
+<td>
+<div class="code_box"><pre><code class="cpp">int x;
+while (cin&gt;&gt;x) {
+  ...
+}
+
+
+
+
+</code></pre></div>
+</td>
+</tr>
+
+<tr>
+<td>Считывание символов</td>
+<td>
+<div class="code_box"><pre><code class="delphi">var 
+  c: char;
+...
+while not eof do
+begin
+   read(с);
+  ...
+end;</code></pre></div>
+</td>
+<td>
+<div class="code_box"><pre><code class="cpp">char c;
+while (cin.get(c))
+{
+   ...
+}
+
+
+
+</code></pre></div>
+</td>
+</tr>
+
+<tr>
+<td>Считывание строк</td>
+<td>
+<div class="code_box"><pre><code class="delphi">var line: string;
+...
+while not eof do
+begin
+   readln(line);
+   ...
+end;</code></pre></div>
+</td>
+<td>
+<div class="code_box"><pre><code class="cpp">char line[1000];
+while (cin.getline(line,1000))
+{
+ ...
+}
+
+
+</code></pre></div>
+
+</table>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как на своем компьютере оценить, сколько времени и памяти занимает программа?</h3>
+<h5>Ответ:</h5>
+Воспользуйтесь соответствующей утилитой <a href=/local_testing.rar>local_testing</a>.
+При компиляции своих решений при этом используйте статическую линковку
+(например, в среде Borland C++ Builder зайдите в "Project - Options - Linker" и снимите галочку "Use dynamic RTL").
+Либо можно воспользоваться программой <a href=http://acm.timus.ru/tester/ target=_blank>Тестер</a>.
+Или ещё один вариант - программа <a href=http://neerc.ifmo.ru/trains/information/software.html target=_blank>Run</a>.
+<br>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как писать и отправлять задачи на Java?</h3>
+<h5>Ответ:</h5>
+Смотрите <a href=/cgi-bin/plain_text.pl?url=/faq_java.html>здесь</a>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как писать и отправлять задачи на Free Basic?</h3>
+<h5>Ответ:</h5>
+Смотрите <a href=/cgi-bin/plain_text.pl?url=/faq_fbasic.html>здесь</a>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как писать и отправлять задачи на Perl?</h3>
+<h5>Ответ:</h5>
+Смотрите <a href=/cgi-bin/plain_text.pl?url=/faq_perl.html>здесь</a>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как писать и отправлять задачи на Lua?</h3>
+<h5>Ответ:</h5>
+Смотрите <a href=/cgi-bin/plain_text.pl?url=/faq_lua.html>здесь</a>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как писать и отправлять задачи на Visual Basic.NET?</h3>
+<h5>Ответ:</h5>
+Смотрите <a href=/cgi-bin/plain_text.pl?url=/faq_vbasic.html>здесь</a>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как писать и отправлять задачи на Visual C#?</h3>
+<h5>Ответ:</h5>
+Смотрите <a href=/cgi-bin/plain_text.pl?url=/faq_cs.html>здесь</a>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как писать и отправлять задачи на Python?</h3>
+<h5>Ответ:</h5>
+Смотрите <a href=/cgi-bin/plain_text.pl?url=/faq_python.html>здесь</a>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как писать и отправлять задачи на ассемблере?</h3>
+<h5>Ответ:</h5>
+Смотрите <a href=/cgi-bin/plain_text.pl?url=/faq_asm.html>здесь</a>
+<hr>
+
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Почему у меня недоступны подсказки к задачам или нет доступа к учебникам?</h3>
+<h5>Ответ:</h5>
+Доступ к подсказкам (например, просмотр теста, на котором решение получает "Неверный ответ") зависит от тем, к
+которым принадлежит задача. Например, для задач с турниров и олимпиад подсказки, как правило, выключены.<br>
+Доступ к большинству учебников доступен только студентам, имеющим учетную запись в домене кафедры АВТ ВоГУ. Чтобы подтвердить
+наличие учетной записи в домене, нужно сделать следующее:<br>
+1). Войти в проверяющую систему с текущим логином и паролем, щелкнуть по ссылке - своему имени, перейти в "Редактировать профиль"
+и поменять логин, чтобы он совпадал с именем входа в домен.<br>
+2). Заново войти в систему, введя при этом доменный пароль. Если возникает ошибка входа, перезапустить браузер.
+<br>
+Если у вас ещё нет учетной записи в домене, обращайтесь к Андрианову И.А. или Ржеуцкой С.Ю.
+<hr>
+
+<a name=sql></a>
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как отправлять задачи на SQL?</h3>
+<h5>Ответ:</h5>
+Язык SQL не является универсальным языком, он используется только для решения задач раздела <a href="/cgi-bin/arh_problems.pl?id_tm=54">Учебные курсы / Базы данных</a>. 
+При отправке SQL-запросов следует придерживаться следующих правил:<br>
+1. Точка с запятой в конце предложения не ставится<br>
+2. Всем вычисляемым полям необходимо явно давать имена длиной до 30 символов, например, так:<br>
+<table><tr><td>
+<div class="code_box"><pre><code class="sql">select min(price) as minpr from km_prices</code></pre></div>
+</td></tr></table>
+<hr>
+
+<a name=sql></a>
+<h5>Вопрос:</h5>
+<h3 style="margin:0px;">Как правильно оформить условие новой задачи?</h3>
+<h5>Ответ:</h5>
+Условие задачи оформляется по специальному HTML-шаблону.<br>
+<b>Нигде в шаблоне не должно присутствовать название задачи!</b><br>
+HTML-шаблон условия задачи выглядит так:<br>
+<table><tr><td>
+<div class="code_box"><pre><code class="html">&lt;!-- Общее описание условия задачи --&gt;
+&lt;p&gt;Абзац1&lt;/p&gt;
+&lt;p&gt;Абзац2&lt;/p&gt;
+&lt;img src=&quot;image001.gif&quot;&gt;&lt;br&gt;&lt;!--ссылки на картинки должны быть относительными!--&gt;
+&lt;p&gt;Абзац3&lt;/p&gt;
+
+&lt;!-- Необязательные секции --&gt;
+&lt;h3 class=&quot;cond_sect&quot;&gt;$description$&lt;/h3&gt;
+&lt;p&gt;Описание&lt;/p&gt;
+&lt;h3 class=&quot;cond_sect&quot;&gt;$task$&lt;/h3&gt;
+&lt;p&gt;Задание&lt;/p&gt;
+&lt;h3 class=&quot;cond_sect&quot;&gt;$comments$&lt;/h3&gt;
+&lt;p&gt;Комментарии&lt;/p&gt;
+&lt;h3 class=&quot;cond_sect&quot;&gt;$hint$&lt;/h3&gt;
+&lt;p&gt;Подсказка&lt;/p&gt;
+&lt;h3 class=&quot;cond_sect&quot;&gt;$solution$&lt;/h3&gt;
+&lt;p&gt;Решение&lt;/p&gt;
+
+&lt;!-- Обязательные секции --&gt;
+&lt;h3 class=&quot;cond_sect&quot;&gt;$input$&lt;/h3&gt;
+&lt;p&gt;Описание входных данных1&lt;/p&gt;
+&lt;p&gt;Описание входных данных2&lt;/p&gt;
+
+&lt;h3 class=&quot;cond_sect&quot;&gt;$output$&lt;/h3&gt;
+&lt;p&gt;Описание выходных данных1&lt;/p&gt;
+&lt;p&gt;Описание выходных данных2&lt;/p&gt;
+
+&lt;!-- Пример входных и выходных данных --&gt;
+&lt;h3 class=&quot;cond_sect&quot;&gt;$sample$&lt;/h3&gt;
+&lt;table class=&quot;tbdata&quot; width=&quot;500&quot;&gt;
+   &lt;tr&gt;&lt;th width=&quot;50%&quot;&gt;$input$&lt;/th&gt;&lt;th width=&quot;50%&quot;&gt;$output$&lt;/th&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;td valign=&quot;top&quot;&gt;&lt;pre&gt;Пример 1. Вход:
+3 3 2
+7 7 1
+8 1 1
+2 0 1 0&lt;/pre&gt;
+&lt;/td&gt;&lt;td valign=&quot;top&quot;&gt;&lt;pre&gt;Пример 1. Выход:
+1 2 1 3
+2 1 2 1 2 1 2 1 2 1 ...&lt;/pre&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+</code></pre></div>
+<br>
+У всех таблиц в условии задачи указывается класс <b>tbdata</b>. Рисунки должны быть в формате <b>gif</b> с прозрачным фоном.<br><br>
+Вставки исходного кода (поддерживается: cpp, delphi, sql, javascript, vbscript, asm, java) оформляются следующим образом:<br>
+<div class="code_box"><pre><code class="html">&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&quot;code_box&quot;&gt;&lt;pre&gt;&lt;code class=&quot;cpp&quot;&gt;
+int main(void)
+{
+   return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+</td></tr></table>
+<hr>
+
+<br>
+Если вы не нашли ответа на свой вопрос, пишите на avt@vstu.edu.ru или igand@mail.ru.
+<br>
+
+</body>
+</html>

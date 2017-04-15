@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta http-equiv="Content-Type"
+	content="text/html; charset=windows-1251">
+<title>Дистанционный практикум по программированию</title>
+<link rel="STYLESHEET" type="text/css" href="/main.css">
+
+<script type="text/javascript" src="/jsscripts/themes.js"></script>
+<link rel="STYLESHEET" type="text/css" href="/jsscripts/styles.css">
+</head>
+<body>
+    
+    $include_file("head_ru.html")
+    <div  class = "themes_content" > 
+    <h2 align="center">Группы пользователей</h2>
+    <input type ="hidden" name ="language" value = 'ru'>
+    <table class = "groupsEditTable">
+    <col id ="c_one">
+    <col id = "c_two" >
+    <col id = "c_three" >
+    <col id = "c_four" >
+    <col id = "c_five" >
+    <tr>
+    	<th>Под-<br>группы</th>
+    	<th>П-ли</th>
+    	<th>ID</th>
+    	<th>Название группы</th>
+    	<th>Назначение<br>пользователей</th>
+    </tr>
+    </table>
+    $insert_group_list
+    </div>
+	$include_file("down_part_ru.html")
+
+ </body>
+</html>
+

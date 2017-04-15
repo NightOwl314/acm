@@ -1,0 +1,117 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title> Регистрация участника </title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    $include_file("head_ru.html")
+
+  <h2 align="center">Регистрация нового участника</h2>
+  <br>
+  <center>Внимание! Для студентов кафедры АВТ ВоГУ, имеющих учетную запись в домене AVT,<br> выполнять регистрацию не нужно - 
+  просто войдите под своим именем и паролем</center><br>
+
+   <!--start_err-->
+   <table class="tbbd" border="1" align="center"><tr><td>
+   ***При регистрации пользователя произошла ошибка***<hr/><b><font color="#A00000">$err_text</font></b><hr>
+   </td></tr></table><br/>
+   <!--errors
+   1:{Пароли не совпадают}
+   2:{Длина пароля менее 5 символов}
+   3:{Пользователь с указанным именем или логином уже существует}
+   4:{Пользователь с указанным логином уже существует}
+   -->
+   <!--finish_err-->
+
+
+  <table border="1" align="center">
+  <td>
+   <table class="tbbd" border="0" align="center" cellpadding="5">
+     <form name="form2" action="/cgi-bin/aregister.pl" method="post"> 
+      <input type="hidden" name="mode" value="new_post">
+
+        <tr>
+           <td align="left"  width="150"><h5>Логин<font color=red>*</font>:</h5></td>
+           <td align="left"  width="340"><input type="text" name="author_login" value="$$author_login" size="30"></td>
+        </tr>
+
+        <tr>
+        <td colspan=2><i>В логине используйте только английские буквы, цифры и знак подчеркивания!</i></td>
+        </tr>
+        
+        
+        <tr>
+           <td align="left" width="150"><h5>Отображаемое имя<font color=red>*</font>:</h5></td>
+           <td align="left" width="340"><input type="text" name="author_name" value="$$author_name" size="30"></td>
+        </tr>
+
+        <tr>
+           <td align="left"><h5>Ваш e-mail:</h5></td>
+           <td align="left"><input type="text" name="author_email" value="$$author_email" size="30"></td>
+        </tr>
+
+        <tr>
+        <td colspan=2><i>e-mail можно не указывать, но тогда мы не сможем с вами связаться</i></td>
+        </tr>
+
+        <tr>
+
+          <td class="separ" colspan="2"><hr></td>
+        </tr>
+
+        <tr>   
+           <td align="left"><h5>Пароль<font color=red>*</font>:</h5></td>
+           <td align="left"><input type="password" name="author_pwd1" size="30"></td>
+        </tr>
+        <tr>
+           <td align="left"><h5>И еще раз пароль<font color=red>*</font>:</h5></td>
+           <td align="left"><input type="password" name="author_pwd2" size="30"></td>
+        </tr>
+
+<!--        <tr>
+        <td colspan=2><i>Длина пароля не менее 5 символов</i></td>
+        </tr>
+-->
+
+        <tr>
+           <td align="left" colspan="2"><hr><h5>Дополнительная информация:</h5>
+              <textarea name="add_info" cols="60" rows="3" wrap="virtual">$$add_info</textarea>
+           </td>
+        </tr>
+
+        <tr>
+           <td align="left"><h5>Страна:</h5></td>
+           <td align="left">
+              <select name="country" size="1"> 
+<!--start_country--><OPTION VALUE="$country_id" <!--?$$country==$country_id,selected--> >$country_name</option><!--finish_country-->
+         </select>
+           </td>
+        </tr>
+
+        <tr>   
+           <td align="left"><h5>Кодовое слово:</h5></td>
+           <td align="left"><input type="password" name="codeword" size="30"></td>
+        </tr>
+        <tr>
+           <td align="left" colspan="2"><i>Позволяет получить дополнительные права в системе</i></td>
+        </tr>
+
+        <tr>
+          <td align="center" colspan="2">
+           <hr>
+           <input type="submit" value="Зарегистрировать" class="submit_btn">
+          </td>
+        </tr>
+
+     </form>
+   </table>
+  </td>
+
+  </table>
+    $include_file("down_part_ru.html")
+
+ </body>
+</html>

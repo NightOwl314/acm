@@ -1,0 +1,73 @@
+{ВаСёК}{2008}
+program Test;
+
+{$APPTYPE CONSOLE}
+
+uses
+  SysUtils;//, Windows;
+
+//type
+//  PReal = ^Real;
+
+var
+//  HFile,HMap: THandle;
+//  AdrBase,AdrReal: PReal;
+  f: text;
+  s: string;
+//  p: pointer;
+//  iTime,iMem: integer;
+begin
+  try
+    Assign(f,ParamStr(2));
+    Reset(f);
+    Readln(f,s);
+    Close(f);
+  except
+    Writeln('Error: cannot read file "'+ParamStr(2)+'"');
+    Halt(1);
+  end;
+  if s<>'Output...' then Halt(0);
+  try
+    Assign(f,ParamStr(1));
+    Rewrite(f);
+    Writeln(f,'Input...');
+    Close(f);
+  except
+  end;  
+  Halt(1);
+{
+  HFile:=FileOpen(ParamStr(2),fmOpenReadWrite or fmShareExclusive);
+  writeln(HFile);
+  HMap:=CreateFileMapping(Hfile,nil,PAGE_READWRITE,0,0,nil);
+  writeln(HMap);
+  AdrBase:=MapViewOfFile(HMap,FILE_MAP_WRITE,0,0,0);
+  if AdrBase=nil then writeln('error')
+  else begin
+  AdrReal:=AdrBase;
+  AdrReal^:=Random;
+  AdrReal:=Pointer(Integer(AdrReal)+SizeOf(Real));
+  UnmapViewOfFile(AdrBase);
+  end;
+  CloseHandle(HMap);
+  CloseHandle(HFile);
+ }
+{  writeln(ParamStr(2));
+  assign(ffiletmp,paramstr(2));
+  rewrite(ffiletmp);
+  writeln(ffiletmp,'Файл перезаписан');
+  close(ffiletmp);
+  }
+{
+  try
+    Assign(fFileTmp,Copy(ParamStr(2),1,Length(ParamStr(0))-4)+'.tmp');
+    Reset(fFileTmp);
+  finally
+    Readln(fFileTmp,iTime);
+    Readln(fFileTmp,iMem);
+    Close(fFileTmp);
+    GetMem(p,iMem*1024);
+    Sleep(iTime);
+    FreeMem(p,iMem*1024);
+  end;}
+end.
+

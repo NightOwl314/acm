@@ -1,0 +1,153 @@
+create or replace
+package body cmp_pkg  as  
+tmp varchar2(32) := '_TMP';
+cursor gl_cur_select_REGIONS is select * from REGIONS;
+cursor gl_cur_select_COUNTRIES is select * from COUNTRIES;
+cursor gl_cur_select_LOCATIONS is select * from LOCATIONS;
+cursor gl_cur_select_DEPARTMENTS is select * from DEPARTMENTS;
+cursor gl_cur_select_JOBS is select * from JOBS;
+cursor gl_cur_select_EMPLOYEES is select * from EMPLOYEES;
+cursor gl_cur_select_JOB_HISTORY is select * from JOB_HISTORY;
+cursor gl_cur_select_EMP_DETAILS_VIEW is select * from EMP_DETAILS_VIEW;
+ 
+procedure copy__REGIONS is pragma autonomous_transaction;
+l_rec gl_cur_select_REGIONS%rowtype;
+begin loop fetch gl_cur_select_REGIONS into l_rec;
+exit when gl_cur_select_REGIONS%notfound;
+insert into REGIONS_TMP (region_id, region_name) values (l_rec.region_id,l_rec.region_name);
+end loop;
+commit;
+end;
+ 
+procedure copy_REGIONS is begin open gl_cur_select_REGIONS;
+copy__REGIONS;
+close gl_cur_select_REGIONS;
+end;
+
+procedure copy__COUNTRIES is pragma autonomous_transaction;
+l_rec gl_cur_select_COUNTRIES%rowtype;
+begin loop fetch gl_cur_select_COUNTRIES into l_rec;
+exit when gl_cur_select_COUNTRIES%notfound;
+insert into COUNTRIES_TMP (country_id, country_name, region_id) values (l_rec.country_id,l_rec.country_name,l_rec.region_id);
+end loop;
+commit;
+end;
+ 
+procedure copy_COUNTRIES is begin open gl_cur_select_COUNTRIES;
+copy__COUNTRIES;
+close gl_cur_select_COUNTRIES;
+end;
+
+procedure copy__LOCATIONS is pragma autonomous_transaction;
+l_rec gl_cur_select_LOCATIONS%rowtype;
+begin loop fetch gl_cur_select_LOCATIONS into l_rec;
+exit when gl_cur_select_LOCATIONS%notfound;
+insert into LOCATIONS_TMP (location_id, street_address, postal_code, city, state_province, country_id) values (l_rec.location_id, l_rec.street_address, l_rec.postal_code, l_rec.city, l_rec.state_province, l_rec.country_id);
+end loop;
+commit;
+end;
+ 
+procedure copy_LOCATIONS is begin open gl_cur_select_LOCATIONS;
+copy__LOCATIONS;
+close gl_cur_select_LOCATIONS;
+end;
+
+procedure copy__DEPARTMENTS is pragma autonomous_transaction;
+l_rec gl_cur_select_DEPARTMENTS%rowtype;
+begin loop fetch gl_cur_select_DEPARTMENTS into l_rec;
+exit when gl_cur_select_DEPARTMENTS%notfound;
+insert into DEPARTMENTS_TMP (department_id, department_name, manager_id, location_id) values (l_rec.department_id, l_rec.department_name, l_rec.manager_id, l_rec.location_id);
+end loop;
+commit;
+end;
+ 
+procedure copy_DEPARTMENTS is begin open gl_cur_select_DEPARTMENTS;
+copy__DEPARTMENTS;
+close gl_cur_select_DEPARTMENTS;
+end;
+
+procedure copy__JOBS is pragma autonomous_transaction;
+l_rec gl_cur_select_JOBS%rowtype;
+begin loop fetch gl_cur_select_JOBS into l_rec;
+exit when gl_cur_select_JOBS%notfound;
+insert into JOBS_TMP (job_id, job_title, min_salary, max_salary) values (l_rec.job_id, l_rec.job_title, l_rec.min_salary, l_rec.max_salary);
+end loop;
+commit;
+end;
+ 
+procedure copy_JOBS is begin open gl_cur_select_JOBS;
+copy__JOBS;
+close gl_cur_select_JOBS;
+end;
+
+procedure copy__EMPLOYEES is pragma autonomous_transaction;
+l_rec gl_cur_select_EMPLOYEES%rowtype;
+begin loop fetch gl_cur_select_EMPLOYEES into l_rec;
+exit when gl_cur_select_EMPLOYEES%notfound;
+insert into EMPLOYEES_TMP (employee_id, first_name, last_name, email, phone_number, hire_date, job_id, salary, commission_pct, manager_id, department_id) values (l_rec.employee_id, l_rec.first_name, l_rec.last_name, l_rec.email, l_rec.phone_number, l_rec.hire_date, l_rec.job_id, l_rec.salary, l_rec.commission_pct, l_rec.manager_id, l_rec.department_id);
+end loop;
+commit;
+end;
+ 
+procedure copy_EMPLOYEES is begin open gl_cur_select_EMPLOYEES;
+copy__EMPLOYEES;
+close gl_cur_select_EMPLOYEES;
+end;
+
+procedure copy__JOB_HISTORY is pragma autonomous_transaction;
+l_rec gl_cur_select_JOB_HISTORY%rowtype;
+begin loop fetch gl_cur_select_JOB_HISTORY into l_rec;
+exit when gl_cur_select_JOB_HISTORY%notfound;
+insert into JOB_HISTORY_TMP (employee_id, start_date, end_date, job_id, department_id) values (l_rec.employee_id, l_rec.start_date, l_rec.end_date, l_rec.job_id, l_rec.department_id);
+end loop;
+commit;
+end;
+ 
+procedure copy_JOB_HISTORY is begin open gl_cur_select_JOB_HISTORY;
+copy__JOB_HISTORY;
+close gl_cur_select_JOB_HISTORY;
+end;
+
+procedure copy__EMP_DETAILS_VIEW is pragma autonomous_transaction;
+l_rec gl_cur_select_EMP_DETAILS_VIEW%rowtype;
+begin loop fetch gl_cur_select_EMP_DETAILS_VIEW into l_rec;
+exit when gl_cur_select_EMP_DETAILS_VIEW%notfound;
+insert into EMP_DETAILS_VIEW_TMP (employee_id, job_id, manager_id, department_id, location_id, country_id, first_name, last_name, salary, commission_pct, department_name, job_title, city, state_province, country_name, region_name) values (l_rec.employee_id, l_rec.job_id, l_rec.manager_id, l_rec.department_id, l_rec.location_id, l_rec.country_id, l_rec.first_name, l_rec.last_name, l_rec.salary, l_rec.commission_pct, l_rec.department_name, l_rec.job_title, l_rec.city, l_rec.state_province, l_rec.country_name, l_rec.region_name);
+end loop;
+commit;
+end;
+
+procedure copy_EMP_DETAILS_VIEW is begin open gl_cur_select_EMP_DETAILS_VIEW;
+copy__EMP_DETAILS_VIEW;
+close gl_cur_select_EMP_DETAILS_VIEW;
+end;
+
+procedure copy_table(table_name in varchar2) is l_table_name varchar(32);
+begin l_table_name := upper(table_name);
+ if (l_table_name = 'REGIONS')   then copy_REGIONS;
+end if;
+ if (l_table_name = 'COUNTRIES')   then copy_COUNTRIES;
+end if;
+ if (l_table_name = 'LOCATIONS')   then copy_LOCATIONS;
+end if;
+ if (l_table_name = 'DEPARTMENTS')   then copy_DEPARTMENTS;
+end if;
+ if (l_table_name = 'JOBS')   then copy_JOBS;
+end if;
+ if (l_table_name = 'EMPLOYEES')   then copy_EMPLOYEES;
+end if;
+ if (l_table_name = 'JOB_HISTORY')   then copy_JOB_HISTORY;
+end if;
+ if (l_table_name = 'EMP_DETAILS_VIEW')   then copy_EMP_DETAILS_VIEW;
+end if;
+ end;
+
+function eq_table(l_table_name varchar2, compare_fields varchar2) return boolean is count1 integer;count2 integer;union_count integer;l_compare_fields varchar2(512);
+begin  l_compare_fields := trim(compare_fields);
+ if (l_compare_fields = '*') then for f in (select column_name from user_tab_columns where table_name = upper(l_table_name)) loop if l_compare_fields = '*' then l_compare_fields := f.column_name;else l_compare_fields := l_compare_fields || ',' || f.column_name;end if;end loop;end if;execute immediate 'select count(*) from (select distinct '||l_compare_fields||' from '||l_table_name||')' into count1;execute immediate 'select count(*) from (select distinct '||l_compare_fields||' from '||l_table_name||tmp||')' into count2;if count1 <> count2 then return false;
+end if;execute immediate 'select count(*) from (select '||l_compare_fields||', count(*) from '||l_table_name||tmp||' group by '||l_compare_fields||'  union  select '||l_compare_fields||', count(*) from '||l_table_name||' group by '||l_compare_fields||')' into union_count;
+ return count1 = union_count;
+ end eq_table;
+end cmp_pkg;
+
+/

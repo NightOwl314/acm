@@ -1,0 +1,32 @@
+<head>
+<title>АВТ ВоГТУ - Решение задач на Visual C#</title>
+<style>
+body {background: #CFCFCF; font-size:12pt; color: black; }
+</style>
+</head>
+
+<body>
+<h2 align=center>Решение задач на Visual C#</h2>
+Пример решения задачи A+B:<br>
+<table><tr><td>
+<div class="code_box"><pre><code class="basic">   
+
+using System;
+
+public class Sum
+{
+    private static void Main()
+    {
+        string[] tokens = Console.ReadLine().Split(' ');
+        Console.WriteLine(int.Parse(tokens[0]) + int.Parse(tokens[1]));
+    }
+}
+
+</code></pre></div>
+</td></tr></table>
+Примечание. Данное решение не является самым эффективным. Например, при посимвольном вводе программа может работать быстрее и использовать меньше памяти
+<br><br>
+
+Параметры командной строки компилятора:<br>
+<b>csc /o+ /r:System.Numerics.dll name.cs</b>
+</body>

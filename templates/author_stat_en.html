@@ -1,0 +1,128 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>AVT VSU - Author statistics: $author_name</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    $include_file("head_en.html")
+
+    <table width="100%" border="0" height="55"><tr>
+    <td width="50%"></td>
+    <td nowrap width="1%"><h2 align=center>$author_name</h2></td>
+    <td width="50%" valign="top">
+    <!--start_edit_profile-->
+    <table class="other"><tr><td><a href="/cgi-bin/aregister.pl?mode=edit&id_publ=$id_author">edit profile</a></td></tr></table>
+    <!--finish_edit_profile-->
+    </td>
+    </tr></table>
+  <table class="other" width="100%" border=0>
+  <tr>
+  <td width=100></td>
+  <td>
+  
+    <p align=center>$author_country</p><hr>
+    <p align=center>$author_info</p><hr>
+  <table class="other" width="100%" border=0>
+  </td></tr>
+    <tr><td nowrap width="25%" valign="top">Membership in groups:</td><td width="50%">
+    <table class="link_prb1" border="0"><tr><td>
+    <!--start_offset_group-->&nbsp;&nbsp;&nbsp;<!--finish_offset_group-->
+    <!--start_group-->
+    <font face="Courier New">$offset_group</font><a href="/cgi-bin/statistica.pl?id_grp=$id_grp">$group_name</a><br/>
+    <!--finish_group-->
+  </td></tr>
+  </table>  
+    </td><td nowrap width="25%" align="right">
+    <!--start_change_groups-->
+    <a href="/cgi-bin/manage_access.pl?mode=change_grp&id_publ=$id_author">Edit</a>
+    <!--finish_change_groups-->
+  </td></tr>
+  </table>  
+    <hr><br>
+
+    <table class="tbbd1" WIDTH="370" border=0 align=center> <tr><td>
+    <table class="link_prb1" WIDTH="100%" border=0 align=center>
+    <tr><th align=left><i>Rank</i></th><td align=right><u>$author_place</u></td></tr>
+    <tr><th align=left>Problems Solved</th><td align=right>$author_solve</td></tr>
+    <tr><th align=left>Submissions</th><td align=right>$author_submit</td></tr>
+    $author_stat
+    </table> </td></td>
+    </table>
+
+    <br><hr><br>
+<!--
+    <center>
+    List of solved problems:<br>
+    $problems_solve<br>
+    </center>
+
+    <br><hr><br>
+
+    <center>
+    List of not solved problems:<br>
+    $problems_notsolve<br>
+    </center>
+
+    <br><hr><br>
+
+    <center>
+    List of best solved problems:<br>
+    $problems_best<br>
+    </center>
+-->
+    <table width="100%" class="other" align=center border=0 cellpadding=5>
+    <tr valign=bottom>
+    <td align=center width="33%">
+    List of solved problems:
+    </td>
+    <td align=center width="34%">
+    List of not solved problems:
+    </td>
+    <td align=center width="33%">
+    List of best solved problems:
+    </td>
+    </tr>
+    <tr valign=top>
+    <td>
+    <table class="link_prb" border=0 align=center cellpadding=1>
+     $problems_solve
+    </table>
+    </td>
+    <td>
+    <table class="link_prb" border=0 align=center cellpadding=1>
+    $problems_notsolve
+    </table>
+    </td>
+    <td>
+    <table class="link_prb" border=0 align=center cellpadding=1>
+    $problems_best
+    </table>
+    <!--<font size="-1"><center>click for view source</center></font>-->
+    </td>
+    </tr>
+    </table>
+
+    <br><hr><br>
+
+    <center>Neighbours:</center>
+
+    <table class="tbbd2" WIDTH="100%" border=1 align=center cellspacing=1>
+    <tr>
+    <TH ALIGN=CENTER WIDTH=80>Rank</TH>
+    <TH ALIGN=CENTER WIDTH="*">Author</TH>
+    <TH ALIGN=CENTER WIDTH=100>Solved</TH>
+    <TH ALIGN=CENTER WIDTH=100>Submissions</TH>
+    </tr>
+     $insert_ranksmall(3)
+    </table>
+
+  </td>
+  <td width=100></td>
+  </tr>
+  </table>
+    $include_file("down_part_en.html")
+ </body>
+</html>

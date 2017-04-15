@@ -1,0 +1,12 @@
+---------------
+Found error
+path_to_vm=C:\Virtual_Machines\Win2003Test\Win2003Test.vmx
+count_vm=1
+vmware_number=1
+global_timeout(<)=200
+login_in_vm=Administrator
+program_exec_first=c:\windows\system32\cscript.exe
+program_exec_second=c:\windows\system32\cscript.exe
+Sat Dec 08 13:39:47 2007 time limit on del directory
+Sat Dec 08 13:41:05 2007 end error logs
+---------------

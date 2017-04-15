@@ -1,0 +1,19 @@
+
+
+                                        
+
+
+ GPSS/PC Report file REPORT.GPS.  (V 2, # 37349)  05-15-2010 21:35:08   page 1
+
+     START_TIME    END_TIME  BLOCKS    FACILITIES  STORAGES   FREE_MEMORY
+            0          600     24           3          0        309040
+
+
+FACILITY    ENTRIES  UTIL.   AVE._TIME AVAILABLE  OWNER PEND INTER RETRY DELAY
+ PC1            10  0.160        9.60      1         0   0     0     0     0
+ KAN1           10  0.036        2.20      1         0   0     0     0     0
+ PC2            10  0.156        9.40      1         0   0     0     0     0
+
+
+XACT_GROUP         GROUP_SIZE       RETRY
+ POSITION                  0           0

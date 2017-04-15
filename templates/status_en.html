@@ -1,0 +1,91 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <meta http-equiv="Refresh" content="$refresh_time">
+   <meta http-equiv="Expires" content="-1">
+   <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+   <META HTTP-EQUIV="Cache-control" CONTENT="NO-CACHE, must-revalidate">
+   <title>AVT VSU - Online status </title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+    $include_file("head_en.html")
+    <h2 align=center>On-line status</h2>
+<!--start_filter-->
+    <table border=0 width="100%" class="other">
+    <tr><td align="right" nowrap>
+    <form name="f_type_view" action="/cgi-bin/status.pl" method="get" >
+      <input type="hidden" name="mode" value="set_view">
+      View submisions
+      <!--start_param_view-->&nbsp;&nbsp;&nbsp;&nbsp;|Self|All<!--finish_param_view-->
+      <select name="id_view" size="1" style="width:200;"> 
+<!--start_view--><OPTION VALUE="$view_id" $is_selected${selected|} $is_enbl${|disabled}>$offset_view$view_name</option><!--finish_view-->
+             </select>
+    <input type="submit" value="OK"> </form>
+    </td></tr></table>
+<!--finish_filter-->
+
+    <table class="tbbd2" WIDTH=100% border=1 align=center cellspacing=1>
+    <tr>
+    <TH ALIGN=CENTER WIDTH=82>ID</TH>
+    <TH ALIGN=CENTER WIDTH=90>Date</TH>
+    <!--start_author-->
+    <TH ALIGN=CENTER WIDTH="*">Author</TH>
+    <!--finish_author-->
+
+    <TH ALIGN=CENTER WIDTH="200">Problem</TH>
+    <TH ALIGN=CENTER WIDTH="*">Compiler</TH>
+    <TH ALIGN=CENTER WIDTH=*>Result</TH>
+    <TH ALIGN=CENTER WIDTH=*>Comment</TH>
+    <TH ALIGN=CENTER WIDTH=70>Test</TH>
+    <TH ALIGN=CENTER WIDTH=30 title="Only for problems with 'School' assessment system">Points</TH>
+    <TH ALIGN=CENTER WIDTH=70>Time Worked (sec)</TH>
+    <TH ALIGN=CENTER WIDTH=70>Memory Usage (KB)</TH>
+    </tr>
+    <!--start_status_row(15)-->
+     <tr><td align="left" nowrap>&nbsp;$stat_id$my_submit${&nbsp;<a href="/cgi-bin/submit.pl?mode=load_src&id_stat=$stat_id"><img src="/src.gif" alt="source" title="source"></a>|}</td>
+     <td align="center">$stat_date<br/>$stat_time</td>
+    $single_author${|<td><a href="/cgi-bin/statistica.pl?id_publ=$author_id">$author_name</a></td>}
+    $single_author${<td><a href="/cgi-bin/arh_problems.pl?id_prb=$problem_id">$problem_id. $problem_name</a></td>|<td align="center" width=70><a href="/cgi-bin/arh_problems.pl?id_prb=$problem_id" title="$problem_name">$problem_id - $problem_name</a></td>}
+     <td align="center">$compiler_name</td>
+     <td align="center" >
+        <div style="position:relative;width:130px;height:40px;">
+<div STYLE="position:absolute; top:-4; right:-2; z-index:4;">$warn_plagiat${<span style="color:#f10000;vertical-align:top;font-size:8pt;">plagiarism? <span style="color:#d16060">$not_uniq_proc_int%</span></span>|}$show_report${$hint_plagiat${<span style="color:#707070;vertical-align:top;font-size:8pt;">$not_uniq_proc_int%</span>|}<a href="/cgi-bin/status.pl?mode=report&id_stat=$stat_id"><img src="/lamp.gif" alt="hint" title="hint"></a>|}</div>
+             $best_solve${<div valign="bottom" style="z-index:2;height:40px;width:144px;position:absolute;left:-7;bottom:0;"><img title="Best solution" align=left src="/best_star1.png"><img title="Best solution" align=right src="/best_star1.png"></div>|}
+             <div valign="bottom" style="z-index:3;width:130px;position:absolute;left:0;bottom:0;text-align:center;"><div style="float:left;height:30px;"></div>$result_name</div> 
+        </div> 
+        </td>
+     <td align="center"><i>$comment</i></td>
+     <td align="center">$show_src${<a class="src_lnk1" title="View source text solution" href=/cgi-bin/statistica.pl?id_stat=$stat_id >src.code</a>|$test_n}</td>
+     <td align="center">$best_solve${<b>$points</b>|$points}</td><td align="center">$best_solve${<b>$time_work</b>|$time_work}</td><td align="center">$best_solve${<b>$mem_use</b>|$mem_use}</td></tr>
+    <!--finish_status_row-->
+    </table>
+    <BR>
+ <TABLE class="other" WIDTH=100% BORDER=0>
+    <TR>
+      <TD WIDTH=50% ALIGN=LEFT>
+       Refresh: 
+      $refresh_template(Never).
+      $refresh_template(15),
+      $refresh_template(30),
+      $refresh_template(60),
+    </TD>
+    <TD WIDTH=50% ALIGN=RIGHT>
+    <a href=/cgi-bin/status.pl?id_stat=0$add_prb_publ>TOP</a>&nbsp
+    <a href=/cgi-bin/status.pl?id_stat=$prev_rec$add_prb_publ>Previous 15</a>&nbsp
+    <a href=/cgi-bin/status.pl?id_stat=$next_rec$add_prb_publ>Next 15</a>&nbsp
+    </TD>
+    </TR>
+</TABLE>
+    $include_file("down_part_en.html")
+
+ </body>
+</html>
+
+<!--
+     НЕ УДАЛЯТЬ - ЭТО ИСПОЛЬЗУЕТСЯ СКРИПТОМ
+     $refresh_active = {<FONT COLOR=RED><b>$refresh_arg</b></FONT>}
+     $refresh_basic  = {<A HREF=/cgi-bin/status.pl?refresh=$refresh_arg$add_prb_publ>$refresh_arg</A>}
+     $refresh_default = Never
+-->

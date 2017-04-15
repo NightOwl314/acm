@@ -1,0 +1,3633 @@
+Thu May 22 11:34:39 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:34:39 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:34:39 2008: Master conf file parsed.
+Thu May 22 11:34:39 2008: Compilers conf file parsed.
+Thu May 22 11:34:39 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:34:39 2008: Connected to DB, DBI::db=HASH(0x19f9cf4)
+Thu May 22 11:34:39 2008: Started.
+Thu May 22 11:34:39 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 11:34:39 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl'.
+Thu May 22 11:34:39 2008: Security level got: UserID=0; Sec=0
+Thu May 22 11:34:39 2008: Security level got: UserID=0; Sec=0
+Thu May 22 11:34:42 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:34:42 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:34:42 2008: Master conf file parsed.
+Thu May 22 11:34:42 2008: Compilers conf file parsed.
+Thu May 22 11:34:42 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:34:42 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:34:42 2008: Started.
+Thu May 22 11:34:42 2008: Current link: 'cnt_common.pl?action=active_contests&re_login=8843'
+Thu May 22 11:34:47 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:34:47 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:34:47 2008: Master conf file parsed.
+Thu May 22 11:34:47 2008: Compilers conf file parsed.
+Thu May 22 11:34:47 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:34:47 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:34:47 2008: Started.
+Thu May 22 11:34:47 2008: Current link: 'cnt_common.pl?action=active_contests&re_login=8843'
+Thu May 22 11:34:48 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:34:48 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:34:48 2008: Master conf file parsed.
+Thu May 22 11:34:48 2008: Compilers conf file parsed.
+Thu May 22 11:34:48 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:34:48 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:34:48 2008: Started.
+Thu May 22 11:34:48 2008: Current link: 'cnt_common.pl?action=active_contests&'
+Thu May 22 11:34:48 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 11:34:48 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:34:48 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:34:48 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:34:48 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:34:48 2008: Master conf file parsed.
+Thu May 22 11:34:48 2008: Compilers conf file parsed.
+Thu May 22 11:34:48 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:34:48 2008: Connected to DB, DBI::db=HASH(0x19f9d08)
+Thu May 22 11:34:48 2008: Started.
+Thu May 22 11:34:48 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests&'.
+Thu May 22 11:34:48 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:34:48 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:34:57 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:34:57 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:34:57 2008: Master conf file parsed.
+Thu May 22 11:34:57 2008: Compilers conf file parsed.
+Thu May 22 11:34:57 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:34:57 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 11:34:57 2008: Started.
+Thu May 22 11:34:57 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:34:57 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:34:57 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:35:11 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:35:11 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:35:11 2008: Master conf file parsed.
+Thu May 22 11:35:11 2008: Compilers conf file parsed.
+Thu May 22 11:35:11 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:35:11 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:35:11 2008: Started.
+Thu May 22 11:35:11 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 11:35:11 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:35:11 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:35:11 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:35:11 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:35:11 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:35:11 2008: Master conf file parsed.
+Thu May 22 11:35:11 2008: Compilers conf file parsed.
+Thu May 22 11:35:11 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:35:11 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 11:35:11 2008: Started.
+Thu May 22 11:35:11 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 11:35:11 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:35:11 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:35:20 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:35:20 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:35:20 2008: Master conf file parsed.
+Thu May 22 11:35:20 2008: Compilers conf file parsed.
+Thu May 22 11:35:20 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:35:21 2008: Connected to DB, DBI::db=HASH(0x19f9e58)
+Thu May 22 11:35:21 2008: Started.
+Thu May 22 11:35:21 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:35:21 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:35:31 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:35:31 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:35:31 2008: Master conf file parsed.
+Thu May 22 11:35:31 2008: Compilers conf file parsed.
+Thu May 22 11:35:31 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:35:31 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:35:31 2008: Started.
+Thu May 22 11:35:31 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:35:31 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?'.
+Thu May 22 11:35:41 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:35:41 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:35:41 2008: Master conf file parsed.
+Thu May 22 11:35:41 2008: Compilers conf file parsed.
+Thu May 22 11:35:41 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:35:41 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:35:41 2008: Started.
+Thu May 22 11:35:41 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:35:41 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=manage_all'.
+Thu May 22 11:35:48 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:35:48 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:35:48 2008: Master conf file parsed.
+Thu May 22 11:35:48 2008: Compilers conf file parsed.
+Thu May 22 11:35:48 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:35:48 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:35:48 2008: Started.
+Thu May 22 11:35:48 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:35:48 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?'.
+Thu May 22 11:36:25 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:36:25 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:36:25 2008: Master conf file parsed.
+Thu May 22 11:36:25 2008: Compilers conf file parsed.
+Thu May 22 11:36:25 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:36:25 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:36:25 2008: Started.
+Thu May 22 11:36:25 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:36:25 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=manage_all'.
+Thu May 22 11:37:40 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:37:40 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:37:40 2008: Master conf file parsed.
+Thu May 22 11:37:40 2008: Compilers conf file parsed.
+Thu May 22 11:37:40 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:37:40 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:37:40 2008: Started.
+Thu May 22 11:37:40 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:37:40 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=35'.
+Thu May 22 11:37:41 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:37:41 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:37:41 2008: Master conf file parsed.
+Thu May 22 11:37:41 2008: Compilers conf file parsed.
+Thu May 22 11:37:41 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:37:41 2008: Connected to DB, DBI::db=HASH(0x1a05c04)
+Thu May 22 11:37:41 2008: Started.
+Thu May 22 11:37:41 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:37:41 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=add_problems&cont_id=35'.
+Thu May 22 11:37:51 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:37:51 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:37:51 2008: Master conf file parsed.
+Thu May 22 11:37:51 2008: Compilers conf file parsed.
+Thu May 22 11:37:51 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:37:51 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:37:51 2008: Started.
+Thu May 22 11:37:51 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:37:51 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=35'.
+Thu May 22 11:37:51 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:37:51 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:37:51 2008: Master conf file parsed.
+Thu May 22 11:37:51 2008: Compilers conf file parsed.
+Thu May 22 11:37:51 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:37:51 2008: Connected to DB, DBI::db=HASH(0x1a05c04)
+Thu May 22 11:37:51 2008: Started.
+Thu May 22 11:37:52 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:37:52 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=update_problems&cont_id=35&num2=1&num3=2&num45=3&num285=4'.
+Thu May 22 11:39:15 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:39:15 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:39:15 2008: Master conf file parsed.
+Thu May 22 11:39:15 2008: Compilers conf file parsed.
+Thu May 22 11:39:15 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:39:15 2008: Connected to DB, DBI::db=HASH(0x19f9d08)
+Thu May 22 11:39:15 2008: Started.
+Thu May 22 11:39:15 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=35'.
+Thu May 22 11:39:15 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:39:15 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:39:19 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:39:19 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:39:19 2008: Master conf file parsed.
+Thu May 22 11:39:19 2008: Compilers conf file parsed.
+Thu May 22 11:39:19 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:39:19 2008: Connected to DB, DBI::db=HASH(0x19f99f0)
+Thu May 22 11:39:19 2008: Started.
+Thu May 22 11:39:20 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:39:20 2008: cnt_master.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:39:22 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:39:22 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:39:22 2008: Master conf file parsed.
+Thu May 22 11:39:22 2008: Compilers conf file parsed.
+Thu May 22 11:39:22 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:39:22 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:39:22 2008: Started.
+Thu May 22 11:39:22 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:39:22 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_master.pl?'.
+Thu May 22 11:39:25 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:39:25 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:39:25 2008: Master conf file parsed.
+Thu May 22 11:39:25 2008: Compilers conf file parsed.
+Thu May 22 11:39:25 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:39:25 2008: Connected to DB, DBI::db=HASH(0x19f99dc)
+Thu May 22 11:39:25 2008: Started.
+Thu May 22 11:39:25 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:39:25 2008: cnt_master.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?'.
+Thu May 22 11:39:32 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:39:32 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:39:32 2008: Master conf file parsed.
+Thu May 22 11:39:32 2008: Compilers conf file parsed.
+Thu May 22 11:39:32 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:39:32 2008: Connected to DB, DBI::db=HASH(0x19f99e0)
+Thu May 22 11:39:32 2008: Started.
+Thu May 22 11:39:32 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:39:32 2008: cnt_master.pl: Cookies checked: CurLang='ru'; last_link='cnt_master.pl?'.
+Thu May 22 11:41:01 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:41:01 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:41:01 2008: Master conf file parsed.
+Thu May 22 11:41:01 2008: Compilers conf file parsed.
+Thu May 22 11:41:01 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:41:01 2008: Connected to DB, DBI::db=HASH(0x19f99d0)
+Thu May 22 11:41:01 2008: Started.
+Thu May 22 11:41:01 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:41:01 2008: cnt_master.pl: Cookies checked: CurLang='ru'; last_link='cnt_master.pl?action=judge&cont_id=36'.
+Thu May 22 11:41:16 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:41:16 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:41:16 2008: Master conf file parsed.
+Thu May 22 11:41:16 2008: Compilers conf file parsed.
+Thu May 22 11:41:16 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:41:16 2008: Connected to DB, DBI::db=HASH(0x19f98e0)
+Thu May 22 11:41:16 2008: Started.
+Thu May 22 11:41:16 2008: Current link: 'cnt_common.pl?action=stand&cont_id=28&master=1'
+Thu May 22 11:41:16 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_master.pl?'.
+Thu May 22 11:41:16 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:41:16 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:41:16 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:41:16 2008:   select R.reg_time+C.duration/24-current_timestamp,
+         case
+           when (current_timestamp-R.reg_time)*24<duration then (current_timestamp-R.reg_time)*24
+           when (current_timestamp-R.reg_time)*24>=duration then duration
+         end
+  from Contests C JOIN Regauth R on C.cont_id=R.cont_id
+  where C.cont_id=28 and
+        R.user_id=21916
+
+Thu May 22 11:41:16 2008: Tmp_stand called: cont_id=28, isteam=0, isvirt=1, user=21916, type=1, master=1
+Thu May 22 11:41:16 2008:   select Status.id_publ, Cont_prob.pr_num, Status.id_rsl,
+        (cast(Status.dt_tm as date)-cast(Regauth.reg_time as date))*24*60+
+        (cast(Status.dt_tm as time)-cast(Regauth.reg_time as time))/60 penalty
+  from
+    (
+      (
+        (status join cont_status on status.id_stat=cont_status.id_stat and cont_status.cont_id=28)
+      join
+        cont_prob
+      on
+        cont_prob.prob_id=status.id_prb and cont_status.cont_id=cont_prob.cont_id
+      )
+    join
+      contests
+    on
+      contests.cont_id=cont_status.cont_id
+    )
+  join
+    regauth
+  on
+    regauth.user_id=status.id_publ and regauth.cont_id=28
+  where Status.id_rsl<100 and
+        Status.dt_tm-Regauth.reg_time>=0 and
+        Status.dt_tm-Regauth.reg_time<(Contests.duration)/24
+        
+  order by Status.id_publ,
+           Cont_prob.pr_num,
+           Status.dt_tm
+
+Thu May 22 11:41:16 2008: Calculating standings...
+Thu May 22 11:41:16 2008: Standings calculated.
+Thu May 22 11:41:16 2008: Tmp_stand ended.
+Thu May 22 11:41:26 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:41:26 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:41:26 2008: Master conf file parsed.
+Thu May 22 11:41:26 2008: Compilers conf file parsed.
+Thu May 22 11:41:26 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:41:26 2008: Connected to DB, DBI::db=HASH(0x19f9e48)
+Thu May 22 11:41:26 2008: Started.
+Thu May 22 11:41:26 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:41:26 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=stand&cont_id=28&master=1'.
+Thu May 22 11:41:29 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:41:29 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:41:29 2008: Master conf file parsed.
+Thu May 22 11:41:29 2008: Compilers conf file parsed.
+Thu May 22 11:41:29 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:41:29 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:41:29 2008: Started.
+Thu May 22 11:41:29 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:41:29 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?'.
+Thu May 22 11:41:33 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:41:33 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:41:33 2008: Master conf file parsed.
+Thu May 22 11:41:33 2008: Compilers conf file parsed.
+Thu May 22 11:41:33 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:41:33 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:41:33 2008: Started.
+Thu May 22 11:41:33 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:41:33 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=manage_all'.
+Thu May 22 11:47:03 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:47:03 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:47:03 2008: Master conf file parsed.
+Thu May 22 11:47:03 2008: Compilers conf file parsed.
+Thu May 22 11:47:03 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:47:03 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:47:03 2008: Started.
+Thu May 22 11:47:03 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:47:03 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=add'.
+Thu May 22 11:47:03 2008: select theme_id from Add_contest_theme(10000)
+Thu May 22 11:47:03 2008: select cont_id from Add_contest(1,0,0,'','',0,0,1,10020)
+Thu May 22 11:47:03 2008: Overflow occurred during data type conversion.
+-conversion error from string ""
+
+Thu May 22 11:47:30 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:47:30 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:47:30 2008: Master conf file parsed.
+Thu May 22 11:47:30 2008: Compilers conf file parsed.
+Thu May 22 11:47:30 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:47:31 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:47:31 2008: Started.
+Thu May 22 11:47:31 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:47:31 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=add'.
+Thu May 22 11:47:31 2008: select theme_id from Add_contest_theme(10000)
+Thu May 22 11:47:31 2008: select cont_id from Add_contest(1,0,0,'20,','',0,0,1,10020)
+Thu May 22 11:47:31 2008: Overflow occurred during data type conversion.
+-conversion error from string "20,"
+
+Thu May 22 11:47:56 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:47:56 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:47:56 2008: Master conf file parsed.
+Thu May 22 11:47:56 2008: Compilers conf file parsed.
+Thu May 22 11:47:56 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:47:56 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:47:56 2008: Started.
+Thu May 22 11:47:56 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:47:56 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=add'.
+Thu May 22 11:47:56 2008: select theme_id from Add_contest_theme(10000)
+Thu May 22 11:47:56 2008: select cont_id from Add_contest(1,0,0,'20.05.2008','20.06.2009',0,0,1,10020)
+Thu May 22 11:47:56 2008: insert into Tema_lng(id_tm,id_lng,name) values (10020,'en','New topic')
+Thu May 22 11:47:56 2008: insert into Tema_lng(id_tm,id_lng,name) values (10020,'ru','Новый турнир')
+Thu May 22 11:47:56 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:47:56 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:47:56 2008: Master conf file parsed.
+Thu May 22 11:47:56 2008: Compilers conf file parsed.
+Thu May 22 11:47:56 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:47:57 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:47:57 2008: Started.
+Thu May 22 11:47:57 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:47:57 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=insert&cont_id=%24CONTEST_ID&cn_name_en=New+topic&cn_name_ru=%CD%EE%E2%FB%E9+%F2%F3%F0%ED%E8%F0&start=20.05.2008&stop=20.06.2009&duration=1&freeze_time=0&selfreg=on&type_id=1&theme='.
+Thu May 22 11:48:20 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:48:20 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:48:20 2008: Master conf file parsed.
+Thu May 22 11:48:20 2008: Compilers conf file parsed.
+Thu May 22 11:48:20 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:48:20 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:48:20 2008: Started.
+Thu May 22 11:48:20 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:48:20 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 11:48:20 2008: Invalid token
+-Dynamic SQL Error
+-SQL error code = -104
+-Token unknown - line 1, column 37
+-where
+
+Thu May 22 11:48:47 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:48:47 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:48:47 2008: Master conf file parsed.
+Thu May 22 11:48:47 2008: Compilers conf file parsed.
+Thu May 22 11:48:47 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:48:47 2008: Connected to DB, DBI::db=HASH(0x19f98f0)
+Thu May 22 11:48:47 2008: Started.
+Thu May 22 11:48:47 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 11:48:47 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 11:48:48 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:48:48 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:48:48 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:48:48 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:48:48 2008: Master conf file parsed.
+Thu May 22 11:48:48 2008: Compilers conf file parsed.
+Thu May 22 11:48:48 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:48:48 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 11:48:48 2008: Started.
+Thu May 22 11:48:48 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 11:48:48 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:48:48 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:50:50 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:50:50 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:50:50 2008: Master conf file parsed.
+Thu May 22 11:50:50 2008: Compilers conf file parsed.
+Thu May 22 11:50:50 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:50:50 2008: Connected to DB, DBI::db=HASH(0x19f9900)
+Thu May 22 11:50:50 2008: Started.
+Thu May 22 11:50:50 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 11:50:50 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl'.
+Thu May 22 11:50:50 2008: Security level got: UserID=0; Sec=0
+Thu May 22 11:50:50 2008: Security level got: UserID=0; Sec=0
+Thu May 22 11:50:53 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:50:53 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:50:53 2008: Master conf file parsed.
+Thu May 22 11:50:53 2008: Compilers conf file parsed.
+Thu May 22 11:50:53 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:50:53 2008: Connected to DB, DBI::db=HASH(0x19f98e0)
+Thu May 22 11:50:53 2008: Started.
+Thu May 22 11:50:53 2008: Current link: 'cnt_common.pl?action=stand&cont_id=37'
+Thu May 22 11:50:53 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 11:50:53 2008: Security level got: UserID=0; Sec=0
+Thu May 22 11:50:53 2008: Security level got: UserID=0; Sec=0
+Thu May 22 11:50:53 2008:   select stop-freeze_time/24-current_timestamp,
+         case
+           when (current_timestamp-start)*24<duration then (current_timestamp-start)*24
+           when (current_timestamp-start)*24>=duration then duration
+         end
+  from Contests
+  where cont_id=37
+
+Thu May 22 11:50:53 2008: Tmp_stand called: cont_id=37, isteam=0, isvirt=0, user=0, type=1, master=0
+Thu May 22 11:50:53 2008:   select Status.id_publ, Cont_prob.pr_num, Status.id_rsl,
+        (cast(Status.dt_tm as date)-cast(Contests.start as date))*24*60+
+        (cast(Status.dt_tm as time)-cast(Contests.start as time))/60 penalty
+  from
+    (
+      (status join cont_status on status.id_stat=cont_status.id_stat and cont_status.cont_id=37)
+    join
+      cont_prob
+    on
+      cont_prob.prob_id=status.id_prb and cont_status.cont_id=cont_prob.cont_id
+    )
+  join
+    contests
+  on
+    contests.cont_id=cont_status.cont_id
+  where Status.id_rsl<100 and
+        Status.dt_tm-Contests.start>0 and
+        Contests.stop-Contests.freeze_time/24-Status.dt_tm>0
+
+  order by Status.id_publ,
+           Cont_prob.pr_num,
+           Status.dt_tm
+
+Thu May 22 11:50:53 2008: Calculating standings...
+Thu May 22 11:50:53 2008: Standings calculated: no submitions found.
+Thu May 22 11:50:53 2008: Tmp_stand ended.
+Thu May 22 11:50:56 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:50:56 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:50:56 2008: Master conf file parsed.
+Thu May 22 11:50:56 2008: Compilers conf file parsed.
+Thu May 22 11:50:56 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:50:56 2008: Connected to DB, DBI::db=HASH(0x19f98e0)
+Thu May 22 11:50:56 2008: Started.
+Thu May 22 11:50:56 2008: Current link: 'cnt_common.pl?action=stand&cont_id=37&re_login=928'
+Thu May 22 11:50:56 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:50:56 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:50:56 2008: Master conf file parsed.
+Thu May 22 11:50:56 2008: Compilers conf file parsed.
+Thu May 22 11:50:56 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:50:56 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:50:56 2008: Started.
+Thu May 22 11:50:56 2008: Current link: 'cnt_common.pl?action=stand&cont_id=37&re_login=928'
+Thu May 22 11:50:57 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:50:57 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:50:57 2008: Master conf file parsed.
+Thu May 22 11:50:57 2008: Compilers conf file parsed.
+Thu May 22 11:50:57 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:50:57 2008: Connected to DB, DBI::db=HASH(0x19f98f0)
+Thu May 22 11:50:57 2008: Started.
+Thu May 22 11:50:57 2008: Current link: 'cnt_common.pl?action=stand&cont_id=37&'
+Thu May 22 11:50:57 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=stand&cont_id=37'.
+Thu May 22 11:50:57 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:50:57 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:50:57 2008:   select stop-freeze_time/24-current_timestamp,
+         case
+           when (current_timestamp-start)*24<duration then (current_timestamp-start)*24
+           when (current_timestamp-start)*24>=duration then duration
+         end
+  from Contests
+  where cont_id=37
+
+Thu May 22 11:50:57 2008: Tmp_stand called: cont_id=37, isteam=0, isvirt=0, user=21916, type=1, master=0
+Thu May 22 11:50:57 2008:   select Status.id_publ, Cont_prob.pr_num, Status.id_rsl,
+        (cast(Status.dt_tm as date)-cast(Contests.start as date))*24*60+
+        (cast(Status.dt_tm as time)-cast(Contests.start as time))/60 penalty
+  from
+    (
+      (status join cont_status on status.id_stat=cont_status.id_stat and cont_status.cont_id=37)
+    join
+      cont_prob
+    on
+      cont_prob.prob_id=status.id_prb and cont_status.cont_id=cont_prob.cont_id
+    )
+  join
+    contests
+  on
+    contests.cont_id=cont_status.cont_id
+  where Status.id_rsl<100 and
+        Status.dt_tm-Contests.start>0 and
+        Contests.stop-Contests.freeze_time/24-Status.dt_tm>0
+
+  order by Status.id_publ,
+           Cont_prob.pr_num,
+           Status.dt_tm
+
+Thu May 22 11:50:57 2008: Calculating standings...
+Thu May 22 11:50:57 2008: Standings calculated: no submitions found.
+Thu May 22 11:50:57 2008: Tmp_stand ended.
+Thu May 22 11:51:03 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:51:03 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:51:03 2008: Master conf file parsed.
+Thu May 22 11:51:03 2008: Compilers conf file parsed.
+Thu May 22 11:51:03 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:51:03 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:51:03 2008: Started.
+Thu May 22 11:51:03 2008: Current link: 'cnt_common.pl?action=active_contests&re_login=6085'
+Thu May 22 11:51:06 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:51:06 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:51:06 2008: Master conf file parsed.
+Thu May 22 11:51:06 2008: Compilers conf file parsed.
+Thu May 22 11:51:06 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:51:06 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:51:06 2008: Started.
+Thu May 22 11:51:06 2008: Current link: 'cnt_common.pl?action=active_contests&re_login=6085'
+Thu May 22 11:51:07 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:51:07 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:51:07 2008: Master conf file parsed.
+Thu May 22 11:51:07 2008: Compilers conf file parsed.
+Thu May 22 11:51:07 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:51:07 2008: Connected to DB, DBI::db=HASH(0x19f98f0)
+Thu May 22 11:51:07 2008: Started.
+Thu May 22 11:51:07 2008: Current link: 'cnt_common.pl?action=active_contests&'
+Thu May 22 11:51:07 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=stand&cont_id=37&'.
+Thu May 22 11:51:07 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:07 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:07 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:51:07 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:51:07 2008: Master conf file parsed.
+Thu May 22 11:51:07 2008: Compilers conf file parsed.
+Thu May 22 11:51:07 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:51:07 2008: Connected to DB, DBI::db=HASH(0x19f9d08)
+Thu May 22 11:51:07 2008: Started.
+Thu May 22 11:51:07 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests&'.
+Thu May 22 11:51:07 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:07 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:13 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:51:13 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:51:13 2008: Master conf file parsed.
+Thu May 22 11:51:13 2008: Compilers conf file parsed.
+Thu May 22 11:51:13 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:51:13 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:51:13 2008: Started.
+Thu May 22 11:51:13 2008: Current link: 'cnt_common.pl?action=stand&cont_id=37'
+Thu May 22 11:51:13 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:51:13 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:13 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:13 2008:   select stop-freeze_time/24-current_timestamp,
+         case
+           when (current_timestamp-start)*24<duration then (current_timestamp-start)*24
+           when (current_timestamp-start)*24>=duration then duration
+         end
+  from Contests
+  where cont_id=37
+
+Thu May 22 11:51:13 2008: Tmp_stand called: cont_id=37, isteam=0, isvirt=0, user=21916, type=1, master=0
+Thu May 22 11:51:13 2008:   select Status.id_publ, Cont_prob.pr_num, Status.id_rsl,
+        (cast(Status.dt_tm as date)-cast(Contests.start as date))*24*60+
+        (cast(Status.dt_tm as time)-cast(Contests.start as time))/60 penalty
+  from
+    (
+      (status join cont_status on status.id_stat=cont_status.id_stat and cont_status.cont_id=37)
+    join
+      cont_prob
+    on
+      cont_prob.prob_id=status.id_prb and cont_status.cont_id=cont_prob.cont_id
+    )
+  join
+    contests
+  on
+    contests.cont_id=cont_status.cont_id
+  where Status.id_rsl<100 and
+        Status.dt_tm-Contests.start>0 and
+        Contests.stop-Contests.freeze_time/24-Status.dt_tm>0
+
+  order by Status.id_publ,
+           Cont_prob.pr_num,
+           Status.dt_tm
+
+Thu May 22 11:51:13 2008: Calculating standings...
+Thu May 22 11:51:13 2008: Standings calculated: no submitions found.
+Thu May 22 11:51:13 2008: Tmp_stand ended.
+Thu May 22 11:51:18 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:51:18 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:51:18 2008: Master conf file parsed.
+Thu May 22 11:51:18 2008: Compilers conf file parsed.
+Thu May 22 11:51:18 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:51:18 2008: Connected to DB, DBI::db=HASH(0x19f9ce8)
+Thu May 22 11:51:18 2008: Started.
+Thu May 22 11:51:18 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=stand&cont_id=37'.
+Thu May 22 11:51:18 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:18 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:18 2008: is_virt=0; is_start=1
+Thu May 22 11:51:18 2008: qry=insert into Regauth (user_id,cont_id,reg_time) values (21916,37,current_timestamp)
+Thu May 22 11:51:18 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:51:18 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:51:18 2008: Master conf file parsed.
+Thu May 22 11:51:18 2008: Compilers conf file parsed.
+Thu May 22 11:51:18 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:51:18 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 11:51:18 2008: Started.
+Thu May 22 11:51:18 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:51:18 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:18 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:21 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:51:21 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:51:21 2008: Master conf file parsed.
+Thu May 22 11:51:21 2008: Compilers conf file parsed.
+Thu May 22 11:51:21 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:51:21 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 11:51:21 2008: Started.
+Thu May 22 11:51:21 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:51:21 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:21 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:51:21 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 11:52:52 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:52:52 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:52:52 2008: Master conf file parsed.
+Thu May 22 11:52:52 2008: Compilers conf file parsed.
+Thu May 22 11:52:52 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:52:52 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:52:52 2008: Started.
+Thu May 22 11:52:52 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 11:52:52 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:52:52 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:52:52 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:52:53 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:52:53 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:52:53 2008: Master conf file parsed.
+Thu May 22 11:52:53 2008: Compilers conf file parsed.
+Thu May 22 11:52:53 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:52:53 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 11:52:53 2008: Started.
+Thu May 22 11:52:53 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 11:52:53 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:52:53 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:52:57 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:52:57 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:52:57 2008: Master conf file parsed.
+Thu May 22 11:52:57 2008: Compilers conf file parsed.
+Thu May 22 11:52:57 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:52:57 2008: Connected to DB, DBI::db=HASH(0x19f9e58)
+Thu May 22 11:52:57 2008: Started.
+Thu May 22 11:52:57 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:52:57 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:52:59 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:52:59 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:52:59 2008: Master conf file parsed.
+Thu May 22 11:52:59 2008: Compilers conf file parsed.
+Thu May 22 11:52:59 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:53:00 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:53:00 2008: Started.
+Thu May 22 11:53:00 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:00 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?'.
+Thu May 22 11:53:03 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:53:03 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:53:03 2008: Master conf file parsed.
+Thu May 22 11:53:03 2008: Compilers conf file parsed.
+Thu May 22 11:53:03 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:53:03 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:53:03 2008: Started.
+Thu May 22 11:53:03 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:03 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=manage_all'.
+Thu May 22 11:53:22 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:53:22 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:53:22 2008: Master conf file parsed.
+Thu May 22 11:53:22 2008: Compilers conf file parsed.
+Thu May 22 11:53:22 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:53:22 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:53:22 2008: Started.
+Thu May 22 11:53:22 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:22 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 11:53:22 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:53:22 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:53:22 2008: Master conf file parsed.
+Thu May 22 11:53:22 2008: Compilers conf file parsed.
+Thu May 22 11:53:22 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:53:22 2008: Connected to DB, DBI::db=HASH(0x1a05bf4)
+Thu May 22 11:53:22 2008: Started.
+Thu May 22 11:53:22 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:22 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=add_problems&cont_id=37&prb585=on'.
+Thu May 22 11:53:33 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:53:33 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:53:33 2008: Master conf file parsed.
+Thu May 22 11:53:33 2008: Compilers conf file parsed.
+Thu May 22 11:53:33 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:53:33 2008: Connected to DB, DBI::db=HASH(0x19f9e48)
+Thu May 22 11:53:33 2008: Started.
+Thu May 22 11:53:33 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:33 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 11:53:34 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:53:34 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:53:34 2008: Master conf file parsed.
+Thu May 22 11:53:34 2008: Compilers conf file parsed.
+Thu May 22 11:53:34 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:53:34 2008: Connected to DB, DBI::db=HASH(0x1a05bf4)
+Thu May 22 11:53:34 2008: Started.
+Thu May 22 11:53:34 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:34 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change_comp&cont_id=37&cmp3=on&cmp4=on'.
+Thu May 22 11:53:41 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:53:41 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:53:41 2008: Master conf file parsed.
+Thu May 22 11:53:41 2008: Compilers conf file parsed.
+Thu May 22 11:53:41 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:53:41 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:53:41 2008: Started.
+Thu May 22 11:53:41 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 11:53:41 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 11:53:41 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:41 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:41 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:53:41 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:53:41 2008: Master conf file parsed.
+Thu May 22 11:53:41 2008: Compilers conf file parsed.
+Thu May 22 11:53:41 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:53:41 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 11:53:41 2008: Started.
+Thu May 22 11:53:41 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 11:53:41 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:41 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:44 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:53:44 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:53:44 2008: Master conf file parsed.
+Thu May 22 11:53:44 2008: Compilers conf file parsed.
+Thu May 22 11:53:44 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:53:44 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:53:44 2008: Started.
+Thu May 22 11:53:44 2008: Current link: 'cnt_common.pl?action=stand&cont_id=37'
+Thu May 22 11:53:44 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:53:44 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:44 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:44 2008:   select stop-freeze_time/24-current_timestamp,
+         case
+           when (current_timestamp-start)*24<duration then (current_timestamp-start)*24
+           when (current_timestamp-start)*24>=duration then duration
+         end
+  from Contests
+  where cont_id=37
+
+Thu May 22 11:53:44 2008: Tmp_stand called: cont_id=37, isteam=0, isvirt=0, user=21916, type=1, master=0
+Thu May 22 11:53:44 2008:   select Status.id_publ, Cont_prob.pr_num, Status.id_rsl,
+        (cast(Status.dt_tm as date)-cast(Contests.start as date))*24*60+
+        (cast(Status.dt_tm as time)-cast(Contests.start as time))/60 penalty
+  from
+    (
+      (status join cont_status on status.id_stat=cont_status.id_stat and cont_status.cont_id=37)
+    join
+      cont_prob
+    on
+      cont_prob.prob_id=status.id_prb and cont_status.cont_id=cont_prob.cont_id
+    )
+  join
+    contests
+  on
+    contests.cont_id=cont_status.cont_id
+  where Status.id_rsl<100 and
+        Status.dt_tm-Contests.start>0 and
+        Contests.stop-Contests.freeze_time/24-Status.dt_tm>0
+
+  order by Status.id_publ,
+           Cont_prob.pr_num,
+           Status.dt_tm
+
+Thu May 22 11:53:44 2008: Calculating standings...
+Thu May 22 11:53:44 2008: Standings calculated: no submitions found.
+Thu May 22 11:53:44 2008: Tmp_stand ended.
+Thu May 22 11:53:51 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:53:51 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:53:51 2008: Master conf file parsed.
+Thu May 22 11:53:51 2008: Compilers conf file parsed.
+Thu May 22 11:53:51 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:53:51 2008: Connected to DB, DBI::db=HASH(0x19f9cf4)
+Thu May 22 11:53:51 2008: Started.
+Thu May 22 11:53:51 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=stand&cont_id=37'.
+Thu May 22 11:53:51 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:51 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:53:51 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 11:54:10 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:54:10 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:54:10 2008: Master conf file parsed.
+Thu May 22 11:54:10 2008: Compilers conf file parsed.
+Thu May 22 11:54:10 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:54:10 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:54:10 2008: Started.
+Thu May 22 11:54:10 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 11:54:10 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:54:10 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:10 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:11 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:54:11 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:54:11 2008: Master conf file parsed.
+Thu May 22 11:54:11 2008: Compilers conf file parsed.
+Thu May 22 11:54:11 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:54:11 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 11:54:11 2008: Started.
+Thu May 22 11:54:11 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 11:54:11 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:11 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:11 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:54:11 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:54:11 2008: Master conf file parsed.
+Thu May 22 11:54:11 2008: Compilers conf file parsed.
+Thu May 22 11:54:11 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:54:11 2008: Connected to DB, DBI::db=HASH(0x19f9e58)
+Thu May 22 11:54:11 2008: Started.
+Thu May 22 11:54:12 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:12 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:54:14 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:54:14 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:54:14 2008: Master conf file parsed.
+Thu May 22 11:54:14 2008: Compilers conf file parsed.
+Thu May 22 11:54:14 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:54:14 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:54:14 2008: Started.
+Thu May 22 11:54:14 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:14 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?'.
+Thu May 22 11:54:15 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:54:15 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:54:15 2008: Master conf file parsed.
+Thu May 22 11:54:15 2008: Compilers conf file parsed.
+Thu May 22 11:54:15 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:54:15 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:54:15 2008: Started.
+Thu May 22 11:54:15 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:15 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=manage_all'.
+Thu May 22 11:54:22 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:54:22 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:54:22 2008: Master conf file parsed.
+Thu May 22 11:54:22 2008: Compilers conf file parsed.
+Thu May 22 11:54:22 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:54:22 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:54:22 2008: Started.
+Thu May 22 11:54:22 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:22 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 11:54:22 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:54:22 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:54:22 2008: Master conf file parsed.
+Thu May 22 11:54:22 2008: Compilers conf file parsed.
+Thu May 22 11:54:22 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:54:22 2008: Connected to DB, DBI::db=HASH(0x1a05c14)
+Thu May 22 11:54:22 2008: Started.
+Thu May 22 11:54:22 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:22 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=update&cont_id=37&cn_name_en=New+topic&cn_name_ru=%CD%EE%E2%FB%E9+%F2%F3%F0%ED%E8%F0&start=20.05.2008+0%3A00%3A00&stop=20.06.2009+0%3A00%3A00&duration=01%3A00%3A00&freeze_time=00%3A00%3A00&selfreg=on&type_id=1&theme=10020'.
+Thu May 22 11:54:27 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:54:27 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:54:27 2008: Master conf file parsed.
+Thu May 22 11:54:27 2008: Compilers conf file parsed.
+Thu May 22 11:54:27 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:54:27 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:54:27 2008: Started.
+Thu May 22 11:54:27 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 11:54:27 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 11:54:27 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:27 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:28 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:54:28 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:54:28 2008: Master conf file parsed.
+Thu May 22 11:54:28 2008: Compilers conf file parsed.
+Thu May 22 11:54:28 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:54:28 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 11:54:28 2008: Started.
+Thu May 22 11:54:28 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 11:54:28 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:28 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:30 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:54:30 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:54:30 2008: Master conf file parsed.
+Thu May 22 11:54:30 2008: Compilers conf file parsed.
+Thu May 22 11:54:30 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:54:30 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:54:30 2008: Started.
+Thu May 22 11:54:30 2008: Current link: 'cnt_common.pl?action=stand&cont_id=37'
+Thu May 22 11:54:30 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:54:30 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:30 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:30 2008:   select stop-freeze_time/24-current_timestamp,
+         case
+           when (current_timestamp-start)*24<duration then (current_timestamp-start)*24
+           when (current_timestamp-start)*24>=duration then duration
+         end
+  from Contests
+  where cont_id=37
+
+Thu May 22 11:54:30 2008: Tmp_stand called: cont_id=37, isteam=0, isvirt=0, user=21916, type=1, master=0
+Thu May 22 11:54:30 2008:   select Status.id_publ, Cont_prob.pr_num, Status.id_rsl,
+        (cast(Status.dt_tm as date)-cast(Contests.start as date))*24*60+
+        (cast(Status.dt_tm as time)-cast(Contests.start as time))/60 penalty
+  from
+    (
+      (status join cont_status on status.id_stat=cont_status.id_stat and cont_status.cont_id=37)
+    join
+      cont_prob
+    on
+      cont_prob.prob_id=status.id_prb and cont_status.cont_id=cont_prob.cont_id
+    )
+  join
+    contests
+  on
+    contests.cont_id=cont_status.cont_id
+  where Status.id_rsl<100 and
+        Status.dt_tm-Contests.start>0 and
+        Contests.stop-Contests.freeze_time/24-Status.dt_tm>0
+
+  order by Status.id_publ,
+           Cont_prob.pr_num,
+           Status.dt_tm
+
+Thu May 22 11:54:30 2008: Calculating standings...
+Thu May 22 11:54:30 2008: Standings calculated: no submitions found.
+Thu May 22 11:54:30 2008: Tmp_stand ended.
+Thu May 22 11:54:34 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:54:34 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:54:34 2008: Master conf file parsed.
+Thu May 22 11:54:34 2008: Compilers conf file parsed.
+Thu May 22 11:54:34 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:54:34 2008: Connected to DB, DBI::db=HASH(0x19f9cf4)
+Thu May 22 11:54:34 2008: Started.
+Thu May 22 11:54:34 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=stand&cont_id=37'.
+Thu May 22 11:54:34 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:34 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:54:34 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 11:55:48 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:55:48 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:55:48 2008: Master conf file parsed.
+Thu May 22 11:55:48 2008: Compilers conf file parsed.
+Thu May 22 11:55:48 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:55:48 2008: Connected to DB, DBI::db=HASH(0x1a08274)
+Thu May 22 11:55:48 2008: -------- cnt_submit.pl started
+Thu May 22 11:55:48 2008: Parsing input stream...
+Thu May 22 11:55:48 2008: Stream content:
+Content-Disposition: form-data; name="contest_id"
+
+37
+------------VV9pOTUVpWJnSMJ6DmD2ug
+Content-Disposition: form-data; name="is_team"
+
+0
+------------VV9pOTUVpWJnSMJ6DmD2ug
+Content-Disposition: form-data; name="is_virtual"
+
+0
+------------VV9pOTUVpWJnSMJ6DmD2ug
+Content-Disposition: form-data; name="author_id"
+
+21916
+------------VV9pOTUVpWJnSMJ6DmD2ug
+Content-Disposition: form-data; name="problem_id"
+
+585
+------------VV9pOTUVpWJnSMJ6DmD2ug
+Content-Disposition: form-data; name="compiler_id"
+
+3
+------------VV9pOTUVpWJnSMJ6DmD2ug
+Content-Disposition: form-data; name="source"
+
+begin
+write(2);
+end.
+------------VV9pOTUVpWJnSMJ6DmD2ug
+Content-Disposition: form-data; name="sourcefile"; filename=""
+
+
+------------VV9pOTUVpWJnSMJ6DmD2ug--
+
+Endstream content.
+Thu May 22 11:55:48 2008: name=contest_id
+val=37
+flname=
+Thu May 22 11:55:48 2008: contest_id=37 (num)
+Thu May 22 11:55:48 2008: name=is_team
+val=0
+flname=
+Thu May 22 11:55:48 2008: is_team=0 (num)
+Thu May 22 11:55:48 2008: name=is_virtual
+val=0
+flname=
+Thu May 22 11:55:48 2008: is_virtual=0 (num)
+Thu May 22 11:55:48 2008: name=author_id
+val=21916
+flname=
+Thu May 22 11:55:48 2008: author_id=21916 (num)
+Thu May 22 11:55:48 2008: name=problem_id
+val=585
+flname=
+Thu May 22 11:55:48 2008: problem_id=585 (num)
+Thu May 22 11:55:48 2008: name=compiler_id
+val=3
+flname=
+Thu May 22 11:55:48 2008: compiler_id=3 (num)
+Thu May 22 11:55:48 2008: name=source
+val=begin
+write(2);
+end.
+flname=
+Thu May 22 11:55:48 2008: source=begin
+write(2);
+end. (not num)
+Thu May 22 11:55:48 2008: name=sourcefile
+val=
+flname=
+Thu May 22 11:55:48 2008: sourcefile= (not num)
+Thu May 22 11:55:48 2008: Input stream parsed.
+Thu May 22 11:55:48 2008: Solution got.
+Thu May 22 11:55:48 2008: Checking submition data...
+Thu May 22 11:55:48 2008: Contest exist?: passed?=1
+Thu May 22 11:55:48 2008: Problem exist?: passed?=1
+Thu May 22 11:55:48 2008: Compiler exist?: passed?=1
+Thu May 22 11:55:48 2008: User exist?: passed?=1
+Thu May 22 11:55:48 2008: User reget?: passed?=1
+Thu May 22 11:55:48 2008: Ind/team conflict check: passed(must be 0)?=
+Thu May 22 11:55:48 2008: Contest started?: passed(must be <0)?=-2.497094177
+Thu May 22 11:55:48 2008: Virtual contest started for user?: passed(must be <0)?=-2.497094177
+Thu May 22 11:55:48 2008: Contest not ended?: passed(must be <0)?=-393.502905636
+Thu May 22 11:55:48 2008: Submition data checked: result=1
+Thu May 22 11:55:48 2008: Submition data is valid.
+Thu May 22 11:55:48 2008: Submition added to DB
+Thu May 22 11:55:48 2008: Saving source...
+Thu May 22 11:55:48 2008: source=begin
+write(2);
+end.
+Thu May 22 11:55:48 2008: filename=c:\acm\dir_tmp\z4C4FD.pas
+Thu May 22 11:55:48 2008: Source saved.
+Thu May 22 11:55:48 2008: Solution processed.
+Thu May 22 11:55:49 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:55:49 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:55:49 2008: Master conf file parsed.
+Thu May 22 11:55:49 2008: Compilers conf file parsed.
+Thu May 22 11:55:49 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:55:49 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 11:55:49 2008: Started.
+Thu May 22 11:55:49 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:55:49 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:55:49 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:55:49 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 11:56:02 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:56:02 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:56:02 2008: Master conf file parsed.
+Thu May 22 11:56:02 2008: Compilers conf file parsed.
+Thu May 22 11:56:02 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:56:02 2008: Connected to DB, DBI::db=HASH(0x1a05a34)
+Thu May 22 11:56:02 2008: Started.
+Thu May 22 11:56:02 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:56:02 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:56:02 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:56:02 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 11:56:54 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:56:54 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:56:54 2008: Master conf file parsed.
+Thu May 22 11:56:54 2008: Compilers conf file parsed.
+Thu May 22 11:56:54 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:56:54 2008: Connected to DB, DBI::db=HASH(0x19f9e58)
+Thu May 22 11:56:54 2008: Started.
+Thu May 22 11:56:54 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:56:54 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:56:56 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:56:56 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:56:56 2008: Master conf file parsed.
+Thu May 22 11:56:56 2008: Compilers conf file parsed.
+Thu May 22 11:56:56 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:56:56 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:56:56 2008: Started.
+Thu May 22 11:56:56 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:56:56 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?'.
+Thu May 22 11:56:58 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:56:58 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:56:58 2008: Master conf file parsed.
+Thu May 22 11:56:58 2008: Compilers conf file parsed.
+Thu May 22 11:56:58 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:56:58 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:56:58 2008: Started.
+Thu May 22 11:56:58 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:56:58 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=manage_all'.
+Thu May 22 11:57:23 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:57:23 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:57:23 2008: Master conf file parsed.
+Thu May 22 11:57:23 2008: Compilers conf file parsed.
+Thu May 22 11:57:23 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:57:23 2008: Connected to DB, DBI::db=HASH(0x19f9e48)
+Thu May 22 11:57:23 2008: Started.
+Thu May 22 11:57:23 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:23 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 11:57:23 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:57:23 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:57:23 2008: Master conf file parsed.
+Thu May 22 11:57:23 2008: Compilers conf file parsed.
+Thu May 22 11:57:23 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:57:23 2008: Connected to DB, DBI::db=HASH(0x1a05c14)
+Thu May 22 11:57:23 2008: Started.
+Thu May 22 11:57:23 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:23 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=update&cont_id=37&cn_name_en=New+topic&cn_name_ru=%CD%EE%E2%FB%E9+%F2%F3%F0%ED%E8%F0&start=22.05.2008+11%3A30%3A00&stop=20.06.2009+0%3A00%3A00&duration=01%3A00%3A00&freeze_time=00%3A00%3A00&selfreg=on&type_id=1&theme=10020'.
+Thu May 22 11:57:26 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:57:26 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:57:26 2008: Master conf file parsed.
+Thu May 22 11:57:26 2008: Compilers conf file parsed.
+Thu May 22 11:57:26 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:57:26 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:57:26 2008: Started.
+Thu May 22 11:57:26 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 11:57:26 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 11:57:26 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:26 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:26 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:57:26 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:57:26 2008: Master conf file parsed.
+Thu May 22 11:57:26 2008: Compilers conf file parsed.
+Thu May 22 11:57:26 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:57:26 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 11:57:26 2008: Started.
+Thu May 22 11:57:26 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 11:57:26 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:26 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:29 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:57:29 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:57:29 2008: Master conf file parsed.
+Thu May 22 11:57:29 2008: Compilers conf file parsed.
+Thu May 22 11:57:29 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:57:29 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 11:57:29 2008: Started.
+Thu May 22 11:57:29 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:57:30 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:30 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:30 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 11:57:47 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:57:47 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:57:47 2008: Master conf file parsed.
+Thu May 22 11:57:47 2008: Compilers conf file parsed.
+Thu May 22 11:57:47 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:57:47 2008: Connected to DB, DBI::db=HASH(0x1a08274)
+Thu May 22 11:57:47 2008: -------- cnt_submit.pl started
+Thu May 22 11:57:47 2008: Parsing input stream...
+Thu May 22 11:57:47 2008: Stream content:
+Content-Disposition: form-data; name="contest_id"
+
+37
+------------k0GeVRLSMfgLCgUTLfDZ3W
+Content-Disposition: form-data; name="is_team"
+
+0
+------------k0GeVRLSMfgLCgUTLfDZ3W
+Content-Disposition: form-data; name="is_virtual"
+
+0
+------------k0GeVRLSMfgLCgUTLfDZ3W
+Content-Disposition: form-data; name="author_id"
+
+21916
+------------k0GeVRLSMfgLCgUTLfDZ3W
+Content-Disposition: form-data; name="problem_id"
+
+585
+------------k0GeVRLSMfgLCgUTLfDZ3W
+Content-Disposition: form-data; name="compiler_id"
+
+3
+------------k0GeVRLSMfgLCgUTLfDZ3W
+Content-Disposition: form-data; name="source"
+
+
+------------k0GeVRLSMfgLCgUTLfDZ3W
+Content-Disposition: form-data; name="sourcefile"; filename="te.pas"
+Content-Type: application/octet-stream
+
+var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+------------k0GeVRLSMfgLCgUTLfDZ3W--
+
+Endstream content.
+Thu May 22 11:57:47 2008: name=contest_id
+val=37
+flname=
+Thu May 22 11:57:47 2008: contest_id=37 (num)
+Thu May 22 11:57:47 2008: name=is_team
+val=0
+flname=
+Thu May 22 11:57:47 2008: is_team=0 (num)
+Thu May 22 11:57:47 2008: name=is_virtual
+val=0
+flname=
+Thu May 22 11:57:47 2008: is_virtual=0 (num)
+Thu May 22 11:57:47 2008: name=author_id
+val=21916
+flname=
+Thu May 22 11:57:47 2008: author_id=21916 (num)
+Thu May 22 11:57:47 2008: name=problem_id
+val=585
+flname=
+Thu May 22 11:57:47 2008: problem_id=585 (num)
+Thu May 22 11:57:47 2008: name=compiler_id
+val=3
+flname=
+Thu May 22 11:57:47 2008: compiler_id=3 (num)
+Thu May 22 11:57:47 2008: name=source
+val=
+flname=
+Thu May 22 11:57:47 2008: source= (not num)
+Thu May 22 11:57:47 2008: name=sourcefile
+val=Content-Type: application/octet-stream
+
+var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+flname=te.pas
+Thu May 22 11:57:47 2008: sourcefile=var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+Thu May 22 11:57:47 2008: Input stream parsed.
+Thu May 22 11:57:47 2008: Solution got.
+Thu May 22 11:57:47 2008: Checking submition data...
+Thu May 22 11:57:47 2008: Contest exist?: passed?=1
+Thu May 22 11:57:47 2008: Problem exist?: passed?=1
+Thu May 22 11:57:47 2008: Compiler exist?: passed?=1
+Thu May 22 11:57:47 2008: User exist?: passed?=1
+Thu May 22 11:57:47 2008: User reget?: passed?=1
+Thu May 22 11:57:47 2008: Ind/team conflict check: passed(must be 0)?=
+Thu May 22 11:57:47 2008: Contest started?: passed(must be <0)?=-0.019298680
+Thu May 22 11:57:47 2008: Virtual contest started for user?: passed(must be <0)?=-0.019298680
+Thu May 22 11:57:47 2008: Contest not ended?: passed(must be <0)?=-393.501534652
+Thu May 22 11:57:47 2008: Submition data checked: result=1
+Thu May 22 11:57:47 2008: Submition data is valid.
+Thu May 22 11:57:47 2008: Submition added to DB
+Thu May 22 11:57:47 2008: Saving source...
+Thu May 22 11:57:47 2008: source=var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+Thu May 22 11:57:47 2008: filename=c:\acm\dir_tmp\z4C4FE.pas
+Thu May 22 11:57:47 2008: Source saved.
+Thu May 22 11:57:47 2008: Solution processed.
+Thu May 22 11:57:47 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:57:47 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:57:47 2008: Master conf file parsed.
+Thu May 22 11:57:47 2008: Compilers conf file parsed.
+Thu May 22 11:57:47 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:57:47 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 11:57:47 2008: Started.
+Thu May 22 11:57:47 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:57:47 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:47 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:47 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 11:57:54 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:57:54 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:57:54 2008: Master conf file parsed.
+Thu May 22 11:57:54 2008: Compilers conf file parsed.
+Thu May 22 11:57:54 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:57:54 2008: Connected to DB, DBI::db=HASH(0x1a05a34)
+Thu May 22 11:57:54 2008: Started.
+Thu May 22 11:57:54 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:57:54 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:54 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:57:54 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 11:59:39 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:59:39 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:59:39 2008: Master conf file parsed.
+Thu May 22 11:59:39 2008: Compilers conf file parsed.
+Thu May 22 11:59:39 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:59:39 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 11:59:39 2008: Started.
+Thu May 22 11:59:39 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 11:59:39 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:59:39 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:59:39 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:59:39 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:59:39 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:59:39 2008: Master conf file parsed.
+Thu May 22 11:59:39 2008: Compilers conf file parsed.
+Thu May 22 11:59:39 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:59:39 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 11:59:39 2008: Started.
+Thu May 22 11:59:39 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 11:59:39 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:59:39 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:59:50 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:59:50 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:59:50 2008: Master conf file parsed.
+Thu May 22 11:59:50 2008: Compilers conf file parsed.
+Thu May 22 11:59:50 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:59:50 2008: Connected to DB, DBI::db=HASH(0x19f9e58)
+Thu May 22 11:59:50 2008: Started.
+Thu May 22 11:59:51 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:59:51 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 11:59:52 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:59:52 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:59:52 2008: Master conf file parsed.
+Thu May 22 11:59:52 2008: Compilers conf file parsed.
+Thu May 22 11:59:52 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:59:52 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:59:52 2008: Started.
+Thu May 22 11:59:52 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:59:52 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?'.
+Thu May 22 11:59:54 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:59:54 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:59:54 2008: Master conf file parsed.
+Thu May 22 11:59:54 2008: Compilers conf file parsed.
+Thu May 22 11:59:54 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:59:54 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 11:59:54 2008: Started.
+Thu May 22 11:59:54 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:59:54 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=manage_all'.
+Thu May 22 11:59:59 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:59:59 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:59:59 2008: Master conf file parsed.
+Thu May 22 11:59:59 2008: Compilers conf file parsed.
+Thu May 22 11:59:59 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:59:59 2008: Connected to DB, DBI::db=HASH(0x19f9e44)
+Thu May 22 11:59:59 2008: Started.
+Thu May 22 11:59:59 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:59:59 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 11:59:59 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 11:59:59 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 11:59:59 2008: Master conf file parsed.
+Thu May 22 11:59:59 2008: Compilers conf file parsed.
+Thu May 22 11:59:59 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 11:59:59 2008: Connected to DB, DBI::db=HASH(0x1a05bf4)
+Thu May 22 11:59:59 2008: Started.
+Thu May 22 11:59:59 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 11:59:59 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=update&cont_id=37&cn_name_en=New+topic&cn_name_ru=%CD%EE%E2%FB%E9+%F2%F3%F0%ED%E8%F0&start=22.05.2008+11%3A30%3A00&stop=20.06.2009+0%3A00%3A00&duration=01%3A00%3A00&freeze_time=00%3A00%3A00&selfreg=on&isvirtual=on&type_id=1&theme=10020'.
+Thu May 22 12:00:02 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:00:02 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:00:02 2008: Master conf file parsed.
+Thu May 22 12:00:02 2008: Compilers conf file parsed.
+Thu May 22 12:00:02 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:00:02 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 12:00:02 2008: Started.
+Thu May 22 12:00:02 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 12:00:02 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 12:00:02 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:02 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:02 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:00:02 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:00:02 2008: Master conf file parsed.
+Thu May 22 12:00:02 2008: Compilers conf file parsed.
+Thu May 22 12:00:02 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:00:02 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 12:00:02 2008: Started.
+Thu May 22 12:00:02 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 12:00:02 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:02 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:04 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:00:04 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:00:04 2008: Master conf file parsed.
+Thu May 22 12:00:04 2008: Compilers conf file parsed.
+Thu May 22 12:00:04 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:00:04 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:00:04 2008: Started.
+Thu May 22 12:00:04 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:00:04 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:04 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:04 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 12:00:46 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:00:46 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:00:46 2008: Master conf file parsed.
+Thu May 22 12:00:46 2008: Compilers conf file parsed.
+Thu May 22 12:00:46 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:00:46 2008: Connected to DB, DBI::db=HASH(0x1a08274)
+Thu May 22 12:00:46 2008: -------- cnt_submit.pl started
+Thu May 22 12:00:46 2008: Parsing input stream...
+Thu May 22 12:00:46 2008: Stream content:
+Content-Disposition: form-data; name="contest_id"
+
+37
+------------aJyLwJdGZCDByYhF7WRyuR
+Content-Disposition: form-data; name="is_team"
+
+0
+------------aJyLwJdGZCDByYhF7WRyuR
+Content-Disposition: form-data; name="is_virtual"
+
+1
+------------aJyLwJdGZCDByYhF7WRyuR
+Content-Disposition: form-data; name="author_id"
+
+21916
+------------aJyLwJdGZCDByYhF7WRyuR
+Content-Disposition: form-data; name="problem_id"
+
+585
+------------aJyLwJdGZCDByYhF7WRyuR
+Content-Disposition: form-data; name="compiler_id"
+
+3
+------------aJyLwJdGZCDByYhF7WRyuR
+Content-Disposition: form-data; name="source"
+
+var
+s:string;
+begin
+read(s);
+end.
+------------aJyLwJdGZCDByYhF7WRyuR
+Content-Disposition: form-data; name="sourcefile"; filename=""
+
+
+------------aJyLwJdGZCDByYhF7WRyuR--
+
+Endstream content.
+Thu May 22 12:00:46 2008: name=contest_id
+val=37
+flname=
+Thu May 22 12:00:46 2008: contest_id=37 (num)
+Thu May 22 12:00:46 2008: name=is_team
+val=0
+flname=
+Thu May 22 12:00:46 2008: is_team=0 (num)
+Thu May 22 12:00:46 2008: name=is_virtual
+val=1
+flname=
+Thu May 22 12:00:46 2008: is_virtual=1 (num)
+Thu May 22 12:00:46 2008: name=author_id
+val=21916
+flname=
+Thu May 22 12:00:46 2008: author_id=21916 (num)
+Thu May 22 12:00:46 2008: name=problem_id
+val=585
+flname=
+Thu May 22 12:00:46 2008: problem_id=585 (num)
+Thu May 22 12:00:46 2008: name=compiler_id
+val=3
+flname=
+Thu May 22 12:00:46 2008: compiler_id=3 (num)
+Thu May 22 12:00:46 2008: name=source
+val=var
+s:string;
+begin
+read(s);
+end.
+flname=
+Thu May 22 12:00:46 2008: source=var
+s:string;
+begin
+read(s);
+end. (not num)
+Thu May 22 12:00:46 2008: name=sourcefile
+val=
+flname=
+Thu May 22 12:00:46 2008: sourcefile= (not num)
+Thu May 22 12:00:46 2008: Input stream parsed.
+Thu May 22 12:00:46 2008: Solution got.
+Thu May 22 12:00:46 2008: Checking submition data...
+Thu May 22 12:00:46 2008: Contest exist?: passed?=1
+Thu May 22 12:00:46 2008: Problem exist?: passed?=1
+Thu May 22 12:00:46 2008: Compiler exist?: passed?=1
+Thu May 22 12:00:46 2008: User exist?: passed?=1
+Thu May 22 12:00:46 2008: User reget?: passed?=1
+Thu May 22 12:00:46 2008: Ind/team conflict check: passed(must be 0)?=
+Thu May 22 12:00:46 2008: Contest started?: passed(must be <0)?=-0.021370612
+Thu May 22 12:00:46 2008: Virtual contest started for user?: passed(must be <0)?=-2698.493964119
+Thu May 22 12:00:46 2008: Contest not ended?: passed(must be <0)?=-0.0350933216666667
+Thu May 22 12:00:46 2008: Submition data checked: result=1
+Thu May 22 12:00:46 2008: Submition data is valid.
+Thu May 22 12:00:46 2008: Submition added to DB
+Thu May 22 12:00:46 2008: Saving source...
+Thu May 22 12:00:46 2008: source=var
+s:string;
+begin
+read(s);
+end.
+Thu May 22 12:00:46 2008: filename=c:\acm\dir_tmp\z4C4FF.pas
+Thu May 22 12:00:46 2008: Source saved.
+Thu May 22 12:00:46 2008: Solution processed.
+Thu May 22 12:00:46 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:00:46 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:00:46 2008: Master conf file parsed.
+Thu May 22 12:00:46 2008: Compilers conf file parsed.
+Thu May 22 12:00:46 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:00:46 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:00:46 2008: Started.
+Thu May 22 12:00:46 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:00:46 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:46 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:46 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 12:00:51 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:00:51 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:00:51 2008: Master conf file parsed.
+Thu May 22 12:00:51 2008: Compilers conf file parsed.
+Thu May 22 12:00:51 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:00:51 2008: Connected to DB, DBI::db=HASH(0x1a05a34)
+Thu May 22 12:00:51 2008: Started.
+Thu May 22 12:00:51 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:00:51 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:51 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:51 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 12:00:54 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:00:54 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:00:54 2008: Master conf file parsed.
+Thu May 22 12:00:54 2008: Compilers conf file parsed.
+Thu May 22 12:00:54 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:00:54 2008: Connected to DB, DBI::db=HASH(0x1a05a34)
+Thu May 22 12:00:54 2008: Started.
+Thu May 22 12:00:54 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:00:54 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:54 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:00:54 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 12:01:49 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:01:49 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:01:49 2008: Master conf file parsed.
+Thu May 22 12:01:49 2008: Compilers conf file parsed.
+Thu May 22 12:01:49 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:01:49 2008: Connected to DB, DBI::db=HASH(0x1a05a34)
+Thu May 22 12:01:49 2008: Started.
+Thu May 22 12:01:49 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:01:49 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:01:49 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:01:49 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 12:02:12 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:02:12 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:02:12 2008: Master conf file parsed.
+Thu May 22 12:02:12 2008: Compilers conf file parsed.
+Thu May 22 12:02:12 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:02:12 2008: Connected to DB, DBI::db=HASH(0x1a08274)
+Thu May 22 12:02:12 2008: -------- cnt_submit.pl started
+Thu May 22 12:02:12 2008: Parsing input stream...
+Thu May 22 12:02:12 2008: Stream content:
+Content-Disposition: form-data; name="contest_id"
+
+37
+------------hU2zM7LaFm6H39Q60PQiEu
+Content-Disposition: form-data; name="is_team"
+
+0
+------------hU2zM7LaFm6H39Q60PQiEu
+Content-Disposition: form-data; name="is_virtual"
+
+1
+------------hU2zM7LaFm6H39Q60PQiEu
+Content-Disposition: form-data; name="author_id"
+
+21916
+------------hU2zM7LaFm6H39Q60PQiEu
+Content-Disposition: form-data; name="problem_id"
+
+585
+------------hU2zM7LaFm6H39Q60PQiEu
+Content-Disposition: form-data; name="compiler_id"
+
+3
+------------hU2zM7LaFm6H39Q60PQiEu
+Content-Disposition: form-data; name="source"
+
+begin
+end.
+------------hU2zM7LaFm6H39Q60PQiEu
+Content-Disposition: form-data; name="sourcefile"; filename=""
+
+
+------------hU2zM7LaFm6H39Q60PQiEu--
+
+Endstream content.
+Thu May 22 12:02:12 2008: name=contest_id
+val=37
+flname=
+Thu May 22 12:02:12 2008: contest_id=37 (num)
+Thu May 22 12:02:12 2008: name=is_team
+val=0
+flname=
+Thu May 22 12:02:12 2008: is_team=0 (num)
+Thu May 22 12:02:12 2008: name=is_virtual
+val=1
+flname=
+Thu May 22 12:02:12 2008: is_virtual=1 (num)
+Thu May 22 12:02:12 2008: name=author_id
+val=21916
+flname=
+Thu May 22 12:02:12 2008: author_id=21916 (num)
+Thu May 22 12:02:12 2008: name=problem_id
+val=585
+flname=
+Thu May 22 12:02:12 2008: problem_id=585 (num)
+Thu May 22 12:02:12 2008: name=compiler_id
+val=3
+flname=
+Thu May 22 12:02:12 2008: compiler_id=3 (num)
+Thu May 22 12:02:12 2008: name=source
+val=begin
+end.
+flname=
+Thu May 22 12:02:12 2008: source=begin
+end. (not num)
+Thu May 22 12:02:12 2008: name=sourcefile
+val=
+flname=
+Thu May 22 12:02:12 2008: sourcefile= (not num)
+Thu May 22 12:02:12 2008: Input stream parsed.
+Thu May 22 12:02:12 2008: Solution got.
+Thu May 22 12:02:12 2008: Checking submition data...
+Thu May 22 12:02:12 2008: Contest exist?: passed?=1
+Thu May 22 12:02:12 2008: Problem exist?: passed?=1
+Thu May 22 12:02:12 2008: Compiler exist?: passed?=1
+Thu May 22 12:02:12 2008: User exist?: passed?=1
+Thu May 22 12:02:12 2008: User reget?: passed?=1
+Thu May 22 12:02:12 2008: Ind/team conflict check: passed(must be 0)?=
+Thu May 22 12:02:12 2008: Contest started?: passed(must be <0)?=-0.022368518
+Thu May 22 12:02:12 2008: Virtual contest started for user?: passed(must be <0)?=-2698.493964119
+Thu May 22 12:02:12 2008: Contest not ended?: passed(must be <0)?=-0.0340952426666667
+Thu May 22 12:02:12 2008: Submition data checked: result=1
+Thu May 22 12:02:12 2008: Submition data is valid.
+Thu May 22 12:02:12 2008: Submition added to DB
+Thu May 22 12:02:12 2008: Saving source...
+Thu May 22 12:02:12 2008: source=begin
+end.
+Thu May 22 12:02:12 2008: filename=c:\acm\dir_tmp\z4C500.pas
+Thu May 22 12:02:12 2008: Source saved.
+Thu May 22 12:02:12 2008: Solution processed.
+Thu May 22 12:02:13 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:02:13 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:02:13 2008: Master conf file parsed.
+Thu May 22 12:02:13 2008: Compilers conf file parsed.
+Thu May 22 12:02:13 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:02:13 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:02:13 2008: Started.
+Thu May 22 12:02:13 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:02:13 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:02:13 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:02:13 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 12:02:23 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:02:23 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:02:23 2008: Master conf file parsed.
+Thu May 22 12:02:23 2008: Compilers conf file parsed.
+Thu May 22 12:02:23 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:02:23 2008: Connected to DB, DBI::db=HASH(0x1a08274)
+Thu May 22 12:02:23 2008: -------- cnt_submit.pl started
+Thu May 22 12:02:23 2008: Parsing input stream...
+Thu May 22 12:02:23 2008: Stream content:
+Content-Disposition: form-data; name="contest_id"
+
+37
+------------GnZqYE07D7ifdela5VslUj
+Content-Disposition: form-data; name="is_team"
+
+0
+------------GnZqYE07D7ifdela5VslUj
+Content-Disposition: form-data; name="is_virtual"
+
+1
+------------GnZqYE07D7ifdela5VslUj
+Content-Disposition: form-data; name="author_id"
+
+21916
+------------GnZqYE07D7ifdela5VslUj
+Content-Disposition: form-data; name="problem_id"
+
+585
+------------GnZqYE07D7ifdela5VslUj
+Content-Disposition: form-data; name="compiler_id"
+
+3
+------------GnZqYE07D7ifdela5VslUj
+Content-Disposition: form-data; name="source"
+
+
+------------GnZqYE07D7ifdela5VslUj
+Content-Disposition: form-data; name="sourcefile"; filename="te.pas"
+Content-Type: application/octet-stream
+
+var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+------------GnZqYE07D7ifdela5VslUj--
+
+Endstream content.
+Thu May 22 12:02:23 2008: name=contest_id
+val=37
+flname=
+Thu May 22 12:02:23 2008: contest_id=37 (num)
+Thu May 22 12:02:23 2008: name=is_team
+val=0
+flname=
+Thu May 22 12:02:23 2008: is_team=0 (num)
+Thu May 22 12:02:23 2008: name=is_virtual
+val=1
+flname=
+Thu May 22 12:02:23 2008: is_virtual=1 (num)
+Thu May 22 12:02:23 2008: name=author_id
+val=21916
+flname=
+Thu May 22 12:02:23 2008: author_id=21916 (num)
+Thu May 22 12:02:23 2008: name=problem_id
+val=585
+flname=
+Thu May 22 12:02:23 2008: problem_id=585 (num)
+Thu May 22 12:02:23 2008: name=compiler_id
+val=3
+flname=
+Thu May 22 12:02:23 2008: compiler_id=3 (num)
+Thu May 22 12:02:23 2008: name=source
+val=
+flname=
+Thu May 22 12:02:23 2008: source= (not num)
+Thu May 22 12:02:23 2008: name=sourcefile
+val=Content-Type: application/octet-stream
+
+var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+flname=te.pas
+Thu May 22 12:02:23 2008: sourcefile=var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+Thu May 22 12:02:23 2008: Input stream parsed.
+Thu May 22 12:02:23 2008: Solution got.
+Thu May 22 12:02:23 2008: Checking submition data...
+Thu May 22 12:02:23 2008: Contest exist?: passed?=1
+Thu May 22 12:02:23 2008: Problem exist?: passed?=1
+Thu May 22 12:02:23 2008: Compiler exist?: passed?=1
+Thu May 22 12:02:23 2008: User exist?: passed?=1
+Thu May 22 12:02:23 2008: User reget?: passed?=1
+Thu May 22 12:02:23 2008: Ind/team conflict check: passed(must be 0)?=
+Thu May 22 12:02:23 2008: Contest started?: passed(must be <0)?=-0.022493483
+Thu May 22 12:02:23 2008: Virtual contest started for user?: passed(must be <0)?=-2698.493964119
+Thu May 22 12:02:23 2008: Contest not ended?: passed(must be <0)?=-0.0339704516666667
+Thu May 22 12:02:23 2008: Submition data checked: result=1
+Thu May 22 12:02:23 2008: Submition data is valid.
+Thu May 22 12:02:23 2008: Submition added to DB
+Thu May 22 12:02:23 2008: Saving source...
+Thu May 22 12:02:23 2008: source=var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+Thu May 22 12:02:23 2008: filename=c:\acm\dir_tmp\z4C501.pas
+Thu May 22 12:02:23 2008: Source saved.
+Thu May 22 12:02:23 2008: Solution processed.
+Thu May 22 12:02:23 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:02:23 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:02:23 2008: Master conf file parsed.
+Thu May 22 12:02:23 2008: Compilers conf file parsed.
+Thu May 22 12:02:23 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:02:23 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:02:23 2008: Started.
+Thu May 22 12:02:23 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:02:23 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:02:23 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:02:24 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 12:02:34 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:02:34 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:02:34 2008: Master conf file parsed.
+Thu May 22 12:02:34 2008: Compilers conf file parsed.
+Thu May 22 12:02:34 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:02:34 2008: Connected to DB, DBI::db=HASH(0x1a05a34)
+Thu May 22 12:02:34 2008: Started.
+Thu May 22 12:02:34 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:02:34 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:02:34 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:02:34 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 12:03:15 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:03:15 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:03:15 2008: Master conf file parsed.
+Thu May 22 12:03:15 2008: Compilers conf file parsed.
+Thu May 22 12:03:15 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:03:15 2008: Connected to DB, DBI::db=HASH(0x1a05a34)
+Thu May 22 12:03:15 2008: Started.
+Thu May 22 12:03:15 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:03:15 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:03:15 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:03:15 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 12:03:27 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:03:27 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:03:27 2008: Master conf file parsed.
+Thu May 22 12:03:27 2008: Compilers conf file parsed.
+Thu May 22 12:03:27 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:03:27 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 12:03:27 2008: Started.
+Thu May 22 12:03:27 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 12:03:27 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:03:27 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:03:27 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:03:28 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:03:28 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:03:28 2008: Master conf file parsed.
+Thu May 22 12:03:28 2008: Compilers conf file parsed.
+Thu May 22 12:03:28 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:03:28 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 12:03:28 2008: Started.
+Thu May 22 12:03:28 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 12:03:28 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:03:28 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:04:05 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:04:05 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:04:05 2008: Master conf file parsed.
+Thu May 22 12:04:05 2008: Compilers conf file parsed.
+Thu May 22 12:04:05 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:04:05 2008: Connected to DB, DBI::db=HASH(0x19f9d08)
+Thu May 22 12:04:05 2008: Started.
+Thu May 22 12:04:12 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:04:12 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:04:12 2008: Master conf file parsed.
+Thu May 22 12:04:12 2008: Compilers conf file parsed.
+Thu May 22 12:04:12 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:04:12 2008: Connected to DB, DBI::db=HASH(0x19f9d08)
+Thu May 22 12:04:12 2008: Started.
+Thu May 22 12:04:12 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:04:12 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:04:12 2008: Master conf file parsed.
+Thu May 22 12:04:12 2008: Compilers conf file parsed.
+Thu May 22 12:04:12 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:04:12 2008: Connected to DB, DBI::db=HASH(0x19f9cf4)
+Thu May 22 12:04:12 2008: Started.
+Thu May 22 12:04:12 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:04:12 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:04:12 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:04:19 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:04:19 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:04:19 2008: Master conf file parsed.
+Thu May 22 12:04:19 2008: Compilers conf file parsed.
+Thu May 22 12:04:19 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:04:19 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:04:19 2008: Started.
+Thu May 22 12:04:19 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:04:19 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:04:19 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:04:19 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=36 and
+        Regauth.user_id=22711
+
+Thu May 22 12:04:56 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:04:56 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:04:56 2008: Master conf file parsed.
+Thu May 22 12:04:56 2008: Compilers conf file parsed.
+Thu May 22 12:04:56 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:04:57 2008: Connected to DB, DBI::db=HASH(0x19f9d08)
+Thu May 22 12:04:57 2008: Started.
+Thu May 22 12:04:57 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:04:57 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:04:57 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:04:57 2008: is_virt=1; is_start=1
+Thu May 22 12:04:57 2008: qry=insert into Regauth (user_id,cont_id,reg_time) values (22711,32,current_timestamp)
+Thu May 22 12:04:57 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:04:57 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:04:57 2008: Master conf file parsed.
+Thu May 22 12:04:57 2008: Compilers conf file parsed.
+Thu May 22 12:04:57 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:04:57 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 12:04:57 2008: Started.
+Thu May 22 12:04:57 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:04:57 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:04:57 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:03 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:05:03 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:05:03 2008: Master conf file parsed.
+Thu May 22 12:05:03 2008: Compilers conf file parsed.
+Thu May 22 12:05:03 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:05:03 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:05:03 2008: Started.
+Thu May 22 12:05:03 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:05:03 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:03 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:03 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=32 and
+        Regauth.user_id=22711
+
+Thu May 22 12:05:12 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:05:12 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:05:12 2008: Master conf file parsed.
+Thu May 22 12:05:12 2008: Compilers conf file parsed.
+Thu May 22 12:05:12 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:05:12 2008: Connected to DB, DBI::db=HASH(0x19f9d08)
+Thu May 22 12:05:12 2008: Started.
+Thu May 22 12:05:12 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:05:12 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:12 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:12 2008: is_virt=1; is_start=1
+Thu May 22 12:05:12 2008: qry=insert into Regauth (user_id,cont_id,reg_time) values (22711,37,current_timestamp)
+Thu May 22 12:05:13 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:05:13 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:05:13 2008: Master conf file parsed.
+Thu May 22 12:05:13 2008: Compilers conf file parsed.
+Thu May 22 12:05:13 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:05:13 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 12:05:13 2008: Started.
+Thu May 22 12:05:13 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:05:13 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:13 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:14 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:05:14 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:05:14 2008: Master conf file parsed.
+Thu May 22 12:05:14 2008: Compilers conf file parsed.
+Thu May 22 12:05:14 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:05:14 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:05:14 2008: Started.
+Thu May 22 12:05:14 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:05:14 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:14 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:14 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=22711
+
+Thu May 22 12:05:31 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:05:31 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:05:31 2008: Master conf file parsed.
+Thu May 22 12:05:31 2008: Compilers conf file parsed.
+Thu May 22 12:05:31 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:05:31 2008: Connected to DB, DBI::db=HASH(0x1a08274)
+Thu May 22 12:05:31 2008: -------- cnt_submit.pl started
+Thu May 22 12:05:31 2008: Parsing input stream...
+Thu May 22 12:05:31 2008: Stream content:
+Content-Disposition: form-data; name="contest_id"
+
+37
+------------xgEKXiMmrv8n2W4UNf7Bhk
+Content-Disposition: form-data; name="is_team"
+
+0
+------------xgEKXiMmrv8n2W4UNf7Bhk
+Content-Disposition: form-data; name="is_virtual"
+
+1
+------------xgEKXiMmrv8n2W4UNf7Bhk
+Content-Disposition: form-data; name="author_id"
+
+22711
+------------xgEKXiMmrv8n2W4UNf7Bhk
+Content-Disposition: form-data; name="problem_id"
+
+585
+------------xgEKXiMmrv8n2W4UNf7Bhk
+Content-Disposition: form-data; name="compiler_id"
+
+3
+------------xgEKXiMmrv8n2W4UNf7Bhk
+Content-Disposition: form-data; name="source"
+
+bgin
+end.
+------------xgEKXiMmrv8n2W4UNf7Bhk
+Content-Disposition: form-data; name="sourcefile"; filename=""
+
+
+------------xgEKXiMmrv8n2W4UNf7Bhk--
+
+Endstream content.
+Thu May 22 12:05:31 2008: name=contest_id
+val=37
+flname=
+Thu May 22 12:05:31 2008: contest_id=37 (num)
+Thu May 22 12:05:31 2008: name=is_team
+val=0
+flname=
+Thu May 22 12:05:31 2008: is_team=0 (num)
+Thu May 22 12:05:31 2008: name=is_virtual
+val=1
+flname=
+Thu May 22 12:05:31 2008: is_virtual=1 (num)
+Thu May 22 12:05:31 2008: name=author_id
+val=22711
+flname=
+Thu May 22 12:05:31 2008: author_id=22711 (num)
+Thu May 22 12:05:31 2008: name=problem_id
+val=585
+flname=
+Thu May 22 12:05:31 2008: problem_id=585 (num)
+Thu May 22 12:05:31 2008: name=compiler_id
+val=3
+flname=
+Thu May 22 12:05:31 2008: compiler_id=3 (num)
+Thu May 22 12:05:31 2008: name=source
+val=bgin
+end.
+flname=
+Thu May 22 12:05:31 2008: source=bgin
+end. (not num)
+Thu May 22 12:05:31 2008: name=sourcefile
+val=
+flname=
+Thu May 22 12:05:31 2008: sourcefile= (not num)
+Thu May 22 12:05:31 2008: Input stream parsed.
+Thu May 22 12:05:31 2008: Solution got.
+Thu May 22 12:05:31 2008: Checking submition data...
+Thu May 22 12:05:31 2008: Contest exist?: passed?=1
+Thu May 22 12:05:31 2008: Problem exist?: passed?=1
+Thu May 22 12:05:31 2008: Compiler exist?: passed?=1
+Thu May 22 12:05:31 2008: User exist?: passed?=1
+Thu May 22 12:05:31 2008: User reget?: passed?=1
+Thu May 22 12:05:31 2008: Ind/team conflict check: passed(must be 0)?=
+Thu May 22 12:05:31 2008: Contest started?: passed(must be <0)?=-0.024675196
+Thu May 22 12:05:31 2008: Virtual contest started for user?: passed(must be <0)?=-2698.503618703
+Thu May 22 12:05:31 2008: Contest not ended?: passed(must be <0)?=-0.0414433216666667
+Thu May 22 12:05:31 2008: Submition data checked: result=1
+Thu May 22 12:05:31 2008: Submition data is valid.
+Thu May 22 12:05:31 2008: Submition added to DB
+Thu May 22 12:05:31 2008: Saving source...
+Thu May 22 12:05:31 2008: source=bgin
+end.
+Thu May 22 12:05:31 2008: filename=c:\acm\dir_tmp\z4C502.pas
+Thu May 22 12:05:31 2008: Source saved.
+Thu May 22 12:05:31 2008: Solution processed.
+Thu May 22 12:05:32 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:05:32 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:05:32 2008: Master conf file parsed.
+Thu May 22 12:05:32 2008: Compilers conf file parsed.
+Thu May 22 12:05:32 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:05:32 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:05:32 2008: Started.
+Thu May 22 12:05:32 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:05:32 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:32 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:32 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=22711
+
+Thu May 22 12:05:50 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:05:50 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:05:50 2008: Master conf file parsed.
+Thu May 22 12:05:50 2008: Compilers conf file parsed.
+Thu May 22 12:05:50 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:05:50 2008: Connected to DB, DBI::db=HASH(0x1a08274)
+Thu May 22 12:05:50 2008: -------- cnt_submit.pl started
+Thu May 22 12:05:50 2008: Parsing input stream...
+Thu May 22 12:05:50 2008: Stream content:
+Content-Disposition: form-data; name="contest_id"
+
+37
+------------lvPtf1hWLV7V7ho14qaAQB
+Content-Disposition: form-data; name="is_team"
+
+0
+------------lvPtf1hWLV7V7ho14qaAQB
+Content-Disposition: form-data; name="is_virtual"
+
+1
+------------lvPtf1hWLV7V7ho14qaAQB
+Content-Disposition: form-data; name="author_id"
+
+22711
+------------lvPtf1hWLV7V7ho14qaAQB
+Content-Disposition: form-data; name="problem_id"
+
+585
+------------lvPtf1hWLV7V7ho14qaAQB
+Content-Disposition: form-data; name="compiler_id"
+
+3
+------------lvPtf1hWLV7V7ho14qaAQB
+Content-Disposition: form-data; name="source"
+
+begin
+end.
+------------lvPtf1hWLV7V7ho14qaAQB
+Content-Disposition: form-data; name="sourcefile"; filename=""
+
+
+------------lvPtf1hWLV7V7ho14qaAQB--
+
+Endstream content.
+Thu May 22 12:05:50 2008: name=contest_id
+val=37
+flname=
+Thu May 22 12:05:50 2008: contest_id=37 (num)
+Thu May 22 12:05:50 2008: name=is_team
+val=0
+flname=
+Thu May 22 12:05:50 2008: is_team=0 (num)
+Thu May 22 12:05:50 2008: name=is_virtual
+val=1
+flname=
+Thu May 22 12:05:50 2008: is_virtual=1 (num)
+Thu May 22 12:05:50 2008: name=author_id
+val=22711
+flname=
+Thu May 22 12:05:50 2008: author_id=22711 (num)
+Thu May 22 12:05:50 2008: name=problem_id
+val=585
+flname=
+Thu May 22 12:05:50 2008: problem_id=585 (num)
+Thu May 22 12:05:50 2008: name=compiler_id
+val=3
+flname=
+Thu May 22 12:05:50 2008: compiler_id=3 (num)
+Thu May 22 12:05:50 2008: name=source
+val=begin
+end.
+flname=
+Thu May 22 12:05:50 2008: source=begin
+end. (not num)
+Thu May 22 12:05:50 2008: name=sourcefile
+val=
+flname=
+Thu May 22 12:05:50 2008: sourcefile= (not num)
+Thu May 22 12:05:50 2008: Input stream parsed.
+Thu May 22 12:05:50 2008: Solution got.
+Thu May 22 12:05:50 2008: Checking submition data...
+Thu May 22 12:05:51 2008: Contest exist?: passed?=1
+Thu May 22 12:05:51 2008: Problem exist?: passed?=1
+Thu May 22 12:05:51 2008: Compiler exist?: passed?=1
+Thu May 22 12:05:51 2008: User exist?: passed?=1
+Thu May 22 12:05:51 2008: User reget?: passed?=1
+Thu May 22 12:05:51 2008: Ind/team conflict check: passed(must be 0)?=
+Thu May 22 12:05:51 2008: Contest started?: passed(must be <0)?=-0.024896191
+Thu May 22 12:05:51 2008: Virtual contest started for user?: passed(must be <0)?=-2698.503618703
+Thu May 22 12:05:51 2008: Contest not ended?: passed(must be <0)?=-0.0412223376666667
+Thu May 22 12:05:51 2008: Submition data checked: result=1
+Thu May 22 12:05:51 2008: Submition data is valid.
+Thu May 22 12:05:51 2008: Submition added to DB
+Thu May 22 12:05:51 2008: Saving source...
+Thu May 22 12:05:51 2008: source=begin
+end.
+Thu May 22 12:05:51 2008: filename=c:\acm\dir_tmp\z4C503.pas
+Thu May 22 12:05:51 2008: Source saved.
+Thu May 22 12:05:51 2008: Solution processed.
+Thu May 22 12:05:51 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:05:51 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:05:51 2008: Master conf file parsed.
+Thu May 22 12:05:51 2008: Compilers conf file parsed.
+Thu May 22 12:05:51 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:05:51 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:05:51 2008: Started.
+Thu May 22 12:05:51 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:05:51 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:51 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:51 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=22711
+
+Thu May 22 12:05:56 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:05:56 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:05:56 2008: Master conf file parsed.
+Thu May 22 12:05:56 2008: Compilers conf file parsed.
+Thu May 22 12:05:56 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:05:56 2008: Connected to DB, DBI::db=HASH(0x1a05a34)
+Thu May 22 12:05:56 2008: Started.
+Thu May 22 12:05:57 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:05:57 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:57 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:05:57 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=22711
+
+Thu May 22 12:06:11 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:06:11 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:06:11 2008: Master conf file parsed.
+Thu May 22 12:06:11 2008: Compilers conf file parsed.
+Thu May 22 12:06:11 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:06:11 2008: Connected to DB, DBI::db=HASH(0x1a08274)
+Thu May 22 12:06:11 2008: -------- cnt_submit.pl started
+Thu May 22 12:06:11 2008: Parsing input stream...
+Thu May 22 12:06:11 2008: Stream content:
+Content-Disposition: form-data; name="contest_id"
+
+37
+------------yscvnXAEEpKlkozb2H9It8
+Content-Disposition: form-data; name="is_team"
+
+0
+------------yscvnXAEEpKlkozb2H9It8
+Content-Disposition: form-data; name="is_virtual"
+
+1
+------------yscvnXAEEpKlkozb2H9It8
+Content-Disposition: form-data; name="author_id"
+
+22711
+------------yscvnXAEEpKlkozb2H9It8
+Content-Disposition: form-data; name="problem_id"
+
+585
+------------yscvnXAEEpKlkozb2H9It8
+Content-Disposition: form-data; name="compiler_id"
+
+3
+------------yscvnXAEEpKlkozb2H9It8
+Content-Disposition: form-data; name="source"
+
+
+------------yscvnXAEEpKlkozb2H9It8
+Content-Disposition: form-data; name="sourcefile"; filename="te.pas"
+Content-Type: application/octet-stream
+
+var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+------------yscvnXAEEpKlkozb2H9It8--
+
+Endstream content.
+Thu May 22 12:06:11 2008: name=contest_id
+val=37
+flname=
+Thu May 22 12:06:11 2008: contest_id=37 (num)
+Thu May 22 12:06:11 2008: name=is_team
+val=0
+flname=
+Thu May 22 12:06:11 2008: is_team=0 (num)
+Thu May 22 12:06:11 2008: name=is_virtual
+val=1
+flname=
+Thu May 22 12:06:11 2008: is_virtual=1 (num)
+Thu May 22 12:06:11 2008: name=author_id
+val=22711
+flname=
+Thu May 22 12:06:11 2008: author_id=22711 (num)
+Thu May 22 12:06:11 2008: name=problem_id
+val=585
+flname=
+Thu May 22 12:06:11 2008: problem_id=585 (num)
+Thu May 22 12:06:11 2008: name=compiler_id
+val=3
+flname=
+Thu May 22 12:06:11 2008: compiler_id=3 (num)
+Thu May 22 12:06:11 2008: name=source
+val=
+flname=
+Thu May 22 12:06:11 2008: source= (not num)
+Thu May 22 12:06:11 2008: name=sourcefile
+val=Content-Type: application/octet-stream
+
+var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+flname=te.pas
+Thu May 22 12:06:11 2008: sourcefile=var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+Thu May 22 12:06:11 2008: Input stream parsed.
+Thu May 22 12:06:11 2008: Solution got.
+Thu May 22 12:06:11 2008: Checking submition data...
+Thu May 22 12:06:11 2008: Contest exist?: passed?=1
+Thu May 22 12:06:11 2008: Problem exist?: passed?=1
+Thu May 22 12:06:11 2008: Compiler exist?: passed?=1
+Thu May 22 12:06:11 2008: User exist?: passed?=1
+Thu May 22 12:06:11 2008: User reget?: passed?=1
+Thu May 22 12:06:11 2008: Ind/team conflict check: passed(must be 0)?=
+Thu May 22 12:06:11 2008: Contest started?: passed(must be <0)?=-0.025129119
+Thu May 22 12:06:11 2008: Virtual contest started for user?: passed(must be <0)?=-2698.503618703
+Thu May 22 12:06:11 2008: Contest not ended?: passed(must be <0)?=-0.0409894096666667
+Thu May 22 12:06:11 2008: Submition data checked: result=1
+Thu May 22 12:06:11 2008: Submition data is valid.
+Thu May 22 12:06:11 2008: Submition added to DB
+Thu May 22 12:06:11 2008: Saving source...
+Thu May 22 12:06:11 2008: source=var
+  n: integer;
+begin
+  read(n);
+  write(n);
+end.
+Thu May 22 12:06:11 2008: filename=c:\acm\dir_tmp\z4C504.pas
+Thu May 22 12:06:11 2008: Source saved.
+Thu May 22 12:06:11 2008: Solution processed.
+Thu May 22 12:06:11 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:06:11 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:06:11 2008: Master conf file parsed.
+Thu May 22 12:06:11 2008: Compilers conf file parsed.
+Thu May 22 12:06:11 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:06:11 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:06:11 2008: Started.
+Thu May 22 12:06:11 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:06:11 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:06:11 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:06:11 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=22711
+
+Thu May 22 12:06:20 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:06:20 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:06:20 2008: Master conf file parsed.
+Thu May 22 12:06:20 2008: Compilers conf file parsed.
+Thu May 22 12:06:20 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:06:20 2008: Connected to DB, DBI::db=HASH(0x1a05a34)
+Thu May 22 12:06:20 2008: Started.
+Thu May 22 12:06:20 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:06:20 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:06:20 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:06:20 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=22711
+
+Thu May 22 12:06:31 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:06:31 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:06:31 2008: Master conf file parsed.
+Thu May 22 12:06:31 2008: Compilers conf file parsed.
+Thu May 22 12:06:31 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:06:31 2008: Connected to DB, DBI::db=HASH(0x1a05a34)
+Thu May 22 12:06:31 2008: Started.
+Thu May 22 12:06:31 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:06:32 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:06:32 2008: Security level got: UserID=22711; Sec=0
+Thu May 22 12:06:32 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=22711
+
+Thu May 22 12:23:45 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:23:45 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:23:45 2008: Master conf file parsed.
+Thu May 22 12:23:45 2008: Compilers conf file parsed.
+Thu May 22 12:23:45 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:23:45 2008: Connected to DB, DBI::db=HASH(0x19f9d08)
+Thu May 22 12:23:45 2008: Started.
+Thu May 22 12:23:54 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:23:54 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:23:54 2008: Master conf file parsed.
+Thu May 22 12:23:54 2008: Compilers conf file parsed.
+Thu May 22 12:23:54 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:23:54 2008: Connected to DB, DBI::db=HASH(0x19f9d08)
+Thu May 22 12:23:54 2008: Started.
+Thu May 22 12:23:54 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:23:54 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:23:54 2008: Master conf file parsed.
+Thu May 22 12:23:54 2008: Compilers conf file parsed.
+Thu May 22 12:23:54 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:23:54 2008: Connected to DB, DBI::db=HASH(0x19f9cf4)
+Thu May 22 12:23:54 2008: Started.
+Thu May 22 12:23:54 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:23:54 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:23:54 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:23:59 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:23:59 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:23:59 2008: Master conf file parsed.
+Thu May 22 12:23:59 2008: Compilers conf file parsed.
+Thu May 22 12:23:59 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:23:59 2008: Connected to DB, DBI::db=HASH(0x19f9e58)
+Thu May 22 12:23:59 2008: Started.
+Thu May 22 12:23:59 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:23:59 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:24:01 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:24:01 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:24:01 2008: Master conf file parsed.
+Thu May 22 12:24:01 2008: Compilers conf file parsed.
+Thu May 22 12:24:01 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:24:01 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 12:24:01 2008: Started.
+Thu May 22 12:24:01 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:24:01 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?'.
+Thu May 22 12:24:03 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:24:03 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:24:03 2008: Master conf file parsed.
+Thu May 22 12:24:03 2008: Compilers conf file parsed.
+Thu May 22 12:24:03 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:24:03 2008: Connected to DB, DBI::db=HASH(0x19f9e38)
+Thu May 22 12:24:03 2008: Started.
+Thu May 22 12:24:03 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:24:03 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=manage_all'.
+Thu May 22 12:46:49 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:46:49 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:46:49 2008: Master conf file parsed.
+Thu May 22 12:46:49 2008: Compilers conf file parsed.
+Thu May 22 12:46:49 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:46:49 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 12:46:49 2008: Started.
+Thu May 22 12:46:49 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 12:46:49 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Thu May 22 12:46:49 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:46:49 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:46:49 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:46:49 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:46:49 2008: Master conf file parsed.
+Thu May 22 12:46:49 2008: Compilers conf file parsed.
+Thu May 22 12:46:49 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:46:49 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 12:46:49 2008: Started.
+Thu May 22 12:46:49 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 12:46:49 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:46:49 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:48:19 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:48:19 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:48:19 2008: Master conf file parsed.
+Thu May 22 12:48:19 2008: Compilers conf file parsed.
+Thu May 22 12:48:19 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:48:19 2008: Connected to DB, DBI::db=HASH(0x19f98ec)
+Thu May 22 12:48:19 2008: Started.
+Thu May 22 12:48:19 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 22 12:48:20 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:48:20 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:48:20 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:48:20 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:48:20 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:48:20 2008: Master conf file parsed.
+Thu May 22 12:48:20 2008: Compilers conf file parsed.
+Thu May 22 12:48:20 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:48:20 2008: Connected to DB, DBI::db=HASH(0x1a05ab4)
+Thu May 22 12:48:20 2008: Started.
+Thu May 22 12:48:20 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Thu May 22 12:48:20 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:48:20 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:48:30 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:48:30 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:48:30 2008: Master conf file parsed.
+Thu May 22 12:48:30 2008: Compilers conf file parsed.
+Thu May 22 12:48:30 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:48:30 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:48:30 2008: Started.
+Thu May 22 12:48:30 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:48:30 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:48:30 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:48:30 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Thu May 22 12:49:06 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:49:06 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:49:06 2008: Master conf file parsed.
+Thu May 22 12:49:06 2008: Compilers conf file parsed.
+Thu May 22 12:49:06 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:49:06 2008: Connected to DB, DBI::db=HASH(0x1a08274)
+Thu May 22 12:49:06 2008: -------- cnt_submit.pl started
+Thu May 22 12:49:06 2008: Parsing input stream...
+Thu May 22 12:49:06 2008: Stream content:
+Content-Disposition: form-data; name="contest_id"
+
+37
+------------OAyheZ0MknBzxRBDsmja7C
+Content-Disposition: form-data; name="is_team"
+
+0
+------------OAyheZ0MknBzxRBDsmja7C
+Content-Disposition: form-data; name="is_virtual"
+
+1
+------------OAyheZ0MknBzxRBDsmja7C
+Content-Disposition: form-data; name="author_id"
+
+21916
+------------OAyheZ0MknBzxRBDsmja7C
+Content-Disposition: form-data; name="problem_id"
+
+585
+------------OAyheZ0MknBzxRBDsmja7C
+Content-Disposition: form-data; name="compiler_id"
+
+3
+------------OAyheZ0MknBzxRBDsmja7C
+Content-Disposition: form-data; name="source"
+
+nm mnm
+------------OAyheZ0MknBzxRBDsmja7C
+Content-Disposition: form-data; name="sourcefile"; filename=""
+
+
+------------OAyheZ0MknBzxRBDsmja7C--
+
+Endstream content.
+Thu May 22 12:49:06 2008: name=contest_id
+val=37
+flname=
+Thu May 22 12:49:06 2008: contest_id=37 (num)
+Thu May 22 12:49:06 2008: name=is_team
+val=0
+flname=
+Thu May 22 12:49:06 2008: is_team=0 (num)
+Thu May 22 12:49:06 2008: name=is_virtual
+val=1
+flname=
+Thu May 22 12:49:06 2008: is_virtual=1 (num)
+Thu May 22 12:49:06 2008: name=author_id
+val=21916
+flname=
+Thu May 22 12:49:06 2008: author_id=21916 (num)
+Thu May 22 12:49:06 2008: name=problem_id
+val=585
+flname=
+Thu May 22 12:49:06 2008: problem_id=585 (num)
+Thu May 22 12:49:06 2008: name=compiler_id
+val=3
+flname=
+Thu May 22 12:49:06 2008: compiler_id=3 (num)
+Thu May 22 12:49:06 2008: name=source
+val=nm mnm
+flname=
+Thu May 22 12:49:06 2008: source=nm mnm (not num)
+Thu May 22 12:49:06 2008: name=sourcefile
+val=
+flname=
+Thu May 22 12:49:06 2008: sourcefile= (not num)
+Thu May 22 12:49:06 2008: Input stream parsed.
+Thu May 22 12:49:06 2008: Solution got.
+Thu May 22 12:49:06 2008: Checking submition data...
+Thu May 22 12:49:06 2008: Contest exist?: passed?=1
+Thu May 22 12:49:06 2008: Problem exist?: passed?=1
+Thu May 22 12:49:06 2008: Compiler exist?: passed?=1
+Thu May 22 12:49:06 2008: User exist?: passed?=1
+Thu May 22 12:49:06 2008: User reget?: passed?=1
+Thu May 22 12:49:06 2008: Ind/team conflict check: passed(must be 0)?=
+Thu May 22 12:49:06 2008: Contest started?: passed(must be <0)?=-0.054940312
+Thu May 22 12:49:06 2008: Virtual contest started for user?: passed(must be <0)?=-2698.493964119
+Thu May 22 12:49:06 2008: Contest not ended?: passed(must be <0)?=-0.00152343766666666
+Thu May 22 12:49:06 2008: Submition data checked: result=1
+Thu May 22 12:49:06 2008: Submition data is valid.
+Thu May 22 12:49:06 2008: Submition added to DB
+Thu May 22 12:49:06 2008: Saving source...
+Thu May 22 12:49:06 2008: source=nm mnm
+Thu May 22 12:49:06 2008: filename=c:\acm\dir_tmp\z4C505.pas
+Thu May 22 12:49:06 2008: Source saved.
+Thu May 22 12:49:06 2008: Solution processed.
+Thu May 22 12:49:07 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 22 12:49:07 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 22 12:49:07 2008: Master conf file parsed.
+Thu May 22 12:49:07 2008: Compilers conf file parsed.
+Thu May 22 12:49:07 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 22 12:49:07 2008: Connected to DB, DBI::db=HASH(0x19f9cf8)
+Thu May 22 12:49:07 2008: Started.
+Thu May 22 12:49:07 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Thu May 22 12:49:07 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:49:07 2008: Security level got: UserID=21916; Sec=2
+Thu May 22 12:49:07 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Fri May 23 04:35:19 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:35:19 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:35:19 2008: Master conf file parsed.
+Fri May 23 04:35:19 2008: Compilers conf file parsed.
+Fri May 23 04:35:19 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:35:19 2008: Connected to DB, DBI::db=HASH(0x19f9dcc)
+Fri May 23 04:35:19 2008: Started.
+Fri May 23 04:35:19 2008: Current link: 'cnt_common.pl?action=active_contests'
+Fri May 23 04:35:19 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl'.
+Fri May 23 04:35:19 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:19 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:21 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:35:21 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:35:21 2008: Master conf file parsed.
+Fri May 23 04:35:21 2008: Compilers conf file parsed.
+Fri May 23 04:35:21 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:35:21 2008: Connected to DB, DBI::db=HASH(0x19f99b8)
+Fri May 23 04:35:21 2008: Started.
+Fri May 23 04:35:21 2008: Current link: 'cnt_common.pl?action=cont_arch'
+Fri May 23 04:35:21 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:35:21 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:21 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:27 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:35:27 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:35:27 2008: Master conf file parsed.
+Fri May 23 04:35:27 2008: Compilers conf file parsed.
+Fri May 23 04:35:27 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:35:27 2008: Connected to DB, DBI::db=HASH(0x19f99c4)
+Fri May 23 04:35:27 2008: Started.
+Fri May 23 04:35:27 2008: Current link: 'cnt_common.pl?action=stand&cont_id=11'
+Fri May 23 04:35:27 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=cont_arch'.
+Fri May 23 04:35:27 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:27 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:27 2008:   select R.reg_time+C.duration/24-current_timestamp,
+         case
+           when (current_timestamp-R.reg_time)*24<duration then (current_timestamp-R.reg_time)*24
+           when (current_timestamp-R.reg_time)*24>=duration then duration
+         end
+  from Contests C JOIN Regauth R on C.cont_id=R.cont_id
+  where C.cont_id=11 and
+        R.user_id=0
+
+Fri May 23 04:35:27 2008: Tmp_stand called: cont_id=11, isteam=0, isvirt=1, user=0, type=1, master=0
+Fri May 23 04:35:27 2008:   select Status.id_publ, Cont_prob.pr_num, Status.id_rsl,
+        (cast(Status.dt_tm as date)-cast(Regauth.reg_time as date))*24*60+
+        (cast(Status.dt_tm as time)-cast(Regauth.reg_time as time))/60 penalty
+  from
+    (
+      (
+        (status join cont_status on status.id_stat=cont_status.id_stat and cont_status.cont_id=11)
+      join
+        cont_prob
+      on
+        cont_prob.prob_id=status.id_prb and cont_status.cont_id=cont_prob.cont_id
+      )
+    join
+      contests
+    on
+      contests.cont_id=cont_status.cont_id
+    )
+  join
+    regauth
+  on
+    regauth.user_id=status.id_publ and regauth.cont_id=11
+  where Status.id_rsl<100 and
+        Status.dt_tm-Regauth.reg_time>=0 and
+        Status.dt_tm-Regauth.reg_time<(Contests.duration-Contests.freeze_time)/24
+                and
+        Status.dt_tm-Regauth.reg_time<=
+           (
+             select current_timestamp-reg_time
+             from Regauth
+             where cont_id=11 and user_id=0
+           )
+
+  order by Status.id_publ,
+           Cont_prob.pr_num,
+           Status.dt_tm
+
+Fri May 23 04:35:28 2008: Calculating standings...
+Fri May 23 04:35:28 2008: Standings calculated: no submitions found.
+Fri May 23 04:35:28 2008: Tmp_stand ended.
+Fri May 23 04:35:38 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:35:38 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:35:38 2008: Master conf file parsed.
+Fri May 23 04:35:38 2008: Compilers conf file parsed.
+Fri May 23 04:35:38 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:35:38 2008: Connected to DB, DBI::db=HASH(0x19f99c8)
+Fri May 23 04:35:38 2008: Started.
+Fri May 23 04:35:38 2008: Current link: 'cnt_common.pl?action=stand&cont_id=12'
+Fri May 23 04:35:38 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=stand&cont_id=11'.
+Fri May 23 04:35:38 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:38 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:38 2008:   select R.reg_time+C.duration/24-current_timestamp,
+         case
+           when (current_timestamp-R.reg_time)*24<duration then (current_timestamp-R.reg_time)*24
+           when (current_timestamp-R.reg_time)*24>=duration then duration
+         end
+  from Contests C JOIN Regauth R on C.cont_id=R.cont_id
+  where C.cont_id=12 and
+        R.user_id=0
+
+Fri May 23 04:35:38 2008: Tmp_stand called: cont_id=12, isteam=0, isvirt=1, user=0, type=1, master=0
+Fri May 23 04:35:38 2008:   select Status.id_publ, Cont_prob.pr_num, Status.id_rsl,
+        (cast(Status.dt_tm as date)-cast(Regauth.reg_time as date))*24*60+
+        (cast(Status.dt_tm as time)-cast(Regauth.reg_time as time))/60 penalty
+  from
+    (
+      (
+        (status join cont_status on status.id_stat=cont_status.id_stat and cont_status.cont_id=12)
+      join
+        cont_prob
+      on
+        cont_prob.prob_id=status.id_prb and cont_status.cont_id=cont_prob.cont_id
+      )
+    join
+      contests
+    on
+      contests.cont_id=cont_status.cont_id
+    )
+  join
+    regauth
+  on
+    regauth.user_id=status.id_publ and regauth.cont_id=12
+  where Status.id_rsl<100 and
+        Status.dt_tm-Regauth.reg_time>=0 and
+        Status.dt_tm-Regauth.reg_time<(Contests.duration-Contests.freeze_time)/24
+                and
+        Status.dt_tm-Regauth.reg_time<=
+           (
+             select current_timestamp-reg_time
+             from Regauth
+             where cont_id=12 and user_id=0
+           )
+
+  order by Status.id_publ,
+           Cont_prob.pr_num,
+           Status.dt_tm
+
+Fri May 23 04:35:38 2008: Calculating standings...
+Fri May 23 04:35:38 2008: Standings calculated: no submitions found.
+Fri May 23 04:35:38 2008: Tmp_stand ended.
+Fri May 23 04:35:43 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:35:43 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:35:43 2008: Master conf file parsed.
+Fri May 23 04:35:43 2008: Compilers conf file parsed.
+Fri May 23 04:35:43 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:35:43 2008: Connected to DB, DBI::db=HASH(0x19f99c8)
+Fri May 23 04:35:43 2008: Started.
+Fri May 23 04:35:43 2008: Current link: 'cnt_common.pl?action=stand&cont_id=1'
+Fri May 23 04:35:43 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=stand&cont_id=12'.
+Fri May 23 04:35:43 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:43 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:43 2008:   select 1,
+         case
+           when (current_timestamp-start)*24<duration then (current_timestamp-start)*24
+           when (current_timestamp-start)*24>=duration then duration
+         end
+  from Contests
+  where cont_id=1
+
+Fri May 23 04:35:43 2008: Tmp_stand called: cont_id=1, isteam=0, isvirt=0, user=0, type=1, master=0
+Fri May 23 04:35:43 2008:   select Status.id_publ, Cont_prob.pr_num, Status.id_rsl,
+        (cast(Status.dt_tm as date)-cast(Contests.start as date))*24*60+
+        (cast(Status.dt_tm as time)-cast(Contests.start as time))/60 penalty
+  from
+    (
+      (status join cont_status on status.id_stat=cont_status.id_stat and cont_status.cont_id=1)
+    join
+      cont_prob
+    on
+      cont_prob.prob_id=status.id_prb and cont_status.cont_id=cont_prob.cont_id
+    )
+  join
+    contests
+  on
+    contests.cont_id=cont_status.cont_id
+  where Status.id_rsl<100 and
+        Status.dt_tm-Contests.start>0 and
+        Contests.stop-Contests.freeze_time/24-Status.dt_tm>0
+
+  order by Status.id_publ,
+           Cont_prob.pr_num,
+           Status.dt_tm
+
+Fri May 23 04:35:43 2008: Calculating standings...
+Fri May 23 04:35:43 2008: Standings calculated.
+Fri May 23 04:35:43 2008: Tmp_stand ended.
+Fri May 23 04:35:51 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:35:51 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:35:51 2008: Master conf file parsed.
+Fri May 23 04:35:51 2008: Compilers conf file parsed.
+Fri May 23 04:35:51 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:35:51 2008: Connected to DB, DBI::db=HASH(0x19f99c8)
+Fri May 23 04:35:51 2008: Started.
+Fri May 23 04:35:51 2008: Current link: 'cnt_common.pl?action=stand&cont_id=2'
+Fri May 23 04:35:51 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=stand&cont_id=1'.
+Fri May 23 04:35:51 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:51 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:35:51 2008:   select R.reg_time+C.duration/24-current_timestamp,
+         case
+           when (current_timestamp-R.reg_time)*24<duration then (current_timestamp-R.reg_time)*24
+           when (current_timestamp-R.reg_time)*24>=duration then duration
+         end
+  from Contests C JOIN Regauth R on C.cont_id=R.cont_id
+  where C.cont_id=2 and
+        R.user_id=0
+
+Fri May 23 04:35:51 2008: Tmp_stand called: cont_id=2, isteam=0, isvirt=1, user=0, type=1, master=0
+Fri May 23 04:35:51 2008:   select Status.id_publ, Cont_prob.pr_num, Status.id_rsl,
+        (cast(Status.dt_tm as date)-cast(Regauth.reg_time as date))*24*60+
+        (cast(Status.dt_tm as time)-cast(Regauth.reg_time as time))/60 penalty
+  from
+    (
+      (
+        (status join cont_status on status.id_stat=cont_status.id_stat and cont_status.cont_id=2)
+      join
+        cont_prob
+      on
+        cont_prob.prob_id=status.id_prb and cont_status.cont_id=cont_prob.cont_id
+      )
+    join
+      contests
+    on
+      contests.cont_id=cont_status.cont_id
+    )
+  join
+    regauth
+  on
+    regauth.user_id=status.id_publ and regauth.cont_id=2
+  where Status.id_rsl<100 and
+        Status.dt_tm-Regauth.reg_time>=0 and
+        Status.dt_tm-Regauth.reg_time<(Contests.duration-Contests.freeze_time)/24
+                and
+        Status.dt_tm-Regauth.reg_time<=
+           (
+             select current_timestamp-reg_time
+             from Regauth
+             where cont_id=2 and user_id=0
+           )
+
+  order by Status.id_publ,
+           Cont_prob.pr_num,
+           Status.dt_tm
+
+Fri May 23 04:35:51 2008: Calculating standings...
+Fri May 23 04:35:51 2008: Standings calculated: no submitions found.
+Fri May 23 04:35:51 2008: Tmp_stand ended.
+Fri May 23 04:36:16 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:16 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:16 2008: Master conf file parsed.
+Fri May 23 04:36:16 2008: Compilers conf file parsed.
+Fri May 23 04:36:16 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:16 2008: Connected to DB, DBI::db=HASH(0x19f99c8)
+Fri May 23 04:36:16 2008: Started.
+Fri May 23 04:36:16 2008: Current link: 'cnt_common.pl?action=active_contests'
+Fri May 23 04:36:16 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=stand&cont_id=2'.
+Fri May 23 04:36:17 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:17 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:24 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:24 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:24 2008: Master conf file parsed.
+Fri May 23 04:36:24 2008: Compilers conf file parsed.
+Fri May 23 04:36:24 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:24 2008: Connected to DB, DBI::db=HASH(0x19f99c4)
+Fri May 23 04:36:24 2008: Started.
+Fri May 23 04:36:24 2008: Current link: 'cnt_common.pl?action=active_contests'
+Fri May 23 04:36:24 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:24 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:24 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:29 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:29 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:29 2008: Master conf file parsed.
+Fri May 23 04:36:29 2008: Compilers conf file parsed.
+Fri May 23 04:36:29 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:29 2008: Connected to DB, DBI::db=HASH(0x19f99c4)
+Fri May 23 04:36:29 2008: Started.
+Fri May 23 04:36:29 2008: Current link: 'cnt_common.pl?action=active_contests'
+Fri May 23 04:36:29 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:29 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:29 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:32 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:32 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:32 2008: Master conf file parsed.
+Fri May 23 04:36:32 2008: Compilers conf file parsed.
+Fri May 23 04:36:32 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:32 2008: Connected to DB, DBI::db=HASH(0x19f99c4)
+Fri May 23 04:36:32 2008: Started.
+Fri May 23 04:36:32 2008: Current link: 'cnt_common.pl?action=active_contests'
+Fri May 23 04:36:32 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:32 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:32 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:37 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:37 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:37 2008: Master conf file parsed.
+Fri May 23 04:36:37 2008: Compilers conf file parsed.
+Fri May 23 04:36:37 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:37 2008: Connected to DB, DBI::db=HASH(0x19f9dcc)
+Fri May 23 04:36:37 2008: Started.
+Fri May 23 04:36:41 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:41 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:41 2008: Master conf file parsed.
+Fri May 23 04:36:41 2008: Compilers conf file parsed.
+Fri May 23 04:36:41 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:41 2008: Connected to DB, DBI::db=HASH(0x19f99b8)
+Fri May 23 04:36:41 2008: Started.
+Fri May 23 04:36:41 2008: Current link: 'cnt_common.pl?action=active_contests'
+Fri May 23 04:36:41 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:41 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:41 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:45 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:45 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:45 2008: Master conf file parsed.
+Fri May 23 04:36:45 2008: Compilers conf file parsed.
+Fri May 23 04:36:45 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:45 2008: Connected to DB, DBI::db=HASH(0x19f99b8)
+Fri May 23 04:36:45 2008: Started.
+Fri May 23 04:36:45 2008: Current link: 'cnt_common.pl?action=change_lang&lang=ru'
+Fri May 23 04:36:45 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:45 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:45 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:45 2008: Changing language.
+Fri May 23 04:36:46 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:46 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:46 2008: Master conf file parsed.
+Fri May 23 04:36:46 2008: Compilers conf file parsed.
+Fri May 23 04:36:46 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:46 2008: Connected to DB, DBI::db=HASH(0x1a05780)
+Fri May 23 04:36:46 2008: Started.
+Fri May 23 04:36:46 2008: Current link: 'cnt_common.pl?action=active_contests'
+Fri May 23 04:36:46 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:46 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:46 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:48 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:48 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:48 2008: Master conf file parsed.
+Fri May 23 04:36:48 2008: Compilers conf file parsed.
+Fri May 23 04:36:48 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:48 2008: Connected to DB, DBI::db=HASH(0x19f99b8)
+Fri May 23 04:36:48 2008: Started.
+Fri May 23 04:36:48 2008: Current link: 'cnt_common.pl?action=change_lang&lang=en'
+Fri May 23 04:36:48 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:48 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:48 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:48 2008: Changing language.
+Fri May 23 04:36:49 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:49 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:49 2008: Master conf file parsed.
+Fri May 23 04:36:49 2008: Compilers conf file parsed.
+Fri May 23 04:36:49 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:49 2008: Connected to DB, DBI::db=HASH(0x1a05780)
+Fri May 23 04:36:49 2008: Started.
+Fri May 23 04:36:49 2008: Current link: 'cnt_common.pl?action=active_contests'
+Fri May 23 04:36:49 2008: cnt_common.pl: Cookies checked: CurLang='en'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:49 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:49 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:50 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:50 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:50 2008: Master conf file parsed.
+Fri May 23 04:36:50 2008: Compilers conf file parsed.
+Fri May 23 04:36:50 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:50 2008: Connected to DB, DBI::db=HASH(0x19f99b8)
+Fri May 23 04:36:50 2008: Started.
+Fri May 23 04:36:50 2008: Current link: 'cnt_common.pl?action=change_lang&lang=ru'
+Fri May 23 04:36:50 2008: cnt_common.pl: Cookies checked: CurLang='en'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:50 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:50 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:50 2008: Changing language.
+Fri May 23 04:36:51 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:51 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:51 2008: Master conf file parsed.
+Fri May 23 04:36:51 2008: Compilers conf file parsed.
+Fri May 23 04:36:51 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:51 2008: Connected to DB, DBI::db=HASH(0x1a05780)
+Fri May 23 04:36:51 2008: Started.
+Fri May 23 04:36:51 2008: Current link: 'cnt_common.pl?action=active_contests'
+Fri May 23 04:36:51 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:51 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:51 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:53 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:53 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:53 2008: Master conf file parsed.
+Fri May 23 04:36:53 2008: Compilers conf file parsed.
+Fri May 23 04:36:53 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:53 2008: Connected to DB, DBI::db=HASH(0x19f99b8)
+Fri May 23 04:36:53 2008: Started.
+Fri May 23 04:36:53 2008: Current link: 'cnt_common.pl?action=change_lang&lang=ru'
+Fri May 23 04:36:53 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:53 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:53 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:53 2008: Changing language.
+Fri May 23 04:36:54 2008: c:/acm/cnt_sys/config/master.cfg
+Fri May 23 04:36:54 2008: dbname=localhost:c:\acm\db\acm.gdb
+Fri May 23 04:36:54 2008: Master conf file parsed.
+Fri May 23 04:36:54 2008: Compilers conf file parsed.
+Fri May 23 04:36:54 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Fri May 23 04:36:54 2008: Connected to DB, DBI::db=HASH(0x1a05780)
+Fri May 23 04:36:54 2008: Started.
+Fri May 23 04:36:54 2008: Current link: 'cnt_common.pl?action=active_contests'
+Fri May 23 04:36:54 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Fri May 23 04:36:54 2008: Security level got: UserID=0; Sec=0
+Fri May 23 04:36:54 2008: Security level got: UserID=0; Sec=0
+Sat May 24 19:02:52 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:02:52 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:02:52 2008: Master conf file parsed.
+Sat May 24 19:02:52 2008: Compilers conf file parsed.
+Sat May 24 19:02:52 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:02:52 2008: Connected to DB, DBI::db=HASH(0x1a05998)
+Sat May 24 19:02:52 2008: Started.
+Sat May 24 19:02:52 2008: Current link: 'cnt_common.pl?action=active_contests'
+Sat May 24 19:02:52 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl'.
+Sat May 24 19:02:52 2008: Security level got: UserID=0; Sec=0
+Sat May 24 19:02:52 2008: Security level got: UserID=0; Sec=0
+Sat May 24 19:16:17 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:16:17 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:16:17 2008: Master conf file parsed.
+Sat May 24 19:16:17 2008: Compilers conf file parsed.
+Sat May 24 19:16:17 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:16:17 2008: Connected to DB, DBI::db=HASH(0x19f9c6c)
+Sat May 24 19:16:17 2008: Started.
+Sat May 24 19:16:17 2008: Current link: 'cnt_common.pl?action=active_contests'
+Sat May 24 19:16:17 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl'.
+Sat May 24 19:16:17 2008: Security level got: UserID=0; Sec=0
+Sat May 24 19:16:17 2008: Security level got: UserID=0; Sec=0
+Sat May 24 19:49:51 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:49:51 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:49:51 2008: Master conf file parsed.
+Sat May 24 19:49:51 2008: Compilers conf file parsed.
+Sat May 24 19:49:51 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:49:51 2008: Connected to DB, DBI::db=HASH(0x19f9c4c)
+Sat May 24 19:49:51 2008: Started.
+Sat May 24 19:49:51 2008: Current link: 'cnt_common.pl?action=active_contests'
+Sat May 24 19:49:51 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Sat May 24 19:49:51 2008: Security level got: UserID=0; Sec=0
+Sat May 24 19:49:51 2008: Security level got: UserID=0; Sec=0
+Sat May 24 19:49:57 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:49:57 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:49:57 2008: Master conf file parsed.
+Sat May 24 19:49:57 2008: Compilers conf file parsed.
+Sat May 24 19:49:57 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:49:57 2008: Connected to DB, DBI::db=HASH(0x19f9c58)
+Sat May 24 19:49:57 2008: Started.
+Sat May 24 19:49:57 2008: Current link: 'cnt_common.pl?action=active_contests&re_login=3421'
+Sat May 24 19:49:57 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:49:57 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:49:57 2008: Master conf file parsed.
+Sat May 24 19:49:57 2008: Compilers conf file parsed.
+Sat May 24 19:49:57 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:49:58 2008: Connected to DB, DBI::db=HASH(0x19f9c58)
+Sat May 24 19:49:58 2008: Started.
+Sat May 24 19:49:58 2008: Current link: 'cnt_common.pl?action=active_contests&re_login=3421'
+Sat May 24 19:49:58 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:49:58 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:49:58 2008: Master conf file parsed.
+Sat May 24 19:49:58 2008: Compilers conf file parsed.
+Sat May 24 19:49:58 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:49:58 2008: Connected to DB, DBI::db=HASH(0x19f9c4c)
+Sat May 24 19:49:58 2008: Started.
+Sat May 24 19:49:58 2008: Current link: 'cnt_common.pl?action=active_contests&'
+Sat May 24 19:49:58 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Sat May 24 19:49:58 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:49:58 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:49:59 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:49:59 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:49:59 2008: Master conf file parsed.
+Sat May 24 19:49:59 2008: Compilers conf file parsed.
+Sat May 24 19:49:59 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:49:59 2008: Connected to DB, DBI::db=HASH(0x19fa074)
+Sat May 24 19:49:59 2008: Started.
+Sat May 24 19:49:59 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests&'.
+Sat May 24 19:49:59 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:49:59 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:50:02 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:50:02 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:50:02 2008: Master conf file parsed.
+Sat May 24 19:50:02 2008: Compilers conf file parsed.
+Sat May 24 19:50:02 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:50:02 2008: Connected to DB, DBI::db=HASH(0x19fa064)
+Sat May 24 19:50:02 2008: Started.
+Sat May 24 19:50:02 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:50:02 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:50:02 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:50:02 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=21916
+
+Sat May 24 19:50:58 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:50:58 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:50:58 2008: Master conf file parsed.
+Sat May 24 19:50:58 2008: Compilers conf file parsed.
+Sat May 24 19:50:58 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:50:58 2008: Connected to DB, DBI::db=HASH(0x19fa064)
+Sat May 24 19:50:58 2008: Started.
+Sat May 24 19:50:58 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:50:58 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:50:58 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:50:58 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=24 and
+        Regauth.user_id=21916
+
+Sat May 24 19:51:23 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:51:23 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:51:23 2008: Master conf file parsed.
+Sat May 24 19:51:23 2008: Compilers conf file parsed.
+Sat May 24 19:51:23 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:51:23 2008: Connected to DB, DBI::db=HASH(0x19fa074)
+Sat May 24 19:51:23 2008: Started.
+Sat May 24 19:51:29 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:51:29 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:51:29 2008: Master conf file parsed.
+Sat May 24 19:51:29 2008: Compilers conf file parsed.
+Sat May 24 19:51:29 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:51:30 2008: Connected to DB, DBI::db=HASH(0x19fa074)
+Sat May 24 19:51:30 2008: Started.
+Sat May 24 19:51:30 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:51:30 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:51:30 2008: Master conf file parsed.
+Sat May 24 19:51:30 2008: Compilers conf file parsed.
+Sat May 24 19:51:30 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:51:30 2008: Connected to DB, DBI::db=HASH(0x19fa060)
+Sat May 24 19:51:30 2008: Started.
+Sat May 24 19:51:30 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:51:30 2008: Security level got: UserID=22711; Sec=0
+Sat May 24 19:51:30 2008: Security level got: UserID=22711; Sec=0
+Sat May 24 19:51:33 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:51:33 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:51:33 2008: Master conf file parsed.
+Sat May 24 19:51:33 2008: Compilers conf file parsed.
+Sat May 24 19:51:33 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:51:33 2008: Connected to DB, DBI::db=HASH(0x19fa064)
+Sat May 24 19:51:33 2008: Started.
+Sat May 24 19:51:33 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:51:33 2008: Security level got: UserID=22711; Sec=0
+Sat May 24 19:51:33 2008: Security level got: UserID=22711; Sec=0
+Sat May 24 19:51:33 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=22711
+
+Sat May 24 19:51:37 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:51:37 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:51:37 2008: Master conf file parsed.
+Sat May 24 19:51:37 2008: Compilers conf file parsed.
+Sat May 24 19:51:37 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:51:37 2008: Connected to DB, DBI::db=HASH(0x19fa074)
+Sat May 24 19:51:37 2008: Started.
+Sat May 24 19:51:59 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:51:59 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:51:59 2008: Master conf file parsed.
+Sat May 24 19:51:59 2008: Compilers conf file parsed.
+Sat May 24 19:51:59 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:51:59 2008: Connected to DB, DBI::db=HASH(0x19fa074)
+Sat May 24 19:51:59 2008: Started.
+Sat May 24 19:52:08 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:52:08 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:52:08 2008: Master conf file parsed.
+Sat May 24 19:52:08 2008: Compilers conf file parsed.
+Sat May 24 19:52:08 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:52:08 2008: Connected to DB, DBI::db=HASH(0x19fa074)
+Sat May 24 19:52:08 2008: Started.
+Sat May 24 19:52:08 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:52:08 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:52:08 2008: Master conf file parsed.
+Sat May 24 19:52:08 2008: Compilers conf file parsed.
+Sat May 24 19:52:08 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:52:08 2008: Connected to DB, DBI::db=HASH(0x19fa064)
+Sat May 24 19:52:08 2008: Started.
+Sat May 24 19:52:08 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:52:08 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:52:08 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:52:21 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:52:21 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:52:21 2008: Master conf file parsed.
+Sat May 24 19:52:21 2008: Compilers conf file parsed.
+Sat May 24 19:52:21 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:52:21 2008: Connected to DB, DBI::db=HASH(0x19fa060)
+Sat May 24 19:52:21 2008: Started.
+Sat May 24 19:52:21 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:52:21 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:52:21 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:52:21 2008: is_virt=1; is_start=1
+Sat May 24 19:52:21 2008: qry=insert into Regauth (user_id,cont_id,reg_time) values (22435,37,current_timestamp)
+Sat May 24 19:52:22 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:52:22 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:52:22 2008: Master conf file parsed.
+Sat May 24 19:52:22 2008: Compilers conf file parsed.
+Sat May 24 19:52:22 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:52:22 2008: Connected to DB, DBI::db=HASH(0x1a05e20)
+Sat May 24 19:52:22 2008: Started.
+Sat May 24 19:52:22 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:52:22 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:52:22 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:52:29 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:52:29 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:52:29 2008: Master conf file parsed.
+Sat May 24 19:52:29 2008: Compilers conf file parsed.
+Sat May 24 19:52:29 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:52:29 2008: Connected to DB, DBI::db=HASH(0x19fa054)
+Sat May 24 19:52:29 2008: Started.
+Sat May 24 19:52:29 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:52:29 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:52:29 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:52:29 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=22435
+
+Sat May 24 19:52:52 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:52:52 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:52:52 2008: Master conf file parsed.
+Sat May 24 19:52:52 2008: Compilers conf file parsed.
+Sat May 24 19:52:52 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:52:52 2008: Connected to DB, DBI::db=HASH(0x19fa054)
+Sat May 24 19:52:52 2008: Started.
+Sat May 24 19:53:14 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:53:14 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:53:14 2008: Master conf file parsed.
+Sat May 24 19:53:14 2008: Compilers conf file parsed.
+Sat May 24 19:53:14 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:53:14 2008: Connected to DB, DBI::db=HASH(0x19fa074)
+Sat May 24 19:53:14 2008: Started.
+Sat May 24 19:53:14 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:53:14 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:53:14 2008: Master conf file parsed.
+Sat May 24 19:53:14 2008: Compilers conf file parsed.
+Sat May 24 19:53:14 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:53:15 2008: Connected to DB, DBI::db=HASH(0x19fa060)
+Sat May 24 19:53:15 2008: Started.
+Sat May 24 19:53:15 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:53:15 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:53:15 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:53:32 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:53:32 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:53:32 2008: Master conf file parsed.
+Sat May 24 19:53:32 2008: Compilers conf file parsed.
+Sat May 24 19:53:32 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:53:32 2008: Connected to DB, DBI::db=HASH(0x19f9de0)
+Sat May 24 19:53:32 2008: Started.
+Sat May 24 19:53:32 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:53:32 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:53:34 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:53:34 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:53:34 2008: Master conf file parsed.
+Sat May 24 19:53:34 2008: Compilers conf file parsed.
+Sat May 24 19:53:34 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:53:34 2008: Connected to DB, DBI::db=HASH(0x19f9dc0)
+Sat May 24 19:53:34 2008: Started.
+Sat May 24 19:53:34 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:53:34 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?'.
+Sat May 24 19:53:41 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:53:41 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:53:41 2008: Master conf file parsed.
+Sat May 24 19:53:41 2008: Compilers conf file parsed.
+Sat May 24 19:53:41 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:53:41 2008: Connected to DB, DBI::db=HASH(0x19f9dc0)
+Sat May 24 19:53:41 2008: Started.
+Sat May 24 19:53:41 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:53:41 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=manage_all'.
+Sat May 24 19:56:24 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:56:24 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:56:24 2008: Master conf file parsed.
+Sat May 24 19:56:24 2008: Compilers conf file parsed.
+Sat May 24 19:56:24 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:56:24 2008: Connected to DB, DBI::db=HASH(0x19f9dc0)
+Sat May 24 19:56:24 2008: Started.
+Sat May 24 19:56:24 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:56:24 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Sat May 24 19:56:25 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:56:25 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:56:25 2008: Master conf file parsed.
+Sat May 24 19:56:25 2008: Compilers conf file parsed.
+Sat May 24 19:56:25 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:56:25 2008: Connected to DB, DBI::db=HASH(0x1a06524)
+Sat May 24 19:56:25 2008: Started.
+Sat May 24 19:56:25 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:56:25 2008: cnt_manage.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change_comp&cont_id=37&cmp3=on&cmp4=on&cmp12=on'.
+Sat May 24 19:56:32 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:56:32 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:56:32 2008: Master conf file parsed.
+Sat May 24 19:56:32 2008: Compilers conf file parsed.
+Sat May 24 19:56:32 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:56:32 2008: Connected to DB, DBI::db=HASH(0x19f9c58)
+Sat May 24 19:56:32 2008: Started.
+Sat May 24 19:56:32 2008: Current link: 'cnt_common.pl?action=active_contests'
+Sat May 24 19:56:32 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_manage.pl?action=change&cont_id=37'.
+Sat May 24 19:56:32 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:56:32 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:56:33 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:56:33 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:56:33 2008: Master conf file parsed.
+Sat May 24 19:56:33 2008: Compilers conf file parsed.
+Sat May 24 19:56:33 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:56:33 2008: Connected to DB, DBI::db=HASH(0x1a05e20)
+Sat May 24 19:56:33 2008: Started.
+Sat May 24 19:56:33 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Sat May 24 19:56:33 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:56:33 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:56:34 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:56:34 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:56:34 2008: Master conf file parsed.
+Sat May 24 19:56:34 2008: Compilers conf file parsed.
+Sat May 24 19:56:34 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:56:35 2008: Connected to DB, DBI::db=HASH(0x19fa060)
+Sat May 24 19:56:35 2008: Started.
+Sat May 24 19:56:35 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:56:35 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:56:35 2008: Security level got: UserID=21916; Sec=2
+Sat May 24 19:56:38 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:56:38 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:56:38 2008: Master conf file parsed.
+Sat May 24 19:56:38 2008: Compilers conf file parsed.
+Sat May 24 19:56:38 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:56:38 2008: Connected to DB, DBI::db=HASH(0x19fa074)
+Sat May 24 19:56:38 2008: Started.
+Sat May 24 19:56:50 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:56:50 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:56:50 2008: Master conf file parsed.
+Sat May 24 19:56:50 2008: Compilers conf file parsed.
+Sat May 24 19:56:50 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:56:51 2008: Connected to DB, DBI::db=HASH(0x19fa074)
+Sat May 24 19:56:51 2008: Started.
+Sat May 24 19:56:51 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:56:51 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:56:51 2008: Master conf file parsed.
+Sat May 24 19:56:51 2008: Compilers conf file parsed.
+Sat May 24 19:56:51 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:56:51 2008: Connected to DB, DBI::db=HASH(0x19fa064)
+Sat May 24 19:56:51 2008: Started.
+Sat May 24 19:56:51 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:56:51 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:56:51 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:56:54 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 19:56:54 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 19:56:54 2008: Master conf file parsed.
+Sat May 24 19:56:54 2008: Compilers conf file parsed.
+Sat May 24 19:56:54 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 19:56:54 2008: Connected to DB, DBI::db=HASH(0x19fa054)
+Sat May 24 19:56:54 2008: Started.
+Sat May 24 19:56:54 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 19:56:54 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:56:54 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 19:56:54 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=22435
+
+Sat May 24 20:08:50 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 20:08:50 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 20:08:50 2008: Master conf file parsed.
+Sat May 24 20:08:50 2008: Compilers conf file parsed.
+Sat May 24 20:08:50 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 20:08:50 2008: Connected to DB, DBI::db=HASH(0x19f9c5c)
+Sat May 24 20:08:50 2008: Started.
+Sat May 24 20:08:50 2008: Current link: 'cnt_common.pl?action=active_contests'
+Sat May 24 20:08:50 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 20:08:50 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:08:50 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:08:51 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 20:08:51 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 20:08:51 2008: Master conf file parsed.
+Sat May 24 20:08:51 2008: Compilers conf file parsed.
+Sat May 24 20:08:51 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 20:08:51 2008: Connected to DB, DBI::db=HASH(0x1a05e10)
+Sat May 24 20:08:51 2008: Started.
+Sat May 24 20:08:51 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=active_contests'.
+Sat May 24 20:08:51 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:08:51 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:27:41 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 20:27:41 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 20:27:41 2008: Master conf file parsed.
+Sat May 24 20:27:41 2008: Compilers conf file parsed.
+Sat May 24 20:27:41 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 20:27:41 2008: Connected to DB, DBI::db=HASH(0x19fa060)
+Sat May 24 20:27:41 2008: Started.
+Sat May 24 20:27:41 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 20:27:41 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:27:41 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:27:41 2008: is_virt=1; is_start=1
+Sat May 24 20:27:41 2008: qry=insert into Regauth (user_id,cont_id,reg_time) values (22435,36,current_timestamp)
+Sat May 24 20:27:41 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 20:27:41 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 20:27:41 2008: Master conf file parsed.
+Sat May 24 20:27:41 2008: Compilers conf file parsed.
+Sat May 24 20:27:41 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 20:27:42 2008: Connected to DB, DBI::db=HASH(0x1a05e20)
+Sat May 24 20:27:42 2008: Started.
+Sat May 24 20:27:42 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 20:27:42 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:27:42 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:27:45 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 20:27:45 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 20:27:45 2008: Master conf file parsed.
+Sat May 24 20:27:45 2008: Compilers conf file parsed.
+Sat May 24 20:27:45 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 20:27:45 2008: Connected to DB, DBI::db=HASH(0x19fa054)
+Sat May 24 20:27:45 2008: Started.
+Sat May 24 20:27:45 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 20:27:45 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:27:45 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:27:45 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=36 and
+        Regauth.user_id=22435
+
+Sat May 24 20:40:54 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 20:40:54 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 20:40:54 2008: Master conf file parsed.
+Sat May 24 20:40:54 2008: Compilers conf file parsed.
+Sat May 24 20:40:54 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 20:40:54 2008: Connected to DB, DBI::db=HASH(0x19f9c4c)
+Sat May 24 20:40:54 2008: Started.
+Sat May 24 20:40:54 2008: Current link: 'cnt_common.pl?action=prob_text&prob_id=579'
+Sat May 24 20:40:54 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 20:40:54 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:40:54 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:41:14 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 20:41:14 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 20:41:14 2008: Master conf file parsed.
+Sat May 24 20:41:14 2008: Compilers conf file parsed.
+Sat May 24 20:41:14 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 20:41:14 2008: Connected to DB, DBI::db=HASH(0x19fa054)
+Sat May 24 20:41:14 2008: Started.
+Sat May 24 20:41:15 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=prob_text&prob_id=579'.
+Sat May 24 20:41:15 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:41:15 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:41:15 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=36 and
+        Regauth.user_id=22435
+
+Sat May 24 20:41:25 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 20:41:25 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 20:41:25 2008: Master conf file parsed.
+Sat May 24 20:41:25 2008: Compilers conf file parsed.
+Sat May 24 20:41:25 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 20:41:25 2008: Connected to DB, DBI::db=HASH(0x19f9c4c)
+Sat May 24 20:41:25 2008: Started.
+Sat May 24 20:41:25 2008: Current link: 'cnt_common.pl?action=prob_text&prob_id=579'
+Sat May 24 20:41:25 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 20:41:25 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:41:25 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:41:47 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 20:41:47 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 20:41:47 2008: Master conf file parsed.
+Sat May 24 20:41:47 2008: Compilers conf file parsed.
+Sat May 24 20:41:47 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 20:41:47 2008: Connected to DB, DBI::db=HASH(0x19f9c58)
+Sat May 24 20:41:47 2008: Started.
+Sat May 24 20:41:47 2008: Current link: 'cnt_common.pl?action=prob_text&prob_id=579'
+Sat May 24 20:41:47 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=prob_text&prob_id=579'.
+Sat May 24 20:41:47 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 20:41:47 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 21:05:04 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 21:05:04 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 21:05:04 2008: Master conf file parsed.
+Sat May 24 21:05:04 2008: Compilers conf file parsed.
+Sat May 24 21:05:04 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 21:05:04 2008: Connected to DB, DBI::db=HASH(0x19fa054)
+Sat May 24 21:05:04 2008: Started.
+Sat May 24 21:05:04 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=prob_text&prob_id=579'.
+Sat May 24 21:05:04 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 21:05:04 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 21:05:04 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=37 and
+        Regauth.user_id=22435
+
+Sat May 24 21:05:08 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 21:05:08 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 21:05:08 2008: Master conf file parsed.
+Sat May 24 21:05:08 2008: Compilers conf file parsed.
+Sat May 24 21:05:08 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 21:05:08 2008: Connected to DB, DBI::db=HASH(0x19f9c4c)
+Sat May 24 21:05:08 2008: Started.
+Sat May 24 21:05:08 2008: Current link: 'cnt_common.pl?action=prob_text&prob_id=585'
+Sat May 24 21:05:08 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_team.pl?'.
+Sat May 24 21:05:08 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 21:05:08 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 21:05:28 2008: c:/acm/cnt_sys/config/master.cfg
+Sat May 24 21:05:28 2008: dbname=localhost:c:\acm\db\acm.gdb
+Sat May 24 21:05:28 2008: Master conf file parsed.
+Sat May 24 21:05:28 2008: Compilers conf file parsed.
+Sat May 24 21:05:28 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Sat May 24 21:05:28 2008: Connected to DB, DBI::db=HASH(0x19fa054)
+Sat May 24 21:05:28 2008: Started.
+Sat May 24 21:05:28 2008: cnt_team.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl?action=prob_text&prob_id=585'.
+Sat May 24 21:05:29 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 21:05:29 2008: Security level got: UserID=22435; Sec=0
+Sat May 24 21:05:29 2008:   select Contests.start, Contests.stop, Contests.duration, 
+         Regauth.reg_time, current_timestamp,
+         (Contests.stop-current_timestamp)*24, (current_timestamp-Regauth.reg_time)*24
+  from Contests, Regauth
+  where Contests.cont_id=Regauth.cont_id and
+        Contests.cont_id=36 and
+        Regauth.user_id=22435
+
+Thu May 29 16:09:03 2008: c:/acm/cnt_sys/config/master.cfg
+Thu May 29 16:09:03 2008: dbname=localhost:c:\acm\db\acm.gdb
+Thu May 29 16:09:03 2008: Master conf file parsed.
+Thu May 29 16:09:03 2008: Compilers conf file parsed.
+Thu May 29 16:09:03 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Thu May 29 16:09:03 2008: Connected to DB, DBI::db=HASH(0x19fa12c)
+Thu May 29 16:09:03 2008: Started.
+Thu May 29 16:09:03 2008: Current link: 'cnt_common.pl?action=active_contests'
+Thu May 29 16:09:03 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl'.
+Thu May 29 16:09:03 2008: Security level got: UserID=0; Sec=0
+Thu May 29 16:09:03 2008: Security level got: UserID=0; Sec=0
+Wed Jun  4 02:18:33 2008: c:/acm/cnt_sys/config/master.cfg
+Wed Jun  4 02:18:33 2008: dbname=localhost:c:\acm\db\acm.gdb
+Wed Jun  4 02:18:33 2008: Master conf file parsed.
+Wed Jun  4 02:18:33 2008: Compilers conf file parsed.
+Wed Jun  4 02:18:33 2008: Connecting to DB: dbi:InterBase:dbname=localhost:c:\acm\db\acm.gdb;ib_dialect=3
+Wed Jun  4 02:18:34 2008: Connected to DB, DBI::db=HASH(0x19fa12c)
+Wed Jun  4 02:18:34 2008: Started.
+Wed Jun  4 02:18:34 2008: Current link: 'cnt_common.pl?action=active_contests'
+Wed Jun  4 02:18:34 2008: cnt_common.pl: Cookies checked: CurLang='ru'; last_link='cnt_common.pl'.
+Wed Jun  4 02:18:34 2008: Security level got: UserID=0; Sec=0
+Wed Jun  4 02:18:34 2008: Security level got: UserID=0; Sec=0

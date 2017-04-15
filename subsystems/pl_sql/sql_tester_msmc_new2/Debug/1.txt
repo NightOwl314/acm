@@ -1,0 +1,13 @@
+# знак $- означает для парсера - однострочное значение параметра
+$action=dml
+$scheme=buses0
+$prompt=1
+
+@sql
+update km_prices set price=price+0.13 where class=1
+
+#таблица для проверки
+$table_name=km_prices
+
+#сверяемые поля (если нужно сверить все поля, поставить "*")
+$compate_fields=*

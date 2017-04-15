@@ -1,0 +1,89 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>АВТ ВоГУ - Задача $problem_id. $problem_name</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+<link rel="STYLESHEET" type="text/css" href="/color_lang.css">
+<script type="text/javascript" src="/highlight.js"></script>
+<script type="text/javascript">
+  initHighlightingOnLoad('cpp','delphi','sql','javascript','vbscript','java');
+</script>
+ </head>
+
+<!--
+   $author_undef = {Неизвестный}
+   $access_denied_prb = {<strong>Доступ к задаче запрещен!<br> Возможно, по этой теме создан виртуальный турнир, в котором вы ещё не участвовали.<br>
+   </strong>}
+-->
+
+ <body>
+    $include_file("head_ru.html")
+    <h2 align="center">$problem_id. $problem_name</h2>
+
+   <table class="other" align="center" border="0" width="100%">
+   <tr><td  width="33%"></td><td>
+   <table class="other" align="center" border="0">
+   <tr>
+     <td align="right">Ограничение времени:</td>
+     <td>$time_limit секунды</td>
+   </tr>
+   
+   <tr>
+     <td align="right">Ограничение памяти:</td><td>$memory_limitКБ</td>
+   </tr>
+     
+   <tr>
+     <td align="right">Баллы:</td><td>$hardlevel</td>
+   </tr>
+
+   
+   </table>
+   </td>
+     <td width="33%" align="right" rowspan="2" valign="middle" nowrap>
+     <!--start_edit_problem-->
+     Редактировать <a href="/cgi-bin/edit_problem.pl?mode=edit&id_prb=$problem_id">задачу</a> /
+     <a href="/cgi-bin/edit_problem.pl?mode=edit_cond&id_prb=$problem_id">условие</a>
+     <!--finish_edit_problem-->
+     </td>
+   </tr>
+   </table>
+
+    <table width="100%" border="0" class="other" cellpadding=2>
+    <tr>
+<td width="1%" nowrap><a href="/cgi-bin/statistica.pl?id_prb=$problem_id">Статистика</a></td>
+<td width="1%" nowrap style="padding-left:10px"><a href="/cgi-bin/submit.pl?id_prb=$problem_id">Послать на проверку</a></td>
+<td width="*" nowrap align="right">Задачу добавил <a href="/cgi-bin/statistica.pl?id_publ=$id_author">$author_name</a> </td>
+    </tr>
+    </table>
+
+    <hr class="hr_up_prb">
+    <table width="100%" border="0" class="tbtxt" style="margin-bottom:5;margin-top:5">
+    <tr><td>
+    $include_cond_prb
+    </td></tr>
+    </table>    
+    
+    <hr class="hr_down_prb">
+    
+    <table width="100%" border="0" class="other" cellpadding=2>
+    <tr>
+<td width="1%" nowrap><a href="/cgi-bin/statistica.pl?id_prb=$problem_id">Статистика</a></td>
+<td width="1%" nowrap style="padding-left:10px"><a href="/cgi-bin/submit.pl?id_prb=$problem_id">Послать на проверку</a></td>
+<td width="*" nowrap align=right><b>Автор/источник:</b> $problem_source</td>
+    </td></tr>
+    </table>
+
+<!--start_tm_sect--><table border="0" class="other" style="margin-top:7px;" cellpadding=2>
+<tr>
+<!--start_in_tm--><td nowrap><a href="/cgi-bin/arh_problems.pl?id_tm=$i_id_tm">$i_tm_name</a> / </td><!--finish_in_tm-->
+</tr></table><table class="tbbd3"><tr>
+<!--start_other_prb0--><td>$i_id_prb. <a href="/cgi-bin/arh_problems.pl?id_prb=$i_id_prb">$i_prb_name </a></td><!--finish_other_prb0-->
+<td class="mark_author">$problem_id.</td>
+<!--start_other_prb1--><td>$i_id_prb. <a href="/cgi-bin/arh_problems.pl?id_prb=$i_id_prb">$i_prb_name </a></td><!--finish_other_prb1-->
+</tr></table><!--finish_tm_sect-->
+
+    $include_file("down_part_ru.html")
+
+ </body>
+</html>
+

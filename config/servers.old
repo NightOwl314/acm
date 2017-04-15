@@ -1,0 +1,15 @@
+#список запускаемых серверов
+#формат: {имя компьютера в сети} {номер просессора} {полный путь к выполняемому файлу сервера} [дополнительные параметры]
+#используйте localhost если сервера запускаются на том же компьютере где работает web-сервер
+#в качестве дополнительных параметров можно использовать имя пользователя и пароль 
+#если их не указать, то возможно не будут доступны сетевые ресурсы  подробнее psexec.exe
+
+localhost=avtsrv
+
+avtsrv 1 "c:\acm\main_mod\main_mod.exe"
+avtsrv 2 "c:\acm\main_mod\main_mod.exe"
+avtsrv 3 "c:\acm\main_mod\main_mod.exe"
+avtsrv 4 "c:\acm\main_mod\main_mod.exe"
+
+#grotesc 1 "c:\check_server\main_mod.exe" -u administrator -p pass
+#sempserv 1 "h:\temp\arh_prb\main_mod\main_mod.exe" -u administrator -p pass

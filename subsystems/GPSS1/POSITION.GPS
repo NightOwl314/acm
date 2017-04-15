@@ -1,0 +1,52 @@
+
+;   fonovie shemi i iconicheskie  izobrageniya dlya magazina
+
+;   NADPISI   V   MAGAZINE
+
+MAXBACKGROUND 20,90
+label 1,32,"S H O P"
+LABEL 8,4,"VHOD"
+LABEL 5,33,"Saler"
+LABEL 8,65,"EXIT"
+
+;    FONOVAYA  SHEMA  MAGAZINA 
+
+BACKGROUND 2,2
+"====================================================================="
+"*                                                                   *"
+"*                         ---------------                           *" 
+"*                         !             !                           *"
+"*                         !             !                           *"
+"*                         ---------------                           *"
+"*                                                                   *"
+"                                                                     "                                                            
+"                                                                     "
+"                                                                     "
+"*                                                                   *"
+"*                                                                   *"
+"*                                                                   *"
+"====================================================================="
+ENDBACKGROUND
+
+SHAPE 1
+"   #    "
+"  ###   "
+"   #    "
+"  ###   "
+" # # #  "
+"   #    "
+"  # #   "
+" #   #  "
+ENDSHAPE
+
+
+SHAPE 2
+"     #  "
+"    ### "
+"     #  "
+"    ### "
+"   # #  "
+"OOO  #  "
+"OOO # # "
+"   #   #" 
+ENDSHAPE  

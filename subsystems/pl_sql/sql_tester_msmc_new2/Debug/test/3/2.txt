@@ -1,0 +1,3 @@
+password.txt
+select (select max(distance) from points)*(select price from km_prices where class=1) as Prices 
+from dual

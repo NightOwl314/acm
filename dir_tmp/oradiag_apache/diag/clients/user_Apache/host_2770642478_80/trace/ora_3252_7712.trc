@@ -1,0 +1,5 @@
+Trace file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_3252_7712.trc
+DDE: Flood control is not active
+Incident 65 created, dump file: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_65\ora_3252_7712_i65.trc
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []

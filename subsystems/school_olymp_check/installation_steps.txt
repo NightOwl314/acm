@@ -1,0 +1,18 @@
+Внедрение новой системы оценки
+1). Добавить поле POINTS в таблицу status
+2). Добавить в таблицу results новую запись с кодом 10 и значением y
+3). Добавить в таблицу results_lng комментарии к коду 10
+4). Добавить в таблицу reports запись с кодом 9 - summary_report
+5). Добавить в таблицу reports_lng описание кода 9 - результаты проверки
+6). Указать в таблице results_report, что для результата с кодом 10 будет использоваться
+отчёт с кодом 9.
+7). Умножить hardlevel всех задач на 10. 
+
+8). Добавить в master.cfg после ListTests = index.lst строчку
+ListPoints = points.lst
+
+9). Поменять status_en.html и status_ru.html
+10). Поменять common_func.pl
+11). Поменять report_status_ru.html и report_status_en.html
+12). поменять faq
+13). Добавить faq в таблицу с url-ми

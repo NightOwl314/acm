@@ -1,0 +1,49 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title> Authors ranklist </title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    $include_file("head_en.html")
+    <h2 align=center>Authors ranklist<!--start_single_grp--><br>group &quot;$group_name&quot;<!--finish_single_grp-->
+    <!--start_single_topic-->, topic &quot;$topic_name&quot; <!--finish_single_topic--></h2>
+    <center class="other"><a href=/cgi-bin/statistica.pl?rank=$next_author$add_grp>Next 25</a></center> 
+    <br>
+    <table class="tbbd2" WIDTH="100%" border=1 align=center cellspacing=1>
+    <tr>
+    <TH ALIGN=CENTER WIDTH=80>Place</TH>
+    <TH ALIGN=CENTER WIDTH=0>Country</TH>
+    <TH ALIGN=CENTER WIDTH="*">Author</TH>
+    <TH ALIGN=CENTER WIDTH=80>Solved</TH>
+    <TH ALIGN=CENTER WIDTH=80>Subm.<br>(All)</TH>
+    <TH ALIGN=CENTER WIDTH=80>Rank</TH>
+    </tr>
+     $insert_ranklist(25)
+    </table>
+    <BR>
+
+   <center class="other"><a href=/cgi-bin/statistica.pl?rank=$next_author$add_grp>Next 25</a></center> 
+
+    <!--start_sel_grp-->
+    <BR/>
+    <form class="other" name="view_ranklist_grp" action="/cgi-bin/statistica.pl" method="get" >
+      Generate ranklist for group
+      <select name="id_grp" size="1" style="width:200;"> 
+<!--start_offset_group-->&nbsp;&nbsp;<!--finish_offset_group-->
+<!--start_group--><OPTION VALUE="$group_id">$offset_group$group_name</option><!--finish_group-->
+             </select>
+     and topic 
+      <select name="id_topic" size="1" style="width:200;"> 
+<!--start_offset_topic-->&nbsp;&nbsp;<!--finish_offset_topic-->
+<!--start_topic--><OPTION VALUE="$topic_id" $def>$offset_topic$topic_name</option><!--finish_topic-->
+             </select>
+
+    <input type="submit" value="OK"> </form>
+    <!--finish_sel_grp-->
+
+    $include_file("down_part_en.html")
+ </body>
+</html>

@@ -1,0 +1,6 @@
+// Строка 28:
+	s_prb[20]
+
+// Строка 94:
+	_itoa(elm.id_prb,s_prb,10);
+	StrReplace(compil_prm,"$(id_prb)",s_prb);

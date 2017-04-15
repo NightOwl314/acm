@@ -1,0 +1,2 @@
+password.txt
+insert into points (name_point,distance) values ('Погореловоо', 113)

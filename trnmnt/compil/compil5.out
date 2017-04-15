@@ -1,0 +1,15 @@
+Borland C++ 5.6 for Win32 Copyright (c) 1993, 2002 Borland
+y5.cpp:
+Turbo Incremental Link 5.60 Copyright (c) 1997-2002 Borland
+Dump parser v0.01
+User segments:
+'ReadMove()'; size=295
+'WriteMove()'; size=280
+'_main'; size=771
+'isWin(const int, const int)'; size=442
+'isEndGame()'; size=149
+Null imm32, disp32, rel32 v0.01
+Size: 1937
+Commands: 655
+Max length: 10;  Min length: 1;  Avg length: 2.95725
+Nulls: 103

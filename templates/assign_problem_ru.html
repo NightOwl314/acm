@@ -1,0 +1,174 @@
+<html>
+<head>
+<meta http-equiv="Content-Type"
+	content="text/html; charset=windows-1251">
+<title>Дистанционный практикум по программированию</title>
+<link rel="STYLESHEET" type="text/css" href="/main.css">
+<link rel="stylesheet"
+	href="/jsscripts/jquery-ui-themes-1.10.3/themes/smoothness/jquery-ui.css" />
+<script src="/jsscripts/jquery-ui-1.10.3/jquery-1.9.1.js"></script>
+<script src="/jsscripts/jquery-ui-1.10.3/ui/minified/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/jsscripts/themes.js"></script>
+<style>
+.custom-combobox {
+	position: relative;
+	display: inline-block;
+	
+}
+
+.custom-combobox-toggle {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-left: -1px;
+	padding: 0;
+	/* support: IE7 */
+	*height: 1.7em;
+	*top: 0.1em;
+}
+
+.custom-combobox-input {
+	margin: 0;
+	padding: 0.3em;
+	width: 470px;
+}
+
+.fontBold {
+	font-weight: bold; ;
+}
+.errorMsg {
+	color: red;
+}
+
+.assigned {
+	width: 95%;
+	padding-left: 20px;
+	empty-cells: show;
+}
+.assigned col#one_cl {
+	width :40%;
+}
+.assigned col#two_cl {
+	width :60%;
+}
+.assigned td#header {
+	border-bottom: 1px solid; 
+}
+
+.userTable {
+	width : 100%;
+	border : 1px solid #B5B5B5;
+	background-color:  #EBECEF;
+	empty-cells: show;
+}
+
+.userTable th {
+ 	border: 1px solid #C1C3C8 ;
+}
+.userTable td {
+ 	border: 1px solid #C1C3C8 ;
+}
+
+.userTable col#c_one { width: 5%;  }
+.userTable col#c_two { width: 80%; }
+.userTable col#c_three { width: 15%; }
+
+.problemsTable {
+	width : 100%;
+	border : 1px solid #B5B5B5;
+	background-color:  #EBECEF;
+	empty-cells: show;
+}
+
+.problemsTable th {
+ 	border: 1px solid #C1C3C8 ;
+}
+.problemsTable td {
+ 	border: 1px solid #C1C3C8 ;
+}
+
+.problemsTable col#c_one { width: 5%;  }
+.problemsTable col#c_two { width: 10%; }
+.problemsTable col#c_three { width: 70%; }
+
+</style>
+
+<script >
+	$(function(){
+	  $.datepicker.setDefaults(
+	        $.extend($.datepicker.regional["ru"])
+	  );
+	  $("#datepicker").datepicker({ dateFormat: "dd.mm.yy"});
+	});
+</script>
+</head>
+<body>
+    
+    $include_file("head_ru.html")
+    <div  class = "themes_content" > 
+    <form name="assignForm"  action="assign_problems.pl" method="POST" onsubmit="return onSubmitAssignProblems(this);">
+    <input type ="hidden" name = "action" value = "assign_problems">
+    <h2 align="center">Назначение задач</h2>
+    <table class = "assigned">
+    <col id ="one_cl">
+    <col id = "two_col" >
+    
+    <tr> 
+    	<td class = "fontBold">Студенты</td>
+    	<td class = "fontBold">Задачи</td>
+    </tr>
+    <tr>
+    	<td>
+    		<table>
+    			<tr>
+    				<td >Группа</td>
+    				<td>$insert_group_list</td>
+    			</tr>
+    		</table>
+    	</td>
+    	<td>
+    		<table>
+    			<tr>
+    				<td>Тема</td>
+    				<td>$insert_themes_list</td>
+    			</tr>
+    		</table>
+    	</td>
+    </tr>	
+    <tr >
+    	<td id = "header"></td>
+    	<td id = "header">
+    		<table>
+    			<tr>
+    				<td><input type="checkbox" id ="spec_tema" onclick ="setSpecTemaVisible(this);" name = "spec_tema_check" ></td>
+    				<td>Назначить в тему:</td>
+    				<td>$insert_spec_themes_list</td>
+    			</tr>
+    		</table>
+    	</td>
+    </tr>
+    <tr>
+    	<td valign="top"><div id = "students_list"></div></td>
+    	<td valign="top"><div id = "problems_list"></div></td>
+    </tr>
+    <tr><td></td>
+    	<td>
+    	<table>
+    			<tr>
+    				<td class = "fontBold">Контрольная дата</td>
+    				<td><input id="datepicker" title="Контрольная дата" name = "contr_date" ></td>
+    			</tr>
+    		</table>
+    	</td>
+    </tr>
+    <tr><td></td>
+    	<td><button  title="Назначить задачи" value="Назначить задачи" >Назначить задачи</button></td>
+    </tr>
+    </table>
+    </form>
+    </div>
+	$include_file("down_part_ru.html")
+
+ </body>
+</html>
+

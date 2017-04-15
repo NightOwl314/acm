@@ -1,0 +1,16 @@
+# знак $- означает для парсера - однострочное значение параметра
+$action=select
+$scheme=buses1
+$prompt=0
+
+# знак @- означает многострочное значение параметра
+# в первой строке - параметр
+# в последующих - значение этого параметра, пока не встретится в начале строки
+# символ $ или @, означающее новый параметр.
+
+@sql
+select distinct name_route from routes inner join points_routes on points_routes.cod_route=routes.cod_route
+inner join points on points.cod_point=points_routes.cod_point where points.name_point='Шексна'
+# если запрос нужно отсортировать:
+# если не нужно -> $order=0, либо вообще убрать этот параметр
+$order=1

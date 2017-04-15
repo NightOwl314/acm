@@ -1,0 +1,75 @@
+10    GENERATE     30,10         
+20    SEIZE        PC1        
+30    ADVANCE      8,2        
+40    RELEASE      PC1        
+50    SEIZE        K1        
+60    ADVANCE      5,2        
+70    RELEASE      K1        
+80    SEIZE        FS        
+90    ADVANCE      6,3        
+100   RELEASE      FS        
+110   SEIZE        K1        
+120   ADVANCE      5,2        
+130   RELEASE      K1        
+140   SEIZE        PC1        
+150   ADVANCE      8,3        
+160   RELEASE      PC1        
+170   TERMINATE            
+
+180   GENERATE     30,10         
+190   SEIZE        PC2        
+200   ADVANCE      8,2        
+210   RELEASE      PC2        
+220   SEIZE        K2        
+230   ADVANCE      5,2        
+240   RELEASE      K2        
+250   SEIZE        FS        
+260   ADVANCE      6,3        
+270   RELEASE      FS        
+280   SEIZE        K2        
+290   ADVANCE      5,2        
+300   RELEASE      K2        
+310   SEIZE        PC2        
+320   ADVANCE      8,3        
+330   RELEASE      PC2        
+340   TERMINATE            
+
+350   GENERATE     30,10         
+360   SEIZE        PC3        
+370   ADVANCE      8,2        
+380   RELEASE      PC3        
+390   SEIZE        K3        
+400   ADVANCE      5,2        
+410   RELEASE      K3        
+420   SEIZE        FS        
+430   ADVANCE      6,3        
+440   RELEASE      FS        
+450   SEIZE        K3        
+460   ADVANCE      5,2        
+470   RELEASE      K3        
+480   SEIZE        PC3        
+490   ADVANCE      8,3        
+500   RELEASE      PC3        
+510   TERMINATE            
+
+520   GENERATE     30,10         
+530   SEIZE        PC4        
+540   ADVANCE      8,2        
+550   RELEASE      PC4        
+560   SEIZE        K4        
+570   ADVANCE      5,2        
+580   RELEASE      K4        
+590   SEIZE        FS        
+600   ADVANCE      6,3        
+610   RELEASE      FS        
+620   SEIZE        K4        
+630   ADVANCE      5,2        
+640   RELEASE      K4        
+650   SEIZE        PC4        
+660   ADVANCE      8,3        
+670   RELEASE      PC4        
+680   TERMINATE
+          
+690   GENERATE     1000         
+700   TERMINATE    1        
+710   START        1

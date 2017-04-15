@@ -1,0 +1,4 @@
+Fri May 18 00:25:36 2007 Start VMWare
+Fri May 18 00:25:36 2007 bad count arguments
+Fri May 18 00:25:36 2007 Stop is VMWare
+---------------

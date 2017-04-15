@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=Generator content="Microsoft Word 11 (filtered)">
+<title>Структура типовой схемы HR</title>
+
+
+</head>
+
+<body lang=RU>
+
+<div class=Section1>
+
+<br><p class=MsoNormal><b><span style='font-size:18.0pt;font-family:Verdana;
+color:#000099'>Структура типовой схемы HR</span></b></p>
+
+<br><p class=MsoNormal><span class=spelle><span style='font-size:11pt;font-family:
+Verdana;color:black'>Human</span></span><span style='font-size:11pt;
+font-family:Verdana;color:black'> <span class=spelle>Resources</span> –
+достаточно простая схема данных, в которой хранится информация о сотрудниках
+некой виртуальной компании. </span></p>
+
+<br><p class=MsoNormal><span style='font-size:11pt;font-family:Verdana;color:black'>Каждый
+сотрудник компании имеет уникальный идентификационный номер (ID), <span
+class=spelle>e</span> - <span class=spelle>mail</span> адрес, идентификационный
+номер должности (JOB ID), ставку заработной платы и менеджера. Некоторые
+сотрудники в дополнение к зарплате получают комиссионные, которые также
+отражены в схеме. </span></p>
+
+<br><p class=MsoNormal><span style='font-size:11pt;font-family:Verdana;color:black'>Также
+имеется информация обо всех возможных должностях в организации. Каждая
+должность имеет уникальный идентификационный номер, наименование, минимальную и
+максимальную ставку заработной платы. Некоторые сотрудники работали в компании
+довольно долго и занимали на протяжении службы разные должности. Когда
+сотрудник меняет должность, в схеме данных отмечаются начальная и конечная даты
+занимаемой должности, идентификационный номер должности и подразделение, в
+котором работал сотрудник в отмеченный промежуток времени. </span></p>
+
+<br><p class=MsoNormal><span style='font-size:11pt;font-family:Verdana;color:black'>Рассматриваемая
+компания имеет распределенную структуру, поэтому хранится информация о
+местонахождении подразделений. Каждый сотрудник работает в одном из
+подразделений. Каждое подразделение (</span><span lang=EN-US style='font-size:
+11pt;font-family:Verdana;color:black'>department</span><span style='font-size:
+11pt;font-family:Verdana;color:black'>) имеет уникальный код и короткое
+наименование, а также имеет одно место расположения (</span><span lang=EN-US
+style='font-size:11pt;font-family:Verdana;color:black'>location</span><span
+style='font-size:11pt;font-family:Verdana;color:black'>), которое состоит из
+полного адреса (улица, индекс, город, штат или провинция, и код страны). </span></p>
+
+<br><p class=MsoNormal><span style='font-size:11pt;font-family:Verdana;color:black'>Для
+всех представительств компании хранится информация о наименовании страны (</span><span
+lang=EN-US style='font-size:11pt;font-family:Verdana;color:black'>country</span><span
+style='font-size:11pt;font-family:Verdana;color:black'>), валюте (наименование
+и обозначение) и части света (</span><span lang=EN-US style='font-size:11pt;
+font-family:Verdana;color:black'>region</span><span style='font-size:11pt;
+font-family:Verdana;color:black'>), в которой эта страна находится. </span></p>
+
+<br><p class=MsoNormal><span style='color:#000066'><br><img width=427 height=300
+src="/problems/sql/hr.gif"></span></p>
+
+<br><p class=MsoNormal><span style='font-size:11pt;font-family:Verdana;color:black'>Диаграмма
+схемы HR</span></p>
+
+<br><p class=MsoNormal><span class=grame><span style='font-size:11pt;font-family:
+Verdana;color:black'>Синим цветом на диаграмме отмечены</span></span><span
+style='font-size:11pt;font-family:Verdana;color:black'> первичные ключи. Всего
+имеется семь таблиц, это: EMPLOYEES (сотрудники), JOBS (должности), JOB _
+HISTORY (история карьеры сотрудников), DEPARTMENTS (подразделения), LOCATIONS
+(адреса), COUNTRIES (страны) и REGIONS (части света).</span></p>
+
+<br><p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

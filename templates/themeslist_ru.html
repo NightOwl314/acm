@@ -1,0 +1,129 @@
+<html>
+<head>
+<meta http-equiv="Content-Type"
+	content="text/html; charset=windows-1251">
+<title>Дистанционный практикум по программированию</title>
+<link rel="STYLESHEET" type="text/css" href="/main.css">
+<link rel="stylesheet"
+	href="/jsscripts/jquery-ui-themes-1.10.3/themes/smoothness/jquery-ui.css" />
+<script src="/jsscripts/jquery-ui-1.10.3/jquery-1.9.1.js"></script>
+<script src="/jsscripts/jquery-ui-1.10.3/ui/jquery-ui.js"></script>
+<script type="text/javascript" src="/jsscripts/themes.js"></script>
+
+<style>
+#toolbar {
+	padding: 4px;
+	display: inline-block;
+}
+/* support: IE7 */
+*+html #toolbar {
+	display: inline;
+}
+
+.themetable table { 
+   border-collapse: collapse;
+   table-layout: fixed; 
+   width: 100%;
+   border-collapse: collapse;
+   empty-cells: show;
+   background-color: #E0E0E1;
+ }
+.themetable col#c_one { width: 5%;  }
+.themetable col#c_two { width: 5%; }
+.themetable col#c_three { width: 10%; }
+.themetable col#c_four { width: 10%; }
+.themetable col#c_five { width: 60%; }
+.themetable col#c_six { width: 10%; }
+.themetable td { 
+	padding: 5px;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+}
+.themetable td#td_not_padding {
+	padding: 0px;
+	text-align: center;
+}
+.themetable th { 
+	border: 1px solid;
+	background-color: silver; 
+	empty-cells: show;
+}
+.themes_content {
+	width: 901px;
+	
+}
+
+.openButton {
+	font-size: 1em;
+}
+</style>
+<script>
+	$(function() {
+		$("#createbutton").button({
+			text : true,
+			icons : {
+				primary : "ui-icon-circle-plus"
+			}
+		});
+		$("#deletebutton").button({
+			text : true,
+			icons : {
+				primary : "ui-icon-circle-close"
+			}
+		});
+
+	});
+</script>
+</head>
+
+<body>
+    
+    $include_file("head_ru.html")
+    <div  class = "themes_content" > 
+    <h2 align="center">Управелние темами</h2>
+    <input type ="hidden" name ="language" value = "$insert_lang">
+    <table style = "width :900px">
+	<tr><th align ="left">
+		<div  id="toolbar" class="ui-widget-header ui-corner-all">
+		<a href="$ins_createlink"><button id="createbutton">Создать</button></a>
+		<a onclick='return alert("Не доступно в данный момент");'><button id="deletebutton">Удалить</button></a>
+		</div>
+	</th></tr>
+		
+		
+		
+		<tr>
+		<td colspan="4">
+		<table class ="themetable">
+						<col id="c_one" />
+						<col id="c_two" />
+						<col id="c_three" />
+						<col id="c_four" />
+						<col id="c_five" />
+						<col id="c_six" />
+		<tr>
+			<th></th>
+			<th></th>
+			<th>ID</th>
+			<th>Позиция</th>
+			<th>Название</th>
+			<th>Кол-во задач</th>
+		</tr><tr><td colspan ="6">
+		$insertthemeslist
+		</td>
+		</tr>
+		</table>
+		</td>
+		<tr>
+		<tr>	
+    </table>
+	</div>
+    <table>
+    </table>
+	$include_file("down_part_ru.html")
+
+ </body>
+</html>
+

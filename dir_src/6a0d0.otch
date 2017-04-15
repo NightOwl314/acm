@@ -1,0 +1,54 @@
+<pre><strong>Сообщения компилятора (и скрипта компиляции):</strong>
+‘Є®ЇЁа®ў ­® д ©«®ў:         1.
+<strong>OK</strong>
+
+<h3>Отчет о выполнении:</h3></pre>Результаты проверки:<br><table cellpadding=5 border=1><tr><th>Тест №</th><th>Входной файл</th><th>Файл с верным ответом</th><th>Результат</th><th>Время работы</th><th>Память</th></tr>
+<tr align=center><td>1</td><td>1.in</td><td>1.out</td><td>Неверный ответ</td><td>0.014 sec</td><td>0 KB</td></tr>
+<tr><td colspan=6>
+<pre>
+<strong>----------- Входные данные: -----------</strong>
++--------------------+
+   ЗАПРОС НА ВАШ КОД
++--------------------+
+
+select * from points
+
+
++--------------------+
+<strong>----------- Ответ участника: -----------</strong>
+c:\acm\dir_tmp\s6a0d0
+
+         Out...
+
++--------------------+
+        ВАШ КОД
++--------------------+
+alter table points_temp
+add type integer;
+
+update points_temp
+set type=1
+where distance>250;
+
+update points_temp
+set type=2
+where distance>100 and distance<=250;
+
+update points_temp
+set type=3
+where distance<=100;
+
++--------------------+
+
+<strong>------- Сообщения программы проверки: -------</strong>
+ORA-01017: invalid username/password; logon denied
+
+
+
+ORA-01017: invalid username/password; logon denied
+
+
+
+</pre></td></tr>
+</table><pre>
+</pre>

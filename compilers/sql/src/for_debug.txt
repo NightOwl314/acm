@@ -1,0 +1,21 @@
+declare
+  test_query  varchar2(32767);
+  right_query  varchar2(32767);
+  test_answer  varchar2(32767);
+  right_answer varchar2(32767);
+  answer varchar2(32767);
+  orderby integer;
+begin
+  
+  test_query := 'SELECT d.department_id, d.department_name FROM departments d, (SELECT d.department_id AS dep_id, COUNT(e.employee_id) AS cnt, SUM(e.commission_pct) AS comm_sum  FROM departments d, employees e   WHERE d.department_id = e.department_id   GROUP BY d.department_id  ) dep_emp WHERE d.department_id = dep_emp.dep_id AND   dep_emp.cnt < (SELECT MAX(dep_emp1.cnt)            FROM    (         SELECT d.department_id AS dep_id, COUNT(e.employee_id) AS cnt         FROM departments d, employees e         WHERE d.department_id = e.department_id         GROUP BY d.department_id         ) dep_emp1     ) AND   dep_emp.comm_sum > 0';
+  right_query := 'select departments.department_id as d_id, department_name as dep_name from departments inner join employees on departments.department_id = employees.department_id where departments.department_id in (  select distinct department_id from employees where commission_pct is not null ) group by departments.department_id, department_name having count(employees.employee_id) < (   select max(count(employees.employee_id)) from departments   inner join employees on departments.department_id = employees.department_id   group by departments.department_id )';  
+  orderby := 0;
+  --dbms_output.put(substr( test_query, 1, 100 ));
+  CMP_SELECTION(test_query, right_query, test_answer, right_answer, answer, orderby);
+  DBMS_OUTPUT.enable;  
+  dbms_output.put_line(test_answer);
+  dbms_output.put_line(right_answer);
+  dbms_output.put_line(answer);  
+end;
+/
+

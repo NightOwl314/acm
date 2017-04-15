@@ -1,0 +1,74 @@
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0"><tr height="100%"><td valign="top">
+
+
+<table class="tbhead" width="100%" border="1" align="center" cellpadding="5">
+ <tr align="center">
+   <td width="90">
+     <a href="http://atpp.vstu.edu.ru/" style="border:0px;"><img align=center border=0 width=73 height=69 alt="АВТ" src="/atpphead2.gif"></a><br>
+     <table><tr><td><b>Язык:</b></td><td>
+     <a href="$current_page?id_lng=ru$add_param" title="Русский" style="border:0px;"><img border=0 width=21 height=13 src="/ru.gif"></a>
+     </td></tr><tr><td></td><td>
+     <a href="$current_page?id_lng=en$add_param" title="Английский" style="border:0px;"><img border=0 width=21 height=13 src="/com.gif"></a>
+     </td></tr></table>
+   </td>
+   <td width="*">
+    <!-- <img src="/title_ru.gif" alt="Автоматизированная проверяющая система" width=400 height="36">-->
+    <h1>Дистанционный практикум по программированию</h1>
+     <table border="0" width="100%" align="center" cellspacing="5">
+       <tr align="center">
+         <td><a class="menu_lnk" href="/cgi-bin/arh_problems.pl">Задачи</a></td>
+<!--         <td><a class="menu_lnk" href="/cgi-bin/submit.pl">Послать задачу</a></td>-->
+         <td><a class="menu_lnk" href="/cgi-bin/status.pl">Online статус</a></td>
+         <td><a class="menu_lnk" href="/cnt-sys/cnt_common.pl?action=active_contests">Турниры</a></td>       
+       </tr>
+       <tr align="center">
+         <td><a class="menu_lnk" href="/scripts/common_page.pl?re_login=$random_re_login$add_param">Учебники</a></td>
+<!--         <td><a class="menu_lnk" href="/cms/modules.php?name=Content">Разборы</a></td> -->
+<!--             <td><a class="menu_lnk" href="/">Кафедра АВТ</a></td>-->
+         <td><a class="menu_lnk" href="/cgi-bin/plain_text.pl?url=/faq.html">Справка</a></td>
+         <td><a class="menu_lnk" href="/integration/ps-moodle.php" target=_blank>СДО</a></td>
+       </tr>
+
+       
+
+     </table>
+   </td>
+  <FORM ACTION="/cgi-bin/statistica.pl" METHOD="GET">
+   <td align="left" width="200"  nowrap>
+     <!--<center><b>Для авторов:</b></center>-->
+     
+      <div class="lf_lnk"><a href="/cgi-bin/aregister.pl">Регистрация</a>&nbsp;&nbsp;||&nbsp;&nbsp;<a href="$current_page?re_login=$random_re_login$add_param">Вход</a></div>
+      <div class="lf_lnk"><a href="/cgi-bin/statistica.pl?rank=-1">Рейтинг авторов</a></div>
+      <div class="lf_lnk"><INPUT NAME="find_author" SIZE="15" VALUE="$find_value">&nbsp;<INPUT TYPE="submit" VALUE="Поиск"></div>
+      <div class="lf_lnk"><a href="/cgi-bin/plain_text.pl?url=/about.html">О системе</a>   <!--  &nbsp;&nbsp;||&nbsp;&nbsp; <a href=http://atpp.vstu.edu.ru/cms/modules.php?name=Forums>Форум</a>   -->  </div>
+     <!--start_manage_system--><div class="lf_lnk"><a href="/cgi-bin/admin.pl"><b>Управление системой</b></a></div><!--finish_manage_system-->
+   </td>
+ </FORM>
+ </tr>
+  <tr>
+  <td colspan ="3">
+    <table>
+	<tr>
+          <td><!--start_manage_system--><div class="lf_lnk"><a href="/cgi-bin/themeslist.pl"><b>Управление темами</b></a></div><!--finish_manage_system--></td>
+	        <td><!--start_manage_system--><div class="lf_lnk"><a href="/cgi-bin/groups_list.pl"><b>Управление группами</b></a></div><!--finish_manage_system--></td>
+          <td><!--start_assign_problems--><div class="lf_lnk"><a href="/cgi-bin/assign_problems.pl"><b>Назначить индивидуальные задачи</b></a></div><!--finish_assign_problems--></td>	
+          <td><!--start_assign_problems--><div class="lf_lnk"><a href="/cgi-bin/assigned_problems_list.pl"><b>Назначенные индивидуальные задачи</b></a></div><!--finish_assign_problems--></td>	
+	 </tr>
+    </table>
+  </td>
+ </tr>
+</table>
+<table class="other" border="0" width="100%">
+<tr><td>
+<!--start_not_login-->
+Здравствуйте, <strong>Гость</strong>!  
+<!-- <a href="$current_page?re_login=$random_re_login$add_param">Войдите с паролем</a> или <a href="/cgi-bin/aregister.pl">зарегистрируйтесь</a>. -->
+Войдите с паролем или зарегистрируйтесь.
+<!--finish_not_login-->
+
+<!--start_login-->
+Вы вошли в систему как <a href="/cgi-bin/statistica.pl?id_publ=$l_id_author" id="login_name">$l_author_name</a>
+<!--finish_login-->
+
+</td></tr>
+</table>

@@ -1,0 +1,7 @@
+$action=dml
+$scheme=buses0
+$prompt=1
+@sql
+update points set name_point='Шексна-2' where name_point='Шексна'
+$table_name=points
+$compate_fields=*

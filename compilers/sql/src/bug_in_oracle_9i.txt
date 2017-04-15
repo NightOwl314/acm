@@ -1,0 +1,3 @@
+select distinct * from (select departments.department_id as d_id, department_name as dep_name from departments inner join employees on departments.department_id = employees.department_id where departments.department_id in (  select distinct department_id from employees where commission_pct is not null ) group by departments.department_id, department_name having count(employees.employee_id) < (   select max(count(employees.employee_id)) from departments   inner join employees on departments.department_id = employees.department_id   group by departments.department_id ));
+
+Запрос должен выдавать одну запись, а выдаёт 0 (если убрать distinct, будет одна)

@@ -1,0 +1,76 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>АВТ ВоГТУ - Редактирование теста $test_name (задача $id_problem)</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+    $include_file("head_ru.html")
+  <h2 align="center">Редактирование теста $test_name (задача <a href="/cgi-bin/arh_problems.pl?id_prb=$id_problem">$id_problem</a>)</h2>
+  <!--test_new{!новый!}-->
+  <!--this_test{<div style="float:left"><span><strong>$i_test_name</strong><div style="width:37px;line-height:0px;"></div></span></div>}-->
+
+     <form name="form2" action="/cgi-bin/edit_problem.pl" method="post" enctype="multipart/form-data"> 
+      <input type="Hidden" name="mode" value="edit_test_post">
+      <input type="Hidden" name="id_prb" value="$id_problem">
+      <input type="Hidden" name="test_old_name" value="$test_name">
+    <table class="other" align="center" border="0" cellpadding="5">
+       <tr>
+         <td valign="middle"><hr>Название теста <input type="Text" name="test_name" value="$test_name" size="10"><hr></td>
+         </tr>
+    </table>
+
+      <table width="100%" border="0" class="other"> <tr align="left"><td>
+         <a href="/cgi-bin/edit_problem.pl?mode=edit&id_prb=$id_problem">Вернуться к редактировению задачи $id_problem</a>
+       </td></tr></table>
+
+      <table border="0" class="link_prb" cellpadding="2"> 
+      <tr><td align="left" valign="top" nowrap style="padding:5px;">Другие тесты:</td>
+         <td align="left">
+         <!--start_other_tests-->
+         <div style="float:left"><a href="/cgi-bin/edit_problem.pl?mode=edit_test&id_prb=$id_problem&test_name=$i_test_name" style="display:inline-block;">$i_test_name<div style="width:25px;line-height:0px;"></div></a></div>
+         <!--finish_other_tests-->
+         <div style="float:left"><a href="/cgi-bin/edit_problem.pl?mode=new_test&id_prb=$id_problem" style="display:inline-block;">новый<div style="width:25px;line-height:0px;"></div></a></div>
+       </td></tr></table>
+
+    <table width="100%" border="2" class="tbbd" ><tr><td>
+    <table align="center" class="tbbd" width="100%" border="0" cellpadding="5">
+       <tr><th nowrap>Входной файл теста</th><tH nowrap>Выходной файл теста</tH></tr>
+       <tr>
+       <td width="50%">
+       <textarea name="test_in" rows="25" wrap="off" cols="40" style="width: 100%;overflow:auto;border:#000000 1px solid;">$test_in</textarea>
+       </td>
+       <td  width="50%">
+       <textarea name="test_out" rows="25" wrap="off" cols="40" style="width: 100%;overflow:auto;border:#000000 1px solid;">$test_out</textarea>
+       </td>
+       </tr>
+
+       <tr><th colspan="2"><hr/>Описание теста</th></tr>
+
+       <!--start_comment--><tr><td colspan="2"><h5>$i_lang_name</h5>
+       <textarea name="comment_$i_id_lang" rows="3" style="width: 100%;overflow:auto;border:#000000 1px solid;">$comment_lang</textarea>       
+       </td></tr><!--finish_comment-->
+
+       <tr><td valign="top" width="50%"><h5>Рисунок для подсказки</h5><input type="file" name="image_file" size="60"><br/>
+       <font style="font-size: 10pt;">В описании допустимо использование HTML. В качестве имени файла рисунка используйте $img$</font> 
+       
+       </td><td align="center" valign="middle" width="50%">
+       <img src="/cgi-bin/download.a?mode=get_img_test&id_prb=$id_problem&test=$test_name" alt="Просмотр рисунка">
+       </td></tr>
+
+       <tr><td colspan="2" align="center">
+           <hr/><input type="submit" value="Сохранить тест" class="submit_btn">
+       </td></tr>    
+    </table>
+    </td></tr></table>
+    
+      <table width="100%" border="0" class="other"> <tr align="left"><td>
+         <a href="/cgi-bin/edit_problem.pl?mode=edit&id_prb=$id_problem">Вернуться к редактировению задачи $id_problem</a>
+       </td></tr></table>
+
+    </form>
+    $include_file("down_part_ru.html")
+    
+ </body>
+</html>

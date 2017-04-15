@@ -1,0 +1,44 @@
+body {
+  background:#FFFFFF;
+  font-size:10pt;
+  color:black;
+  font-family:MS Sans Serif
+}
+
+table {
+  font-size:10pt;
+  font-family:MS Sans Serif
+}
+
+td {
+  font-size:10pt;
+  font-family:MS Sans Serif
+}
+
+tr {
+  font-size:10pt;
+  font-family:MS Sans Serif
+}
+
+a:link {font-family:Courier New; color:blue; text-decoration:none}
+a:visited {font-family:Courier New; color:blue; text-decoration:none}
+a:active {font-family:Courier New; color:blue; text-decoration:none}
+a:hover {font-family:Courier New; color:blue; font-weight:bold; text-decoration:none}
+
+h1 {
+  font-size:24pt;
+  font-family:MS Sans Serif;
+  font-weight:bold
+}
+
+h2 {
+  font-size:14pt;
+  font-family:MS Sans Serif;
+  font-weight:bold
+}
+
+h3 {
+  font-size:12pt;
+  font-family:MS Sans Serif;
+  font-weight:bold
+}

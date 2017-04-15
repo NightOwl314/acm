@@ -1,0 +1,104 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>AVT VSTU - Edit profile $author_name</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    $include_file("head_en.html")
+
+  <h2 align="center">Edit profile</h2>
+
+   <!--start_post_edit-->
+   <table class="tbbd" border="1" align="center">
+   <tr><td>Profile is successfully saved
+   </td></tr></table><br/>
+   <!--finish_post_edit-->
+
+   <!--start_err-->
+   <table class="tbbd" border="1" align="center"><tr><td>
+   ***Profile saving error***<hr/><b><font color="#A00000">$err_text</font></b><hr>
+   </td></tr></table><br/>
+   <!--errors
+   1:{Passwords do not coincide}
+   2:{Length of the password less than 5 symbols}
+   3:{The user with the specified name already exists}
+   4:{The user with the specified login already exists}
+   -->
+   <!--finish_err-->
+
+
+  <table border="1" align="center">
+  <td>
+   <table class="tbbd" border="0" align="center" cellpadding="5">
+     <form name="form2" action="/cgi-bin/aregister.pl" method="post"> 
+      <input type="hidden" name="mode" value="edit_post">
+      <input type="hidden" name="id_publ" value="$author_id">
+        <tr>
+           <td align="left" width="150"><h5>Your name:</h5></td>
+           <td align="left" width="340"><input type="text" name="author_name" value="$author_name" size="30"></td>
+        </tr>
+
+        <tr>
+           <td align="left"  width="150"><h5>Your login:</h5></td>
+           <td align="left"  width="340"><input type="text" name="author_login" value="$author_login" size="30"></td>
+        </tr>
+        <tr>
+          <td colspan="2">Use login as 'username' for login in system.</td>
+        </tr>
+
+        <tr>
+           <td align="left"><h5>Your e-mail:</h5></td>
+           <td align="left"><input type="text" name="author_email" value="$author_email" size="30"></td>
+        </tr>
+
+        <tr>
+           <td align="left"><h5>Your country:</h5></td>
+           <td align="left">
+              <select name="country" size="1"> 
+<!--start_country--><OPTION VALUE="$country_id" $country_selected{selected}>$country_name</option><!--finish_country-->
+         </select>
+           </td>
+        </tr>
+
+        <tr>
+          <td class="separ" colspan="2"><hr></td>
+        </tr>
+
+        <tr>   
+           <td align="left"><h5>NEW password:</h5></td>
+           <td align="left"><input type="password" name="author_pwd1" size="30"></td>
+        </tr>
+        <tr>
+           <td align="left"><h5>confirm password:</h5></td>
+           <td align="left"><input type="password" name="author_pwd2" size="30"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="2">Leave fields empty for preservation of the old password!!!</td>
+        </tr>
+
+        <tr>
+           <td align="left" colspan="2"><hr><h5>Other info:</h5>
+              <textarea name="add_info" cols="60" rows="3" wrap="virtual">$add_info</textarea>
+           </td>
+        </tr>
+
+        <tr>
+          <td align="center" colspan="2">
+           <hr>
+           <input type="submit" value="Save" class="submit_btn">
+          </td>
+        </tr>
+
+     </form>
+   </table>
+  </td>
+
+  </table>
+    $include_file("down_part_ru.html")
+
+ </body>
+</html>

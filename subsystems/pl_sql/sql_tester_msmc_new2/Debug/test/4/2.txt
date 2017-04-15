@@ -1,0 +1,2 @@
+password.txt
+delete from points where rownum < 10

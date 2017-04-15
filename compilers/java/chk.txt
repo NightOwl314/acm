@@ -1,0 +1,60 @@
+import java.io.*;
+import java.util.*;
+
+public  class Main {
+
+    static class Assert {
+        static void check(boolean e) {
+            if (!e) {
+                throw new Error();
+            }
+        }
+    }
+
+    static class NotFoundException extends Exception {}
+
+    static class Solution {
+
+        Scanner in;
+        PrintWriter out;
+
+        void go(char a, char b, char c, int pos, String s) throws NotFoundException {
+            if (pos >= 0) {
+                if (a == s.charAt(pos)) {
+                    go(a, c, b, pos - 1, s);
+                } else if (b == s.charAt(pos)) {
+                    go(c, b, a, pos - 1, s);
+                } else {
+                    throw new NotFoundException();
+                }
+            }
+        }
+
+        void solve() {
+            int n = in.nextInt();
+            in.nextLine();
+            String s = in.nextLine();
+            Assert.check(s.length() == n);
+            try {
+                go('A', 'B', 'C', n - 1, s);
+                out.println("YES");
+            } catch (NotFoundException e) {
+                out.println("NO");
+            }
+        }
+
+        void run() {
+            in = new Scanner(System.in);
+            out = new PrintWriter(System.out);
+            try {
+                solve();
+            } finally {
+                out.close();
+            }
+        }
+    }
+
+    public static void main(String args[]) {
+        new Solution().run();
+    }
+}

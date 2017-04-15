@@ -1,0 +1,29 @@
+create table servers (
+    id_srv integer not null,
+    name char(50)
+);
+
+
+
+alter table servers add primary key (id_srv);
+
+alter table compil
+add id_serv integer;
+
+alter table problems
+add id_serv integer default 0;
+
+
+
+update problems
+set id_serv=0;
+
+update compil
+set id_serv=0;
+
+
+
+insert into compil (id_cmp, name, id_serv) values (12, 'Delphi 6.0 <test>', 1);
+
+insert into servers values (0, 'atpp.vstu.edu.ru');
+insert into servers values (1, 'acm.sgu.ru');

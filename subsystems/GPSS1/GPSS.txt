@@ -1,0 +1,259 @@
+;  GPSS/PC Program File STARTUP.GPS.  (V 2, # 37349)  12-10-2000 13:47:22
+30 WS11S    GENERATE     1000,20,100        
+35          ASSIGN       1,1        
+40          ASSIGN       2,1 
+41          transfer     0.800,,net1_11 ;opredelenie seti naznacheniya
+42          transfer     0.333,,net2_11
+42.3        transfer     0.500,,net3_11
+42.5        assign       3,4
+42.8        transfer     ,c_des11
+43 net1_11  assign       3,1
+44          transfer     ,c_des11
+45 net2_11  ASSIGN       3,2
+46          transfer     ,c_des11
+47 net3_11  assign       3,3        
+48 c_des11  transfer     0.600,,serv_11 ;opredelenie compa naznacheniya
+49.3        transfer     0.500,,com2_11
+49.5        assign       4,3
+49.8        transfer     ,ws11_o
+50 serv_11  assign       4,4
+51          transfer     ,ws11_o
+54 com2_11  assign       4,2       
+55 ws11_o   SEIZE        WS11 ;peredacha       
+60          ADVANCE      50,10        
+65          RELEASE      WS11        
+100         TRANSFER     ,HUB1        
+105 WS11_P  SEIZE        WS11 ;priem       
+110         ADVANCE      10,5        
+115         RELEASE      WS11        
+120         TEST E       P3,1,END1 ;proverka adresa       
+125         TEST e       P4,1,enD1
+126         seize        ws11
+127         advance      40,10
+128         release      ws11
+130         TERMINATE    1        
+145 END1    TERMINATE    1        
+150 HUB1    SEIZE        H1                
+165         ADVANCE      2        
+170         RELEASE      H1         
+180         test ne      p2,3,h1_1
+200         SPLIT        1 WS13_P        
+202 h1_1    test ne      p2,2,h1_2
+205         SPLIT        1 WS12_P
+206 h1_2    test ne      p2,1,h1_3
+208         split        1 ws11_p        
+210 h1_3    SPLIT        1 SW 
+212         test ne      p2,4,h1_4
+215         SPLIT        1 SER1_P        
+220 h1_4    TERMINATE    1        
+300 SER1_P  SEIZE        SER1        
+305         ADVANCE      10,5        
+306         RELEASE      SER1        
+310         TEST E       P3,1,END1        
+317         test e       p4,4,end1
+318         SEIZE        SER1        
+325         ASSIGN       3,P1        
+330         ASSIGN       4,p2        
+335         ASSIGN       1,1        
+340         ASSIGN       2,4        
+345         QUEUE        SER1Q        
+350         ADVANCE      50,10        
+355         PRIORITY     2        
+360         DEPART       SER1Q        
+365         RELEASE      SER1        
+370         TRANSFER     ,HUB1        
+400 SW      queue        swq
+401         seize        switch
+402         depart       swq
+405         advance      5
+410         release      switch
+411         test ne      p3,p1,end1
+412         seize        switch 
+413         advance      5
+414         release      switch
+415         test e       p3 1 reap1
+420         transfer     ,hub1
+425 reap1   test e       p3 2 reap2
+430         transfer     ,hub2
+435 reap2   test e       p3 3 reap3
+440         transfer     ,hub3
+445 reap3   test e       p4 4 reap4
+450         transfer     ,hub4  
+455 reap4   test e       p4 3 reap5
+460         transfer     ,ser4_p
+465 reap5   transfer     ,ser5_p
+530 WS12S   GENERATE     1000,20,200        
+535         ASSIGN       1,1        
+538         ASSIGN       2,2        
+541         transfer     0.800,,net1_12 ;opredelenie seti naznacheniya
+542         transfer     0.333,,net2_12
+542.3       transfer     0.500,,net3_12
+542.5       assign       3,4
+542.8       transfer     ,c_des12
+543 net1_12 assign       3,1
+544         transfer     ,c_des12
+545 net2_12 ASSIGN       3,2
+546         transfer     ,c_des12
+547 net3_12 assign       3,3        
+548 c_des12 transfer     0.600,,serv_12 ;opredelenie compa naznacheniya
+549         transfer     0.500,,com1_12
+549.5       assign       4,3
+549.8       transfer     ,ws12_o
+550 serv_12 assign       4,4
+551         transfer     ,ws12_o
+552 com1_12 ASSIGN       4,1
+555 ws12_o  SEIZE        WS12        
+560         ADVANCE      50,10        
+565         RELEASE      WS12        
+600         TRANSFER     ,HUB1        
+605 WS12_P  SEIZE        WS12        
+610         ADVANCE      10,5        
+615         RELEASE      WS12        
+620         TEST E       P3,1,END1        
+625         TEST e       P4,2,END1
+626         seize        ws12
+627         advance      40,10
+628         release      ws12
+630         TERMINATE    1        
+635 WS13S   GENERATE     1000,20,100        
+636         ASSIGN       1,1        
+640         ASSIGN       2,3        
+641         transfer     0.800,,net1_13 ;opredelenie seti naznacheniya
+642         transfer     0.333,,net2_13
+642.3       transfer     0.500,,net3_13
+642.5       assign       3,4
+642.8       transfer     ,c_des13
+643 net1_13 assign       3,1
+644         transfer     ,c_des13
+645 net2_13 ASSIGN       3,2
+646         transfer     ,c_des13
+647 net3_13 assign       3,3        
+648 c_des13 transfer     0.600,,serv_13 ;opredelenie compa naznacheniya
+649.3       transfer     0.500,,com2_13
+649.5       assign       4,1
+649.8       transfer     ,ws13_o
+650 serv_13 assign       4,4
+651         transfer     ,ws13_o
+654 com2_13 assign       4,2     
+665 ws13_o  SEIZE        WS13        
+670         ADVANCE      50,10        
+675         RELEASE      WS13        
+680         TRANSFER     ,HUB1        
+681 ws13_p  terminate    1
+1030 WS21S    GENERATE     1000,50,300        
+1035          ASSIGN       1,2        
+1040          ASSIGN       2,1 
+1041          transfer     0.800,,net2_21 ;opredelenie seti naznacheniya
+1042          transfer     0.333,,net1_21
+1042.3        transfer     0.500,,net3_21
+1042.5        assign       3,4
+1042.8        transfer     ,c_des21
+1043 net2_21  assign       3,2
+1044          transfer     ,c_des21
+1045 net1_21  ASSIGN       3,1
+1046          transfer     ,c_des21
+1047 net3_21  assign       3,3        
+1048 c_des21  transfer     0.600,,serv_21 ;opredelenie compa naznacheniya
+1049.3        transfer     0.500,,com2_21
+1049.5        assign       4,3
+1049.8        transfer     ,ws21_o
+1050 serv_21  assign       4,4
+1051          transfer     ,ws21_o
+1054 com2_21  assign       4,2       
+1055 ws21_o   SEIZE        WS21 ;peredacha       
+1060          ADVANCE      50,10        
+1065          RELEASE      WS21        
+1100         TRANSFER     ,HUB2        
+1105 WS21_P  SEIZE        WS21 ;priem       
+1110         ADVANCE      10,5        
+1115         RELEASE      WS21        
+1120         TEST E       P3,2,END1 ;proverka adresa       
+1125         TEST e       P4,1,enD1
+1126         seize        ws21
+1127         advance      40,10
+1128         release      ws21
+1130         TERMINATE    1        
+1150 HUB2    SEIZE        H2                
+1165         ADVANCE      2        
+1170         RELEASE      H2          
+1180         test ne      p4,3,h2_1
+1200         SPLIT        1 WS23_P        
+1202 h2_1    test ne      p4,2,h2_2
+1205         SPLIT        1 WS22_P
+1206 h2_2    test ne      p4,1,h2_3
+1208         split        1 ws21_p        
+1210 h2_3    SPLIT        1 SW 
+1212         test ne      p4,4,h2_4
+1215         SPLIT        1 SER2_P        
+1220 h2_4    TERMINATE    1        
+1300 SER2_P  SEIZE        SER2        
+1305         ADVANCE      10,5        
+1306         RELEASE      SER2        
+1310         TEST E       P3,2,END1        
+1317         test e       p4,4,end1
+1318         SEIZE        SER2        
+1325         ASSIGN       3,P1        
+1330         ASSIGN       4,p2        
+1335         ASSIGN       1,2        
+1340         ASSIGN       2,4        
+1345         QUEUE        SER2Q        
+1350         ADVANCE      50,10        
+1355         PRIORITY     2        
+1360         DEPART       SER2Q        
+1365         RELEASE      SER2        
+1370         TRANSFER     ,HUB2
+1530 WS22S   GENERATE     1000,50,600        
+1535         ASSIGN       1,2        
+1538         ASSIGN       2,2        
+1541         transfer     0.800,,net2_22 ;opredelenie seti naznacheniya
+1542         transfer     0.333,,net1_22
+1542.3       transfer     0.500,,net3_22
+1542.5       assign       3,4
+1542.8       transfer     ,c_des22
+1543 net2_22 assign       3,2
+1544         transfer     ,c_des22
+1545 net1_22 ASSIGN       3,1
+1546         transfer     ,c_des22
+1547 net3_22 assign       3,3        
+1548 c_des22 transfer     0.600,,serv_22 ;opredelenie compa naznacheniya
+1549         transfer     0.500,,com1_22
+1549.5       assign       4,3
+1549.8       transfer     ,ws22_o
+1550 serv_22 assign       4,4
+1551         transfer     ,ws22_o
+1552 com1_22 ASSIGN       4,1
+1555 ws22_o  SEIZE        WS22        
+1560         ADVANCE      50,10        
+1565         RELEASE      WS22        
+1600         TRANSFER     ,HUB2        
+1601 ws22_p  terminate    1
+1635 WS23S   GENERATE     1000,20,100        
+1636         ASSIGN       1,2        
+1640         ASSIGN       2,3        
+1641         transfer     0.800,,net2_23 ;opredelenie seti naznacheniya
+1642         transfer     0.333,,net1_23
+1642.3       transfer     0.500,,net3_23
+1642.5       assign       3,4
+1642.8       transfer     ,c_des23
+1643 net2_23 assign       3,2
+1644         transfer     ,c_des23
+1645 net1_23 ASSIGN       3,1
+1646         transfer     ,c_des23
+1647 net3_23 assign       3,3        
+1648 c_des23 transfer     0.600,,serv_23 ;opredelenie compa naznacheniya
+1649.3       transfer     0.500,,com2_23
+1649.5       assign       4,1
+1649.8       transfer     ,ws23_o
+1650 serv_23 assign       4,4
+1651         transfer     ,ws23_o
+1654 com2_23 assign       4,2     
+1665 ws23_o  SEIZE        WS23        
+1670         ADVANCE      50,10        
+1675         RELEASE      WS23        
+1680         TRANSFER     ,HUB2        
+1681 ws23_p  terminate    1
+2000 hub3   terminate    1
+3000 hub4   terminate    1
+4000 ser4_p terminate    1
+4500 ser5_p terminate    1
+

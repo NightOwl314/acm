@@ -1,0 +1,97 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>AVT VSU - Submit problem</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    $include_file("head_en.html")
+
+  <h2 align="center">Submit problem</h2>
+   <!--start_err-->
+   <table class="tbbd" border="1" align="center"><tr><td>
+   ***Submit problem error***<hr/><b><font color="#A00000">$err_text</font></b><hr>
+   </td></tr></table><br/>
+   <!--errors
+   1:{User undefined}
+   2:{Problems does not exists}
+   3:{Compiler does not exists}
+   4:{Undefined source and source file}
+   5:{Defined both source and source file<br>Use only first or second}
+   -->
+   <!--finish_err-->
+
+  <table border="0" align="center">
+  <tr>
+  <td>
+  <table class="tbbd" border="2" align="center" cellpadding="5">
+  <form name="form1" action="/cgi-bin/submit.pl" method="post" enctype="multipart/form-data"> 
+        <input type="hidden" name="mode" value="send">
+
+        <tr>
+           <td align="right" width="140"><h5>Problem:</h5></td>
+           <td align="left" width="590"><input type="text" name="id_prb" size="12" value="$problem_id"></td>
+        </tr>
+
+
+        <tr>
+           <td align="right"  width="140"><h5>Compiler:</h5></td>
+           <td align="left" width="590">
+              <select name="id_compiler" size="1" style="width: 500;"> 
+<!--start_compiler--><OPTION VALUE="$compiler_id" $compiler_selected{selected}>$compiler_name</option><!--finish_compiler-->
+              </select>
+           </td>
+        </tr>
+
+        <tr>
+           <td align="right" width="140"><h5>Comment:</h5></td>
+           <td align="left" width="590">
+             <input type=text style="width: 500;" name="comment" value="$comment_text">
+        </tr>
+
+
+        <tr>
+           <td align="left" colspan="2" class="separ"><hr>
+           </td>
+        </tr>
+        <tr>
+           <td align="left"><h5>Source:</h5></td>
+           <td align="right">
+<!--start_login-->
+           <a href="/cgi-bin/submit.pl?mode=load_src">Load last send source</a>
+<!--finish_login-->
+           </td>
+        </tr>
+
+        <tr>
+           <td align="left" colspan="2">
+              <textarea name="source" cols="90" rows="25" wrap="off">$source_text</textarea>
+           </td>
+        </tr>
+
+        <TR>
+          <TD ALIGN="right" WIDTH="140"><h5>source file:</h5></TD>
+          <TD width="590" ><INPUT TYPE="FILE" NAME="sourcefile" SIZE="85"></TD>
+        </TR>
+
+        <tr>
+          <td align="center" colspan="2"><hr>
+<!--start_not_login-->
+          <input type="submit" value="Submit" disabled class="submit_btn"><br>
+          You cannot send solutions <a href="$current_page?re_login=$random_re_login$add_param">Login</a>
+<!--finish_not_login-->
+
+<!--start_login-->
+           <input type="submit" value="Submit" class="submit_btn">
+<!--finish_login-->
+
+          </td>
+        </tr>
+        </form>
+        </table>
+        </td></tr></table>
+    $include_file("down_part_en.html")
+ </body>
+</html>

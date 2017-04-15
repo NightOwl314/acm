@@ -1,0 +1,33 @@
+$id=_temp
+$log=1
+$tables=models
+@teacher
+
+execute dbms_random.seed(TO_CHAR(SYSDATE,'MM-DD-YYYY HH24:MI:SS'));
+var var_teacher number;
+begin
+:var_teacher := dbms_random.random;
+end;
+/
+
+create or replace trigger trig_temp
+before INSERT ON models_temp
+for each row
+begin
+select 42 INTO :new.places from dual;
+end;
+/
+
+@user_end
+
+/
+
+@execsql
+
+insert into models_temp(NAME_MODEL,COD_MODEL,CLASS) values('»Í‡ÛÒ',:var_teacher,1);
+insert into models_temp(NAME_MODEL,COD_MODEL,CLASS) values('Hynday',:var_teacher+1,2);
+insert into models_temp(NAME_MODEL,COD_MODEL,CLASS) values('À»¿«',:var_teacher+2,3);
+
+@query
+select * from models_temp where places=42
+$

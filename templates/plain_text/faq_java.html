@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>АВТ ВоГУ - Решение задач на Java</title>
+<style>
+body {background: #CFCFCF; font-size:12pt; color: black; }
+</style>
+</head>
+
+<body>
+<h2 align=center>Решение задач на Java</h2>
+Программа на Java должна содержать только один public класс с произвольным именем, который должен содержать метод:
+<table><tr><td>
+<div class="code_box"><pre><code class="java">public static void main(String[] args)</code></pre></div>
+</td></tr></table>
+Также программа может содержать любое число вложенных и глобальных
+не public классов.<br><br>
+Пример решения задачи A+B:<br>
+<table><tr><td>
+<div class="code_box"><pre><code class="java">import java.io.*;
+import java.util.*;
+
+public class a_plus_b
+{
+   public static void main(String[] args)
+   {
+      Scanner in = new Scanner(System.in);
+      PrintWriter out = new PrintWriter(System.out);
+
+      int a = in.nextInt();
+      int b = in.nextInt();
+      out.println(a + b);
+      out.flush();
+   }
+}</code></pre></div>
+</td></tr></table>
+
+Программы на Java работают несколько медленнее, чем написанные на других языках, компилируемых в машинный код.
+Однако, для большинства задач в проверяющей системе верные решения проходят с большим запасом по времени и вполне успешно
+могут быть реализованы на Java. При этом всё же желательно учитывать, что:<br>
+* класс Scanner достаточно удобен, но работает медленно. Поэтому его следует использовать для чтения небольших входных данных.<br>
+* класс BufferedReader работает достаточно быстро. Его удобно использовать в связке с StringTokenizer или StreamTokenizer. 
+<br>Вот соответствующий пример решения задачи A+B:
+<table><tr><td>
+<div class="code_box"><pre><code class="java">import java.io.*;
+import java.util.*;
+
+public class Main
+{
+   public static void main(String[] args)
+   {
+      StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
+      PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
+
+      try{
+        in.nextToken();
+        int a = (int) in.nval;
+        in.nextToken();
+        int b = (int) in.nval;
+        out.println(a + b);
+        out.flush();
+
+      }
+      catch (IOException e) {
+        throw new Error();
+      }
+ 
+   }
+}</code></pre></div>
+</td></tr></table>
+<br>
+Для корректного считывания/записи вещественных чисел, содержащих десятичную точку, на сервере уже установлена соответствующая
+локаль. Попыка явной установки локали по умолчанию приведёт к ошибке нарушения безопасности (возможно, это потом 
+будет устранено).
+<br><br>
+Для корректной работы с символами с кодами больше 127 нужно явно указывать набор символов - например, так:
+<table><tr><td>
+<div class="code_box"><pre><code class="java">Scanner scanner = new Scanner(System.in, "ISO-8859-1");
+BufferedReader reader = new BufferedReader(new InputStreamReader(System.in, "ISO-8859-1"));
+PrintWriter writer = new PrintWriter(new OutputStreamWriter(System.out, "ISO-8859-1"));</code></pre></div>
+</td></tr></table>
+</body>
+</html>
