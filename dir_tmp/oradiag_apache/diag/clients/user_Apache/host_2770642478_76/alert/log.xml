@@ -150,3 +150,75 @@ Windows NT Named Pipes NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.
  <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
  </txt>
 </msg>
+<msg time='2017-04-23T16:44:00.163+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-23T16:48:55.745+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-23T16:56:05.590+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-23T17:01:16.412+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-23T17:03:24.749+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-23T22:49:01.994+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-23T22:49:01.994+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-23T22:49:05.111+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-23T22:49:06.131+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-23T22:49:08.342+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-26T17:30:36.259+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-26T17:30:57.610+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>

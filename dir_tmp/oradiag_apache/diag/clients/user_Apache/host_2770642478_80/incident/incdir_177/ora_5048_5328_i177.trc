@@ -1,0 +1,14 @@
+Dump file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_177\ora_5048_5328_i177.trc
+Dump continued from file: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5048_5328.trc
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+========= Dump for incident 177 (oci 24550 [3221225477]) ========
+Tracing is in restricted mode!
+----- Short Call Stack Trace -----
+_dbgexPhaseII()+850<-_dbgexProcessError()+2433<-_dbgeExecuteForError()+43<-_dbgePostErrorDirect()+2738<-__VInfreq__kohdsrlb()+370<-_skgesig_Win_UnhandledExceptionFilter()+140<-756903B9<-0042BD19<-00427342<-75653365<-77A39900<-77A398D0<-00000000<-0040A65D<-00427325<-75653365<-77A39900<-77A398D0<-00000000----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+Executing ASYNC actions
+----- END DDE Actions Dump (total 0 csec) -----
+End of Incident Dump

@@ -193,3 +193,760 @@ Wed May 11 18:42:47 2016
 Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
 Wed May 11 18:44:01 2016
 Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Sun Apr 23 16:44:50 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 16:44:50
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 16:44:50 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Sun Apr 23 16:44:50 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+Sun Apr 23 16:44:50 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 16:44:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 16:44:52
+  Tracing not turned on.
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 16:44:52
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 16:44:50 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+  Time: 23-¿œ–-2017 16:44:53
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 16:48:56 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 16:48:56
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 16:48:58 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_1368_6776.trc  (incident=129):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_129\ora_1368_6776_i129.trc
+Sun Apr 23 16:48:59 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_3004_6980.trc  (incident=137):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_137\ora_3004_6980_i137.trc
+Sun Apr 23 16:48:59 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5368_6304.trc  (incident=145):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_145\ora_5368_6304_i145.trc
+Sun Apr 23 16:49:08 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_800_3056.trc  (incident=153):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_153\ora_800_3056_i153.trc
+Sun Apr 23 16:56:09 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Sun Apr 23 16:56:09 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 16:56:09
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 16:56:10
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 16:56:18 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Sun Apr 23 16:56:18 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 16:56:18
+  Time: 23-¿œ–-2017 16:56:18
+  Tracing not turned on.
+  Tracing not turned on.
+  Tns error struct:
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 16:56:18 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 16:56:20
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 17:01:25 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Sun Apr 23 17:01:25 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 17:01:25
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 17:01:26
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 17:01:50 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Sun Apr 23 17:01:50 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 17:01:50
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 17:01:51
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 17:02:08 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 17:02:08
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 17:03:25 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 17:03:25
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 17:03:37 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6364_5416.trc  (incident=161):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_161\ora_6364_5416_i161.trc
+Sun Apr 23 17:03:37 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_1132_6952.trc  (incident=169):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_169\ora_1132_6952_i169.trc
+Sun Apr 23 17:03:37 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5048_5328.trc  (incident=177):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Sun Apr 23 17:03:41 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Sun Apr 23 17:03:46 2017
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_177\ora_5048_5328_i177.trc
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5992_4848.trc  (incident=185):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_185\ora_5992_4848_i185.trc
+Sun Apr 23 22:49:02 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 22:49:02
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 22:49:02 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_16740_16100.trc  (incident=193):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_193\ora_16740_16100_i193.trc
+Sun Apr 23 22:49:03 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_18728_19428.trc  (incident=201):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_201\ora_18728_19428_i201.trc
+Sun Apr 23 22:49:03 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 22:49:03
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+Sun Apr 23 22:49:03 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_18868_8804.trc  (incident=209):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_209\ora_18868_8804_i209.trc
+Sun Apr 23 22:49:03 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Sun Apr 23 22:49:03 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_12032_17764.trc  (incident=217):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_217\ora_12032_17764_i217.trc
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_18516_10912.trc  (incident=225):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_225\ora_18516_10912_i225.trc
+Sun Apr 23 22:49:04 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_11688_5280.trc  (incident=233):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_233\ora_11688_5280_i233.trc
+Sun Apr 23 22:49:04 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_15832_13768.trc  (incident=241):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_241\ora_15832_13768_i241.trc
+Sun Apr 23 22:49:04 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_16200_16640.trc  (incident=249):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_249\ora_16200_16640_i249.trc
+Sun Apr 23 22:49:05 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 22:49:05
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 22:49:05 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_11004_11072.trc  (incident=257):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_257\ora_11004_11072_i257.trc
+Sun Apr 23 22:49:06 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_20204_10968.trc  (incident=265):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_265\ora_20204_10968_i265.trc
+Sun Apr 23 22:49:06 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 22:49:06
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 22:49:06 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_17440_8952.trc  (incident=273):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_273\ora_17440_8952_i273.trc
+Sun Apr 23 22:49:07 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_20952_10060.trc  (incident=281):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_281\ora_20952_10060_i281.trc
+Sun Apr 23 22:49:06 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Sun Apr 23 22:49:07 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_17584_19992.trc  (incident=289):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_289\ora_17584_19992_i289.trc
+Sun Apr 23 22:49:07 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_19328_19040.trc  (incident=305):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_305\ora_19328_19040_i305.trc
+Sun Apr 23 22:49:08 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+
+
+***********************************************************************
+
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=AVTDB)(CID=(PROGRAM=c:\acm\compilers\sql\sql_tester.exe)(HOST=HPG6-1054)(USER=Apache)))(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 11.2.0.2.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 11.2.0.2.0 - Production
+  Time: 23-¿œ–-2017 22:49:08
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_16776_13036.trc  (incident=297):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+  Tracing not turned on.
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_297\ora_16776_13036_i297.trc
+  Tns error struct:
+    ns main err code: 12564
+    
+TNS-12564: Message 12564 not found; No message file for product=NETWORK, facility=TNS
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+Sun Apr 23 22:49:08 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_12960_12732.trc  (incident=313):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_313\ora_12960_12732_i313.trc
+Sun Apr 23 22:49:09 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_19500_14984.trc  (incident=321):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_321\ora_19500_14984_i321.trc
+Sun Apr 23 22:49:09 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_12068_15248.trc  (incident=329):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_329\ora_12068_15248_i329.trc
+Sun Apr 23 22:49:09 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_18540_10836.trc  (incident=337):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_337\ora_18540_10836_i337.trc
+Sun Apr 23 22:49:10 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_4528_10340.trc  (incident=345):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_345\ora_4528_10340_i345.trc
+Wed Apr 26 17:30:43 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Wed Apr 26 17:30:44 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7840_5748.trc  (incident=353):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_353\ora_7840_5748_i353.trc
+Wed Apr 26 17:30:44 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7876_5656.trc  (incident=361):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_361\ora_7876_5656_i361.trc
+Wed Apr 26 17:30:45 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7772_6352.trc  (incident=369):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_369\ora_7772_6352_i369.trc
+Wed Apr 26 17:30:45 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7924_3816.trc  (incident=377):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_377\ora_7924_3816_i377.trc
+Wed Apr 26 17:30:45 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Wed Apr 26 17:30:46 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_8012_7452.trc  (incident=385):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_385\ora_8012_7452_i385.trc
+Wed Apr 26 17:30:46 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6308_8040.trc  (incident=393):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_393\ora_6308_8040_i393.trc
+Wed Apr 26 17:30:46 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_4756_2724.trc  (incident=401):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_401\ora_4756_2724_i401.trc
+Wed Apr 26 17:30:46 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6320_7392.trc  (incident=409):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_409\ora_6320_7392_i409.trc
+Wed Apr 26 17:31:02 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Wed Apr 26 17:31:02 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5968_4488.trc  (incident=417):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_417\ora_5968_4488_i417.trc
+Wed Apr 26 17:31:02 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7900_7332.trc  (incident=425):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_425\ora_7900_7332_i425.trc
+Wed Apr 26 17:31:02 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5532_7836.trc  (incident=433):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_433\ora_5532_7836_i433.trc
+Wed Apr 26 17:31:03 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_3628_2340.trc  (incident=441):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_441\ora_3628_2340_i441.trc
+Wed Apr 26 17:31:03 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Wed Apr 26 17:31:07 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_3800_7476.trc  (incident=449):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_449\ora_3800_7476_i449.trc
+Wed Apr 26 17:31:07 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6352_6548.trc  (incident=457):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_457\ora_6352_6548_i457.trc
+Wed Apr 26 17:31:11 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7884_6416.trc  (incident=465):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_465\ora_7884_6416_i465.trc
+Wed Apr 26 17:31:12 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5932_6392.trc  (incident=473):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_473\ora_5932_6392_i473.trc

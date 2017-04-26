@@ -1,0 +1,31 @@
+<pre><strong>Сообщения компилятора (и скрипта компиляции):</strong>
+
+SQL*Plus: Release 11.2.0.1.0 Production on Вс Апр 23 22:49:08 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-01034: ORACLE not available
+ORA-27101: shared memory realm does not exist
+Идентификатор процесса: 0
+Идентификатор сеанса: 0 Порядковый номер: 0
+
+
+Введите имя пользователя: Введите пароль: ERROR:
+ORA-01005: задан пустой пароль; вход в систему запрещается
+
+
+Введите имя пользователя: ‘Є®ЇЁа®ў ­® д ©«®ў:         1.
+<strong>OK</strong>
+
+<h3>Отчет о выполнении:</h3></pre>Результаты проверки:<br><table cellpadding=5 border=1><tr><th>Тест №</th><th>Входной файл</th><th>Файл с верным ответом</th><th>Результат</th><th>Время работы</th><th>Память</th></tr>
+<tr align=center><td>1</td><td>1.in</td><td>1.out</td><td>Неверный ответ</td><td>0.000 sec</td><td>0 KB</td></tr>
+<tr><td colspan=6>
+<pre>
+<strong>----------- Входные данные: -----------</strong>
+Input...<strong>----------- Ответ участника: -----------</strong>
+
+<strong>------- Сообщения программы проверки: -------</strong>
+</pre></td></tr>
+</table><pre>
+</pre>
