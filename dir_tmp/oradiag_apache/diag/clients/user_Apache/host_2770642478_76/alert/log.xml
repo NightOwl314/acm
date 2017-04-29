@@ -222,3 +222,27 @@ Windows NT Named Pipes NT Protocol Adapter for 64-bit Windows: Version 11.2.0.1.
  <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
  </txt>
 </msg>
+<msg time='2017-04-26T20:07:18.403+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-26T20:08:39.104+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-29T12:22:44.440+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>
+<msg time='2017-04-29T12:22:54.220+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [C:\prog\database\oracle\11.2.0\dbhome_1\log] [C:\prog\database\oracle\11.2.0\dbhome_1\log\diag\clients]
+ </txt>
+</msg>

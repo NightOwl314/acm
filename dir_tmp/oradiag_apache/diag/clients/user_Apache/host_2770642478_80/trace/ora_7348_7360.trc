@@ -1,0 +1,22 @@
+Trace file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7348_7360.trc
+DDE: Flood control is not active
+DDE encountered the following error:
+DIA-48132: Message 48132 not found; No message file for product=RDBMS, facility=DIA; arguments: [INCIDENT] [c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\lck\AM_1762783_4031814035.lck]
+DIA-48170: Message 48170 not found; No message file for product=RDBMS, facility=DIA
+OSD-00008: Message 8 not found; No message file for product=RDBMS, facility=SOSD
+O/S-Error: (OS 33) Процесс не может получить доступ к файлу, так как часть этого файла заблокирована другим процессом.
+
+========= Dump for critical error (no incident) (oci 24550 [3221225477]) ========
+Tracing is in restricted mode!
+DIA-48132: Message 48132 not found; No message file for product=RDBMS, facility=DIA; arguments: [INCIDENT] [c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\lck\AM_1762783_4031814035.lck]
+DIA-48170: Message 48170 not found; No message file for product=RDBMS, facility=DIA
+OSD-00008: Message 8 not found; No message file for product=RDBMS, facility=SOSD
+O/S-Error: (OS 33) Процесс не может получить доступ к файлу, так как часть этого файла заблокирована другим процессом.
+----- Short Call Stack Trace -----
+_dbgexPhaseII()+850<-_dbgexProcessError()+2433<-_dbgeExecuteForError()+43<-_dbgePostErrorDirect()+2738<-__VInfreq__kohdsrlb()+370<-_skgesig_Win_UnhandledExceptionFilter()+140<-753903B9<-0042BD19<-00427342<-75353365<-77839900<-778398D0<-00000000<-0040A65D<-00427325<-75353365<-77839900<-778398D0<-00000000----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+Executing ASYNC actions
+----- END DDE Actions Dump (total 0 csec) -----
+End of Incident Dump

@@ -1,0 +1,54 @@
+<pre><strong>Сообщения компилятора (и скрипта компиляции):</strong>
+
+SQL*Plus: Release 11.2.0.1.0 Production on Сб Апр 29 12:22:44 2017
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-28002: the password will expire within 4 days
+
+
+
+Присоединен к:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+SQL> Отсоединено от Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+‘Є®ЇЁа®ў ­® д ©«®ў:         1.
+<strong>OK</strong>
+
+<h3>Отчет о выполнении:</h3></pre>Результаты проверки:<br><table cellpadding=5 border=1><tr><th>Тест №</th><th>Входной файл</th><th>Файл с верным ответом</th><th>Результат</th><th>Время работы</th><th>Память</th></tr>
+<tr align=center><td>1</td><td>1.in</td><td>1.out</td><td>Обнаружено бездействие</td><td>0.000 sec</td><td>0 KB</td></tr>
+<tr><td colspan=6>
+<pre>
+<strong>----------- Входные данные: -----------</strong>
+# знак $- означает для парсера - однострочное значение параметра
+$action=select
+$scheme=buses0
+# вывод подсказки
+$prompt=1
+
+# знак @- означает многострочное значение параметра
+# в первой строке - параметр
+# в последующих - значение этого параметра, пока не встретится в начале строки
+# символ $ или @, означающее новый параметр.
+
+@sql
+select name_point from points where distance <= 20 order by name_point
+# если запрос нужно отсортировать:
+# если не нужно -> $order=0, либо вообще убрать этот параметр
+$order=1
+<strong>----------- Ответ участника: -----------</strong>
+OK
+it's guid string -------------------->>>>>>>>>>>>>>>>>>>>>>>>>
+              
+
+it's guid string -------------------->>>>>>>>>>>>>>>>>>>>>>>>>
+Your SQL query was:  select name_point 
+from points 
+where distance<=20 
+order by name_point
+</pre></td></tr>
+</table><pre>
+</pre>
