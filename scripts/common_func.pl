@@ -17,6 +17,7 @@ $fl_cfg = 'c:/acm/config/master.cfg';
 use vars qw(%ENV $request $db $DirTempSrc %Compilers
             $DirTemplates $master_config $DirSrcArh $incgi $DirProblems
             $DirPrbCond $DirVirtualPrb $DirTemp $DirStdCheckers $ArchivatorExe %ProblemPaths %cookies
+            $ShowSqlCost $ShowSqlPlan
             $start_request_time $exit_main_cik );
 
 #для отладки и тестирования
@@ -107,6 +108,14 @@ sub read_config
   #определим имя файла со списком запускаемых серверов
   $section =~ m/^\s*ServersCfg\s*=\s*([^\n]*)/mi;
   $ServersCfg = "$1";
+
+  #Показывать ли sql стоимость решений и задач
+  $section =~ m/^\s*ShowSqlCost\s*=\s*([^\n]*)/mi;
+  $ShowSqlCost = "$1";
+
+  #Показывать ли sql план решений
+  $section =~ m/^\s*ShowSqlPlan\s*=\s*([^\n]*)/mi;
+  $ShowSqlPlan = "$1";
 
   #поместим в хеш все параметры из секции [problem paths]
   my $k,$v;
@@ -607,7 +616,7 @@ sub LDAP_authenticate
   my @user_props = `$query`;
   my $sn, $givenName, $initials, $p, $displayName, $patname;
   foreach $p (@user_props) {
-    $p =~ tr/‰–“Љ…Ќѓ™‡•љ”›‚ЂЏђЋ‹„†ќџ—‘Њ€’њЃћр©жгЄҐ­Јий§екдлў Їа®«¤¦нпзб¬ЁвмЎос/ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮЁйцукенгшщзхъфывапролджэячсмитьбюё/;
+    $p =~ tr/‰–“Љ…Ќѓ ™‡•љ”›‚ЂЏђЋ‹„†ќџ—‘Њ€’њЃћр©жгЄҐ­Јий§екдлў Їа®«¤¦нпзб¬ЁвмЎос/ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮЁйцукенгшщзхъфывапролджэячсмитьбюё/;
     if($p =~ /(\w*)?:\s*(.*)/) {
       if ($1 eq "sn") {$sn=$2;}
       elsif ($1 eq "givenName") {$givenName=$2;}
