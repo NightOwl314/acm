@@ -17,7 +17,7 @@ $fl_cfg = 'c:/acm/config/master.cfg';
 use vars qw(%ENV $request $db $DirTempSrc %Compilers
             $DirTemplates $master_config $DirSrcArh $incgi $DirProblems
             $DirPrbCond $DirVirtualPrb $DirTemp $DirStdCheckers $ArchivatorExe %ProblemPaths %cookies
-            $ShowSqlCost $ShowSqlPlan 
+            $ShowSqlCost $ShowSqlPlan
             $start_request_time $exit_main_cik );
 
 #для отладки и тестирования
