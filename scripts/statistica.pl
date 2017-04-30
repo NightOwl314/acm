@@ -942,12 +942,18 @@ sub insert_problem_stat
   #вставляем табличку лучших решений
   my ($best_str) = $$text =~ /\$insert_best_solve\{(.*?)\}/i;
 
+  my $isSqlProblem = is_sql_problem($prb);
+  my $showCost = $ShowSqlCost > 0 && $isSqlProblem > 0;
+
   $query = "select s.id_stat, cast(s.dt_tm as date),cast(s.dt_tm as time), "
-          ."s.id_publ, a.name, c.name, s.time_work,s.mem_use "
+          ."s.id_publ, a.name, c.name, s.time_work,s.mem_use, "
+          ."cast(sc.cost as numeric(10,2)), cast(pc.cost as numeric(10,2))"
           ."from best_solve bs "
           ."JOIN status s ON s.id_stat = bs.id_slv "
           ."JOIN author_names a ON a.id_publ = s.id_publ "
           ."JOIN compil c ON c.id_cmp = s.id_cmp "
+          ."LEFT JOIN status_cost_sql sc ON s.id_stat = sc.id_stat "
+          ."LEFT JOIN problems_cost_sql pc ON s.id_prb = pc.id_prb "
           ."where s.id_prb=$prb order by s.id_stat desc";
 
   $sth = $db->prepare($query);
@@ -963,16 +969,38 @@ sub insert_problem_stat
         #если поле пусто, то заменим его на длинный пробел
         if ($_ eq "") {$_ =  "&nbsp;";}
      }
-
-     $table_best_slv .= "<tr>"
-     ."<td align=center>$row[0]</td>"
-     ."<td align=center>$row[1]<br>$row[2]</td>"
-     ."<td><a href=/cgi-bin/statistica.pl?id_publ=$row[3]>$row[4]</a></td>"
-     ."<td align=center>$row[5]</td>"
-     ."<td align=center>$row[6]</td>"
-     ."<td align=center>$row[7]</td>"
-     ."<td align=center><a class=\"src_lnk1\" href=/cgi-bin/statistica.pl?id_slv=$row[0]>$best_str</a></td>"
-     ."</tr>\n";
+     
+     if ($showCost) {
+       my $sqlCostStatus = $row[8];
+       if ($sqlCostStatus eq "&nbsp;") {
+          $sqlCostStatus = "&mdash;";
+       }
+       my $sqlCostProblem = $row[9];
+       if ($sqlCostProblem eq "&nbsp;") {
+          $sqlCostProblem = "&mdash;";
+       }
+       $table_best_slv .= "<tr>"
+       ."<td align=center>$row[0]</td>"
+       ."<td align=center>$row[1]<br>$row[2]</td>"
+       ."<td><a href=/cgi-bin/statistica.pl?id_publ=$row[3]>$row[4]</a></td>"
+       ."<td align=center>$row[5]</td>"
+       ."<td align=center>$sqlCostStatus/$sqlCostProblem</td>"
+       ."<td align=center>$row[6]</td>"
+       ."<td align=center>$row[7]</td>"
+       ."<td align=center><a class=\"src_lnk1\" href=/cgi-bin/statistica.pl?id_slv=$row[0]>$best_str</a></td>"
+       ."</tr>\n";
+     }
+     else {
+       $table_best_slv .= "<tr>"
+       ."<td align=center>$row[0]</td>"
+       ."<td align=center>$row[1]<br>$row[2]</td>"
+       ."<td><a href=/cgi-bin/statistica.pl?id_publ=$row[3]>$row[4]</a></td>"
+       ."<td align=center>$row[5]</td>"
+       ."<td align=center>$row[6]</td>"
+       ."<td align=center>$row[7]</td>"
+       ."<td align=center><a class=\"src_lnk1\" href=/cgi-bin/statistica.pl?id_slv=$row[0]>$best_str</a></td>"
+       ."</tr>\n";
+     }  
   }
 
   $sth->finish;
@@ -1141,7 +1169,7 @@ main_cik:
      $fname = "src_$rul"."_$id_lng.html";
   } elsif ($id_prb) {
      $isSqlProblem = is_sql_problem($id_prb);
-     if ($ShowSqlCost > 0 and $isSqlProblem > 0) {
+     if ($ShowSqlCost > 0 && $isSqlProblem > 0) {
        $fname = "problem_stat_sql_$id_lng.html"; 
      }
      else {
