@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<Staging_Document staging_file_version="3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\stage\staging.xsd">
+<Incident fid_version="1">
+<dbgristih section_version="1">
+<iid_dbgristih>689</iid_dbgristih>
+<pid_dbgristih>0</pid_dbgristih>
+<pkey_dbgristih><string_value>oci 24550 [3221225477]</string_value></pkey_dbgristih>
+<creatm_dbgristih><time>2017-04-30T18:54:38.385+03:00</time></creatm_dbgristih>
+</dbgristih>
+<dbgricr section_version="1">
+<iid_dbgricr>0</iid_dbgricr>
+<pid_dbgricr>0</pid_dbgricr>
+<creatm_dbgricr><SYSTIMESTAMP></SYSTIMESTAMP></creatm_dbgricr>
+<clostm_dbgricr><SYSTIMESTAMP></SYSTIMESTAMP></clostm_dbgricr>
+<status_dbgricr>0</status_dbgricr>
+<flags_dbgricr>0</flags_dbgricr>
+<fldctl_dbgricr>0</fldctl_dbgricr>
+<errfac_dbgricr><string_value>oci</string_value></errfac_dbgricr>
+<errnum_dbgricr>24550</errnum_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt><string_value>3221225477</string_value></value_dbgriargt>
+</errargv_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt><hex_value>556E68616E646C656420657863657074696F6E3A20436F64653D633030303030303520466C6167733D300A</hex_value></value_dbgriargt>
+</errargv_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt></value_dbgriargt>
+</errargv_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt></value_dbgriargt>
+</errargv_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt></value_dbgriargt>
+</errargv_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt></value_dbgriargt>
+</errargv_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt></value_dbgriargt>
+</errargv_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt></value_dbgriargt>
+</errargv_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt></value_dbgriargt>
+</errargv_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt></value_dbgriargt>
+</errargv_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt></value_dbgriargt>
+</errargv_dbgricr>
+<errargv_dbgricr section_version="1">
+<value_dbgriargt></value_dbgriargt>
+</errargv_dbgricr>
+<sigcmp_dbgricr><string_value>OBJECTS_Types</string_value></sigcmp_dbgricr>
+<sigsubcmp_dbgricr></sigsubcmp_dbgricr>
+<suspcmp_dbgricr></suspcmp_dbgricr>
+<suspsubcmp_dbgricr></suspsubcmp_dbgricr>
+<ecid_dbgricr></ecid_dbgricr>
+<impact_dbgricr>0</impact_dbgricr>
+</dbgricr>
+<dbgrika section_version="1">
+<iid_dbgrika>689</iid_dbgrika>
+<ikr_dbgrika section_version="1">
+<iid_dbgrikr>689</iid_dbgrikr>
+<flags_dbgrikr>0</flags_dbgrikr>
+<kname_dbgrikr><string_value>Client ProcId</string_value></kname_dbgrikr>
+<value_dbgrikr><string_value>sql_tester.exe.2004_7000</string_value></value_dbgrikr>
+</ikr_dbgrika>
+</dbgrika>
+<dbgrifr section_version="1">
+<iid_dbgrifr>689</iid_dbgrifr>
+<ownid_dbgrifr>1</ownid_dbgrifr>
+<flags_dbgrifr>1</flags_dbgrifr>
+<bfile_dbgrifr><filename>&lt;ADR_HOME&gt;/incident/incdir_689/ora_2004_7000_i689.trc</filename><adrhome></adrhome><offset>0</offset></bfile_dbgrifr>
+</dbgrifr>
+<dbgrifr section_version="1">
+<iid_dbgrifr>689</iid_dbgrifr>
+<ownid_dbgrifr>1</ownid_dbgrifr>
+<flags_dbgrifr>2</flags_dbgrifr>
+<bfile_dbgrifr><filename>&lt;ADR_HOME&gt;/trace/ora_2004_7000.trc</filename><adrhome></adrhome><offset>0</offset></bfile_dbgrifr>
+</dbgrifr>
+</Incident>
+</Staging_Document>

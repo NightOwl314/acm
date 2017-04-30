@@ -1,0 +1,3 @@
+select name_point 
+from points 
+where distance<=20 

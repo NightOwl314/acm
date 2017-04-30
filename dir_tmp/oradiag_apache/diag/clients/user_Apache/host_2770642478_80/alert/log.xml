@@ -4280,3 +4280,503 @@ oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
  <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_625\ora_7496_7520_i625.trc
  </txt>
 </msg>
+<msg time='2017-04-30T18:54:34.490+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:35.807+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:35.976+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='633' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6596_7192.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6596_7192.trc  (incident=633):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:36.062+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_633\ora_6596_7192_i633.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:36.299+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:36.331+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='641' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_8100_8064.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_8100_8064.trc  (incident=641):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:36.360+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_641\ora_8100_8064_i641.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:36.578+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:36.608+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='649' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5864_4700.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5864_4700.trc  (incident=649):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:36.694+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_649\ora_5864_4700_i649.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:36.899+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:36.948+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='657' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7988_7544.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7988_7544.trc  (incident=657):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:36.994+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_657\ora_7988_7544_i657.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:37.212+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:37.544+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:37.572+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='665' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_4544_7724.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_4544_7724.trc  (incident=665):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:37.629+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_665\ora_4544_7724_i665.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:37.833+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:37.859+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='673' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7388_7468.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7388_7468.trc  (incident=673):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:37.894+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_673\ora_7388_7468_i673.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:38.099+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:38.128+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='681' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6964_7996.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6964_7996.trc  (incident=681):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:38.160+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_681\ora_6964_7996_i681.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:38.356+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:38.385+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='689' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_2004_7000.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_2004_7000.trc  (incident=689):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:54:38.427+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_689\ora_2004_7000_i689.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:27.218+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:31.440+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:31.475+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='697' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5472_3152.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5472_3152.trc  (incident=697):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:31.551+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_697\ora_5472_3152_i697.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:31.836+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:31.874+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='705' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_3688_6880.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_3688_6880.trc  (incident=705):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:31.933+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_705\ora_3688_6880_i705.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:35.843+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:35.877+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='713' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7460_6636.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7460_6636.trc  (incident=713):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:35.943+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_713\ora_7460_6636_i713.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:36.117+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:36.146+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='721' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5784_8088.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5784_8088.trc  (incident=721):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:36.213+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_721\ora_5784_8088_i721.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:36.426+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:36.738+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:36.764+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='729' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7972_6972.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7972_6972.trc  (incident=729):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:36.799+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_729\ora_7972_6972_i729.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:36.994+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:37.024+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='737' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_8024_4364.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_8024_4364.trc  (incident=737):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:37.065+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_737\ora_8024_4364_i737.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:37.241+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:37.269+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='745' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6556_6408.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6556_6408.trc  (incident=745):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:37.321+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_745\ora_6556_6408_i745.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:37.515+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:37.544+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='753' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_8160_7912.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_8160_7912.trc  (incident=753):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T18:56:37.597+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_753\ora_8160_7912_i753.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T19:26:10.081+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:26:10.233+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:26:10.503+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:26:14.474+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:26:14.474+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:13.919+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:14.252+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:14.281+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='761' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_492_7520.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_492_7520.trc  (incident=761):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:14.321+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_761\ora_492_7520_i761.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:14.529+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:14.562+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='769' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_4520_6076.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_4520_6076.trc  (incident=769):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:14.647+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_769\ora_4520_6076_i769.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:18.580+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:18.646+03:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='HPG6-1054'
+ host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:18.655+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='777' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7204_5732.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7204_5732.trc  (incident=777):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:18.718+03:00' org_id='oracle' comp_id='clients'
+ msg_id='3079483318' type='INCIDENT_ERROR' level='1'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16' prob_key='oci 24550 [3221225477]'
+ upstream_comp='' downstream_comp='OBJECTS_Types' ecid=''
+ errid='785' detail_path='c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_2728_6556.trc'>
+ <txt>Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_2728_6556.trc  (incident=785):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:18.799+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_785\ora_2728_6556_i785.trc
+ </txt>
+</msg>
+<msg time='2017-04-30T19:27:18.763+03:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgexProcessError:1199:3370026720' type='TRACE' level='16'
+ host_id='HPG6-1054' host_addr='fe80::f801:43d0:5827:526b%16'>
+ <txt>Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_777\ora_7204_5732_i777.trc
+ </txt>
+</msg>
