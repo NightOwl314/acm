@@ -422,6 +422,50 @@ sub insert_countries
 
 }
 
+#Относится ли данная задача к курсу "Базы данных. SQL" 54-идентификатор курса
+#param id_prob - идентификатор задачи
+sub is_sql_problem 
+{
+  my($id_prob) = @_;
+  my $query,$sth,$rez=-1;
+  $query=<<SQL;
+      select count(*) from tm_prb where id_tm=54 and id_prb=$id_prb
+SQL
+  $sth = $db->prepare($query);
+  $sth->execute;
+  ($rez) = $sth->fetchrow_array;
+  $sth->finish;
+  return $rez;
+}
+
+#Возвращает вычесленную ранее стоимость задачи
+#param id_prob - идентификатор задачи
+sub get_sql_cost_of_problem 
+{
+  my($id_prob) = @_;
+  my $query,$sth,$rez=-1;
+  $query="select cast(cost as numeric(10,2)) from problems_cost_sql where id_prb=$id_prob";
+     $sth = $db->prepare($query);
+     $sth->execute;
+     ($rez) = $sth->fetchrow_array;
+     $sth->finish;
+  return $rez;
+}
+
+#Возвращает вычесленную ранее стоимость решения
+#param id_stat - идентификатор решения
+sub get_sql_cost_of_status 
+{
+  my($id_stat) = @_;
+  my $query,$sth,$rez=-1;
+  $query="select cast(cost as numeric(10,2)) from status_cost_sql where id_stat=$id_stat";
+     $sth = $db->prepare($query);
+     $sth->execute;
+     ($rez) = $sth->fetchrow_array;
+     $sth->finish;
+  return $rez;
+}
+
 #вывод сообщения об ошибке
 sub print_err
 {
@@ -921,7 +965,9 @@ select first $row_count s.id_stat, cast(s.dt_tm as date),cast(s.dt_tm as time),
    (select first 1 sr.id_stat from status_reports sr where sr.id_stat=s.id_stat),
    s.id_rsl,s.warn_rsl,
    (select p.name from problems_lng p where p.id_prb=s.id_prb and p.id_lng='$id_lng'),
-   s.who_view,cast(100-s.uniq_proc as integer),s.cmp_id_stat,s.points, s.comment
+   s.who_view,cast(100-s.uniq_proc as integer),s.cmp_id_stat,s.points, s.comment,
+   (select cast(sc.cost as numeric(10,2)) from status_cost_sql sc where sc.id_stat=s.id_stat),
+   (select cast(pc.cost as numeric(10,2)) from problems_cost_sql pc where pc.id_prb=s.id_prb)
    from status s
    where s.id_stat $op $id_stat $add_prm_q
    order by s.id_stat desc
@@ -990,10 +1036,21 @@ SQL
      $s=~s/\$mem_use/$row[10]/ig;
      $s=~s/\$author_name/$row[4]/ig;
 
+     my $sqlCostStatus = $row[21];
+     if ($sqlCostStatus eq "&nbsp;") {
+        $sqlCostStatus = "&mdash;";
+     }
+     my $sqlCostProblem = $row[22];
+     if ($sqlCostProblem eq "&nbsp;") {
+        $sqlCostProblem = "&mdash;";
+     }
+
+     $s=~s/\$cost_status/$sqlCostStatus/ig;
+     $s=~s/\$cost_problem/$sqlCostProblem/ig;
+
      $s=~s/\$stat_id/$row[0]/ig;
 
      $before.=$s;
-
      $cnt++;
   }
   $sth->finish;

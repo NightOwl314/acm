@@ -9,7 +9,7 @@ use CGI::Carp  qw(fatalsToBrowser);
 use POSIX;
 
 require 'common_func.pl';
-use vars qw($request $out_stream $db $DirTemplates $incgi %ENV %cookies);
+use vars qw($request $out_stream $db $DirTemplates $ShowSqlCost $incgi %ENV %cookies);
 
 
 #------------------------
@@ -1140,7 +1140,13 @@ main_cik:
 
      $fname = "src_$rul"."_$id_lng.html";
   } elsif ($id_prb) {
-     $fname = "problem_stat_$id_lng.html";
+     $isSqlProblem = is_sql_problem($id_prb);
+     if ($ShowSqlCost > 0 and $isSqlProblem > 0) {
+       $fname = "problem_stat_sql_$id_lng.html"; 
+     }
+     else {
+       $fname = "problem_stat_$id_lng.html"; 
+     }     
   } elsif($id_stat) {
      $rul=access_source($id_stat,$id_user,\$who_view,\$id_problem);
      $fname = "src_$rul"."_$id_lng.html";

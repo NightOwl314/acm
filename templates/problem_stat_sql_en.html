@@ -1,0 +1,99 @@
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+   <title>AVT VSU - Statistics for problem $problem_id. $problem_name</title>
+   <link rel="STYLESHEET" type="text/css" href="/main.css">
+ </head>
+
+ <body>
+
+    $include_file("head_en.html")
+
+    <h2 align=center><a href=/cgi-bin/arh_problems.pl?id_prb=$problem_id>$problem_id. $problem_name</a></h2>
+  <table class="other" width="100%" border=0>
+  <tr>
+  <td width=50></td>
+  <td>
+  
+    <hr><center>Statistics</center>
+
+    <table class="tbbd1" WIDTH="350" border=0 align=center> <tr><td>
+    <table class="link_prb1" WIDTH="100%" border=0 align=center>
+    <tr><th align=left>Authors, Who Solved</th><td align=right>$problem_solved</td></tr>
+    <tr><th align=left>Authors, Who Submitted</th><td align=right>$problem_submit</td></tr>
+    <tr><th align=left>Submissions</th><td align=right>$problem_sbm_cnt</td></tr>
+    $problem_stat
+    </table></td></tr>
+    </table>
+
+    <br><hr><br>
+
+    <center>Best solution for this problem:</center>
+    <table class="tbbd2" WIDTH="100%" border=1 align=center cellspacing=1>
+    <tr>
+    <TH ALIGN=CENTER WIDTH=65>ID</TH>
+    <TH ALIGN=CENTER WIDTH=90>Date</TH>
+    <TH ALIGN=CENTER WIDTH="*">Author</TH>
+    <TH ALIGN=CENTER WIDTH=120>Compiler</TH>
+    <TH ALIGN=CENTER WIDTH=70>Time (sec)</TH>
+    <TH ALIGN=CENTER WIDTH=70>Memory (KB)</TH>
+    <TH ALIGN=CENTER WIDTH=100><br></TH>
+    </tr>
+     $insert_best_solve{view source}
+    </table>
+    <br><hr><br>
+
+    <center>Last solutions:</center>
+  </td>
+  <td width=50></td>
+  </tr>
+  </table>
+
+    <table class="tbbd2" WIDTH=100% border=1 align=center cellspacing=1>
+    <tr>
+    <TH ALIGN=CENTER WIDTH=65>ID</TH>
+    <TH ALIGN=CENTER WIDTH=90>Date</TH>
+    <TH ALIGN=CENTER WIDTH="*">Author</TH>
+    <TH ALIGN=CENTER WIDTH=120>Compiler</TH>
+    <TH ALIGN=CENTER WIDTH=130>Result</TH>
+    <TH ALIGN=CENTER WIDTH=70>Test</TH>
+	<TH ALIGN=CENTER WIDTH=70 TITLE="The ratio of the cost of the solution to the optimal cost of the task">Cost C/OC</TH>
+    <TH ALIGN=CENTER WIDTH=70>Time (sec)</TH>
+    <TH ALIGN=CENTER WIDTH=70>Memory (KB)</TH>
+    </tr>
+    <!--start_status_row(10)-->
+     <tr><td align="center" nowrap>$stat_id</td>
+     <td align="center">$stat_date<br/>$stat_time</td>
+     <td><a href="/cgi-bin/statistica.pl?id_publ=$author_id">$author_name</a></td>
+     <td align="center">$compiler_name</td>
+     <td align="center" >
+        <div style="position:relative;width:130px;height:40px;">
+<div STYLE="position:absolute; top:-4; right:-2; z-index:4;">$warn_plagiat${<span style="color:#f10000;vertical-align:top;font-size:8pt;">plagiarism? <span style="color:#d16060">$not_uniq_proc_int%</span></span>|}$show_report${$hint_plagiat${<span style="color:#707070;vertical-align:top;font-size:8pt;">$not_uniq_proc_int%</span>|}<a href="/cgi-bin/status.pl?mode=report&id_stat=$stat_id"><img src="/lamp.gif" alt="hint" title="hint"></a>|}</div>
+             $best_solve${<div valign="bottom" style="z-index:2;height:40px;width:144px;position:absolute;left:-7;bottom:0;"><img title="Best solution" align=left src="/best_star1.png"><img title="Best solution" align=right src="/best_star1.png"></div>|}
+             <div valign="bottom" style="z-index:3;width:130px;position:absolute;left:0;bottom:0;text-align:center;"><div style="float:left;height:30px;"></div>$result_name</div> 
+        </div> 
+        </td>
+     <td align="center">$show_src${<a class="src_lnk1" title="View source text solution" href=/cgi-bin/statistica.pl?id_stat=$stat_id >src.code</a>|$test_n}</td>
+	 <td align="center">$cost_status/$cost_problem</td>
+     <td align="center">$best_solve${<b>$time_work</b>|$time_work}</td>
+	 <td align="center">$best_solve${<b>$mem_use</b>|$mem_use}</td></tr>
+    <!--finish_status_row-->
+    </table>
+    <BR>
+ <TABLE class="other" WIDTH=100% BORDER=0>
+    <TR>
+    <TD WIDTH=50% ALIGN=RIGHT>
+    <a href=/cgi-bin/statistica.pl?id_prb=$problem_id>TOP</a>&nbsp
+    <a href=/cgi-bin/statistica.pl?id_prb=$problem_id&id_stat=$next_rec>Next 10</a>&nbsp
+    </TD>
+    </TR>
+</TABLE>
+    $include_file("down_part_en.html")
+
+ </body>
+</html>
+
+<!--
+     НЕ УДАЛЯТЬ - ЭТО ИСПОЛЬЗУЕТСЯ СКРИПТОМ
+     $best_solve = {<A class="bl_lnk" HREF=/cgi-bin/statistica.pl?id_slv=$id_solve>best</A>}
+-->

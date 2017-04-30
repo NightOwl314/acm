@@ -1,10 +1,193 @@
-Fri Dec 25 04:34:30 2015: DBI::st=HASH(0x23f61d0)
-Fri Dec 25 04:34:52 2015: update lock_servers set test=1 where id_srv=3085
-Wed May 11 16:43:47 2016: ### 
-Wed May 11 16:45:29 2016: ### 3205
-Wed May 11 16:59:16 2016: ### 3205
-Wed May 11 16:59:55 2016: ### 3205
-Wed May 11 17:04:24 2016: ### 3205
-Wed May 11 17:04:31 2016: ### 3205
-Wed May 11 17:04:54 2016: ### 3205
-Wed May 11 17:05:55 2016: ### 3205
+Sun Apr 30 16:12:27 2017: count 0
+Sun Apr 30 16:12:27 2017: row_count 10
+Sun Apr 30 16:12:27 2017: prev_rec 434405
+Sun Apr 30 16:12:27 2017: next_rec 0
+Sun Apr 30 16:12:27 2017: is_stat 434394
+Sun Apr 30 16:12:27 2017: sqlCostStatus 5.08
+Sun Apr 30 16:12:27 2017: sqlCostProblem 4.90
+Sun Apr 30 16:12:27 2017: end step 1
+Sun Apr 30 16:12:27 2017: row_count 10
+Sun Apr 30 16:12:27 2017: prev_rec 434405
+Sun Apr 30 16:12:27 2017: next_rec 0
+Sun Apr 30 16:12:27 2017: is_stat 434392
+Sun Apr 30 16:12:27 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:12:27 2017: sqlCostProblem 4.90
+Sun Apr 30 16:12:27 2017: end step 2
+Sun Apr 30 16:12:27 2017: row_count 10
+Sun Apr 30 16:12:27 2017: prev_rec 434405
+Sun Apr 30 16:12:27 2017: next_rec 0
+Sun Apr 30 16:12:27 2017: is_stat 434391
+Sun Apr 30 16:12:27 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:12:27 2017: sqlCostProblem 4.90
+Sun Apr 30 16:12:27 2017: end step 3
+Sun Apr 30 16:12:27 2017: row_count 10
+Sun Apr 30 16:12:27 2017: prev_rec 434405
+Sun Apr 30 16:12:27 2017: next_rec 0
+Sun Apr 30 16:12:27 2017: is_stat 434382
+Sun Apr 30 16:12:27 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:12:27 2017: sqlCostProblem 4.90
+Sun Apr 30 16:12:27 2017: end step 4
+Sun Apr 30 16:12:27 2017: row_count 10
+Sun Apr 30 16:12:27 2017: prev_rec 434405
+Sun Apr 30 16:12:27 2017: next_rec 0
+Sun Apr 30 16:12:27 2017: is_stat 434113
+Sun Apr 30 16:12:27 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:12:27 2017: sqlCostProblem 4.90
+Sun Apr 30 16:12:27 2017: end step 5
+Sun Apr 30 16:12:27 2017: row_count 10
+Sun Apr 30 16:12:27 2017: prev_rec 434405
+Sun Apr 30 16:12:27 2017: next_rec 0
+Sun Apr 30 16:12:27 2017: is_stat 434069
+Sun Apr 30 16:12:27 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:12:27 2017: sqlCostProblem 4.90
+Sun Apr 30 16:12:27 2017: end step 6
+Sun Apr 30 16:12:27 2017: row_count 10
+Sun Apr 30 16:12:27 2017: prev_rec 434405
+Sun Apr 30 16:12:27 2017: next_rec 0
+Sun Apr 30 16:12:27 2017: is_stat 434066
+Sun Apr 30 16:12:27 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:12:27 2017: sqlCostProblem 4.90
+Sun Apr 30 16:12:27 2017: end step 7
+Sun Apr 30 16:12:27 2017: row_count 10
+Sun Apr 30 16:12:27 2017: prev_rec 434405
+Sun Apr 30 16:12:27 2017: next_rec 0
+Sun Apr 30 16:12:27 2017: is_stat 434065
+Sun Apr 30 16:12:27 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:12:27 2017: sqlCostProblem 4.90
+Sun Apr 30 16:12:27 2017: end step 8
+Sun Apr 30 16:12:27 2017: row_count 10
+Sun Apr 30 16:12:27 2017: prev_rec 434405
+Sun Apr 30 16:12:27 2017: next_rec 0
+Sun Apr 30 16:12:27 2017: is_stat 433982
+Sun Apr 30 16:12:27 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:12:27 2017: sqlCostProblem 4.90
+Sun Apr 30 16:12:27 2017: end step 9
+Sun Apr 30 16:12:27 2017: row_count 10
+Sun Apr 30 16:12:27 2017: prev_rec 434405
+Sun Apr 30 16:12:27 2017: next_rec 433725
+Sun Apr 30 16:12:27 2017: is_stat 433725
+Sun Apr 30 16:12:27 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:12:27 2017: sqlCostProblem 4.90
+Sun Apr 30 16:12:27 2017: end step 10
+Sun Apr 30 16:14:17 2017: count 0
+Sun Apr 30 16:14:17 2017: row_count 10
+Sun Apr 30 16:14:17 2017: prev_rec 434390
+Sun Apr 30 16:14:17 2017: next_rec 0
+Sun Apr 30 16:14:17 2017: is_stat 434379
+Sun Apr 30 16:14:17 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:14:17 2017: sqlCostProblem &nbsp;
+Sun Apr 30 16:14:17 2017: end step 1
+Sun Apr 30 16:14:17 2017: row_count 10
+Sun Apr 30 16:14:17 2017: prev_rec 434390
+Sun Apr 30 16:14:17 2017: next_rec 0
+Sun Apr 30 16:14:17 2017: is_stat 434377
+Sun Apr 30 16:14:17 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:14:17 2017: sqlCostProblem &nbsp;
+Sun Apr 30 16:14:17 2017: end step 2
+Sun Apr 30 16:14:17 2017: row_count 10
+Sun Apr 30 16:14:17 2017: prev_rec 434390
+Sun Apr 30 16:14:17 2017: next_rec 0
+Sun Apr 30 16:14:17 2017: is_stat 434288
+Sun Apr 30 16:14:17 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:14:17 2017: sqlCostProblem &nbsp;
+Sun Apr 30 16:14:17 2017: end step 3
+Sun Apr 30 16:14:17 2017: row_count 10
+Sun Apr 30 16:14:17 2017: prev_rec 434390
+Sun Apr 30 16:14:17 2017: next_rec 0
+Sun Apr 30 16:14:17 2017: is_stat 434171
+Sun Apr 30 16:14:17 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:14:17 2017: sqlCostProblem &nbsp;
+Sun Apr 30 16:14:17 2017: end step 4
+Sun Apr 30 16:14:17 2017: row_count 10
+Sun Apr 30 16:14:17 2017: prev_rec 434390
+Sun Apr 30 16:14:17 2017: next_rec 0
+Sun Apr 30 16:14:17 2017: is_stat 434170
+Sun Apr 30 16:14:17 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:14:17 2017: sqlCostProblem &nbsp;
+Sun Apr 30 16:14:17 2017: end step 5
+Sun Apr 30 16:14:17 2017: row_count 10
+Sun Apr 30 16:14:17 2017: prev_rec 434390
+Sun Apr 30 16:14:17 2017: next_rec 0
+Sun Apr 30 16:14:17 2017: is_stat 434169
+Sun Apr 30 16:14:17 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:14:17 2017: sqlCostProblem &nbsp;
+Sun Apr 30 16:14:17 2017: end step 6
+Sun Apr 30 16:14:17 2017: row_count 10
+Sun Apr 30 16:14:17 2017: prev_rec 434390
+Sun Apr 30 16:14:17 2017: next_rec 0
+Sun Apr 30 16:14:17 2017: is_stat 433749
+Sun Apr 30 16:14:17 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:14:17 2017: sqlCostProblem &nbsp;
+Sun Apr 30 16:14:17 2017: end step 7
+Sun Apr 30 16:14:17 2017: row_count 10
+Sun Apr 30 16:14:17 2017: prev_rec 434390
+Sun Apr 30 16:14:17 2017: next_rec 0
+Sun Apr 30 16:14:17 2017: is_stat 433742
+Sun Apr 30 16:14:17 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:14:17 2017: sqlCostProblem &nbsp;
+Sun Apr 30 16:14:17 2017: end step 8
+Sun Apr 30 16:14:17 2017: row_count 10
+Sun Apr 30 16:14:17 2017: prev_rec 434390
+Sun Apr 30 16:14:17 2017: next_rec 0
+Sun Apr 30 16:14:17 2017: is_stat 433733
+Sun Apr 30 16:14:17 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:14:17 2017: sqlCostProblem &nbsp;
+Sun Apr 30 16:14:17 2017: end step 9
+Sun Apr 30 16:14:17 2017: row_count 10
+Sun Apr 30 16:14:17 2017: prev_rec 434390
+Sun Apr 30 16:14:17 2017: next_rec 433732
+Sun Apr 30 16:14:17 2017: is_stat 433732
+Sun Apr 30 16:14:17 2017: sqlCostStatus &nbsp;
+Sun Apr 30 16:14:17 2017: sqlCostProblem &nbsp;
+Sun Apr 30 16:14:17 2017: end step 10
+Sun Apr 30 16:21:57 2017: count 0
+Sun Apr 30 16:21:57 2017: row_count 10
+Sun Apr 30 16:21:57 2017: prev_rec 434405
+Sun Apr 30 16:21:57 2017: next_rec 0
+Sun Apr 30 16:21:57 2017: is_stat 434394
+Sun Apr 30 16:21:57 2017: end step 1
+Sun Apr 30 16:21:57 2017: row_count 10
+Sun Apr 30 16:21:57 2017: prev_rec 434405
+Sun Apr 30 16:21:57 2017: next_rec 0
+Sun Apr 30 16:21:57 2017: is_stat 434392
+Sun Apr 30 16:21:57 2017: end step 2
+Sun Apr 30 16:21:57 2017: row_count 10
+Sun Apr 30 16:21:57 2017: prev_rec 434405
+Sun Apr 30 16:21:57 2017: next_rec 0
+Sun Apr 30 16:21:57 2017: is_stat 434391
+Sun Apr 30 16:21:57 2017: end step 3
+Sun Apr 30 16:21:57 2017: row_count 10
+Sun Apr 30 16:21:57 2017: prev_rec 434405
+Sun Apr 30 16:21:57 2017: next_rec 0
+Sun Apr 30 16:21:57 2017: is_stat 434382
+Sun Apr 30 16:21:57 2017: end step 4
+Sun Apr 30 16:21:57 2017: row_count 10
+Sun Apr 30 16:21:57 2017: prev_rec 434405
+Sun Apr 30 16:21:57 2017: next_rec 0
+Sun Apr 30 16:21:57 2017: is_stat 434113
+Sun Apr 30 16:21:57 2017: end step 5
+Sun Apr 30 16:21:57 2017: row_count 10
+Sun Apr 30 16:21:57 2017: prev_rec 434405
+Sun Apr 30 16:21:57 2017: next_rec 0
+Sun Apr 30 16:21:57 2017: is_stat 434069
+Sun Apr 30 16:21:57 2017: end step 6
+Sun Apr 30 16:21:57 2017: row_count 10
+Sun Apr 30 16:21:57 2017: prev_rec 434405
+Sun Apr 30 16:21:57 2017: next_rec 0
+Sun Apr 30 16:21:57 2017: is_stat 434066
+Sun Apr 30 16:21:57 2017: end step 7
+Sun Apr 30 16:21:57 2017: row_count 10
+Sun Apr 30 16:21:57 2017: prev_rec 434405
+Sun Apr 30 16:21:57 2017: next_rec 0
+Sun Apr 30 16:21:57 2017: is_stat 434065
+Sun Apr 30 16:21:57 2017: end step 8
+Sun Apr 30 16:21:57 2017: row_count 10
+Sun Apr 30 16:21:57 2017: prev_rec 434405
+Sun Apr 30 16:21:57 2017: next_rec 0
+Sun Apr 30 16:21:57 2017: is_stat 433982
+Sun Apr 30 16:21:57 2017: end step 9
+Sun Apr 30 16:21:57 2017: row_count 10
+Sun Apr 30 16:21:57 2017: prev_rec 434405
+Sun Apr 30 16:21:57 2017: next_rec 433725
+Sun Apr 30 16:21:57 2017: is_stat 433725
+Sun Apr 30 16:21:57 2017: end step 10
