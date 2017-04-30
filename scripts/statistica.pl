@@ -943,7 +943,7 @@ sub insert_problem_stat
   my ($best_str) = $$text =~ /\$insert_best_solve\{(.*?)\}/i;
 
   my $isSqlProblem = is_sql_problem($prb);
-  my $showCost = $ShowSqlCost > 0 && $isSqlProblem > 0;
+  my $showCost = $ShowSqlCost && $isSqlProblem;
 
   $query = "select s.id_stat, cast(s.dt_tm as date),cast(s.dt_tm as time), "
           ."s.id_publ, a.name, c.name, s.time_work,s.mem_use, "
@@ -1169,7 +1169,7 @@ main_cik:
      $fname = "src_$rul"."_$id_lng.html";
   } elsif ($id_prb) {
      $isSqlProblem = is_sql_problem($id_prb);
-     if ($ShowSqlCost > 0 && $isSqlProblem > 0) {
+     if ($ShowSqlCost && $isSqlProblem) {
        $fname = "problem_stat_sql_$id_lng.html"; 
      }
      else {
