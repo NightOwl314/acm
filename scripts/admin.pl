@@ -29,11 +29,11 @@ main_cik:
     CGI::_reset_globals;
     $incgi = new CGI;
     
-    # $user=authenticate_process("",'is_manage_system($id_publ)')+0;
-    # if (!$user) { next main_cik; }
-    $user=21916;
+    $user=authenticate_process("",'is_manage_system($id_publ)')+0;
+    if (!$user) { next main_cik; }
+    #$user=21916;
 
-    #� ����� �������� cookies
+    #а может прислали cookies
     %cookies = parse CGI::Cookie($ENV{'HTTP_COOKIE'});
     $cookie1 = undef;
 
@@ -51,6 +51,7 @@ main_cik:
     $grp_rejudge = $incgi->param("grp_rejudge");
     $grp_rejudge1 = $incgi->param("grp_rejudge1");
     $set_filter = $incgi->param("set_filter");
+    $update_cost_number = $incgi->param("update_cost");
 
     $sn=$ENV{"SERVER_NAME"};
     if ($ENV{"SERVER_PORT"} != 80) {
@@ -142,7 +143,20 @@ main_cik:
       print header(-status=>"301 Moved Permanently",
                    -Location=>$new_url);
       next main_cik;
+    } elsif ($update_cost_number ne "") {
+    	if ($update_cost_number eq "ALL") {
+    		@numbers = get_all_sql_problem_number();
+    	} else {
+    		@numbers = get_sql_problem_number($update_cost_number);
+    	}
+    	foreach $n (@numbers) {
+    		#to_log("n = $n");
+    		update_cost($n);
+    	}
+    	
+    	print "Location: http://$sn$this_script\n\n";
 
+    	next main_cik;
     } else {
 
       $id_stat=$incgi->param("id_stat")+0;
@@ -173,6 +187,13 @@ main_cik:
       <input type="hidden" name="manager" value="2">
       <input type="submit" value="Stop ALL">
       </form></td></tr></table>
+      <div><h3>Update cost sql-problems</h3>
+      <p>Enter the problem <b>numbers</b> you want to update, through a comma or <b>ALL</b> to update all problems.</p>
+      <p>Example: <i>289, 290, 302</i></p>
+      <form action="'.$this_script.'" method="GET">
+      <textarea name="update_cost" rows=4 and cols=50></textarea>
+      <input type=submit value="Update">
+      </form></div>
       <p>Input WHERE section of SQL-query (for table STATUS)</p>
       <p>Defined fields: problem_id, result_id, warn_result, author_id, compiler_id, status_id, date_time, test_num.</p>
       <p>Example: <i>problem_id=5 and result_id=6</i></p>
@@ -217,7 +238,7 @@ sub add_in_whitelist
      my $content_wl="",$fh;
      my $path_wl = $Compilers{$id_compil}->{'WhiteListFile'};
 
-     #������ ���� ����� ������
+     #читаем весь белый список
      read_file("$path_wl",\$content_wl);
 
      my $dll_name="";
@@ -338,12 +359,12 @@ sub get_status_rows
   while ((@row = $sth->fetchrow_array) && $cnt<$record_count) {
      if ($cnt==0) { $prev_rec= $row[0]+$record_count+1; } 
      if ($cnt==$record_count-1) { $next_rec= $row[0]; } 
-     #������� <, >, &, " � ����� ������
+     #заменим <, >, &, " в имени автора
      html_text(\$row[4]);
      foreach (@row) {
-        #������ ������� � ����� ����
+        #удалим пробелы в конце поля
         $_ =~ s/ *\Z//;
-        #���� ���� �����, �� ������� ��� �� ������� ������
+        #если поле пусто, то заменим его на длинный пробел
         if ($_ eq "") {$_ = "&nbsp;";}
      }
 
@@ -617,5 +638,47 @@ sub get_status_filter
    return $filter;
 }
 
+#возвращает номера всех задач по курсу "Базы данных. SQL" 54-идентификатор курса
+sub get_all_sql_problem_number
+{
+  my $query,$sth;
+  $query="select id_prb from tm_prb where id_tm=54 order by id_prb";
+  $sth = $db->prepare($query);
+  $sth->execute;
+  my @numbers = ();
+  while (@row = $sth->fetchrow_array) {
+  	#to_log("id_prb = $row[0]");
+  	push(@numbers, $row[0]);
+  }
+  $sth->finish;
+  #TODO for_debug
+  @numbers = (289,302,303);
+  return @numbers;
+}
 
+#возвращает номера задач из указанных по курсу "Базы данных. SQL" 54-идентификатор курса
+sub get_sql_problem_number
+{
+  my ($str_num) = @_;
+  my $query,$sth;
+  $query="select id_prb from tm_prb where id_tm=54 and id_prb in ($str_num) order by id_prb";
+  $sth = $db->prepare($query);
+  $sth->execute;
+  my @numbers = ();
+  while (@row = $sth->fetchrow_array) {
+  	#to_log("id_prb = $row[0]");
+  	push(@numbers, $row[0]);
+  }
+  $sth->finish;
+  return @numbers;
+}
 
+sub update_cost
+{
+	my ($id_prb) = @_;
+	#1 - найти все решения задачи
+	#2 - построить для каждого решения новый план
+	#3 - из плана извлечь стоимость и сохранить в status_cost_sql
+	#4 - найти оптимальное решение, построить план, извлечь стоимость
+	#5 - найти мин из стоимостей
+}
