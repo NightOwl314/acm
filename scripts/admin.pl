@@ -10,7 +10,7 @@ use Win32::Process;
 use CGI::Carp  qw(fatalsToBrowser);
 
 require 'common_func.pl';
-use vars qw($request $out_stream $db $DirSrcArh $DirTemp $DirTempSrc 
+use vars qw($request $out_stream $db $DirSrcArh $DirTemp $DirTempSrc $SqlCourceId
             $master_config $this_script $incgi %ENV %cookies %Compilers);
 
 
@@ -638,11 +638,11 @@ sub get_status_filter
    return $filter;
 }
 
-#возвращает номера всех задач по курсу "Базы данных. SQL" 54-идентификатор курса
+#возвращает номера всех задач по курсу "Базы данных. SQL"
 sub get_all_sql_problem_number
 {
   my $query,$sth;
-  $query="select id_prb from tm_prb where id_tm=54 order by id_prb";
+  $query="select id_prb from tm_prb where id_tm=$SqlCourceId order by id_prb";
   $sth = $db->prepare($query);
   $sth->execute;
   my @numbers = ();
@@ -656,12 +656,12 @@ sub get_all_sql_problem_number
   return @numbers;
 }
 
-#возвращает номера задач из указанных по курсу "Базы данных. SQL" 54-идентификатор курса
+#возвращает номера задач из указанных по курсу "Базы данных. SQL"
 sub get_sql_problem_number
 {
   my ($str_num) = @_;
   my $query,$sth;
-  $query="select id_prb from tm_prb where id_tm=54 and id_prb in ($str_num) order by id_prb";
+  $query="select id_prb from tm_prb where id_tm=$SqlCourceId and id_prb in ($str_num) order by id_prb";
   $sth = $db->prepare($query);
   $sth->execute;
   my @numbers = ();

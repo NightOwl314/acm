@@ -17,7 +17,7 @@ $fl_cfg = 'c:/acm/config/master.cfg';
 use vars qw(%ENV $request $db $DirTempSrc %Compilers
             $DirTemplates $master_config $DirSrcArh $incgi $DirProblems
             $DirPrbCond $DirVirtualPrb $DirTemp $DirStdCheckers $ArchivatorExe %ProblemPaths %cookies
-            $ShowSqlCost $ShowSqlPlan
+            $ShowSqlCost $ShowSqlPlan $SqlCourceId
             $start_request_time $exit_main_cik );
 
 #для отладки и тестирования
@@ -116,6 +116,11 @@ sub read_config
   #Показывать ли sql план решений
   $section =~ m/^\s*ShowSqlPlan\s*=\s*([^\n]*)/mi;
   $ShowSqlPlan = "$1";
+
+  #Номер курса "Базы данных. SQL" в бд
+  $section =~ m/^\s*SqlCourceId\s*=\s*([^\n]*)/mi;
+  $SqlCourceId = "$1";
+  $SqlCourceId =~ s/\\$//m;
 
   #поместим в хеш все параметры из секции [problem paths]
   my $k,$v;
@@ -422,14 +427,14 @@ sub insert_countries
 
 }
 
-#Относится ли данная задача к курсу "Базы данных. SQL" 54-идентификатор курса
+#Относится ли данная задача к курсу "Базы данных. SQL"
 #param id_prob - идентификатор задачи
 sub is_sql_problem 
 {
   my($id_prob) = @_;
   my $query,$sth,$rez=-1;
   $query=<<SQL;
-      select count(*) from tm_prb where id_tm=54 and id_prb=$id_prb
+      select count(*) from tm_prb where id_tm=$SqlCourceId and id_prb=$id_prb
 SQL
   $sth = $db->prepare($query);
   $sth->execute;

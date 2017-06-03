@@ -1242,3 +1242,55 @@ oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
 ] [] [] [] [] [] [] [] [] [] []
 Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_785\ora_2728_6556_i785.trc
 Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_777\ora_7204_5732_i777.trc
+Sat Jun 03 20:28:41 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Sat Jun 03 20:28:42 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_4784_6484.trc  (incident=793):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_793\ora_4784_6484_i793.trc
+Sat Jun 03 20:28:43 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6112_8952.trc  (incident=801):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_801\ora_6112_8952_i801.trc
+Sat Jun 03 20:28:43 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_7204_756.trc  (incident=809):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_809\ora_7204_756_i809.trc
+Sat Jun 03 20:28:43 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_8376_7236.trc  (incident=817):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_817\ora_8376_7236_i817.trc
+Sat Jun 03 20:28:44 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Sat Jun 03 20:28:44 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6544_8740.trc  (incident=825):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_825\ora_6544_8740_i825.trc
+Sat Jun 03 20:28:45 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_5664_3152.trc  (incident=833):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_833\ora_5664_3152_i833.trc
+Sat Jun 03 20:28:49 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_6444_4656.trc  (incident=841):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_841\ora_6444_4656_i841.trc
+Sat Jun 03 20:28:49 2017
+Directory does not exist for read/write [c:\prog\database\instantclient_11_2\log] []
+Errors in file c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\trace\ora_1992_8168.trc  (incident=849):
+oci-24550 [3221225477] [Unhandled exception: Code=c0000005 Flags=0
+] [] [] [] [] [] [] [] [] [] []
+Incident details in: c:\acm\dir_tmp\oradiag_Apache\diag\clients\user_Apache\host_2770642478_80\incident\incdir_849\ora_1992_8168_i849.trc
